@@ -1,5 +1,5 @@
 ---
-slug: docs/reference/shift
+slug: nipoplus/reference/shift
 title: 🗓️シフト管理
 description: シフト管理機能
 sidebar:
@@ -7,11 +7,11 @@ sidebar:
 ---
 
 :::note[メニューに無いときはグループ設定から機能を有効にしてください]
-[グループ設定はこちら](/docs/editor/groupmanage/#optionalFunction)
+[グループ設定はこちら](/nipoplus/editor/groupmanage/#optionalFunction)
 :::
 
 :::note[シフト表は提出状況表と連動します]
-[提出状況表はこちら](/docs/reference/searchreport/#teishutuMap)
+[提出状況表はこちら](/nipoplus/reference/searchreport/#teishutuMap)
 :::
 
 シフト表を使ってスタッフの出勤：退勤予定時間や、休日といった設定ができます。単純にメモだけを残すことも可能です。
@@ -19,7 +19,7 @@ sidebar:
 
 この機能はお客様のリクエストにより実装されました。
 
-シフト表の編集には[編集者権限](/docs/reference/userRank/)以上が必要です。
+シフト表の編集には[編集者権限](/nipoplus/reference/userRank/)以上が必要です。
 閲覧は提出状況からシフト表の内容を確認できます。このときに必要な権限は「メンバー権限以上」です。
 
 ## シフト表を登録する {#entry_shift}

@@ -1,5 +1,5 @@
 ---
-slug: docs/reference/staffshare
+slug: nipoplus/reference/staffshare
 title: ⛔アカウントの共用
 description: 用途として限定的な機能です。人数分の端末が用意できない際にご利用ください
 sidebar:
@@ -7,7 +7,7 @@ sidebar:
 ---
 
 :::caution[この設定には編集者権限以上が必要です]
-[編集者権限以上](/docs/reference/userRank/#editor)が必要です
+[編集者権限以上](/nipoplus/reference/userRank/#editor)が必要です
 :::
 
 :::note[この機能は、通常の日報運用では不要です]
@@ -45,7 +45,7 @@ NipoPlusは通常「1人につき1つのアカウント」でログインして�
 <dt>共用元</dt>
 <dd>ログインできるアカウントです。このアカウントを又貸しすることで、1台の端末上から複数人の日報管理が可能になります<br>上の図でいう「社員」に該当します</dd>
 <dt>共用先</dt>
-<dd>アカウントを借りる側のアカウントです。このアカウントは<a href="/docs/reference/makestaff/#dummy_account">ログイン不可能なアカウント</a>である必要があります<br>上図でいう「アルバイト」に該当します</dd>
+<dd>アカウントを借りる側のアカウントです。このアカウントは<a href="/nipoplus/reference/makestaff/#dummy_account">ログイン不可能なアカウント</a>である必要があります<br>上図でいう「アルバイト」に該当します</dd>
 </dl>
 
 ## 共用機能の設定を行う {#shared_account_setup}
@@ -67,7 +67,7 @@ NipoPlusは通常「1人につき1つのアカウント」でログインして�
 
 ## 共用設定後の日報作成 {#shared_report_creation}
 
-共用先の設定が完了したら、共用元のアカウント（例：社員アカウント）でNipoPlusにログインし、[日報作成画面](/docs/staff/writereport/)を開きます。
+共用先の設定が完了したら、共用元のアカウント（例：社員アカウント）でNipoPlusにログインし、[日報作成画面](/nipoplus/staff/writereport/)を開きます。
 
 「**提出者**」という項目が追加されているのが確認できます。
 

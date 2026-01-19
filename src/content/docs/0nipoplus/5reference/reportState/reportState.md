@@ -1,5 +1,5 @@
 ---
-slug: docs/reference/reportstate
+slug: nipoplus/reference/reportstate
 title: 日報の状態
 description: 日報の状態
 sidebar:
@@ -15,13 +15,13 @@ sidebar:
 <dl class="basic">
 <dt><strong>新規</strong></dt>
 <dd>日報が作成され、まだ承認や棄却が行われていない初期状態です。</dd>
-<dt><a href="/docs/reference/reportstate/#relay"><strong>進行</strong></a></dt>
+<dt><a href="/nipoplus/reference/reportstate/#relay"><strong>進行</strong></a></dt>
 <dd>（提出先が2名以上の場合に限る）1名以上が承認をし、かつ最後の承認がされていない状態です。この状態になると日報はロックされ、直接修正はできません。<strong>承認リレーの途中</strong>であることを示します。</dd>
-<dt><a href="/docs/reference/reportstate/#reject"><strong>棄却</strong></a></dt>
-<dd>日報が提出先のスタッフによって棄却された状態です。<a href="/docs/reference/redacted/">修正が必要</a>です。棄却された理由はコメント欄で確認できます。</dd>
-<dt><a href="/docs/reference/reportstate/#state"><strong>修正</strong></a></dt>
-<dd><a href="/docs/reference/redacted/">日報を修正</a>した直後で、まだ承認や棄却が行われていない状態です。新規と違い、この状態の日報は削除できません。</dd>
-<dt><a href="/docs/reference/reportstate/#agree"><strong>承認</strong></a></dt>
+<dt><a href="/nipoplus/reference/reportstate/#reject"><strong>棄却</strong></a></dt>
+<dd>日報が提出先のスタッフによって棄却された状態です。<a href="/nipoplus/reference/redacted/">修正が必要</a>です。棄却された理由はコメント欄で確認できます。</dd>
+<dt><a href="/nipoplus/reference/reportstate/#state"><strong>修正</strong></a></dt>
+<dd><a href="/nipoplus/reference/redacted/">日報を修正</a>した直後で、まだ承認や棄却が行われていない状態です。新規と違い、この状態の日報は削除できません。</dd>
+<dt><a href="/nipoplus/reference/reportstate/#agree"><strong>承認</strong></a></dt>
 <dd>全ての提出先スタッフによって承認された最終状態です。日報はロックされ、内容の変更はできません。<strong>正式な記録として確定した</strong>ことを意味します。</dd>
 </dl>
 
@@ -36,7 +36,7 @@ sidebar:
 
 ### 日報の既読について {#readed}
 
-「既読」は、日報を読んだことを示す意思表示です。既読ボタンはあなたが「[共有先](/docs/gainen/destination/)」に指定された日報で表示されます。
+「既読」は、日報を読んだことを示す意思表示です。既読ボタンはあなたが「[共有先](/nipoplus/gainen/destination/)」に指定された日報で表示されます。
 
 ![日報を読んだことを意思表示するには「既読」ボタンをクリックしましょう。あなたの書いた日報は自動で既読扱いになります](./img/readed_tablet.png)
 
@@ -45,7 +45,7 @@ sidebar:
 ### 日報を承認する {#agree}
 
 日報の検印欄にあなたの名前があれば、その日報を承認または棄却できます。検印は左の枠から順番に押印されていきます。
-検印欄の数は[提出先の設定](/docs/gainen/destination/)により変動します。
+検印欄の数は[提出先の設定](/nipoplus/gainen/destination/)により変動します。
 右端の検印欄に押印された時点で、日報は最終的な「承認」の状態に変わります。
 
 ![日報を承認すると内容がロックされ、修正や削除ができなくなります。これは記録の信頼性を保証するための仕組みです](./img/done_tablet.png)
@@ -62,14 +62,14 @@ sidebar:
 
 ### 日報を棄却する {#reject}
 
-日報に不備がある場合や、内容に疑問点がある場合は、その不備を修正してもらう必要があります。日報を棄却して[修正](/docs/reference/redacted/)してもらいましょう。
-棄却の際は、不備の理由を[コメント欄](/docs/staff/readreport/#comment)に具体的に書いてあげると、日報作成者にとって親切です。
+日報に不備がある場合や、内容に疑問点がある場合は、その不備を修正してもらう必要があります。日報を棄却して[修正](/nipoplus/reference/redacted/)してもらいましょう。
+棄却の際は、不備の理由を[コメント欄](/nipoplus/staff/readreport/#comment)に具体的に書いてあげると、日報作成者にとって親切です。
 
 ![承認リレー中に誰かが棄却すると、その時点で日報の状態は「棄却」となります。問題点を明確にし、迅速な修正を促しましょう](./img/report-rejected_tablet.png)
 
 棄却の際は承認の権限が次のスタッフへ移動しません。そのため承認や棄却ボタンはそのまま表示され続けます。
-棄却された事実は日報の作成者に[通知](/docs/reference/notify/)されます。棄却された日報をその後どうするのかは、各会社でルールを明確に決めておくと良いでしょう。
-一般的には修正して再提出という流れになるかと思います。修正手順については[日報の修正](/docs/reference/redacted/)を御覧ください。
+棄却された事実は日報の作成者に[通知](/nipoplus/reference/notify/)されます。棄却された日報をその後どうするのかは、各会社でルールを明確に決めておくと良いでしょう。
+一般的には修正して再提出という流れになるかと思います。修正手順については[日報の修正](/nipoplus/reference/redacted/)を御覧ください。
 
 ### 日報の修正という状態について {#state}
 

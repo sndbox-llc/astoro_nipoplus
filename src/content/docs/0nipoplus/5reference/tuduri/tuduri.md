@@ -1,5 +1,5 @@
 ---
-slug: docs/reference/tuduri
+slug: nipoplus/reference/tuduri
 title: 日報の綴り機能
 description: 日報の綴り機能
 sidebar:

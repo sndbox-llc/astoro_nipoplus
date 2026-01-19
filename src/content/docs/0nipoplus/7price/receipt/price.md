@@ -1,5 +1,5 @@
 ---
-slug: docs/price/receipt
+slug: nipoplus/price/receipt
 title: 領収証を発行・ダウンロードする
 description: NipoPlus（ニポプラス）の有料プランでお支払いいただいた領収証は、Web版の管理画面から簡単にダウンロードできます。インボイス制度にも対応。
 sidebar:
@@ -21,7 +21,7 @@ NipoPlusの有料プランでお支払いいただいた領収証は、**Web版�
 
 以下の簡単なステップで、必要な領収証を取得できます。
 
-1.  [左メニューから「組織設定」をクリック](/docs/reference/userRank/#rootSettingBtn)してください。
+1.  [左メニューから「組織設定」をクリック](/nipoplus/reference/userRank/#rootSettingBtn)してください。
 2.  組織設定画面の右サイドバーにある「**決済履歴**」をクリックするか、画面を一番下までスクロールしてください。過去のお支払い履歴が一覧で表示されます。
 3.  ダウンロードしたい決済履歴の項目にある「**ダウンロード**」ボタンをクリックします。
 
@@ -38,4 +38,4 @@ NipoPlusの有料プランでお支払いいただいた領収証は、**Web版�
 
 - 領収証に記載される会社名は、**発行時点でNipoPlusに登録されている会社名**です。会社名を変更した後に発行すると、変更後の名前で出力されますのでご注意ください。
 - 領収証は**PDF形式**でダウンロードされます。
-- NipoPlusの領収証は[**インボイス制度に対応**](/docs/system/business-deal/#invoiceNo)しており、登録番号も適切に表示されます。ご安心ください。
+- NipoPlusの領収証は[**インボイス制度に対応**](/nipoplus/system/business-deal/#invoiceNo)しており、登録番号も適切に表示されます。ご安心ください。

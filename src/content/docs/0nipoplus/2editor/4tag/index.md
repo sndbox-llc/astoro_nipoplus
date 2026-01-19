@@ -1,12 +1,12 @@
 ---
-slug: docs/editor/tagManagement
+slug: nipoplus/editor/tagManagement
 title: タグの管理
 description: タグの管理
 sidebar:
   label: タグの管理
 ---
 
-タグは[日報作成時](/docs/staff/writereport/)や[顧客管理](/docs/other/customer/)などに付与できるラベルのようなものです。
+タグは[日報作成時](/nipoplus/staff/writereport/)や[顧客管理](/nipoplus/other/customer/)などに付与できるラベルのようなものです。
 タグを使うことで日報を絞り込んだり、目印として活用することができます。
 
 ## タグを作成する {#makeTag}
@@ -31,19 +31,19 @@ sidebar:
 <dd>タグの色を選びます。視覚的な識別に役立ちます</dd>
 <dt>タグのアイコン</dt>
 <dd>タグに表示されるアイコンを選びます</dd>
-<dt><a href="/docs/staff/writereport/">日報用</a></dt>
+<dt><a href="/nipoplus/staff/writereport/">日報用</a></dt>
 <dd>日報に対して使用する場合はチェックをON</dd>
-<dt><a href="/docs/editor/template/">テンプレート用</a></dt>
+<dt><a href="/nipoplus/editor/template/">テンプレート用</a></dt>
 <dd>テンプレートに対して使用する場合はチェックをON</dd>
-<dt><a href="/docs/other/schedule/">予定用</a></dt>
+<dt><a href="/nipoplus/other/schedule/">予定用</a></dt>
 <dd>予定に対して使用する場合はチェックをON</dd>
-<dt><a href="/docs/editor/inventory/">商品用</a></dt>
+<dt><a href="/nipoplus/editor/inventory/">商品用</a></dt>
 <dd>商品に対して使用する場合はチェックをON</dd>
-<dt><a href="/docs/editor/wordBookManagement/">語録用</a></dt>
+<dt><a href="/nipoplus/editor/wordBookManagement/">語録用</a></dt>
 <dd>語録に対して使用する場合はチェックをON</dd>
-<dt><a href="/docs/other/project/">案件</a></dt>
+<dt><a href="/nipoplus/other/project/">案件</a></dt>
 <dd>案件に対して使用する場合はチェックをON</dd>
-<dt><a href="/docs/other/customer/">顧客</a></dt>
+<dt><a href="/nipoplus/other/customer/">顧客</a></dt>
 <dd>顧客に対して使用する場合はチェックをON</dd>
 <dt>メモ</dt>
 <dd>タグ自身のメモです。管理画面以外は見れません</dd>

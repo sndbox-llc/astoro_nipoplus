@@ -1,5 +1,5 @@
 ---
-slug: docs/reference/tokumei
+slug: nipoplus/reference/tokumei
 title: 👤1クリックで手軽に体験可能な匿名アカウント
 description: メールアドレスもパスワードも無しで手軽にNipoPlusを使ってみてください。言葉通りワンクリックでお試しができます。
 sidebar:
@@ -36,7 +36,7 @@ E-mailやパスワードの登録がありません。
 - 予期せぬログアウトによりデータをロストするリスクがあります
 - 一度ログアウトすると同じ匿名アカウントでログインできなくなります
 - 「PCとスマホ」のように複数の端末でログインができません
-- [メール通知](/docs/reference/notify/#email)や[GOLDPLAN加入](/docs/price/invoice/)など、一部の機能は利用できません
+- [メール通知](/nipoplus/reference/notify/#email)や[GOLDPLAN加入](/nipoplus/price/invoice/)など、一部の機能は利用できません
 
 :::danger[予期せぬログアウトに注意]
 特にブラウザキャッシュは意図しないタイミングでクリアされてしまうことがあるため注意が必要です。匿名で長期利用はしないように注意して下さい
@@ -55,4 +55,4 @@ E-mailやパスワードの登録がありません。
 
 ## 匿名アカウントを破棄する {#remove}
 
-ログアウトすることで匿名アカウントは破棄されます。もし不安でしたら正式に[退会処理](/docs/reference/withdrawal/)を行うこともできます。
+ログアウトすることで匿名アカウントは破棄されます。もし不安でしたら正式に[退会処理](/nipoplus/reference/withdrawal/)を行うこともできます。

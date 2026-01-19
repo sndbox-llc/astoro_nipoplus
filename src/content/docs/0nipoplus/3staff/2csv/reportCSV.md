@@ -1,5 +1,5 @@
 ---
-slug: docs/staff/csv
+slug: nipoplus/staff/csv
 title: CSV出力
 description: CSV出力
 sidebar:
@@ -7,7 +7,7 @@ sidebar:
 ---
 
 :::note[Web版のみ対応]
-CSV一括出力機能は、スマートフォンアプリ版（<a href="/docs/system/mobile-install/#android_usage">Android</a> / <a href="/docs/system/mobile-install/#ios_usage">iOS</a>版）ではご利用いただけません。<a href="/docs/system/mobile-install/#pc_usage">Web版NipoPlus</a>をご利用ください。
+CSV一括出力機能は、スマートフォンアプリ版（<a href="/nipoplus/system/mobile-install/#android_usage">Android</a> / <a href="/nipoplus/system/mobile-install/#ios_usage">iOS</a>版）ではご利用いただけません。<a href="/nipoplus/system/mobile-install/#pc_usage">Web版NipoPlus</a>をご利用ください。
 :::
 
 ## 1ヶ月分の日報を1枚のCSVに出力する {#monthly}
@@ -28,7 +28,7 @@ CSV一括出力機能は、スマートフォンアプリ版（<a href="/docs/sy
 ### 一括CSV出力の手順 {#csv_export_steps}
 
 :::note[集計機能が無い場合]
-左メニューに「集計」ボタンが表示されない場合は、<a href="/docs/editor/groupmanage/#optionalFunction">グループ設定</a>から集計機能を有効にしてください。
+左メニューに「集計」ボタンが表示されない場合は、<a href="/nipoplus/editor/groupmanage/#optionalFunction">グループ設定</a>から集計機能を有効にしてください。
 :::
 
 1.  左メニューの「集計・CSV出力」をクリック
@@ -39,13 +39,13 @@ CSV一括出力機能は、スマートフォンアプリ版（<a href="/docs/sy
 
 - CSVファイルは、**テンプレートごとに分けて出力**されます
 - 指定期間内に1度も使用されなかったテンプレートは、CSV出力の対象から自動で除外されます
-- [無効化したテンプレート](/docs/template/manage/#delete_template)でも集計期間内にデータが存在する場合は出力対象となります
+- [無効化したテンプレート](/nipoplus/template/manage/#delete_template)でも集計期間内にデータが存在する場合は出力対象となります
 - 出力対象のファイルが1つの場合はCSVファイルがそのまま、2つ以上ある場合は、複数のCSVファイルをZIPでまとめた形で出力されます
 
 出力されたCSVファイルはExcelなどの表計算ソフトで開くことができます。<a href="/excel/">Excel加工テクニック集</a>も併せてご覧ください。
 
 :::note[CSVの出力設定]
-出力形式を一部変更できます。詳しくは[CSV出力設定](/docs/reference/csvsettings/)を御覧ください
+出力形式を一部変更できます。詳しくは[CSV出力設定](/nipoplus/reference/csvsettings/)を御覧ください
 :::
 
 ## スタッフ別や日別に分けてCSV出力する {#splid_download}

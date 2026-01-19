@@ -1,5 +1,5 @@
 ---
-slug: docs/reference/withdrawal
+slug: nipoplus/reference/withdrawal
 title: 組織を削除する(退会)
 description: 退会に伴いすべてのデータを安全に削除します
 sidebar:
@@ -16,9 +16,9 @@ sidebar:
 
 ## 退会の手順 {#leaveMethod}
 
-退会処理には[管理者権限](/docs/reference/userRank/)が必要です。
+退会処理には[管理者権限](/nipoplus/reference/userRank/)が必要です。
 
-1. [左メニューから組織設定をクリック](/docs/reference/userRank/#rootSettingBtn)
+1. [左メニューから組織設定をクリック](/nipoplus/reference/userRank/#rootSettingBtn)
 2. 組織全般までスクロール
 3. 退会をクリック
 4. 管理者のパスワードを入力
@@ -46,6 +46,6 @@ OKボタンを押すとログイン画面に切り替わります。退会後は
 
 ## 課金は退会と同時にキャンセルされます {#subscription}
 
-もし[有料プラン](/docs/price/subscription/)をご利用の場合は退会に伴ってクレジットカードの請求が自動で停止します。
+もし[有料プラン](/nipoplus/price/subscription/)をご利用の場合は退会に伴ってクレジットカードの請求が自動で停止します。
 退会と同時に課金キャンセルのメールもお手元に届きますので併せてご確認ください。
 別途お申し込み頂いたオプションなどの特約は全て破棄されます。

@@ -1,5 +1,5 @@
 ---
-slug: docs/reference/outsidewrite
+slug: nipoplus/reference/outsidewrite
 title: 🌐外部共有フォーム.ログイン不要でアンケート・意見収集を効率化
 description: NipoPlusの外部共有機能は、アカウントを持たない外部ユーザー（社外の方、イベント参加者など）にもログイン不要で日報（アンケート、意見、登録フォームなど）を記入してもらえる機能です。URLを共有するだけで、Webアンケートの実施や簡易な顧客フィードバック収集が可能。紙のアンケート集計の手間をなくし、効率的なデータ収集と分析をサポートします。
 sidebar:
@@ -13,7 +13,7 @@ NipoPlusは通常、アカウントにログインした上で日報（日報、
 これにより、**イベントでのWebアンケート実施**、**顧客からの簡易的な意見収集**、**参加登録フォーム**など、**ログインの手間をかけずに不特定多数からの情報収集**を効率的に行えるようになります。
 
 :::note[この機能はGOLDPLAN限定です]
-NipoPlusの外部共有機能は、[GOLDPLAN](/docs/price/invoice)でご利用いただけます。!
+NipoPlusの外部共有機能は、[GOLDPLAN](/nipoplus/price/invoice)でご利用いただけます。!
 :::
 
 ## 外部共有フォームの設定とURL発行手順 {#setting}
@@ -44,7 +44,7 @@ URLを開くと、NipoPlusで作成した日報作成画面がそのまま表示
 
 ### 外部共有から作成された日報を読む - データ活用が強み {#readReport}
 
-外部共有機能で作成された日報（アンケート回答）は、設定された「提出先」の[送信BOX](/docs/reference/searchreport/#listbox)に通常の日報と同じように表示されます。
+外部共有機能で作成された日報（アンケート回答）は、設定された「提出先」の[送信BOX](/nipoplus/reference/searchreport/#listbox)に通常の日報と同じように表示されます。
 作成した人がNipoPlusのアカウントを持たないため、日報の「作成者」欄は「<strong>外部</strong>」と表示されます。
 
 ![外部共有フォームから提出されたデータは、作成者が「外部」と表示されます。集計や分析に活用しましょう](./img/read_tablet.webp)
@@ -52,8 +52,8 @@ URLを開くと、NipoPlusで作成した日報作成画面がそのまま表示
 **【NipoPlusのデータ活用の強み】**
 紙のアンケート用紙や手書きの意見収集では、後からの集計作業に膨大な手間と時間がかかります。しかしNipoPlusの外部共有機能で収集されたデータは、最初からデジタル化された構造で保存されます。
 
-- **集計機能の活用:** [数値入力](/docs/template/digital/)や[選択式入力](/docs/template/selects/)などのフォームを使っていれば、NipoPlusの[強力な集計機能](/docs/reference/chart/)を使って、回答の傾向を<strong>グラフで簡単に可視化</strong>できます。
-- **CSV出力でのデータ加工:** [CSV出力機能](/docs/staff/csv/)を使えば、収集したデータをExcelなどで**自由に加工・分析**できます。これにより、**アンケート結果の分析、イベント参加者の属性分析**などを効率的に行えます。
+- **集計機能の活用:** [数値入力](/nipoplus/template/digital/)や[選択式入力](/nipoplus/template/selects/)などのフォームを使っていれば、NipoPlusの[強力な集計機能](/nipoplus/reference/chart/)を使って、回答の傾向を<strong>グラフで簡単に可視化</strong>できます。
+- **CSV出力でのデータ加工:** [CSV出力機能](/nipoplus/staff/csv/)を使えば、収集したデータをExcelなどで**自由に加工・分析**できます。これにより、**アンケート結果の分析、イベント参加者の属性分析**などを効率的に行えます。
 
 ## URLを無効にするいくつかの方法 - 不正利用防止のために {#security}
 

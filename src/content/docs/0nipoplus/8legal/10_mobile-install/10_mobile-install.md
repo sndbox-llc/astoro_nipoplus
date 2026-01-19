@@ -1,5 +1,5 @@
 ---
-slug: docs/system/mobile-install
+slug: nipoplus/system/mobile-install
 title: NipoPlusをスマホ・PC・タブレットにインストール
 description: NipoPlusはWebブラウザで動作するため、お手持ちのスマホ（iOS/Android）、PC、タブレットからいつでも利用できます。推奨のPWAインストール方法から、ストア版アプリでの利用まで、デバイスごとの最適な使い方を解説します。
 sidebar:
@@ -143,8 +143,8 @@ iOSではSafariブラウザの機能を使って、NipoPlusをアプリのよう
 App Store版・Google Play版のNipoPlusは、ストアの規約や技術的な制約により、Web版（PWA含む）と比べていくつかの機能が制限されます。
 
 - CSV出力など、**ファイルの「ダウンロード」を伴う処理ができません。**
-- [有料プラン](/docs/price/invoice/)のお申し込みや解約など、**決済に関する操作ができません。**
+- [有料プラン](/nipoplus/price/invoice/)のお申し込みや解約など、**決済に関する操作ができません。**
 - 操作ガイドへのリンクボタンなど、一部の**Webサイトへの直接リンクが表示されません。**
-- [システム更新](/docs/system/release-note/)の反映がPWA版に比べて遅れる場合があります。
+- [システム更新](/nipoplus/system/release-note/)の反映がPWA版に比べて遅れる場合があります。
 
 以上の理由から、**フル機能が利用でき、常に最新版が使えるWeb版（PWAとしてインストール）を推奨しています。**

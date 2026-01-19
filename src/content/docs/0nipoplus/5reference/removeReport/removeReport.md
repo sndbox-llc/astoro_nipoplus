@@ -1,5 +1,5 @@
 ---
-slug: docs/reference/removereport
+slug: nipoplus/reference/removereport
 title: 🗑️日報の削除
 description: 🗑️日報の削除
 sidebar:
@@ -21,15 +21,15 @@ NipoPlusではデータ保護と改ざん防止の観点から、全ての日報
 - 状態が「<strong>新規</strong>」または「<strong>棄却</strong>」の日報であること
 - 日報を作成した<strong>本人であること</strong>（他スタッフが作成した日報は、棄却状態であっても勝手に削除することはできません）
 
-<strong>[承認された日報](/docs/reference/reportstate/#agree)</strong>、または<strong>[承認リレー中](/docs/reference/reportstate/#relay)</strong>（状態が「進行中」のもの）の日報は、**システムの改ざん防止の仕組みにより、通常は削除できません**。
+<strong>[承認された日報](/nipoplus/reference/reportstate/#agree)</strong>、または<strong>[承認リレー中](/nipoplus/reference/reportstate/#relay)</strong>（状態が「進行中」のもの）の日報は、**システムの改ざん防止の仕組みにより、通常は削除できません**。
 
-これらの条件を無視して強制的に削除できる強力な[<strong>一括削除機能</strong>](#batch_remove)も用意しております。一括削除は[<strong>管理者のみ</strong>](/docs/reference/userRank/)ご利用可能です。
+これらの条件を無視して強制的に削除できる強力な[<strong>一括削除機能</strong>](#batch_remove)も用意しております。一括削除は[<strong>管理者のみ</strong>](/nipoplus/reference/userRank/)ご利用可能です。
 
 ## 日報を削除する手順 {#remove}
 
 上記「削除できる条件」を満たす日報を削除する手順です。
 
-1.  削除したい日報を[送信BOX](/docs/reference/searchreport/#listbox)などから開く
+1.  削除したい日報を[送信BOX](/nipoplus/reference/searchreport/#listbox)などから開く
 2.  「詳細」ボタンをクリックし、表示された画面の右下にある「<strong>削除</strong>」ボタンをクリック
 3.  確認メッセージが表示されるので、内容を確認の上「<strong>削除</strong>」をクリックして完了
 
@@ -46,7 +46,7 @@ NipoPlusではデータ保護と改ざん防止の観点から、全ての日報
 
 この機能は、上記で述べた通常の削除条件（日報の状態や作成者）を無視して、**ロックのかかった日報や他スタッフが作成した日報でも強制的に削除できる強力な機能**です。
 
-<strong>[管理者権限](/docs/reference/userRank/)が必要</strong>です。慎重に、そして細心の注意を払ってご利用ください。
+<strong>[管理者権限](/nipoplus/reference/userRank/)が必要</strong>です。慎重に、そして細心の注意を払ってご利用ください。
 
 1.  左メニューの「グループ設定」をクリック
 2.  「日報一括削除」をクリック
@@ -63,7 +63,7 @@ NipoPlusではデータ保護と改ざん防止の観点から、全ての日報
 <dl class="basic">
 <dt><strong>日報の状態</strong></dt>
 <dd>未読・あなた宛の日報・あなたの承認を待っている日報・新規・承認・棄却・修正・進行から選択し、特定の状態の日報のみを絞り込めます。</dd>
-<dt><a href="/docs/editor/tagManagement/"><strong>タグ</strong></a></dt>
+<dt><a href="/nipoplus/editor/tagManagement/"><strong>タグ</strong></a></dt>
 <dd>日報にセットされているタグから絞り込みます。例えば「テスト用」「古いデータ」「特定プロジェクト」といったタグが付いた日報を対象にできます。</dd>
 <dt><strong>本文検索</strong></dt>
 <dd>日報の本文に含まれる文字から検索できます。特定のキーワードを含む日報を対象にできます。</dd>
@@ -96,7 +96,7 @@ NipoPlusではデータ保護と改ざん防止の観点から、全ての日報
 日報の削除は、一度行ってしまうと元に戻せない、非常に重大な操作です。以下の注意事項を必ずご確認ください。
 
 1.  <strong>一度削除した日報は復元できません。</strong>誤って削除してしまった場合でも、復旧することは不可能です。
-2.  日報に紐付けられた[<strong>コメント</strong>](/docs/staff/readreport/#comment)も同時に削除されます。
+2.  日報に紐付けられた[<strong>コメント</strong>](/nipoplus/staff/readreport/#comment)も同時に削除されます。
 3.  日報の集計機能を使った<strong>集計の結果が変わる</strong>可能性があります。特に、特定の期間の集計や分析データに影響が出ます。
 4.  完全にデータベース上から削除されるまでに10秒ほどの<strong>遅延が発生する場合</strong>があります。削除後すぐに反映されないことがあっても、数秒お待ちください。
 

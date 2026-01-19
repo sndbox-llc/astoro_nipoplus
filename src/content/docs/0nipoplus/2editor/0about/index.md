@@ -1,5 +1,5 @@
 ---
-slug: docs/editor/about
+slug: nipoplus/editor/about
 title: 編集者のやるべきこと
 description: 編集者がNipoPlusで果たすべき役割と操作方法のガイドページです。
 sidebar:

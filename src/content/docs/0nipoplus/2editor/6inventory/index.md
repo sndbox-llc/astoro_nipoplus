@@ -1,5 +1,5 @@
 ---
-slug: docs/editor/inventory
+slug: nipoplus/editor/inventory
 title: 商品在庫管理
 description: 商品在庫管理
 sidebar:
@@ -14,7 +14,7 @@ sidebar:
 :::
 
 簡易的に商品やポイントなどの現在の数量や状態を追跡、管理する機能です。締め処理が無いため厳格な管理には不向きですが、大まかな数量や状態が知れれば良いのであれば十分な場合、活用できます。
-単独でも利用可能ですが、[日報と組み合わせる](/docs/reference/inputmethod/#item)こともできます。　
+単独でも利用可能ですが、[日報と組み合わせる](/nipoplus/reference/inputmethod/#item)こともできます。　
 
 ## 商品の登録 {#add}
 
@@ -51,7 +51,7 @@ sidebar:
 商品の状態を変化させたり、在庫数を増減させるには「伝票」を発行します。
 商品管理ページから伝票を発行できます。
 
-また、「伝票」は、テンプレートから「[商品入力フォーム](/docs/template/mod/)」を追加することで、日報作成時に自動的に発行されるようになります。
+また、「伝票」は、テンプレートから「[商品入力フォーム](/nipoplus/template/mod/)」を追加することで、日報作成時に自動的に発行されるようになります。
 
 ![日報と組み合わせて使う場合](./img/itemReport_tablet.webp)
 

@@ -1,5 +1,5 @@
 ---
-slug: docs/editor/destinationlock
+slug: nipoplus/editor/destinationlock
 title: 提出先の固定
 description: 提出先の固定
 sidebar:
@@ -12,7 +12,7 @@ sidebar:
 提出先の固定をすることで、スタッフは日報作成時に提出先を指定する必要がなくなります。  
 スタッフの操作が簡略化され、日報の提出漏れを防止できます。そのため設定を強く推奨します。
 
-この設定で頻出する「提出先」や「共有先」について詳しくは[提出先と共有先の概念](/docs/gainen/destination/)をご覧下さい。
+この設定で頻出する「提出先」や「共有先」について詳しくは[提出先と共有先の概念](/nipoplus/gainen/destination/)をご覧下さい。
 
 ## 提出先の固定方法は2種類 {#submission_priority}
 

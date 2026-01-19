@@ -1,5 +1,5 @@
 ---
-slug: docs/admin/about
+slug: nipoplus/admin/about
 title: 管理者のやるべきこと
 description: 管理者がNipoPlusで果たすべき役割と操作方法のガイドページです。
 sidebar:
@@ -28,8 +28,8 @@ NipoPlusを使用する従業員のためにアカウントを作成しましょ
 
 参考資料:
 
-- [スタッフ権限について](/docs/reference/userRank/)
-- [スタッフの一括作成](/docs/reference/makestaff/)
+- [スタッフ権限について](/nipoplus/reference/userRank/)
+- [スタッフの一括作成](/nipoplus/reference/makestaff/)
 
 ## グループを作成する
 

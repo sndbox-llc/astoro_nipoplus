@@ -1,5 +1,5 @@
 ---
-slug: docs/staff/pdf
+slug: nipoplus/staff/pdf
 title: 日報をPDFに変換する
 description: 日報をPDFに変換する
 sidebar:
@@ -48,7 +48,7 @@ AndroidやiPhoneでもWeb版NipoPlusを使えば、共有機能は立ち上が�
 :::
 
 :::note[WEB版のみサポート]
-もしAndroidやiOSでこの機能が必要な場合は、[PWA版](/docs/system/mobile-install/#pwa_home_merits)としてインストールしてください。
+もしAndroidやiOSでこの機能が必要な場合は、[PWA版](/nipoplus/system/mobile-install/#pwa_home_merits)としてインストールしてください。
 :::
 
 :::caution[ダウンロードしたZipファイルが文字化け？]
@@ -62,7 +62,7 @@ ZIPファイルを回答すると文字化けする場合は、[ZIPの文字化�
 <dl class="basic">
 <dt>カレンダー</dt>
 <dd>カレンダーに表示されている日報をまとめてPDF出力します</dd>
-<dt><a href="/docs/reference/searchreport/">受信BOXからPDF出力</a></dt>
+<dt><a href="/nipoplus/reference/searchreport/">受信BOXからPDF出力</a></dt>
 <dd>現在の受信BOX一覧に表示されている日報をまとめてPDF出力します</dd>
 <dt>集計画面からPDF出力</dt>
 <dd>集計期間で指定した期間に該当する日報をまとめてPDF出力します</dd>
@@ -75,7 +75,7 @@ ZIPファイルを回答すると文字化けする場合は、[ZIPの文字化�
 カレンダー上に表示されている日報をまとめてPDF出力することができます。
 フィルターで「承認のみ」のように絞り込むことで、必要なPDFのみを効率よく出力可能です。
 
-1. [カレンダー](/docs/reference/searchreport/#calendar)を開く
+1. [カレンダー](/nipoplus/reference/searchreport/#calendar)を開く
 2. 「◯件PDF」と表示されたボタンをクリック
 3. PDF生成完了を待つ
 4. 完了後にポップで通知
@@ -100,14 +100,14 @@ ZIPファイルを回答すると文字化けする場合は、[ZIPの文字化�
 
 <dl class="basic">
 <dt><a href="#setDefault">初期値の変更</a></dt>
-<dd>一度設定するとデフォルト値として記録されます。次回以降もこのデフォルト値が使用されます。<a href="/docs/editor/template/#pdf">テンプレート編集</a>から設定します</dd>
+<dd>一度設定するとデフォルト値として記録されます。次回以降もこのデフォルト値が使用されます。<a href="/nipoplus/editor/template/#pdf">テンプレート編集</a>から設定します</dd>
 <dt><a href="#once">一時的な変更</a></dt>
 <dd>１回限り有効な設定です。設定は記録されません</dd>
 </dl>
 
 ## PDF出力設定の初期値を変更する {#setDefault}
 
-[テンプレート編集](/docs/editor/template/#pdf)からPDF出力設定を行うと、初期値として記録されます。
+[テンプレート編集](/nipoplus/editor/template/#pdf)からPDF出力設定を行うと、初期値として記録されます。
 PDF設定はテンプレート編集画面の中程までスクロールしていただくと設定項目が見えてきます。
 この設定は「テンプレート単位で保存される」ことに留意して下さい
 
@@ -146,7 +146,7 @@ PDF設定画面では出力される日報の本文自体も変更可能です�
 <dt>見出し項目に色付け</dt>
 <dd>見出しの項目に色を付ける場合はONにします。初期値はONです</dd>
 <dt>コメント</dt>
-<dd><a href="/docs/staff/readreport/#comment">日報に書き込まれたコメント</a>をPDFに含める場合はONにします。初期値はONです</dd>
+<dd><a href="/nipoplus/staff/readreport/#comment">日報に書き込まれたコメント</a>をPDFに含める場合はONにします。初期値はONです</dd>
 <dt>日付</dt>
 <dd>日報の日付をPDFに含める場合はONにします。初期値はONです</dd>
 <dt>作者と宛名</dt>
@@ -170,7 +170,7 @@ PDF設定画面では出力される日報の本文自体も変更可能です�
 <dt>列の最大数</dt>
 <dd>レイアウト２でのみ有効。日報の項目を何列で出力するか指定します。1〜6の間で選択してください。間に反復入力が含まれる場合、一度列はリセットされます。</dd>
 <dt>透かし文字</dt>
-<dd>ウォーターマークを設定できます。不要な場合は空欄にします。<a href="/docs/price/#free">無料プラン</a>では強制的にNipoPlusの文字が挿入されます</dd>
+<dd>ウォーターマークを設定できます。不要な場合は空欄にします。<a href="/nipoplus/price/#free">無料プラン</a>では強制的にNipoPlusの文字が挿入されます</dd>
 </dl>
 
 ## PDFのレイアウトについて {#layout}
@@ -179,9 +179,9 @@ PDF設定画面では出力される日報の本文自体も変更可能です�
 
 ![同じ日報を異なるレイアウトで出力したよ](./img/pdf_tablet.webp)
 
-レイアウト1はNipoPlusで[作ったテンプレート](/docs/template/make/)をできるだけ再現できるように動作するレイアウトです。
-[専有幅](/docs/editor/template/#width)をできるだけ模倣してPDF出力します。
-一方で、レイアウト2は列の数を1〜6から選択してPDFに出力します。テンプレート内の[専有幅](/docs/editor/template/#width)は無視されます。
+レイアウト1はNipoPlusで[作ったテンプレート](/nipoplus/template/make/)をできるだけ再現できるように動作するレイアウトです。
+[専有幅](/nipoplus/editor/template/#width)をできるだけ模倣してPDF出力します。
+一方で、レイアウト2は列の数を1〜6から選択してPDFに出力します。テンプレート内の[専有幅](/nipoplus/editor/template/#width)は無視されます。
 
 ### PDF出力の設定を変えた例 {#sample1}
 

@@ -1,5 +1,5 @@
 ---
-slug: docs/other/customer
+slug: nipoplus/other/customer
 title: 顧客管理機能の使い方
 description: customer
 sidebar:
@@ -7,7 +7,7 @@ sidebar:
 ---
 
 :::note[メニューに無いときはグループ設定から機能を有効にしてください]
-[グループ設定はこちら](/docs/editor/groupmanage/#optionalFunction)
+[グループ設定はこちら](/nipoplus/editor/groupmanage/#optionalFunction)
 :::
 
 日報テンプレートとは別に、顧客情報を管理するための「顧客テンプレート」も備わっています。  

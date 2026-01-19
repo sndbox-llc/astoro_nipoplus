@@ -1,5 +1,5 @@
 ---
-slug: docs/editor/template
+slug: nipoplus/editor/template
 title: テンプレートの作成
 description: テンプレートの作成管理
 sidebar:
@@ -7,7 +7,7 @@ sidebar:
 ---
 
 日報作成に使用するテンプレートを作りましょう。
-テンプレートは日報作成の基礎となる部分です。ここでは作り方のガイドをしていますが、どんなふうに作ったらいいか迷ったら、[テンプレートの概念](/docs/template/make/)もご覧下さい。
+テンプレートは日報作成の基礎となる部分です。ここでは作り方のガイドをしていますが、どんなふうに作ったらいいか迷ったら、[テンプレートの概念](/nipoplus/template/make/)もご覧下さい。
 
 ## テンプレートの作成
 
@@ -31,18 +31,18 @@ sidebar:
 使用可能な入力フォーム一覧は以下の通りです。
 
 <dl class="basic">
-<dt><a href="/docs/template/text/"><strong>文字入力系</strong></a></dt>
+<dt><a href="/nipoplus/template/text/"><strong>文字入力系</strong></a></dt>
 <dd>本文の入力や住所、<strong>作業詳細</strong>、<strong>所感</strong>といったシンプルな文字入力に最適です。</dd>
-<dt><a href="/docs/template/selects/"><strong>選択入力系</strong></a></dt>
+<dt><a href="/nipoplus/template/selects/"><strong>選択入力系</strong></a></dt>
 <dd>予め回答を用意しておき、選ぶだけで入力できるお手軽入力です。<strong>業務内容の定型化</strong>や、<strong>点検項目</strong>、<strong>ステータス管理</strong>に役立ちます。</dd>
-<dt><a href="/docs/template/date_time/"><strong>日付入力系</strong></a></dt>
+<dt><a href="/nipoplus/template/date_time/"><strong>日付入力系</strong></a></dt>
 <dd>作業時間や予定の日時など、日付関係はこれで決まりです。期間指定をするとかかった合計時間も自動で算出するため、<strong>作業工数の計測</strong>や<strong>勤務時間管理</strong>にも使えます。</dd>
-<dt><a href="/docs/template/binarys/"><strong>署名・写真系</strong></a></dt>
+<dt><a href="/nipoplus/template/binarys/"><strong>署名・写真系</strong></a></dt>
 <dd><strong>作業現場の写真</strong>や顧客の受領サイン、ファイルなど、いわゆるバイナリ系のデータを日報に添付できます。<strong>点検時の証拠写真</strong>や<strong>納品物の確認</strong>などに。</dd>
-<dt><a href="/docs/template/digital/"><strong>数値系</strong></a></dt>
+<dt><a href="/nipoplus/template/digital/"><strong>数値系</strong></a></dt>
 <dd>売上高や訪問件数、走行距離、<strong>設備稼働時間</strong>、<strong>測定値</strong>など数値として扱えるものはこれできまり。数値なので集計機能との相性も抜群です。</dd>
 <dt>その他</dt>
-<dd><a href="/docs/template/array/"><strong>反復入力</strong></a>や<a href="/docs/template/mod/"><strong>商品入力</strong></a>など、ちょっとユニークなフォームもあります。詳しくはそれぞれのページでご確認ください。これらは<strong>複数商品の同時入力</strong>や<strong>簡易的な在庫・工程管理</strong>に利用できます。</dd>
+<dd><a href="/nipoplus/template/array/"><strong>反復入力</strong></a>や<a href="/nipoplus/template/mod/"><strong>商品入力</strong></a>など、ちょっとユニークなフォームもあります。詳しくはそれぞれのページでご確認ください。これらは<strong>複数商品の同時入力</strong>や<strong>簡易的な在庫・工程管理</strong>に利用できます。</dd>
 </dl>
 
 ## プレビューを確認する
@@ -104,7 +104,7 @@ sidebar:
 ### PDF出力時の設定 {#pdf}
 
 日報をPDFに出力する際の余白や透かしといったレイアウトの設定ができます。ここで設定したPDFオプションが**デフォルト値**として記録されます。
-詳しくは[PDF出力設定](/docs/staff/pdf/)を御覧ください。
+詳しくは[PDF出力設定](/nipoplus/staff/pdf/)を御覧ください。
 
 ### テンプレートに補足情報を付け加える {#memo}
 
@@ -119,9 +119,9 @@ sidebar:
   <dd>文書番号の前に付される文字です。初期値は「No.」です</dd>
   <dt>1日1名あたりの提出枚数目安</dt>
   <dd>
-    この日報を1日に何枚提出するかの目安を指定できます。設定した場合、<a href="/docs/staff/writereport/#select_template">テンプレート選択画面</a>で進捗バーが表示されます。
+    この日報を1日に何枚提出するかの目安を指定できます。設定した場合、<a href="/nipoplus/staff/writereport/#select_template">テンプレート選択画面</a>で進捗バーが表示されます。
   </dd>
-  <dt><a href="/docs/editor/tagManagement/">タグ</a></dt>
+  <dt><a href="/nipoplus/editor/tagManagement/">タグ</a></dt>
   <dd>テンプレート選択時に探しやすくする目印です。タグによる検索もできます。</dd>
 </dl>
 

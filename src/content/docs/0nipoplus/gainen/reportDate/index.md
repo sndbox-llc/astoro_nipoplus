@@ -1,5 +1,5 @@
 ---
-slug: docs/gainen/reportdate
+slug: nipoplus/gainen/reportdate
 title: 日報は3つの日付を持つ
 description: 日報は3つの日付を持つ
 sidebar:

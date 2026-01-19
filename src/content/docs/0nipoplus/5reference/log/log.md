@@ -1,5 +1,5 @@
 ---
-slug: docs/reference/log
+slug: nipoplus/reference/log
 title: 📚ログデータ
 description: 日報の提出やコメント・承認など様々な変化をログとして蓄積します。ログデータは最低2年以上保存されます
 sidebar:
@@ -7,7 +7,7 @@ sidebar:
 ---
 
 :::note[メニューに無いときはグループ設定から機能を有効にしてください]
-[グループ設定はこちら](/docs/editor/groupmanage/#optionalFunction)
+[グループ設定はこちら](/nipoplus/editor/groupmanage/#optionalFunction)
 :::
 
 グループ内の様々な出来事はログデータとして自動保存されます。ログは改ざん防止のため**読み取り専用**であり、管理者であってもログの書き換えや削除はできません。
@@ -17,12 +17,12 @@ sidebar:
 
 ログは以下のアクションに対して記録を残します
 
-1. [タイムカードが削除](/docs/reference/timecard)されたとき
-2. 日報や予定に[コメントが書かれた](/docs/staff/readreport/#comment)とき
+1. [タイムカードが削除](/nipoplus/reference/timecard)されたとき
+2. 日報や予定に[コメントが書かれた](/nipoplus/staff/readreport/#comment)とき
 3. 日報や予定からコメントが削除されたとき
-4. [日報が削除](/docs/reference/removereport/)されたとき
-5. [日報が作成されたとき](/docs/staff/writereport/)
-6. 日報が既読・[承認](/docs/reference/reportstate/#agree)・[棄却](/docs/reference/reportstate/#reject)されたとき
+4. [日報が削除](/nipoplus/reference/removereport/)されたとき
+5. [日報が作成されたとき](/nipoplus/staff/writereport/)
+6. 日報が既読・[承認](/nipoplus/reference/reportstate/#agree)・[棄却](/nipoplus/reference/reportstate/#reject)されたとき
 7. 日報にタグがセット・解除されたとき
 8. 予定が作成されたとき
 9. 予定の状態が変化したとき

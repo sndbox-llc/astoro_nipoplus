@@ -1,5 +1,5 @@
 ---
-slug: docs/template/manage
+slug: nipoplus/template/manage
 title: ⚙テンプレートの複製・削除・管理 - 再利用で業務フォーム作成を効率化
 description: NipoPlusでは、一度作成したテンプレートをコピー・インポートして効率的に再利用できます。特に製造業における類似の点検シートや作業報告書の作成を効率化。不要になったテンプレートの安全な無効化・削除方法も解説し、テンプレート管理を最適化します。
 sidebar:
@@ -7,7 +7,7 @@ sidebar:
 ---
 
 :::note[この設定には編集者権限以上が必要です]
-[権限について](/docs/reference/userRank/#editor)
+[権限について](/nipoplus/reference/userRank/#editor)
 :::
 
 ## テンプレートの複製とインポート - 効率的な再利用で業務を加速 {#copyImport}

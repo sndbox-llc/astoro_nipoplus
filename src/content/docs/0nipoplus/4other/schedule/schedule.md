@@ -1,5 +1,5 @@
 ---
-slug: docs/other/schedule
+slug: nipoplus/other/schedule
 title: 予定管理機能の使い方
 description: schedule
 sidebar:
@@ -7,12 +7,12 @@ sidebar:
 ---
 
 :::note[メニューに無いときはグループ設定から機能を有効にしてください]
-[グループ設定はこちら](/docs/editor/groupmanage/#optionalFunction)
+[グループ設定はこちら](/nipoplus/editor/groupmanage/#optionalFunction)
 :::
 
 ## 予定の追加
 
-予定は[カレンダー](/docs/reference/calendar/)や予定管理画面から追加可能です。予定を追加する方法として、以下の3種類が用意されています。
+予定は[カレンダー](/nipoplus/reference/calendar/)や予定管理画面から追加可能です。予定を追加する方法として、以下の3種類が用意されています。
 
 1. 時間軸からドラッグして追加する
 2. 画面右下の＋ボタンをクリックして追加する
@@ -45,10 +45,10 @@ sidebar:
 
 カレンダー画面からも簡単に予定を追加できます。カレンダーの表示モード（月、週、表、日）に応じて追加の手順が少し異なるため、以下の各ページで詳細をご確認ください。
 
-- [月カレンダから予定を追加する](/docs/reference/calendar/#add_event)
-- [週カレンダから予定を追加する](/docs/reference/calendar/#add_event)
-- [表カレンダから予定を追加する](/docs/reference/calendar/#add_event)
-- [日カレンダから予定を追加する](/docs/reference/calendar/#add_event)
+- [月カレンダから予定を追加する](/nipoplus/reference/calendar/#add_event)
+- [週カレンダから予定を追加する](/nipoplus/reference/calendar/#add_event)
+- [表カレンダから予定を追加する](/nipoplus/reference/calendar/#add_event)
+- [日カレンダから予定を追加する](/nipoplus/reference/calendar/#add_event)
 
 ---
 
@@ -98,7 +98,7 @@ NipoPlusでは**1日に占める予定が20時間を超える**と「終日予�
 ### カレンダーを使えばより細かい表示制御が可能です {#calendar}
 
 予定の表示は予定管理のほか、カレンダーからも行うことができます。
-カレンダーは[有料プラン限定](/docs/price/invoice/)の機能ですが、予定の状態（着手・完了・破棄など）や、予定の担当者など条件を絞って予定を表示する機能があります。
+カレンダーは[有料プラン限定](/nipoplus/price/invoice/)の機能ですが、予定の状態（着手・完了・破棄など）や、予定の担当者など条件を絞って予定を表示する機能があります。
 
 ![担当者や予定の状況で絞り込みが可能。](./img/task-calendar-filter_tablet.webp)
 
@@ -145,7 +145,7 @@ NipoPlusでは**1日に占める予定が20時間を超える**と「終日予�
 予定が作成された時点では、その予定はまだ着工されていないため予定です。
 時が進み予定が完了したときその結果を日報として報告します。
 日報と予定を紐付けすることで日報を受け取るスタッフから見ると、「予定（予定）」と「日報（実績）」の対比をしながら確認できます。
-紐付けするには、予定を表示してから[日報を書く](/docs/staff/writereport/)という手順を踏みます。
+紐付けするには、予定を表示してから[日報を書く](/nipoplus/staff/writereport/)という手順を踏みます。
 
 1. 予定を詳細表示する
 2. 右パネルからテンプレートを選択する
@@ -157,7 +157,7 @@ NipoPlusでは**1日に占める予定が20時間を超える**と「終日予�
 
 ![予定詳細画面から日報作成画面へ切り替わります。](./img/write.png)
 
-これで日報と予定は紐付いた状態になりました。あとは通常通りに[日報を作成](/docs/staff/writereport/)してください。保存する際に自動で予定と日報の紐づきが記録されます。
+これで日報と予定は紐付いた状態になりました。あとは通常通りに[日報を作成](/nipoplus/staff/writereport/)してください。保存する際に自動で予定と日報の紐づきが記録されます。
 
 :::note[日報の画面自体は通常の日報と全くおなじ。違いは紺色の説明バナーだけです]
 :::

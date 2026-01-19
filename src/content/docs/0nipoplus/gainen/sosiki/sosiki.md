@@ -1,5 +1,5 @@
 ---
-slug: docs/gainen/sosiki
+slug: nipoplus/gainen/sosiki
 title: 組織とグループとアカウントの相関関係
 description: 組織とグループ
 sidebar:
@@ -22,11 +22,11 @@ NipoPlusを使い始める上で、知っておきたい3つの大切な言葉�
 
 <dl class="basic">
 <dt>組織</dt>
-<dd>最も大きな枠組みで、<strong>お客様の会社そのもの</strong>を表します。1つの会社につき1つの「組織」を作成し、その中に「グループ」や「スタッフ」を登録していきます。NipoPlusの<a href="/docs/price/">料金プラン</a>は、この「組織」単位で適用されます。</dd>
-<dt><a href="/docs/admin/about/">グループ</a></dt>
+<dd>最も大きな枠組みで、<strong>お客様の会社そのもの</strong>を表します。1つの会社につき1つの「組織」を作成し、その中に「グループ」や「スタッフ」を登録していきます。NipoPlusの<a href="/nipoplus/price/">料金プラン</a>は、この「組織」単位で適用されます。</dd>
+<dt><a href="/nipoplus/admin/about/">グループ</a></dt>
 <dd>「組織」の中に作る、<strong>日報のやり取りが行われる「場所」</strong>です。部署や部門、支店ごとに分けたり、「新人研修会」のように一時的な利用目的で作ることも可能です。<br>利用開始直後は「サンプルグループ」が自動で作成された状態でスタートします。</dd>
 <dt>スタッフ</dt>
-<dd>NipoPlusの<strong>利用者アカウント</strong>のことです。<a href="/docs/reference/makestaff/">組織内にアカウントを作成</a>した後、管理者がそのスタッフを任意の<a href="/docs/reference/makestaff/#join_staff">グループに所属</a>させます。<br>1人のスタッフが複数のグループに所属することもできます。</dd>
+<dd>NipoPlusの<strong>利用者アカウント</strong>のことです。<a href="/nipoplus/reference/makestaff/">組織内にアカウントを作成</a>した後、管理者がそのスタッフを任意の<a href="/nipoplus/reference/makestaff/#join_staff">グループに所属</a>させます。<br>1人のスタッフが複数のグループに所属することもできます。</dd>
 </dl>
 
 ## 構造の具体的なイメージ例 {#about_group}
@@ -44,7 +44,7 @@ NipoPlusの「組織」「グループ」「スタッフ」の関係性は、あ
 
 <img src="img/tree.svg" />
 
-アプリ上から組織やグループを確認するには[左メニューから組織設定をクリック](/docs/reference/userRank/#rootSettingBtn)してください。
+アプリ上から組織やグループを確認するには[左メニューから組織設定をクリック](/nipoplus/reference/userRank/#rootSettingBtn)してください。
 
 :::note[組織設定は管理者アカウントでのみアクセス可能です]
 :::
@@ -99,9 +99,9 @@ NipoPlusの「組織」「グループ」「スタッフ」の関係性は、あ
 
 グループ作成を先読みしたい方は関連リンクを乗せておきますので御覧ください。
 
-- [新しいグループを作成する](/docs/admin/about/)
-- [スタッフのアカウントを追加する](/docs/admin/about/)
-- [追加したスタッフを各グループに所属させる](/docs/admin/about/)
+- [新しいグループを作成する](/nipoplus/admin/about/)
+- [スタッフのアカウントを追加する](/nipoplus/admin/about/)
+- [追加したスタッフを各グループに所属させる](/nipoplus/admin/about/)
 
 ## 組織のスタッフ管理との違いを理解しよう {#distinction}
 
@@ -111,21 +111,21 @@ NipoPlusの「組織」「グループ」「スタッフ」の関係性は、あ
 <dl class="basic">
 <dt>組織のスタッフ管理</dt>
 <dd>
-    <a href="/docs/reference/makestaff/">会社全体のスタッフを管理する場所です。</a>以下の設定は組織設定から行う必要があります
+    <a href="/nipoplus/reference/makestaff/">会社全体のスタッフを管理する場所です。</a>以下の設定は組織設定から行う必要があります
     <ul>
-        <li><a href="/docs/reference/makestaff/#howto_make">アカウントの新規作成</a></li>
-        <li><a href="/docs/reference/userRank/">権限変更</a></li>
-        <li><a href="/docs/reference/makestaff/#change_staff_data">スタッフの基本情報（名前・E-mail）の変更</a></li>
-        <li><a href="/docs/reference/makestaff/#stop_remove">アカウントの有効/無効の切り替え</a></li>
-        <li><a href="/docs/reference/api/">API利用設定</a></li>
+        <li><a href="/nipoplus/reference/makestaff/#howto_make">アカウントの新規作成</a></li>
+        <li><a href="/nipoplus/reference/userRank/">権限変更</a></li>
+        <li><a href="/nipoplus/reference/makestaff/#change_staff_data">スタッフの基本情報（名前・E-mail）の変更</a></li>
+        <li><a href="/nipoplus/reference/makestaff/#stop_remove">アカウントの有効/無効の切り替え</a></li>
+        <li><a href="/nipoplus/reference/api/">API利用設定</a></li>
     </ul>
 </dd>
 <dt>グループ内のスタッフ管理</dt>
 <dd>
     本ページで解説します。
     <ul>
-        <li><a href="/docs/editor/destinationlock/">日報の提出先を固定</a></li>
-        <li><a href="/docs/editor/limitedTemplate/">使用可能なテンプレートを制限</a></li>
+        <li><a href="/nipoplus/editor/destinationlock/">日報の提出先を固定</a></li>
+        <li><a href="/nipoplus/editor/limitedTemplate/">使用可能なテンプレートを制限</a></li>
         <li>グループ内の全ての日報閲覧権限（重役）</li>
         <li>グループ内スタッフ活動実績確認</li>
         <li>グループからの追放</li>

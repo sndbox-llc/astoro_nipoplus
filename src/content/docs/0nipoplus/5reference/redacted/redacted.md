@@ -1,5 +1,5 @@
 ---
-slug: docs/reference/redacted
+slug: nipoplus/reference/redacted
 title: 🛠️日報の修正
 description: 🛠️日報の修正
 sidebar:
@@ -16,29 +16,29 @@ NipoPlusがこの「修正の不便さ」を提供しているのは、<strong>�
 
 日報は以下のケースで**ロックされ、修正できなくなります**。
 
-- 日報が[承認](/docs/reference/reportstate/#agree)されたとき
-- 日報が[承認リレー](/docs/reference/reportstate/#relay)に入ったとき（承認者が複数名いる場合、最初の承認が行われた時点）
+- 日報が[承認](/nipoplus/reference/reportstate/#agree)されたとき
+- 日報が[承認リレー](/nipoplus/reference/reportstate/#relay)に入ったとき（承認者が複数名いる場合、最初の承認が行われた時点）
 
-これらのロックを解除し、日報を修正するには、その[日報を棄却](/docs/reference/reportstate/#reject)する必要があります。
-日報を修正できるのは、<strong>日報を書いた本人</strong>、または<strong>[提出先に指定されたスタッフ](/docs/gainen/destination/)のみ</strong>です。
+これらのロックを解除し、日報を修正するには、その[日報を棄却](/nipoplus/reference/reportstate/#reject)する必要があります。
+日報を修正できるのは、<strong>日報を書いた本人</strong>、または<strong>[提出先に指定されたスタッフ](/nipoplus/gainen/destination/)のみ</strong>です。
 
 ## 日報を書いた本人が修正する {#owner}
 
-提出した日報に誤りがあったり、提出先から[棄却](/docs/reference/reportstate/#reject)されたりした場合、日報を書いた本人が内容を修正して再提出できます。
+提出した日報に誤りがあったり、提出先から[棄却](/nipoplus/reference/reportstate/#reject)されたりした場合、日報を書いた本人が内容を修正して再提出できます。
 
-1.  修正したい日報を[送信BOX](/docs/reference/searchreport/#listbox)や[カレンダー](/docs/reference/searchreport/#calendar)などから表示する
+1.  修正したい日報を[送信BOX](/nipoplus/reference/searchreport/#listbox)や[カレンダー](/nipoplus/reference/searchreport/#calendar)などから表示する
 2.  右側にある「<strong>修正</strong>」ボタンをクリック
 3.  日報編集画面に遷移
 4.  内容を修正して「<strong>修正</strong>」ボタンをクリックして再提出
 
 ![提出した日報や点検記録に誤りがあった場合、日報を開いて「修正」ボタンをクリックします。承認済みの日報は修正できません](./img/edit_tablet.png)
 
-「修正」ボタンをクリックすると日報の編集画面に切り替わります。一見すると[日報の作成](/docs/staff/writereport/)画面と同じですが、細かな違いがあります。
+「修正」ボタンをクリックすると日報の編集画面に切り替わります。一見すると[日報の作成](/nipoplus/staff/writereport/)画面と同じですが、細かな違いがあります。
 
 - 「提出」ボタンが「<strong>修正</strong>」ボタンに変化
 - 下書きの利用不可
 
-それ以外は[通常の日報作成](/docs/staff/writereport/)と同様の手順で修正できます。
+それ以外は[通常の日報作成](/nipoplus/staff/writereport/)と同様の手順で修正できます。
 
 ## 他のスタッフの日報を代理修正する {#agent}
 
@@ -46,11 +46,11 @@ NipoPlusがこの「修正の不便さ」を提供しているのは、<strong>�
 これは、**軽微な誤字脱字の修正**や、<strong>報告内容の補足</strong>など、提出者に代わって迅速に対応したい場合に便利です。
 
 他人の日報を修正するという行為になりますので、<strong>修正は慎重</strong>に行ってください。
-代理修正は改ざん防止の観点から[ログ](/docs/reference/log/)に残ります。これにより、**いつ、誰が、どの日報を修正したか**が明確に記録され、監査証跡として利用できます。
+代理修正は改ざん防止の観点から[ログ](/nipoplus/reference/log/)に残ります。これにより、**いつ、誰が、どの日報を修正したか**が明確に記録され、監査証跡として利用できます。
 
 ## 修正後の状態について {#state}
 
-日報が修正されると、その日報の[状態](/docs/reference/reportstate/)が「<strong>修正</strong>」に切り替わります。
+日報が修正されると、その日報の[状態](/nipoplus/reference/reportstate/)が「<strong>修正</strong>」に切り替わります。
 
 ![修正された日報や点検記録は状態が「修正」になります。これにより、修正履歴を視覚的に把握できます](./img/report-status-change_tablet.png)
 

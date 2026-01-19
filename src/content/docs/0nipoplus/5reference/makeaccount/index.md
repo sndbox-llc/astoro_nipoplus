@@ -1,5 +1,5 @@
 ---
-slug: docs/reference/makestaff
+slug: nipoplus/reference/makestaff
 title: 👤従業員アカウントの作成・管理
 description: ログインに使用するEmailおよびパスワードの変更手順を詳しく解説しています。アカウントのセキュリティを強化するための手続きや、パスワードを忘れた際の対処法も紹介しています
 sidebar:
@@ -7,7 +7,7 @@ sidebar:
 ---
 
 :::note[管理者権限]
-アカウントの作成・管理は、[管理者権限](/docs/reference/userRank/)が必要です
+アカウントの作成・管理は、[管理者権限](/nipoplus/reference/userRank/)が必要です
 :::
 
 ## スタッフのアカウントを新規作成する {#howto_make}
@@ -28,7 +28,7 @@ sidebar:
 
 新しいアカウントを１件づつ作成する手順です。
 
-1.  [左メニューから「組織設定」をクリック](/docs/reference/userRank/#rootSettingBtn)（管理者のみ表示）
+1.  [左メニューから「組織設定」をクリック](/nipoplus/reference/userRank/#rootSettingBtn)（管理者のみ表示）
 2.  スタッフ管理セクションの中にある「**新規作成**」ボタンをクリック
 3.  表示されたフォームに必要事項を入力し、「**作成**」ボタンをクリック
 
@@ -43,7 +43,7 @@ sidebar:
 <dd>スタッフがNipoPlusにログインする際に使用するメールアドレスです。ログインIDとしても使用します。</dd>
 <dt>名前</dt>
 <dd>NipoPlus内で表示されるスタッフの名前です。（例：山田 太郎）</dd>
-<dt><a href="/docs/reference/userRank/">権限</a></dt>
+<dt><a href="/nipoplus/reference/userRank/">権限</a></dt>
 <dd>このスタッフに与える権限を指定します。「管理者・編集者・スタッフ・書き込みのみ・ゲスト」の中から選択してください。</dd>
 <dt>初期パスワード</dt>
 <dd>ログイン時に使用する初期パスワードです。自動でセットされますが、「パスワードを変える」にチェックを入れることで、手動で変更することも可能です。</dd>
@@ -82,7 +82,7 @@ sidebar:
 アカウントが作成され、グループに所属したら、そのアカウント情報（E-mailとパスワード）を該当のスタッフに伝えてください。
 スタッフはNipoPlusを開き、その情報を使ってログインできるようになります。
 
-ログインの具体的な方法については「[ログイン・ログアウトする](/docs/reference/account/)」のページをご覧ください。
+ログインの具体的な方法については「[ログイン・ログアウトする](/nipoplus/reference/account/)」のページをご覧ください。
 
 ---
 
@@ -95,7 +95,7 @@ sidebar:
 ### 所属するグループの変更 {#join_staff}
 
 :::note[グループを作成するには？]
-グループを作成するには「[グループの作成](/docs/admin/about/)」をご覧ください
+グループを作成するには「[グループの作成](/nipoplus/admin/about/)」をご覧ください
 :::
 
 アカウントはどこかのグループに所属して初めて作業が出来ます。アカウント作成時に所属グループを選択しますが、必要に応じてグループの脱退や再所属が行えます。
@@ -107,7 +107,7 @@ sidebar:
 ![組織のスタッフをそれぞれのグループに所属させましょう。これにより、日報の読み書きが可能になります。](./img/join_tablet.webp)
 
 :::note[グループから見たスタッフ一覧]
-組織設定ではなく[グループ内のスタッフ管理画面](/docs/editor/staffmanage/)では、そのグループ内で固有の設定を行えます。この設定は他のグループには影響しません。
+組織設定ではなく[グループ内のスタッフ管理画面](/nipoplus/editor/staffmanage/)では、そのグループ内で固有の設定を行えます。この設定は他のグループには影響しません。
 
 ![提出先の固定やテンプレートの制限などができます](./img/group-member_tablet.png)
 :::
@@ -116,7 +116,7 @@ sidebar:
 
 スタッフの名前、権限、メモなど、アカウントの基本情報は、組織設定画面で直接クリックして簡単に変更できます。
 
-1.  [左メニューから「**組織設定**」をクリック](/docs/reference/userRank/#rootSettingBtn)
+1.  [左メニューから「**組織設定**」をクリック](/nipoplus/reference/userRank/#rootSettingBtn)
 2.  「スタッフ管理」セクションで、編集したいスタッフの該当項目（名前、権限など）をクリック
 3.  表示される編集ウィンドウで、新しい値を入力・選択し、「**保存**」をクリック
 
@@ -128,11 +128,11 @@ sidebar:
 <dt>名前・ふりがな</dt>
 <dd>
     NipoPlus内で表示されるスタッフの名前です。「名前」をクリックして編集します。
-    日報作成時の提出者名や<a href="/docs/reference/reportstate/#agree">承認ボタン押下時の名前</a>は、その時点で設定されている名前が使用されます。
+    日報作成時の提出者名や<a href="/nipoplus/reference/reportstate/#agree">承認ボタン押下時の名前</a>は、その時点で設定されている名前が使用されます。
 </dd>
 <dt>権限</dt>
 <dd>
-    スタッフの<a href="/docs/reference/userRank/">権限ランク</a>を変更します。
+    スタッフの<a href="/nipoplus/reference/userRank/">権限ランク</a>を変更します。
     <strong>自分の権限を変更することはできません</strong>。ご自身の権限を変更したい場合は、他の管理者権限を持つユーザーに依頼してください。
 </dd>
 <dt>所属グループ</dt>
@@ -144,7 +144,7 @@ sidebar:
 <dd>
     ログインに使用するE-mailアドレスを変更できます。
     変更されたスタッフは、次回NipoPlusを起動する際に再ログインが必要になります。
-    関連ページ：<a href="/docs/reference/account/">ログインE-mailの変更</a>
+    関連ページ：<a href="/nipoplus/reference/account/">ログインE-mailの変更</a>
 </dd>
 <dt>メモ</dt>
 <dd>
@@ -154,13 +154,13 @@ sidebar:
 <dd>
     API機能の利用を許可するかどうかを設定します。API機能を使いたい場合は「⭕」にしてください。
     安全性を高めるため、API利用可能なアカウントは必要最小限に抑えることを推奨します。
-    関連ページ：<a href="/docs/reference/api/">APIを使う</a>
+    関連ページ：<a href="/nipoplus/reference/api/">APIを使う</a>
 </dd>
 <dt>パスワード</dt>
 <dd>
     スタッフのログインパスワードを変更できます。
     変更されたスタッフは、次回NipoPlusを起動する際に再ログインが必要になります。
-    関連ページ：<a href="/docs/reference/account/#password">ログインパスワードを忘れた方</a>
+    関連ページ：<a href="/nipoplus/reference/account/#password">ログインパスワードを忘れた方</a>
 </dd>
 </dl>
 
@@ -177,7 +177,7 @@ sidebar:
 アカウントの無効化は、アクセスを停止しつつ過去のデータとの紐付けを維持できるため、**最も推奨される方法**です。無効状態のアカウントは人数のカウントから除外され、当該アカウントはログインを含む一切の操作ができなくなります。  
 すでにログイン中の場合、一定時間経過後（短時間トークンの失効後）ログインセクションが自動で解除されます。
 
-1.  [左メニューから「**組織設定**」をクリック](/docs/reference/userRank/#rootSettingBtn)
+1.  [左メニューから「**組織設定**」をクリック](/nipoplus/reference/userRank/#rootSettingBtn)
 2.  「スタッフ管理」の項目までスクロール
 3.  無効化したいスタッフの「状態」列にあるボタンをクリック
 4.  ボタンが赤色（または「無効」を示す表示）になれば無効化完了
@@ -225,17 +225,17 @@ sidebar:
 
 ## アカウント数と料金プラン、制限について {#userAccountLimit}
 
-NipoPlusでは、作成できるアカウント数と[料金プラン](/docs/price/invoice/)が連動しています。
+NipoPlusでは、作成できるアカウント数と[料金プラン](/nipoplus/price/invoice/)が連動しています。
 
 <dl class="basic">
-<dt><a href="/docs/price/free/">無料プラン</a></dt>
+<dt><a href="/nipoplus/price/free/">無料プラン</a></dt>
 <dd>有効アカウントは４つまで</dd>
-<dt><a href="/docs/price/invoice/">有料プラン</a></dt>
+<dt><a href="/nipoplus/price/invoice/">有料プラン</a></dt>
 <dd>ご契約いただいた人数に応じて利用可能なアカウント数が変化します</dd>
 </dl>
 
 :::caution[制限超過時の注意]
-上限を超えてアカウントを作成することはできますが、上限を超過した状態では[日報の新規作成](/docs/staff/writereport/)ができなくなります
+上限を超えてアカウントを作成することはできますが、上限を超過した状態では[日報の新規作成](/nipoplus/staff/writereport/)ができなくなります
 :::
 
 ### 制限超過の解消方法 {#resolve_limit_exceed}
@@ -248,8 +248,8 @@ NipoPlusでは、作成できるアカウント数と[料金プラン](/docs/pri
 <dt>契約プランを見直す（利用人数を増やす）</dt>
 <dd>GOLD PLANの契約人数を増やすことで、より多くのアカウントを利用できるようになります。
     <ul>
-        <li><a href="/docs/price/invoice/#updateMemberLimit">請求書払いの場合の人数変更はこちら</a></li>
-        <li><a href="/docs/price/subscription/#diff">クレジットカード払いの場合の人数変更はこちら</a></li>
+        <li><a href="/nipoplus/price/invoice/#updateMemberLimit">請求書払いの場合の人数変更はこちら</a></li>
+        <li><a href="/nipoplus/price/subscription/#diff">クレジットカード払いの場合の人数変更はこちら</a></li>
     </ul>
 </dd>
 </dl>
@@ -271,10 +271,10 @@ NipoPlusでは、作成できるアカウント数と[料金プラン](/docs/pri
 
 - **ログイン不可能:** このアカウント自体でNipoPlusにログインすることはできません。
 - **権限が「書き込みのみ」で固定:** 日報作成に特化しており、他の権限は割り当てられません。
-- **単体では利用不可:** 必ず他のスタッフの[共用設定](/docs/reference/staffshare/)として設定する必要があります。
+- **単体では利用不可:** 必ず他のスタッフの[共用設定](/nipoplus/reference/staffshare/)として設定する必要があります。
 
 **利用方法：**
-ログイン可能な通常アカウントでNipoPlusにログインされている状態で、[日報作成画面](/docs/staff/writereport/)の提出者を選択する欄から、利用者の名前としてこの「共用スタッフアカウント」の名前を選択して日報を作成します。
+ログイン可能な通常アカウントでNipoPlusにログインされている状態で、[日報作成画面](/nipoplus/staff/writereport/)の提出者を選択する欄から、利用者の名前としてこの「共用スタッフアカウント」の名前を選択して日報を作成します。
 
 **【注意点】**
 日報作成者が自己申告で名前を選択するため、**日報提出者のなりすましを防ぐことはできません。** 日報作成者が本人であることをシステムで保証する必要がある場合は、正規のログイン可能なアカウントの利用をご検討ください。

@@ -1,5 +1,5 @@
 ---
-slug: docs/template/make
+slug: nipoplus/template/make
 title: ⚙ NipoPlusでカスタムテンプレートを作成 - 日報・点検・各種業務報告書も自由自在
 description: NipoPlusでは、専門知識がなくても、様々な入力フォーム（パーツ）をブロックのように組み合わせるだけで、オリジナルの日報テンプレートや設備点検シート、業務報告書、チェックリストなどを簡単に作成できます。作成したカスタムテンプレートは、スマートフォン、タブレット、PCから日報作成時に使用できます
 sidebar:
@@ -13,7 +13,7 @@ NipoPlusでもテンプレートの考え方は同じ。枠を作って、そこ
 
 テンプレートの作り方は簡単です。  
 10種類以上ある入力フォームから欲しいものをピックアップして並べるだけ。
-例えば次のサンプルは、[数値入力フォーム](/docs/template/digital/)や[選択式入力フォーム](/docs/template/selects/)を並べています。
+例えば次のサンプルは、[数値入力フォーム](/nipoplus/template/digital/)や[選択式入力フォーム](/nipoplus/template/selects/)を並べています。
 
 ![パーツを組み合わせるだけの簡単操作](./img/report-guide-memo_tablet.png)
 
@@ -55,19 +55,19 @@ NipoPlusではテンプレートのカスタマイズに力を入れて開発さ
 もしなければ、どのような報告が必要かをリストアップしてみましょう。そのうえで、実際にテンプレートの作成を行います。  
 とはいえ、作成のページは別のマニュアルに書いていますので、実際の作成手順については次のページを御覧ください。
 
-[テンプレート作成についてはこちら](/docs/template/make)
+[テンプレート作成についてはこちら](/nipoplus/template/make)
 
 ---
 
 :::note[この設定には編集者権限以上が必要です]
-[権限について](/docs/reference/userRank/#editor)
+[権限について](/nipoplus/reference/userRank/#editor)
 :::
 
 ## NipoPlusでオリジナルテンプレートを作成しよう！ {#template_guide}
 
 NipoPlusは、「**入力フォーム**」と呼ばれる様々なパーツ（部品）を、まるでブロックを組み立てるように組み合わせていくだけで、**あなただけのオリジナルテンプレート**を簡単に作成できるWebアプリです。
 
-日報だけでなく、**設備点検シート、品質チェックリスト、作業報告書、巡回記録、申請書**など、あらゆる業務の記録フォームを自由に作成できます。10種類以上の豊富な入力フォームを、用途に合わせて自由に選択し、組み合わせることが可能です。一度作った[テンプレートをコピー](/docs/template/manage/#copy)して類似のテンプレートを効率的に作成することもできます。
+日報だけでなく、**設備点検シート、品質チェックリスト、作業報告書、巡回記録、申請書**など、あらゆる業務の記録フォームを自由に作成できます。10種類以上の豊富な入力フォームを、用途に合わせて自由に選択し、組み合わせることが可能です。一度作った[テンプレートをコピー](/nipoplus/template/manage/#copy)して類似のテンプレートを効率的に作成することもできます。
 
 ### Step1. テンプレートに必要な項目の洗い出し {#column}
 
@@ -85,34 +85,34 @@ NipoPlusは、「**入力フォーム**」と呼ばれる様々なパーツ（�
 
 <dl class="basic">
 <dt>作業部署 / 担当者</dt>
-<dd><a href="/docs/template/selects/"><strong>選択式入力フォーム</strong></a>がおすすめです。部署や担当者は通常、数種類あり、選択して入力した方が<strong>入力ミスも少なく</strong>、効率的です。<strong>従業員の多い製造業</strong>などでも役立ちます。</dd>
+<dd><a href="/nipoplus/template/selects/"><strong>選択式入力フォーム</strong></a>がおすすめです。部署や担当者は通常、数種類あり、選択して入力した方が<strong>入力ミスも少なく</strong>、効率的です。<strong>従業員の多い製造業</strong>などでも役立ちます。</dd>
 <dt>作業日 / 作業時間</dt>
-<dd><a href="/docs/template/date_time/#point"><strong>日付と時刻入力フォーム</strong></a>がおすすめです。カレンダーから選ぶだけで日付入力が可能です。期間指定を行うと、かかった合計時間も自動で算出するため、<strong>作業工数の管理</strong>にも使えます。</dd>
+<dd><a href="/nipoplus/template/date_time/#point"><strong>日付と時刻入力フォーム</strong></a>がおすすめです。カレンダーから選ぶだけで日付入力が可能です。期間指定を行うと、かかった合計時間も自動で算出するため、<strong>作業工数の管理</strong>にも使えます。</dd>
 <dt>作業内容 / 業務詳細</dt>
-<dd><a href="/docs/template/text/"><strong>文字入力フォーム</strong></a>がおすすめです。改行やリンクも使え、通常の文字入力に最適です。<strong>フリーフォーマットの日報</strong>や、<strong>詳細な作業指示</strong>の記録などに。</dd>
+<dd><a href="/nipoplus/template/text/"><strong>文字入力フォーム</strong></a>がおすすめです。改行やリンクも使え、通常の文字入力に最適です。<strong>フリーフォーマットの日報</strong>や、<strong>詳細な作業指示</strong>の記録などに。</dd>
 <dt><strong>点検結果 / 設備の状態</strong></dt>
-<dd><a href="/docs/template/selects/"><strong>選択式入力フォーム</strong></a>や<a href="/docs/editor/wordBookManagement/"><strong>語録機能</strong></a>との組み合わせがおすすめ。「<strong>正常</strong>」「<strong>異常あり</strong>」「<strong>要修理</strong>」など、定型的な選択肢で<strong>品質チェックや設備の状態</strong>を記録できます。</dd>
+<dd><a href="/nipoplus/template/selects/"><strong>選択式入力フォーム</strong></a>や<a href="/nipoplus/editor/wordBookManagement/"><strong>語録機能</strong></a>との組み合わせがおすすめ。「<strong>正常</strong>」「<strong>異常あり</strong>」「<strong>要修理</strong>」など、定型的な選択肢で<strong>品質チェックや設備の状態</strong>を記録できます。</dd>
 <dt><strong>不具合箇所 / 現場状況</strong></dt>
-<dd><a href="/docs/template/binarys/"><strong>署名・写真入力フォーム</strong></a>がおすすめです。<strong>設備の異常箇所を写真で残したり</strong>、<strong>作業前後の状況を視覚的に記録したり</strong>するのに最適です。</dd>
+<dd><a href="/nipoplus/template/binarys/"><strong>署名・写真入力フォーム</strong></a>がおすすめです。<strong>設備の異常箇所を写真で残したり</strong>、<strong>作業前後の状況を視覚的に記録したり</strong>するのに最適です。</dd>
 <dt>課題・メモ / 備考</dt>
-<dd><a href="/docs/template/text/"><strong>文字入力フォーム</strong></a>がおすすめです。<strong>日報の所感</strong>や、<strong>点検時の特記事項</strong>などを自由に記述できます。</dd>
+<dd><a href="/nipoplus/template/text/"><strong>文字入力フォーム</strong></a>がおすすめです。<strong>日報の所感</strong>や、<strong>点検時の特記事項</strong>などを自由に記述できます。</dd>
 </dl>
 
 このように、テンプレートの用途に応じて、最適な入力フォームを組み合わせていきます。入力フォームは大分類で6種、詳細で10種類以上ありますので、まずはどのような入力フォームが使えるのかを確認してみて下さい。
 
 <dl class="basic">
-<dt><a href="/docs/template/text/"><strong>文字入力系</strong></a></dt>
+<dt><a href="/nipoplus/template/text/"><strong>文字入力系</strong></a></dt>
 <dd>本文の入力や住所、<strong>作業詳細</strong>、<strong>所感</strong>といったシンプルな文字入力に最適です。</dd>
-<dt><a href="/docs/template/selects/"><strong>選択入力系</strong></a></dt>
+<dt><a href="/nipoplus/template/selects/"><strong>選択入力系</strong></a></dt>
 <dd>予め回答を用意しておき、選ぶだけで入力できるお手軽入力です。<strong>業務内容の定型化</strong>や、<strong>点検項目</strong>、<strong>ステータス管理</strong>に役立ちます。</dd>
-<dt><a href="/docs/template/date_time/"><strong>日付入力系</strong></a></dt>
+<dt><a href="/nipoplus/template/date_time/"><strong>日付入力系</strong></a></dt>
 <dd>作業時間や予定の日時など、日付関係はこれで決まりです。期間指定をするとかかった合計時間も自動で算出するため、<strong>作業工数の計測</strong>や<strong>勤務時間管理</strong>にも使えます。</dd>
-<dt><a href="/docs/template/binarys/"><strong>署名・写真系</strong></a></dt>
+<dt><a href="/nipoplus/template/binarys/"><strong>署名・写真系</strong></a></dt>
 <dd><strong>作業現場の写真</strong>や顧客の受領サイン、ファイルなど、いわゆるバイナリ系のデータを日報に添付できます。<strong>点検時の証拠写真</strong>や<strong>納品物の確認</strong>などに。</dd>
-<dt><a href="/docs/template/digital/"><strong>数値系</strong></a></dt>
+<dt><a href="/nipoplus/template/digital/"><strong>数値系</strong></a></dt>
 <dd>売上高や訪問件数、走行距離、<strong>設備稼働時間</strong>、<strong>測定値</strong>など数値として扱えるものはこれできまり。数値なので集計機能との相性も抜群です。</dd>
 <dt>その他</dt>
-<dd><a href="/docs/template/array/"><strong>反復入力</strong></a>や<a href="/docs/template/mod/"><strong>商品入力</strong></a>など、ちょっとユニークなフォームもあります。詳しくはそれぞれのページでご確認ください。これらは<strong>複数商品の同時入力</strong>や<strong>簡易的な在庫・工程管理</strong>に利用できます。</dd>
+<dd><a href="/nipoplus/template/array/"><strong>反復入力</strong></a>や<a href="/nipoplus/template/mod/"><strong>商品入力</strong></a>など、ちょっとユニークなフォームもあります。詳しくはそれぞれのページでご確認ください。これらは<strong>複数商品の同時入力</strong>や<strong>簡易的な在庫・工程管理</strong>に利用できます。</dd>
 </dl>
 
 テンプレート作成では、**いかにスタッフの入力負担を軽減できるか？** を意識することが重要です。日報はもちろん、**日々の点検記録や業務報告**など、繰り返し行う入力作業を楽にする工夫をしましょう。

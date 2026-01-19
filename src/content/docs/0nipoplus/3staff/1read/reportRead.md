@@ -1,5 +1,5 @@
 ---
-slug: docs/staff/readreport
+slug: nipoplus/staff/readreport
 title: 日報を読む
 description: すたっふ
 sidebar:
@@ -16,7 +16,7 @@ sidebar:
 
 ![受信BOXから日報を開く](./img/report-box1_tablet.webp)
 
-たくさんの日報から[目的の日報を素早く探す](/docs/reference/searchreport/)ガイドはこちら
+たくさんの日報から[目的の日報を素早く探す](/nipoplus/reference/searchreport/)ガイドはこちら
 
 :::tip[ポップ表示？ページ遷移？]
 ▶アイコンをクリックして日報を開くとページ遷移、カード自体をクリックするとポップアップで表示されます
@@ -34,18 +34,18 @@ sidebar:
 この画面では、日報の内容を確認したり、棄却、コメントの追加、タグ付け、データ確認などが行えます。
 承認ボタンを押して日報を承認して下さい。押印欄にはんこが押されて、日報の状態が「承認」に切り替わります。
 このように、日報は承認することで「承認状態」になります。棄却すると「棄却状態」になります。
-詳しくは[日報の状態](/docs/reference/reportstate)を御覧ください。
+詳しくは[日報の状態](/nipoplus/reference/reportstate)を御覧ください。
 
 :::caution[閲覧権限にご注意ください]
-[権限が「ゲスト」](/docs/reference/userRank/#others)のアカウントは、自分が書いた日報も含め、日報を閲覧できません。
+[権限が「ゲスト」](/nipoplus/reference/userRank/#others)のアカウントは、自分が書いた日報も含め、日報を閲覧できません。
 :::
 
 :::tip[読みたい日報が表示されない？]
-一覧に日報が無い場合は、その日報に対するアクセス権が不足しています。詳しくは[提出先と共有先](/docs/gainen/destination/)を御覧ください
+一覧に日報が無い場合は、その日報に対するアクセス権が不足しています。詳しくは[提出先と共有先](/nipoplus/gainen/destination/)を御覧ください
 :::
 
 :::note[全体共有モードがONの場合]
-グループ設定で[日報共有モード](/docs/editor/groupmanage/#reportShare)が有効な場合、権限に関係なく、グループに所属しているすべてのスタッフが日報を閲覧可能です。社内全体での情報共有を重視する際に利用します。
+グループ設定で[日報共有モード](/nipoplus/editor/groupmanage/#reportShare)が有効な場合、権限に関係なく、グループに所属しているすべてのスタッフが日報を閲覧可能です。社内全体での情報共有を重視する際に利用します。
 :::
 
 ## 日報の詳細画面の説明 {#detail}
@@ -57,21 +57,21 @@ sidebar:
 
 <dl class="basic">
 <dt><strong>作者ID</strong></dt>
-<dd>日報を作成したスタッフの内部的なIDです。通常は下の「作成者アカウント」と同じものになりますが、<a href="/docs/reference/staffshare/">共用アカウント</a>を使って書かれた日報の場合に限り、共用先のIDがセットされます。</dd>
+<dd>日報を作成したスタッフの内部的なIDです。通常は下の「作成者アカウント」と同じものになりますが、<a href="/nipoplus/reference/staffshare/">共用アカウント</a>を使って書かれた日報の場合に限り、共用先のIDがセットされます。</dd>
 <dt><strong>作成者アカウント</strong></dt>
 <dd>日報を作成したスタッフのアカウント名です。</dd>
 <dt><strong>文書ID</strong></dt>
 <dd>日報1つ1つに割り当てられたランダムなユニークIDです。システム内部での日報識別に使用されます。</dd>
 <dt><strong>作成日（サーバ基準）</strong></dt>
-<dd>日報が初めてサーバー上に保存された日時です。改変不可。<a href="/docs/gainen/reportdate/">詳しくは日付概念参照</a></dd>
+<dd>日報が初めてサーバー上に保存された日時です。改変不可。<a href="/nipoplus/gainen/reportdate/">詳しくは日付概念参照</a></dd>
 <dt><strong>更新日（サーバ基準）</strong></dt>
-<dd>日報が保存後に書き換えられた（修正された）日時です。<a href="/docs/gainen/reportdate/">詳しくは日付概念参照</a></dd>
+<dd>日報が保存後に書き換えられた（修正された）日時です。<a href="/nipoplus/gainen/reportdate/">詳しくは日付概念参照</a></dd>
 <dt><strong>日報上の日付</strong></dt>
-<dd>日報作成者が提出時に指定した日付です。<a href="/docs/gainen/reportdate/">詳しくは日付概念参照</a></dd>
+<dd>日報作成者が提出時に指定した日付です。<a href="/nipoplus/gainen/reportdate/">詳しくは日付概念参照</a></dd>
 <dt><strong>予定との紐付け</strong></dt>
-<dd><a href="/docs/other/schedule/">予定の報告</a>として書かれた日報の場合、ここに紐付けられた予定のIDが表示されます。セットされていない場合は「none」と表示されます。</dd>
+<dd><a href="/nipoplus/other/schedule/">予定の報告</a>として書かれた日報の場合、ここに紐付けられた予定のIDが表示されます。セットされていない場合は「none」と表示されます。</dd>
 <dt><strong>承認</strong></dt>
-<dd>その日報が<a href="/docs/staff/readreport/">承認</a>された日時を表示します。承認者が複数名いる場合、この項目は承認者の数だけ増えます。</dd>
+<dd>その日報が<a href="/nipoplus/staff/readreport/">承認</a>された日時を表示します。承認者が複数名いる場合、この項目は承認者の数だけ増えます。</dd>
 </dl>
 
 ---
@@ -79,7 +79,7 @@ sidebar:
 ## 日報にコメントを書く {#comment}
 
 :::note[この機能はGOLDPLAN限定です]
-[GOLDPLAN](/docs/price/invoice/)について
+[GOLDPLAN](/nipoplus/price/invoice/)について
 :::
 
 ![1つの日報に最大500コメントまで書き込み可能です](./img/write-comment_tablet.png)
@@ -94,9 +94,9 @@ sidebar:
 - コメントは新しいものが上位に表示されます。
 - 1つの日報に対してコメントは最大で500件まで書込みが可能です。
 - 自分の書いたコメントのみ削除することができます。
-- コメントを書き込むと日報のオーナー（作成者や提出先）に対して[通知が発行](/docs/reference/notify/)されます。
-- コメントの内容は[ログ](/docs/reference/log/)上にも記録されます。
-- コメントの活動はスタッフの[活動実績](/docs/editor/staffmanage/#activity)としてもカウントされます。
+- コメントを書き込むと日報のオーナー（作成者や提出先）に対して[通知が発行](/nipoplus/reference/notify/)されます。
+- コメントの内容は[ログ](/nipoplus/reference/log/)上にも記録されます。
+- コメントの活動はスタッフの[活動実績](/nipoplus/editor/staffmanage/#activity)としてもカウントされます。
 
 ---
 
@@ -116,7 +116,7 @@ sidebar:
 日報の生データや集計しやすい形式で出力したい場合に利用します。
 
 :::note[一括CSV出力]
-複数の日報をまとめてCSV出力するには[一括CSV出力](/docs/staff/csv/)をご覧ください。
+複数の日報をまとめてCSV出力するには[一括CSV出力](/nipoplus/staff/csv/)をご覧ください。
 :::
 
 出力する手順は次の通りです。
@@ -124,18 +124,18 @@ sidebar:
 1.  CSV出力したい日報を表示
 2.  メニューから「CSV出力」をクリック
 
-詳しくは[CSV出力](/docs/staff/csv/)を御覧ください。
+詳しくは[CSV出力](/nipoplus/staff/csv/)を御覧ください。
 
 ### 日報をPDF出力する📄 {#pdf_export}
 
 日報を印刷したり、外部に共有したりする際に、視覚的に分かりやすいPDF形式で出力します。
 
 :::note[まとめてPDF出力する場合]
-複数の日報をまとめて出力するには[一括PDF出力](/docs/staff/pdf/)をご覧ください。
+複数の日報をまとめて出力するには[一括PDF出力](/nipoplus/staff/pdf/)をご覧ください。
 :::
 
 :::note[PDF出力設定の詳細]
-日報のレイアウト、余白、透かしといった[PDF出力設定](/docs/staff/pdf/)についてはこちらをご覧ください。
+日報のレイアウト、余白、透かしといった[PDF出力設定](/nipoplus/staff/pdf/)についてはこちらをご覧ください。
 :::
 
 PDFに変換する手順は次のとおりです。

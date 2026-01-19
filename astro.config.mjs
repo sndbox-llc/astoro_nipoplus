@@ -14,6 +14,15 @@ export default defineConfig({
   integrations: [
     starlight({
       title: 'NipoPlus',
+      head: [
+        {
+          tag: 'meta',
+          attrs: {
+            name: 'robots',
+            content: 'noindex, nofollow',
+          },
+        },
+      ],
 
       components: {
         // ここでコンポーネントを上書き（オーバーライド）
@@ -37,7 +46,7 @@ export default defineConfig({
           },
           {
             label: 'NipoPlus ドキュメント',
-            link: 'docs/admin/quickstart',
+            link: 'nipoplus/admin/quickstart',
             icon: 'document',
 
             items: [
@@ -45,35 +54,35 @@ export default defineConfig({
                 label: '管理者のやるべきこと',
                 items: [
                   //
-                  { slug: 'docs/admin/quickstart' },
-                  { slug: 'docs/admin/about' },
+                  { slug: 'nipoplus/admin/quickstart' },
+                  { slug: 'nipoplus/admin/about' },
                 ],
               },
               {
                 label: '編集者ガイド',
                 items: [
                   //
-                  { slug: 'docs/editor/about' },
-                  { slug: 'docs/editor/groupmanage' },
-                  { slug: 'docs/editor/staffmanage' },
-                  { slug: 'docs/editor/destinationlock' },
-                  { slug: 'docs/editor/limitedTemplate' },
-                  { slug: 'docs/editor/template' },
+                  { slug: 'nipoplus/editor/about' },
+                  { slug: 'nipoplus/editor/groupmanage' },
+                  { slug: 'nipoplus/editor/staffmanage' },
+                  { slug: 'nipoplus/editor/destinationlock' },
+                  { slug: 'nipoplus/editor/limitedTemplate' },
+                  { slug: 'nipoplus/editor/template' },
 
-                  { slug: 'docs/editor/tagManagement' },
-                  { slug: 'docs/editor/wordBookManagement' },
-                  { slug: 'docs/editor/inventory' },
+                  { slug: 'nipoplus/editor/tagManagement' },
+                  { slug: 'nipoplus/editor/wordBookManagement' },
+                  { slug: 'nipoplus/editor/inventory' },
                 ],
               },
               {
                 label: '日常ガイド',
                 items: [
                   //
-                  { slug: 'docs/staff/writereport' },
-                  { slug: 'docs/staff/readreport' },
-                  { slug: 'docs/staff/csv' },
-                  { slug: 'docs/staff/pdf' },
-                  { slug: 'docs/staff/charts' },
+                  { slug: 'nipoplus/staff/writereport' },
+                  { slug: 'nipoplus/staff/readreport' },
+                  { slug: 'nipoplus/staff/csv' },
+                  { slug: 'nipoplus/staff/pdf' },
+                  { slug: 'nipoplus/staff/charts' },
                 ],
               },
               {
@@ -82,9 +91,9 @@ export default defineConfig({
 
                 items: [
                   //
-                  { slug: 'docs/other/customer' },
-                  { slug: 'docs/other/schedule' },
-                  { slug: 'docs/other/project' },
+                  { slug: 'nipoplus/other/customer' },
+                  { slug: 'nipoplus/other/schedule' },
+                  { slug: 'nipoplus/other/project' },
                 ],
               },
               {
@@ -93,45 +102,45 @@ export default defineConfig({
 
                 items: [
                   // Added label 'API' to match recent edits
-                  { slug: 'docs/reference/userRank' },
+                  { slug: 'nipoplus/reference/userRank' },
                   // 日報関係
-                  { slug: 'docs/reference/searchreport' },
-                  { slug: 'docs/reference/reportstate' },
-                  { slug: 'docs/reference/removereport' },
-                  { slug: 'docs/reference/redacted' },
-                  { slug: 'docs/reference/tuduri' },
-                  { slug: 'docs/reference/draft' },
-                  { slug: 'docs/reference/copymake' },
-                  { slug: 'docs/reference/relation' },
-                  { slug: 'docs/reference/inputmethod' },
+                  { slug: 'nipoplus/reference/searchreport' },
+                  { slug: 'nipoplus/reference/reportstate' },
+                  { slug: 'nipoplus/reference/removereport' },
+                  { slug: 'nipoplus/reference/redacted' },
+                  { slug: 'nipoplus/reference/tuduri' },
+                  { slug: 'nipoplus/reference/draft' },
+                  { slug: 'nipoplus/reference/copymake' },
+                  { slug: 'nipoplus/reference/relation' },
+                  { slug: 'nipoplus/reference/inputmethod' },
 
                   // 外部共有
-                  { slug: 'docs/reference/outsidewrite' },
-                  { slug: 'docs/reference/outsideread' },
+                  { slug: 'nipoplus/reference/outsidewrite' },
+                  { slug: 'nipoplus/reference/outsideread' },
                   // 集計
 
-                  { slug: 'docs/reference/csvsettings' },
-                  { slug: 'docs/reference/chart' },
-                  { slug: 'docs/reference/transition' },
-                  { slug: 'docs/reference/accumn' },
-                  { slug: 'docs/reference/progress' },
-                  { slug: 'docs/reference/cross' },
-                  { slug: 'docs/reference/calendar' },
+                  { slug: 'nipoplus/reference/csvsettings' },
+                  { slug: 'nipoplus/reference/chart' },
+                  { slug: 'nipoplus/reference/transition' },
+                  { slug: 'nipoplus/reference/accumn' },
+                  { slug: 'nipoplus/reference/progress' },
+                  { slug: 'nipoplus/reference/cross' },
+                  { slug: 'nipoplus/reference/calendar' },
 
-                  { slug: 'docs/reference/notify' },
+                  { slug: 'nipoplus/reference/notify' },
 
                   // 管理者編集者向け
-                  { slug: 'docs/reference/makestaff' },
-                  { slug: 'docs/reference/tokumei' },
+                  { slug: 'nipoplus/reference/makestaff' },
+                  { slug: 'nipoplus/reference/tokumei' },
 
                   // その他
-                  { slug: 'docs/reference/account' },
-                  { slug: 'docs/reference/timecard' },
-                  { slug: 'docs/reference/shift' },
-                  { slug: 'docs/reference/log' },
-                  { slug: 'docs/reference/staffshare' },
-                  { slug: 'docs/reference/api' },
-                  { slug: 'docs/reference/withdrawal' },
+                  { slug: 'nipoplus/reference/account' },
+                  { slug: 'nipoplus/reference/timecard' },
+                  { slug: 'nipoplus/reference/shift' },
+                  { slug: 'nipoplus/reference/log' },
+                  { slug: 'nipoplus/reference/staffshare' },
+                  { slug: 'nipoplus/reference/api' },
+                  { slug: 'nipoplus/reference/withdrawal' },
                 ],
               },
               {
@@ -139,9 +148,9 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   //
-                  { slug: 'docs/gainen/destination' },
-                  { slug: 'docs/gainen/reportdate' },
-                  { slug: 'docs/gainen/sosiki' },
+                  { slug: 'nipoplus/gainen/destination' },
+                  { slug: 'nipoplus/gainen/reportdate' },
+                  { slug: 'nipoplus/gainen/sosiki' },
                 ],
               },
               {
@@ -150,18 +159,18 @@ export default defineConfig({
 
                 items: [
                   //
-                  { slug: 'docs/template/make' },
-                  { slug: 'docs/template/text' },
-                  { slug: 'docs/template/selects' },
-                  { slug: 'docs/template/date_time' },
-                  { slug: 'docs/template/binarys' },
-                  { slug: 'docs/template/binarys' },
-                  { slug: 'docs/template/digital' },
-                  { slug: 'docs/template/mod' },
-                  { slug: 'docs/template/array' },
-                  { slug: 'docs/template/directory' },
-                  { slug: 'docs/template/manage' },
-                  { slug: 'docs/template/key' },
+                  { slug: 'nipoplus/template/make' },
+                  { slug: 'nipoplus/template/text' },
+                  { slug: 'nipoplus/template/selects' },
+                  { slug: 'nipoplus/template/date_time' },
+                  { slug: 'nipoplus/template/binarys' },
+                  { slug: 'nipoplus/template/binarys' },
+                  { slug: 'nipoplus/template/digital' },
+                  { slug: 'nipoplus/template/mod' },
+                  { slug: 'nipoplus/template/array' },
+                  { slug: 'nipoplus/template/directory' },
+                  { slug: 'nipoplus/template/manage' },
+                  { slug: 'nipoplus/template/key' },
                 ],
               },
               {
@@ -170,11 +179,11 @@ export default defineConfig({
 
                 items: [
                   //
-                  { slug: 'docs/price' },
-                  { slug: 'docs/price/subscription' },
-                  { slug: 'docs/price/invoice' },
-                  { slug: 'docs/price/free' },
-                  { slug: 'docs/price/receipt' },
+                  { slug: 'nipoplus/price' },
+                  { slug: 'nipoplus/price/subscription' },
+                  { slug: 'nipoplus/price/invoice' },
+                  { slug: 'nipoplus/price/free' },
+                  { slug: 'nipoplus/price/receipt' },
                 ],
               },
               {
@@ -182,16 +191,16 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   //
-                  { slug: 'docs/system/mobile-install' },
-                  { slug: 'docs/system/release-note' },
-                  { slug: 'docs/system/load-map' },
-                  { slug: 'docs/system/security' },
-                  { slug: 'docs/system/fix' },
-                  { slug: 'docs/system/faq' },
-                  { slug: 'docs/system/business-deal' },
-                  { slug: 'docs/system/agree' },
-                  { slug: 'docs/system/privacy-policy' },
-                  { slug: 'docs/system/credit' },
+                  { slug: 'nipoplus/system/mobile-install' },
+                  { slug: 'nipoplus/system/release-note' },
+                  { slug: 'nipoplus/system/load-map' },
+                  { slug: 'nipoplus/system/security' },
+                  { slug: 'nipoplus/system/fix' },
+                  { slug: 'nipoplus/system/faq' },
+                  { slug: 'nipoplus/system/business-deal' },
+                  { slug: 'nipoplus/system/agree' },
+                  { slug: 'nipoplus/system/privacy-policy' },
+                  { slug: 'nipoplus/system/credit' },
                 ],
               },
             ],

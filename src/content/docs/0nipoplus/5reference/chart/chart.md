@@ -1,5 +1,5 @@
 ---
-slug: docs/reference/chart
+slug: nipoplus/reference/chart
 title: 📈グラフの作成
 description: 📈グラフの作成
 sidebar:
@@ -7,10 +7,10 @@ sidebar:
 ---
 
 :::note[集計機能の有効化が必要です]
-左メニューに「集計」ボタンが表示されない場合は、<a href="/docs/editor/groupmanage/#optionalFunction">グループ設定</a>から集計機能を有効にしてください。
+左メニューに「集計」ボタンが表示されない場合は、<a href="/nipoplus/editor/groupmanage/#optionalFunction">グループ設定</a>から集計機能を有効にしてください。
 :::
 
-NipoPlusのグラフ機能は、「<a href="/docs/reference/transition/">推移表</a>」や「<a href="/docs/reference/accumn/">累積表</a>」で集計したデータを元に、<strong>視覚的に分かりやすいグラフを自動生成</strong>します。
+NipoPlusのグラフ機能は、「<a href="/nipoplus/reference/transition/">推移表</a>」や「<a href="/nipoplus/reference/accumn/">累積表</a>」で集計したデータを元に、<strong>視覚的に分かりやすいグラフを自動生成</strong>します。
 <strong>いちいちExcelを開いたり、複雑な操作を覚えたりする必要はありません。</strong>NipoPlus上で数クリックするだけで、リアルタイムの最新データが反映されたグラフを瞬時に作成・表示できます。
 
 NipoPlusでは「Charts.js」という高機能なライブラリを使用しているため、以下のような多様なグラフを作成可能です。
@@ -106,20 +106,20 @@ NipoPlusの集計ルールには大きく分けて2つの集計方法があり�
 <dd>
 単語の選ばれた回数を集計できます。以下のフォームが該当します。例えば、<strong>「異常」が何回報告されたか</strong>、<strong>どの作業工程が最も多く選択されたか</strong>などを把握できます。
 <ul>
-<li><a href="/docs/template/selects/#plain">選択入力（単一選択）フォーム</a></li>
-<li><a href="/docs/template/selects/#multiple">選択入力（複数選択）フォーム</a></li>
-<li><a href="/docs/template/selects/#layerd">２層式選択（非推奨）フォーム</a></li>
-<li><a href="/docs/template/digital/#rate">レート入力フォーム</a></li>
+<li><a href="/nipoplus/template/selects/#plain">選択入力（単一選択）フォーム</a></li>
+<li><a href="/nipoplus/template/selects/#multiple">選択入力（複数選択）フォーム</a></li>
+<li><a href="/nipoplus/template/selects/#layerd">２層式選択（非推奨）フォーム</a></li>
+<li><a href="/nipoplus/template/digital/#rate">レート入力フォーム</a></li>
 </ul>
 </dd>
 <dt><strong>合計の集計（SUM）</strong></dt>
 <dd>
 単純に数値を合算した集計ができます。以下のフォームが該当します。例えば、<strong>売上合計</strong>、<strong>総生産数</strong>、<strong>累計稼働時間</strong>などを把握できます。
 <ul>
-<li><a href="/docs/template/date_time/#range">日付と時刻（期間）入力フォーム</a> (単位は分：1時間半は90分として出力)</li>
-<li><a href="/docs/template/digital/#commonNumber">数値入力（汎用）フォーム</a></li>
-<li><a href="/docs/template/digital/#slider">スライダ入力フォーム</a></li>
-<li><a href="/docs/template/digital/#calc">算術フォーム</a></li>
+<li><a href="/nipoplus/template/date_time/#range">日付と時刻（期間）入力フォーム</a> (単位は分：1時間半は90分として出力)</li>
+<li><a href="/nipoplus/template/digital/#commonNumber">数値入力（汎用）フォーム</a></li>
+<li><a href="/nipoplus/template/digital/#slider">スライダ入力フォーム</a></li>
+<li><a href="/nipoplus/template/digital/#calc">算術フォーム</a></li>
 </ul>
 </dd>
 </dl>
@@ -128,7 +128,7 @@ NipoPlusの集計ルールには大きく分けて2つの集計方法があり�
 
 ### 選択式入力フォームを数値として集計・グラフ化する
 
-[選択式入力フォーム](/docs/template/selects/#plain)の単語は、通常は選ばれた回数を集計しグラフ化できますが、**単語に数値が含まれていれば、それを数値として集計しグラフ化する**ことも可能です。これは、文字列の中に含まれる数値データを抽出して分析したい場合に役立ちます。
+[選択式入力フォーム](/nipoplus/template/selects/#plain)の単語は、通常は選ばれた回数を集計しグラフ化できますが、**単語に数値が含まれていれば、それを数値として集計しグラフ化する**ことも可能です。これは、文字列の中に含まれる数値データを抽出して分析したい場合に役立ちます。
 
 選択肢入力フォームをグラフ化するには円グラフが適しています。
 

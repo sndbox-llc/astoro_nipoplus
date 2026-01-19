@@ -8,7 +8,7 @@ sidebar:
 ---
 
 :::note[後続のNipoPlusでも利用可能]
-[詳しくはこちら](/docs/admin/about/)
+[詳しくはこちら](/nipoplus/admin/about/)
 :::
 
 ## グループの役割 {#about}

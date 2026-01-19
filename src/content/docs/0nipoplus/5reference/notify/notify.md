@@ -1,5 +1,5 @@
 ---
-slug: docs/reference/notify
+slug: nipoplus/reference/notify
 title: 🔔アプリ内の通知と📩メール通知
 description: NipoPlusでは、日報の受信や承認・棄却時に通知が発行されます。通知はアプリ内のベルアイコンやメールで確認可能です。さらに、有料プランでは毎月最大10
 sidebar:
@@ -15,20 +15,20 @@ sidebar:
   <dt>自分宛ての日報が提出されたとき</dt>
   <dd>あなたが承認する必要がある日報が作成されたときに通知が発行されます。自分が自分宛てに日報を書いたときは通知されません</dd>
   <dt>
-    <a href="/docs/staff/readreport/#comment">コメントを書いたとき</a>
+    <a href="/nipoplus/staff/readreport/#comment">コメントを書いたとき</a>
   </dt>
   <dd>日報のオーナーと、その日報を既読したユーザアカウントに対して通知が発行されます（ただし自分自身に対しては通知されません）</dd>
   <dt>
-    <a href="/docs/reference/reportstate/#agree">日報を承認や棄却したとき</a>
+    <a href="/nipoplus/reference/reportstate/#agree">日報を承認や棄却したとき</a>
   </dt>
   <dd>日報のオーナーに対して通知が発行されます。承認リレーが行われているときで、自身が承認した日報がより上流で棄却されたときも承認者に対して通知が発行されます</dd>
   <dt>
-    <a href="/docs/reference/reportstate/#readed">日報を誰かが既読にした</a>
+    <a href="/nipoplus/reference/reportstate/#readed">日報を誰かが既読にした</a>
   </dt>
   <dd>日報のオーナーに対して通知が発行されます</dd>
   <dt>日報の引継が作成されたとき</dt>
   <dd>
-    <a href="/docs/reference/relation/">引継日報であなたが指名されたとき</a>通知が発生します
+    <a href="/nipoplus/reference/relation/">引継日報であなたが指名されたとき</a>通知が発生します
   </dd>
 </dl>
 
@@ -59,7 +59,7 @@ sidebar:
 ## 📩メール通知について {#email}
 
 メール通知機能は日報を受け取ったときやコメントが追加されたときなどのタイミングでメールでお知らせします。
-メール通知は[有料プラン](/docs/price/invoice/)限定の機能です。
+メール通知は[有料プラン](/nipoplus/price/invoice/)限定の機能です。
 組織内で毎月50通まで通知メールを受け取ることが可能です。[メール通知解除オプション（1度きりのお支払い）](#option)を購入いただくと毎月10,000通までメール通知が利用可能になります。
 
 ### メール通知を有効にする {#enable}
@@ -75,7 +75,7 @@ sidebar:
 
 毎月50通のメール通知を1度のお支払いで毎月10,000通にまで拡張することができます。
 
-1. [左メニューから組織設定をクリック](/docs/reference/userRank/#rootSettingBtn)
+1. [左メニューから組織設定をクリック](/nipoplus/reference/userRank/#rootSettingBtn)
 1. 「組織全般」までスクロール
 1. 「今月のメール送信」の列にある鉛筆アイコンをクリック
 

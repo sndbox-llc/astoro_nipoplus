@@ -1,5 +1,5 @@
 ---
-slug: docs/editor/limitedTemplate
+slug: nipoplus/editor/limitedTemplate
 title: 使用可能なテンプレートを制限
 description: 提出先の固定
 sidebar:
@@ -9,7 +9,7 @@ sidebar:
 スタッフごとに特定のテンプレートを使用できなくさせることが可能です。テンプレートが多い場合は制限することで操作性向上（混乱を防ぎ探す手間を削減）を期待できます。
 
 :::note[フォルダ分けも有効]
-制限ではなく[フォルダ分けによる管理](/docs/template/directory/)もありです
+制限ではなく[フォルダ分けによる管理](/nipoplus/template/directory/)もありです
 :::
 
 ---
@@ -49,9 +49,9 @@ sidebar:
 :::note[選択されたテンプレートだけが、そのスタッフの日報作成画面に表示されます]
 :::
 
-この設定により、該当スタッフの[日報作成時](/docs/staff/writereport/#select_template)には、ここで選ばれたテンプレートだけが一覧に表示されるようになります。
+この設定により、該当スタッフの[日報作成時](/nipoplus/staff/writereport/#select_template)には、ここで選ばれたテンプレートだけが一覧に表示されるようになります。
 
 ## 制限は日報作成時にのみ適用されます {#info}
 
 「利用可能なテンプレートの制限」機能は、**日報作成時**にスタッフが選択できるテンプレートを制御するためのものです。
-それ以外の操作、例えば[日報の集計](/docs/staff/charts/)や、制限されたテンプレートで既に作成された[過去の日報を閲覧する](/docs/staff/readreport/)ことについては、この制限は適用されません。
+それ以外の操作、例えば[日報の集計](/nipoplus/staff/charts/)や、制限されたテンプレートで既に作成された[過去の日報を閲覧する](/nipoplus/staff/readreport/)ことについては、この制限は適用されません。

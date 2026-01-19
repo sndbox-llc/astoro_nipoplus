@@ -1,5 +1,5 @@
 ---
-slug: docs/reference/calendar
+slug: nipoplus/reference/calendar
 title: カレンダーの使い方
 description: カレンダーの使い方
 sidebar:
@@ -7,15 +7,15 @@ sidebar:
 ---
 
 :::note[メニューに無いときはグループ設定から機能を有効にしてください]
-[グループ設定](/docs/editor/groupmanage/#optionalFunction)
+[グループ設定](/nipoplus/editor/groupmanage/#optionalFunction)
 :::
 
-[日報保存箱](/docs/reference/searchreport/#listbox)と[予定管理](/docs/other/schedule/)、２つの機能を一箇所で管理できます。
+[日報保存箱](/nipoplus/reference/searchreport/#listbox)と[予定管理](/nipoplus/other/schedule/)、２つの機能を一箇所で管理できます。
 カレンダを表示するには左メニューから「カレンダー」を選択します。
 
 ![カレンダーモードでは日報の提出日や枚数が月単位で俯瞰できます](./img/calendar_tablet.webp)
 
-カレンダは[日報保存箱](/docs/reference/searchreport/#listbox)にある日報を決まったルールで各セルに描画します。
+カレンダは[日報保存箱](/nipoplus/reference/searchreport/#listbox)にある日報を決まったルールで各セルに描画します。
 予定についても同様で、決まったルールで各セルに描画します。各セルにあるボタンをクリックすることで、該当の日報や予定をポップアップで表示します。
 
 ## カレンダーの表示対象切替 {#switch_dist}
@@ -34,20 +34,20 @@ sidebar:
 カレンダー画面右パネルにある表示切替からカレンダーの表示形式を変更できます。
 
 <dl class="basic">
-<dt><a href="/docs/reference/calendar/">月</a></dt>
+<dt><a href="/nipoplus/reference/calendar/">月</a></dt>
 <dd>１ヶ月単位で表示します。ページ送りも月単位で行われます。</dd>
-<dt><a href="/docs/reference/calendar/">日</a></dt>
+<dt><a href="/nipoplus/reference/calendar/">日</a></dt>
 <dd>このモードでは1日単位の表示で、縦軸に時刻、横軸にスタッフを表示します。各スタッフの空き時間や予定を確認する際に便利です。</dd>
-<dt><a href="/docs/reference/calendar/">週</a></dt>
+<dt><a href="/nipoplus/reference/calendar/">週</a></dt>
 <dd>縦軸に時刻、横軸に日を表示します。週と言いますが10日や15日など、範囲は自由に決められます。直近の全体の予定を俯瞰したいときに便利です</dd>
-<dt><a href="/docs/reference/calendar/">表</a></dt>
+<dt><a href="/nipoplus/reference/calendar/">表</a></dt>
 <dd>縦軸にスタッフ、横軸に日付の形をしたカレンダーです。横軸の日付の範囲は自由に変更できます。スタッフごとに提出状況を見たいときに便利</dd>
 </dl>
 
 ## 保存箱との違い {#diff}
 
 カレンダーは月や週などの期間を俯瞰するのに便利で、全体の状況を一目で確認できますが、詳細な絞り込みや検索機能は保存箱の方が優れています。
-[保存箱](/docs/reference/searchreport/#listbox)は高度な検索や並べ替え機能が備わっています。
+[保存箱](/nipoplus/reference/searchreport/#listbox)は高度な検索や並べ替え機能が備わっています。
 用途に応じて適切な方法をご利用ください。
 
 ---
@@ -100,7 +100,7 @@ sidebar:
 
 ![予定表としても使えるのでカレンダから予定を追加できます](./img/add-event20_tablet.webp)
 
-[予定登録](/docs/other/schedule/)も参照してください。
+[予定登録](/nipoplus/other/schedule/)も参照してください。
 
 ---
 
@@ -144,7 +144,7 @@ sidebar:
 
 ![予定をドラッグ操作で簡単に追加できます。スマホの場合は「ホールド」して「スワイプ」します。](./img/drag-event-add_tablet.webp)
 
-[予定登録](/docs/other/schedule/)も参照してください。
+[予定登録](/nipoplus/other/schedule/)も参照してください。
 
 ---
 
@@ -207,7 +207,7 @@ sidebar:
 
 ![セル内の＋ボタンをクリックして予定を追加できます](./img/add-eventtable_tablet.webp)
 
-[予定登録](/docs/other/schedule/)も参照してください。
+[予定登録](/nipoplus/other/schedule/)も参照してください。
 
 ---
 
@@ -241,7 +241,7 @@ sidebar:
 - 予定に複数の担当者がセットされている場合、同じ予定がスタッフそれぞれの列に表示されます。（重複と勘違いしないよう注意）
 - 同時刻に予定が重なるとズレて表示されます。ズレは重なるごとに右へ徐々にシフトします
 
-また、予定の色については予定の色と予定の状態により変化します。予定の色については「[予定の状態と色](/docs/other/schedule/)」を参照してください。
+また、予定の色については予定の色と予定の状態により変化します。予定の色については「[予定の状態と色](/nipoplus/other/schedule/)」を参照してください。
 
 ## 日カレンダーの各種設定 {#calendar_settings}
 
@@ -253,7 +253,7 @@ sidebar:
 <dt>表示曜日</dt>
 <dd>日〜土までのチェックがあり、ONの列を表示します。土日が休みであれば土日をOFFにすることで月カレンダーの見た目をスッキリできます</dd>
 <dt>日報を表示</dt>
-<dd>ONにするとカレンダー上に日報が描画されます。「新規」や「<a href="/docs/reference/reportstate/#agree">承認</a>」など条件を細かく絞ることもできます</dd>
+<dd>ONにするとカレンダー上に日報が描画されます。「新規」や「<a href="/nipoplus/reference/reportstate/#agree">承認</a>」など条件を細かく絞ることもできます</dd>
 <dt>予定を表示</dt>
 <dd>ONにするとカレンダー上に予定が描画されます。「新規」や「完了」など条件を細かく絞ることもできます</dd>
 <dt>予定担当者絞込</dt>
@@ -279,4 +279,4 @@ sidebar:
 
 ![時間軸上をドラッグして予定を追加できます。スマホの場合は「ホールド」して「スワイプ」します。](./img/add-eventday_tablet.webp)
 
-[予定登録](/docs/other/schedule/)も参照してください。
+[予定登録](/nipoplus/other/schedule/)も参照してください。

@@ -8,7 +8,7 @@ sidebar:
 ---
 
 :::note[こちらはNipo(旧)の料金ページです]
-[NipoPlusの料金](/docs/price/)と混同されないように注意してください
+[NipoPlusの料金](/nipoplus/price/)と混同されないように注意してください
 :::
 
 :::caution[2024年8月13日から料金と決済手順が変更になりました]
@@ -18,7 +18,7 @@ sidebar:
 ## 無料プランは廃止されます {#free_plan_end}
 
 重要なお知らせです。Nipo【旧版】の無料プランは2024年12月末をもって廃止となります。
-この日付以降、Nipo【旧版】は無料で利用することはできません。(旧バージョンのみ廃止！[NipoPlusの無料プランは継続](/docs/price/free/)します)
+この日付以降、Nipo【旧版】は無料で利用することはできません。(旧バージョンのみ廃止！[NipoPlusの無料プランは継続](/nipoplus/price/free/)します)
 
 詳しくは[無料プラン廃止](/legacy/about/warning/)を御覧ください
 

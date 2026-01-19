@@ -1,5 +1,5 @@
 ---
-slug: docs/price/free
+slug: nipoplus/price/free
 title: 本当に0円！無料で使える日報アプリ
 description: 少人数であれば無料でも使い続けることができる日報アプリです。個人用日報など、コストを掛けずに日報アプリを使いたい方にも最適
 sidebar:
@@ -20,7 +20,7 @@ NipoPlusは初めてご登録いただいた段階では「トライアル期間
 <img src="./img/free_flow.svg" />
 </div>
 
-[トライアル期間](/docs/price/#trial)が終了すると自動で無料プランへ切り替わります。  
+[トライアル期間](/nipoplus/price/#trial)が終了すると自動で無料プランへ切り替わります。  
 無料でご利用中であっても、大切なお客様です。
 
 :::note[営業電話やDM、有料プランへの勧誘などは一切おこないません]
@@ -29,8 +29,8 @@ NipoPlusは初めてご登録いただいた段階では「トライアル期間
 ## 無料の日報アプリでもちゃんと使えます！ {#free_app}
 
 日報をアプリで行うという側面から言えば、基本的な機能は全て無料プランでもご利用いただけます。
-例えば日常業務で最も使用するであろう[日報の作成](/docs/staff/writereport/)は無料プランでもご利用いただけます。  
-その日報に対して[閲覧や承認](/docs/reference/reportstate/#agree)するといった基本機能ももちろん制限無く行えます。  
+例えば日常業務で最も使用するであろう[日報の作成](/nipoplus/staff/writereport/)は無料プランでもご利用いただけます。  
+その日報に対して[閲覧や承認](/nipoplus/reference/reportstate/#agree)するといった基本機能ももちろん制限無く行えます。  
 他にも複数端末からのログインや専用アプリの利用、PDF出力、提出状況表の閲覧など、基本的にほとんどの機能は無料プランでもご利用可能です。
 では、無料プランと有料プランの違は何でしょうか？  
 次の章で詳しく解説します。
@@ -52,7 +52,7 @@ NipoPlusは初めてご登録いただいた段階では「トライアル期間
 ### 無料プランで掛けられている制限 {#upperlimit}
 
 <dl class="basic">
-<dt><a href="/docs/staff/csv/">CSVの一括出力</a></dt>
+<dt><a href="/nipoplus/staff/csv/">CSVの一括出力</a></dt>
 <dd>無料プランでは最大5件まで</dd>
 <dt>タグの作成上限</dt>
 <dd>無料プランでは最大3種類まで、有料プランは200種類まで作成・使用できます</dd>
@@ -62,9 +62,9 @@ NipoPlusは初めてご登録いただいた段階では「トライアル期間
 <dd>無料プランでは最大5個まで、有料プランは99,999個まで作成・使用できます。</dd>
 <dt>顧客の登録</dt>
 <dd>無料プランでは50件まで、有料プランは50,000件まで作成・使用できます</dd>
-<dt><a href="/docs/staff/pdf/">PDFの一括作成</a></dt>
+<dt><a href="/nipoplus/staff/pdf/">PDFの一括作成</a></dt>
 <dd>無料プランでは最大5件まで、有料プランは80件まで同時に出力できます。無料プランはNipoPlusの透かしが自動で挿入されます</dd>
-<dt><a href="/docs/reference/inputmethod/#picture">日報への画像添付</a></dt>
+<dt><a href="/nipoplus/reference/inputmethod/#picture">日報への画像添付</a></dt>
 <dd>画質が有料に比べて低画質化されて保存されます</dd>
 </dl>
 
@@ -77,10 +77,10 @@ NipoPlusの無料プランでは、基本的な機能はご提供しますが、
 特に重要な点として、**組織のスタッフアカウントが5名以上になると、日報の提出ができなくなります**のでご注意ください。
 
 - 検索機能全般
-- <a href="/docs/staff/charts/">集計・グラフ作成</a>
-- <a href="/docs/reference/calendar/">カレンダー機能</a>
-- <a href="/docs/staff/readreport/#comment">日報のコメント機能</a>
-- <a href="/docs/reference/notify/#email">メール通知</a>
+- <a href="/nipoplus/staff/charts/">集計・グラフ作成</a>
+- <a href="/nipoplus/reference/calendar/">カレンダー機能</a>
+- <a href="/nipoplus/staff/readreport/#comment">日報のコメント機能</a>
+- <a href="/nipoplus/reference/notify/#email">メール通知</a>
 - 他グループからのテンプレートインポート
 - 日報一括削除機能
 
@@ -94,4 +94,4 @@ NipoPlusの大きなメリットは、**無料プランに切り替わっても�
 
 - **スポット利用**: 新人研修期間や繁忙期など、特定の期間だけ有料プランを利用し、それ以外の期間は無料プランでコストを抑えることができます。
 - **データ保持**: 有料プランから無料プランへ切り替えても、大切な日報データはそのまま保持されます。
-- **安心の請求書払い**: 特に[請求書払い](/docs/price/invoice/)であれば、自動更新の心配がないため、「うっかり課金」のリスクなく、必要な期間だけ安心してご利用いただけます。
+- **安心の請求書払い**: 特に[請求書払い](/nipoplus/price/invoice/)であれば、自動更新の心配がないため、「うっかり課金」のリスクなく、必要な期間だけ安心してご利用いただけます。

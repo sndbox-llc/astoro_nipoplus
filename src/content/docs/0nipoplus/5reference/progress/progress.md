@@ -1,5 +1,5 @@
 ---
-slug: docs/reference/progress
+slug: nipoplus/reference/progress
 title: 📈目標と実績の管理
 description: 📈目標と実績の管理
 sidebar:
@@ -7,7 +7,7 @@ sidebar:
 ---
 
 :::note[集計機能の有効化が必要です]
-左メニューに「集計」ボタンが表示されない場合は、<a href="/docs/editor/groupmanage/#optionalFunction">グループ設定</a>から集計機能を有効にしてください。
+左メニューに「集計」ボタンが表示されない場合は、<a href="/nipoplus/editor/groupmanage/#optionalFunction">グループ設定</a>から集計機能を有効にしてください。
 :::
 
 この「目標と実績の管理」機能は、「**今月これだけの製品を出荷しないといけない。今、これだけの在庫があるから、残り何個作る必要がある**」といった、**製造業における生産計画や日々の進捗管理の課題**を解決するために開発されました。
@@ -19,11 +19,11 @@ sidebar:
 
 目標・実績管理には次の数値入力フォームが利用できます。
 
-- <a href="/docs/template/digital/#slider"><strong>スライダ入力フォーム</strong></a>
-- <a href="/docs/template/digital/#commonNumber"><strong>数値入力（汎用）フォーム</strong></a>
-- <a href="/docs/template/digital/#calc"><strong>算術フォーム</strong></a>
+- <a href="/nipoplus/template/digital/#slider"><strong>スライダ入力フォーム</strong></a>
+- <a href="/nipoplus/template/digital/#commonNumber"><strong>数値入力（汎用）フォーム</strong></a>
+- <a href="/nipoplus/template/digital/#calc"><strong>算術フォーム</strong></a>
 
-上記いずれかのフォームが含まれた[テンプレートを作成](/docs/template/make/)し、目標として設定したい数値を日報で記録してください。
+上記いずれかのフォームが含まれた[テンプレートを作成](/nipoplus/template/make/)し、目標として設定したい数値を日報で記録してください。
 
 ### 予定・実績表を作成する手順 {#make}
 

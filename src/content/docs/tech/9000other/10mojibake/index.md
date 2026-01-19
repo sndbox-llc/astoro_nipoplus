@@ -6,7 +6,7 @@ sidebar:
   label: Zipの文字化け問題と解決策
 ---
 
-NipoPlusの[一括CSVダウンロード](/docs/staff/csv/)を使ってレポートのデータをZip形式でダウンロードすると、特定の環境では文字化けを起こすことがあります。
+NipoPlusの[一括CSVダウンロード](/nipoplus/staff/csv/)を使ってレポートのデータをZip形式でダウンロードすると、特定の環境では文字化けを起こすことがあります。
 
 ![ZIPファイルをダブルクリックで開くと文字化けしてしまう](./img/zip-open.png)
 

@@ -1,5 +1,5 @@
 ---
-slug: docs/editor/groupmanage
+slug: nipoplus/editor/groupmanage
 title: ⚙️グループの基本設定
 description: ⚙️グループの基本設定
 sidebar:
@@ -33,19 +33,19 @@ NipoPlusの各グループは、独立した小さなチームのように、そ
 <dl class="basic">
 <dt>グループ全般</dt>
 <dd>グループの名前やテーマカラーなど、基本的な設定を行います</dd>
-<dt><a href="/docs/editor/staffmanage/">スタッフ管理</a></dt>
+<dt><a href="/nipoplus/editor/staffmanage/">スタッフ管理</a></dt>
 <dd>このグループに所属しているスタッフに対する各種設定を行います</dd>
-<dt><a href="/docs/editor/template/">テンプレート管理</a></dt>
+<dt><a href="/nipoplus/editor/template/">テンプレート管理</a></dt>
 <dd>このグループで使用する日報やチェックシートのテンプレートの管理を行います</dd>
-<dt><a href="/docs/editor/tagManagement/">タグ管理</a></dt>
+<dt><a href="/nipoplus/editor/tagManagement/">タグ管理</a></dt>
 <dd>このグループで使用するタグ（分類ラベル）の管理を行います。</dd>
-<dt><a href="/docs/editor/inventory/">商品管理</a></dt>
-<dd>商品などの在庫状況を簡易的に管理します。<a href="/docs/template/mod/">商品入力フォーム</a>と組み合わせて使用します。</dd>
-<dt><a href="/docs/editor/wordBookManagement/">語録管理</a></dt>
-<dd><a href="/docs/template/selects/">選択式入力フォーム</a>で使える「語録」（定型文や選択肢リスト）を管理します。</dd>
-<dt><a href="/docs/other/customer/">顧客管理</a></dt>
+<dt><a href="/nipoplus/editor/inventory/">商品管理</a></dt>
+<dd>商品などの在庫状況を簡易的に管理します。<a href="/nipoplus/template/mod/">商品入力フォーム</a>と組み合わせて使用します。</dd>
+<dt><a href="/nipoplus/editor/wordBookManagement/">語録管理</a></dt>
+<dd><a href="/nipoplus/template/selects/">選択式入力フォーム</a>で使える「語録」（定型文や選択肢リスト）を管理します。</dd>
+<dt><a href="/nipoplus/other/customer/">顧客管理</a></dt>
 <dd>顧客のテンプレートを設定します</dd>
-<dt><a href="/docs/reference/removereport/">一括削除</a></dt>
+<dt><a href="/nipoplus/reference/removereport/">一括削除</a></dt>
 <dd>このグループ内の日報をまとめて削除する機能です。</dd>
 </dl>
 
@@ -66,7 +66,7 @@ NipoPlusの各グループは、独立した小さなチームのように、そ
 
 <dl class="basic">
 <dt>通常モード</dt>
-<dd>日報の<a href="/docs/gainen/destination/">提出先や共有先</a>を、日報作成時に細かく指定できます</dd>
+<dd>日報の<a href="/nipoplus/gainen/destination/">提出先や共有先</a>を、日報作成時に細かく指定できます</dd>
 <dt>共有モード</dt>
 <dd>日報の提出先は指定できますが、共有先は自動的にグループ内の全員に設定されます。</dd>
 </dl>
@@ -74,7 +74,7 @@ NipoPlusの各グループは、独立した小さなチームのように、そ
 全員が全員の日報を読みたい場合は「共有モード」がおすすめです。
 
 :::caution[権限が低すぎると日報は読めません]
-「共有モード」でも[書き込みのみ権限・ゲスト権限](/docs/reference/userRank/#others)は他人の日報を読めません
+「共有モード」でも[書き込みのみ権限・ゲスト権限](/nipoplus/reference/userRank/#others)は他人の日報を読めません
 :::
 
 ## お知らせ（バナー）を設定する {#banner}
@@ -94,23 +94,23 @@ NipoPlusの各グループは、独立した小さなチームのように、そ
 左メニューに追加される以外にも、軽微な変化が起こります。
 
 <dl class="basic">
-<dt><a href="/docs/other/project/">案件</a></dt>
+<dt><a href="/nipoplus/other/project/">案件</a></dt>
 <dd>日報作成時に対象となる案件を入力する欄が追加されます。集計時に「案件集計」機能が利用可能になります。</dd>
-<dt><a href="/docs/other/schedule/">予定</a></dt>
+<dt><a href="/nipoplus/other/schedule/">予定</a></dt>
 <dd>カレンダーの表示設定に「予定」が追加されます。</dd>
-<dt><a href="/docs/reference/timecard/">タイムカード</a></dt>
+<dt><a href="/nipoplus/reference/timecard/">タイムカード</a></dt>
 <dd>日報作成画面にタイムカード打刻ボタンが追加されます。</dd>
-<dt><a href="/docs/reference/calendar/">カレンダー</a></dt>
+<dt><a href="/nipoplus/reference/calendar/">カレンダー</a></dt>
 <dd> メニュー追加以外に変化は有りません</dd>
-<dt><a href="/docs/staff/charts/">集計/CSV出力</a></dt>
+<dt><a href="/nipoplus/staff/charts/">集計/CSV出力</a></dt>
 <dd> メニュー追加以外に変化は有りません</dd>
-<dt><a href="/docs/reference/shift/">シフト管理</a></dt>
+<dt><a href="/nipoplus/reference/shift/">シフト管理</a></dt>
 <dd> 提出簿において未提出者にメールを送る機能が有効化されます</dd>
-<dt><a href="/docs/reference/log/">ログ</a></dt>
+<dt><a href="/nipoplus/reference/log/">ログ</a></dt>
 <dd> 左メニューにログが追加されます</dd>
-<dt><a href="/docs/reference/relation/">引継ぎ</a></dt>
+<dt><a href="/nipoplus/reference/relation/">引継ぎ</a></dt>
 <dd> 日報作成時に「引継先」を指定する欄が追加されます</dd>
-<dt><a href="/docs/other/customer/">顧客管理</a></dt>
+<dt><a href="/nipoplus/other/customer/">顧客管理</a></dt>
 <dd> 編集者ページに「顧客テンプレート」の欄が追加されます</dd>
 </dl>
 

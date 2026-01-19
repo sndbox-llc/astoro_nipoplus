@@ -1,5 +1,5 @@
 ---
-slug: docs/other/project
+slug: nipoplus/other/project
 title: 案件管理
 description: NipoPlusの案件管理機能について、建築業を例にして案件ごとの日報管理や集計方法を解説。案件の登録手順、日報との紐づけ、案件の進捗確認、比較分析方法を学び、効果的に案件を管理するためのガイドです。案件ごとの集計や状態管理のポイントも紹介します。
 sidebar:
@@ -7,7 +7,7 @@ sidebar:
 ---
 
 :::note[メニューに無いときはグループ設定から機能を有効にしてください]
-[グループ設定](/docs/editor/groupmanage/#optionalFunction)はこちら
+[グループ設定](/nipoplus/editor/groupmanage/#optionalFunction)はこちら
 :::
 
 イメージしやすいようにここでは建築業をベースに解説します。
@@ -74,7 +74,7 @@ sidebar:
 <dd>案件名や状態などを書き換えた場合その日付が記録されます</dd>
 <dt>状態</dt>
 <dd>「仕掛」「完了」の２種類があります。「完了」の案件は日報作成時に検索から除外されます</dd>
-<dt><a href="/docs/editor/tagManagement/">タグ</a></dt>
+<dt><a href="/nipoplus/editor/tagManagement/">タグ</a></dt>
 <dd>案件にタグをセットできます。詳しくはタグ管理を御覧ください</dd>
 <dt>メモ</dt>
 <dd>案件のメモです</dd>
@@ -105,7 +105,7 @@ NipoPlusの集計機能では案件毎の集計もサポートしていますが
 案件同士で比較集計したい場合、**すべての案件で同じテンプレートを使う**必要があります。
 
 また集計機能が無効になっているとメニューに表示されないため、あらかじめ集計機能をONに切り替えておきます。
-※集計機能は[有料プラン限定](/docs/price/invoice/)です
+※集計機能は[有料プラン限定](/nipoplus/price/invoice/)です
 
 1. 左メニューから集計・CSVを出力をクリック
 2. 集計基準に「案件」を選ぶ

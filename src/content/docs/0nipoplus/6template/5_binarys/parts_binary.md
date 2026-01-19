@@ -1,5 +1,5 @@
 ---
-slug: docs/template/binarys
+slug: nipoplus/template/binarys
 title: 🧩署名・写真・ファイル入力フォーム - 現場の状況や証拠を記録
 description: NipoPlusの署名・写真・ファイル入力フォームは、日報、点検記録、作業報告書などに、直筆サイン、現場写真、関連資料などを直接添付できるテンプレートパーツです。スマートフォンやタブレットからの簡単操作で、視覚的な情報や、証拠、補足資料を効率的に記録・管理し、業務の正確性と透明性を高めます。
 sidebar:
@@ -26,7 +26,7 @@ NipoPlusで扱えるバイナリファイルは以下の3種類です。これ�
 | <strong>ファイル</strong> | <strong>✗</strong> | <strong>✗</strong> | <strong>✗</strong>  | <strong>✗</strong> |
 
 :::caution[PDF出力時の注意点]
-写真入力フォームで添付した写真が複数枚ある場合、[PDF出力](/docs/staff/pdf/)時には先頭の1枚目のみが出力されます。全ての写真をPDFに出力したい場合は、<strong>写真入力フォームを必要な数だけ配置</strong>してご利用ください。
+写真入力フォームで添付した写真が複数枚ある場合、[PDF出力](/nipoplus/staff/pdf/)時には先頭の1枚目のみが出力されます。全ての写真をPDFに出力したい場合は、<strong>写真入力フォームを必要な数だけ配置</strong>してご利用ください。
 :::
 
 ## ファイル系の入力フォームをテンプレートに追加する {#addForm}
@@ -39,7 +39,7 @@ NipoPlusで扱えるバイナリファイルは以下の3種類です。これ�
 
 NipoPlusの署名・イラストフォームは、スマートフォンやタブレットなどのタッチパネル対応機器で、**指やスタイラスペンを使って直筆サインや簡単なイラストを直接入力できる**フォームです。
 
-[実際の入力イメージはこちら](/docs/reference/inputmethod/#sign)
+[実際の入力イメージはこちら](/nipoplus/reference/inputmethod/#sign)
 
 ![iPad miniとApple Pencilを使って手書きの署名をタブレットに書き込んでいる様子](./img/use-stylus-pen.webp)
 
@@ -60,7 +60,7 @@ NipoPlusの署名・イラストフォームは、スマートフォンやタブ
 </dd>
 </dl>
 
-補足：[共通設定事項](/docs/editor/template/#common_setting)もご確認ください。
+補足：[共通設定事項](/nipoplus/editor/template/#common_setting)もご確認ください。
 
 </details>
 
@@ -82,7 +82,7 @@ NipoPlusの署名・イラストフォームは、スマートフォンやタブ
 
 スマートフォンやタブレットで撮影した**現場の写真を、日報に直接添付できる**フォームです。**設備点検時の異常箇所の写真、作業完了の証拠写真、製造工程の記録、資材の到着確認**など、視覚的な情報が重要となる場面で特に役立ちます。
 
-[<strong>実際の入力イメージはこちら</strong>](/docs/reference/inputmethod/#picture)
+[<strong>実際の入力イメージはこちら</strong>](/nipoplus/reference/inputmethod/#picture)
 
 ![スマートフォンならカメラでパシャッと撮るだけ。現場の状況をその場で手軽に記録・添付できます](./img/posted1_tablet.png)
 
@@ -90,7 +90,7 @@ NipoPlusの署名・イラストフォームは、スマートフォンやタブ
 後述する[ファイル入力フォーム](#file)でも写真を添付できますが、写真入力フォームは日報表示時に写真が直接表示されるため、視認性と利便性に優れています。
 
 :::caution[画質低下に注意]
-写真アップロード時に容量削減のため解像度を自動で落とします（[有料プラン](/docs/price/invoice/)は中画質、[無料プラン](/docs/price/#free)は低画質）。<strong>鮮明な画像が必須の用途では、オリジナルファイルを別途ファイル入力フォームで添付することや、画質設定の確認を推奨します。</strong>
+写真アップロード時に容量削減のため解像度を自動で落とします（[有料プラン](/nipoplus/price/invoice/)は中画質、[無料プラン](/nipoplus/price/#free)は低画質）。<strong>鮮明な画像が必須の用途では、オリジナルファイルを別途ファイル入力フォームで添付することや、画質設定の確認を推奨します。</strong>
 :::
 
 <details>
@@ -100,7 +100,7 @@ NipoPlusの署名・イラストフォームは、スマートフォンやタブ
 <dd>ONにすると、ファイルが添付されていない場合日報の提出ができなくなります。<strong>現場写真が必須となる点検報告</strong>などに設定します。</dd>
 </dl>
 
-補足：[共通設定事項](/docs/editor/template/#common_setting)もご確認ください。
+補足：[共通設定事項](/nipoplus/editor/template/#common_setting)もご確認ください。
 
 </details>
 
@@ -134,7 +134,7 @@ PDF、Excel、Word、Zipファイルなど、**あらゆる種類のファイル
 写真データを添付したい場合は[写真入力フォーム](#picture)をご利用ください。日報表示時やPDF出力時（写真フォームはPDF出力対応）に違いが出ます。
 :::
 
-[実際の入力イメージはこちら](/docs/reference/inputmethod/#file)
+[実際の入力イメージはこちら](/nipoplus/reference/inputmethod/#file)
 
 ![添付されたファイルはクリックしてローカルにダウンロードして使用できます。各種資料の共有や保管に](./img/file-post_tablet.png)
 
@@ -142,7 +142,7 @@ PDF、Excel、Word、Zipファイルなど、**あらゆる種類のファイル
 ファイルの追加はファイル入力フォームをクリックまたはフォーム上にドロップします。
 
 ファイル入力フォームの初期設定項目は特に有りません。
-補足：[共通設定事項](/docs/editor/template/#common_setting)もご確認ください。
+補足：[共通設定事項](/nipoplus/editor/template/#common_setting)もご確認ください。
 
 日報を受け取った際は、その日報に添付されたファイルが一覧で表示されます。クリックで添付されたファイルをダウンロード可能です。
 仮に添付されたファイルが画像データであっても、日報表示画面で直接プレビューされません。[写真入力フォーム](#picture)との大きな違いの一つです。
@@ -160,7 +160,7 @@ PDF、Excel、Word、Zipファイルなど、**あらゆる種類のファイル
 ## 写真や署名ファイルのダウンロードについて {#download}
 
 日報をCSV出力する際に、写真や署名、ファイルのデータをセットでダウンロードすることができます。
-ダウンロードするには[CSV出力のオプション設定](/docs/reference/csvsettings/)から「**写真・ファイル等を出力する**」をONにします。
+ダウンロードするには[CSV出力のオプション設定](/nipoplus/reference/csvsettings/)から「**写真・ファイル等を出力する**」をONにします。
 
 ![デフォルトではファイルダウンロードがOFFなので、CSV出力オプションから手動でONにする必要があります。日報に添付された証拠写真や関連資料を一括でダウンロードしましょう](./img/file-download_tablet.png)
 

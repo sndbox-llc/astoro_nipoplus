@@ -1,5 +1,5 @@
 ---
-slug: docs/reference/api
+slug: nipoplus/reference/api
 title: APIの使い方
 description: APIキーを使用すると、外部システムやCurlなどのコマンドラインツールを通じて、日報データを直接取得できます。このガイドでは、APIキーの取得方法や無効化の手順について詳しく解説します。
 sidebar:
@@ -17,9 +17,9 @@ APIキーで日報を読むことができるのでAPIキーは厳重に管理�
 
 ### APIキーを有効にする {#enable}
 
-APIの有効無効設定は[管理者権限](/docs/reference/userRank/)が必要です。
+APIの有効無効設定は[管理者権限](/nipoplus/reference/userRank/)が必要です。
 
-1. [左メニューから組織設定をクリック](/docs/reference/userRank/#rootSettingBtn)
+1. [左メニューから組織設定をクリック](/nipoplus/reference/userRank/#rootSettingBtn)
 2. APIを有効にするスタッフを選択
 3. APIの項目をクリックし、ボタンを緑色にする
 
@@ -121,7 +121,7 @@ curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/【エンドポ
 取得したAPIキーをCurlに含めてください。長いので必ずコピーペーストして使用してください。
 APIキーの取得が済んでいないかたは先にAPIキーの取得を行ってください。
 
-[APIキーの取得](/docs/reference/api/)
+[APIキーの取得](/nipoplus/reference/api/)
 
 本ガイドではこれ以降も実際のAPIキーは使用せず解説します。
 
@@ -172,7 +172,7 @@ EOS
 <dt>from・to</dt>
 <dd>検索期間を2022年8月1日〜2022年9月30日に指定しています　</dd>
 <dt>tags</dt>
-<dd>タグによるフィルタを使う場合に指定します。タグ名ではなくタグのIDで指定します。タグのIDは<a href="/docs/editor/tagManagement/">タグ管理</a>から確認できます</dd>
+<dd>タグによるフィルタを使う場合に指定します。タグ名ではなくタグのIDで指定します。タグのIDは<a href="/nipoplus/editor/tagManagement/">タグ管理</a>から確認できます</dd>
 <dt>states</dt>
 <dd>日報の状態によるフィルタを使う場合に指定します。この例では新規、進行、棄却の日報のみを取得します（承認や修正の日報は除外）</dd>
 <dt>templates</dt>
@@ -303,7 +303,7 @@ EOS
 
 #### 組織全体のエンドポイント {#org}
 
-組織全体に関する情報のためアクセスには[管理者権限](/docs/reference/userRank/)が必要です。
+組織全体に関する情報のためアクセスには[管理者権限](/nipoplus/reference/userRank/)が必要です。
 
 <dl class="basic">
   <dt>/staffs/admin</dt>
@@ -330,7 +330,7 @@ WebAPIにリクエストを投げたとき、戻り値に{ error: true }がか�
 
 <dl class="basic">
   <dt>トークンの更新に失敗</dt>
-  <dd>Bearerトークンが失効しています.<a href="/docs/reference/api/">APIキーの管理</a>から再度取得してください</dd>
+  <dd>Bearerトークンが失効しています.<a href="/nipoplus/reference/api/">APIキーの管理</a>から再度取得してください</dd>
   <dt>グループIDが不正です</dt>
   <dd>パラメータ groupIdに誤りがあります。groupIdを見直してください</dd>
   <dt>このグループに対する権限がありません</dt>
@@ -358,25 +358,25 @@ JSON形式は { key: value }の形で表現されたデータ構造です。
 
 ### 日報のJSON構造 {#report}
 
-| キー       | 型               | 説明                                                                                                                                                             |
-| ---------- | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| id         | String           | 20文字で構成されるランダムな文字列です。ユニークです(厳密には異なるが考慮の必要はない)                                                                           |
-| no         | NumberまたはNull | 日報に採番された番号です。連番は日報作成後に非同期で振られるためタイミングによってはNull                                                                         |
-| body       | Object           | 日報文書本体                                                                                                                                                     |
-| createTs   | Number           | 13桁の数値（ミリ秒含むUnixタイムスタンプ）。日報がサーバに初回保存された時刻                                                                                     |
-| updateTs   | Number           | 13桁の数値（ミリ秒含むUnixタイムスタンプ）。日報が最後に更新された時刻                                                                                           |
-| userTs     | Number           | 13桁の数値（ミリ秒含むUnixタイムスタンプ）。日報作成者が指定した表示上の日時                                                                                     |
-| distId     | String           | 今現在その日報を承認・棄却出来る権限のスタッフID                                                                                                                 |
-| dists      | String配列       | 日報の提出先スタッフIDの配列です。配列の序列順に承認を行います。承認や棄却ができるのは上記のdistIdに一致したスタッフのみ                                         |
-| observer   | String配列       | その日報を読むことができるスタッフのID郡です。承認や棄却の権限はありません。                                                                                     |
-| readed     | String配列       | その日報を読んだフラグを立てたスタッフIDの配列です。承認や棄却をしたスタッフもreadedに含まれます                                                                 |
-| tags       | String配列       | 日報に付けられたタグのID配列                                                                                                                                     |
-| sign       | コレクション     | 承認や棄却日時を記録したコレクションです。コードで書くと sign:{ uid: string, ts: number, agree: boolean}[]です。承認した日時や承認者IDを確認可能                 |
-| state      | String           | 承認・棄却・修正・新規・進行　いづれかの文字                                                                                                                     |
-| owner      | String           | 日報を作成したスタッフのID。[共用](/docs/reference/staffshare/)を使うときに作成者IDとしてセットされる。共用を使わない場合は後述する「account」と常に同じ値が入る |
-| account    | String           | 日報を作成したFirebase上のユーザID                                                                                                                               |
-| templateId | String           | その日報を作成するために使用されたテンプレートのID                                                                                                               |
-| taskId     | String           | 日報と予定を紐付けられたとき、予定のIDがセットされる                                                                                                             |
+| キー       | 型               | 説明                                                                                                                                                                 |
+| ---------- | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| id         | String           | 20文字で構成されるランダムな文字列です。ユニークです(厳密には異なるが考慮の必要はない)                                                                               |
+| no         | NumberまたはNull | 日報に採番された番号です。連番は日報作成後に非同期で振られるためタイミングによってはNull                                                                             |
+| body       | Object           | 日報文書本体                                                                                                                                                         |
+| createTs   | Number           | 13桁の数値（ミリ秒含むUnixタイムスタンプ）。日報がサーバに初回保存された時刻                                                                                         |
+| updateTs   | Number           | 13桁の数値（ミリ秒含むUnixタイムスタンプ）。日報が最後に更新された時刻                                                                                               |
+| userTs     | Number           | 13桁の数値（ミリ秒含むUnixタイムスタンプ）。日報作成者が指定した表示上の日時                                                                                         |
+| distId     | String           | 今現在その日報を承認・棄却出来る権限のスタッフID                                                                                                                     |
+| dists      | String配列       | 日報の提出先スタッフIDの配列です。配列の序列順に承認を行います。承認や棄却ができるのは上記のdistIdに一致したスタッフのみ                                             |
+| observer   | String配列       | その日報を読むことができるスタッフのID郡です。承認や棄却の権限はありません。                                                                                         |
+| readed     | String配列       | その日報を読んだフラグを立てたスタッフIDの配列です。承認や棄却をしたスタッフもreadedに含まれます                                                                     |
+| tags       | String配列       | 日報に付けられたタグのID配列                                                                                                                                         |
+| sign       | コレクション     | 承認や棄却日時を記録したコレクションです。コードで書くと sign:{ uid: string, ts: number, agree: boolean}[]です。承認した日時や承認者IDを確認可能                     |
+| state      | String           | 承認・棄却・修正・新規・進行　いづれかの文字                                                                                                                         |
+| owner      | String           | 日報を作成したスタッフのID。[共用](/nipoplus/reference/staffshare/)を使うときに作成者IDとしてセットされる。共用を使わない場合は後述する「account」と常に同じ値が入る |
+| account    | String           | 日報を作成したFirebase上のユーザID                                                                                                                                   |
+| templateId | String           | その日報を作成するために使用されたテンプレートのID                                                                                                                   |
+| taskId     | String           | 日報と予定を紐付けられたとき、予定のIDがセットされる                                                                                                                 |
 
 以下は実際にAPIを使ってロードした日報のデータのサンプルです。
 

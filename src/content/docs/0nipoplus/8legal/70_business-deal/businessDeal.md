@@ -1,12 +1,12 @@
 ---
-slug: docs/system/business-deal
+slug: nipoplus/system/business-deal
 title: 特定商取引法に基づく表記
 description: NipoPlusはオンラインによるお支払いが発生するため「特定商取引」に分類されます。法令に従い特定商取引法に基づく表記を掲載しています
 sidebar:
   label: 📋特定商取引法に基づく表記
 ---
 
-Nipo【旧版】およびNipoPlusはネットを媒介した販売([GOLD PLAN](/docs/price/)）があるため、特定商取引に該当します。法令に基づき、下記の通り表記いたします。
+Nipo【旧版】およびNipoPlusはネットを媒介した販売([GOLD PLAN](/nipoplus/price/)）があるため、特定商取引に該当します。法令に基づき、下記の通り表記いたします。
 
 ## 特定商取引法に基づく表記 {#about}
 
@@ -22,9 +22,9 @@ Nipo【旧版】およびNipoPlusはネットを媒介した販売([GOLD PLAN](/
   <dt>送料</dt>
   <dd>掛かりません</dd>
   <dt>商品代金以外に必要な費用</dt>
-  <dd>入会金・導入費・初期費用、その他類する余分な費用は一切かかりません。ただし、<a href="/docs/price/invoice/#invoice_payment">口座振込み</a>の場合、手数料はお客様ご負担をお願いします。</dd>
+  <dd>入会金・導入費・初期費用、その他類する余分な費用は一切かかりません。ただし、<a href="/nipoplus/price/invoice/#invoice_payment">口座振込み</a>の場合、手数料はお客様ご負担をお願いします。</dd>
   <dt>代金の支払時期及び方法【口座振込】</dt>
-  <dd>請求書発送後、請求書に記載されている支払い期限までにお支払い下さい。支払い期限は<a href="/docs/price/invoice/#invoice_payment">請求書</a>に記載されています。</dd>
+  <dd>請求書発送後、請求書に記載されている支払い期限までにお支払い下さい。支払い期限は<a href="/nipoplus/price/invoice/#invoice_payment">請求書</a>に記載されています。</dd>
   <dt>代金の支払時期及び方法【クレジットカード:自動更新】</dt>
   <dd>お申込みと同時に決済が行われます。1ヶ月ごとに自動で料金が引き落とされます。引き落とし日はお申し込み日の応当日となります。（例えば1月10日にお申し込みされると、次回の料金は2月10日に発生します）購読を停止すると、それ以降、料金は発生しません。</dd>
   <dt>商品の受け渡し時期及び方法</dt>
@@ -32,7 +32,7 @@ Nipo【旧版】およびNipoPlusはネットを媒介した販売([GOLD PLAN](/
   <dt>不良品の取扱条件</dt>
   <dd>商品の性質上、返品は承っておりません</dd>
   <dt>解約の条件</dt>
-  <dd><a href="/docs/price/invoice/">請求書によるお支払い</a>の場合、有料コースの有効期限が切れると自動で解約となります。  <a href="/docs/price/subscription/">自動更新有りのクレジットカードによるお支払い</a>の場合、<a href="/docs/price/subscription/#stop_subscription">自動更新の解除</a>をアプリ上からご自身の手で行ってください。  解約による条件は特に有りません。  解約いただくと翌月以降のサービス提供（有料の部分のみ）並びに請求は行われません。  【解約手順が不明で代理操作を依頼する場合】解約はご自身で行っていただく必要が有ります。手順がご不明な場合は<a href="/inquery/">お問い合わせ</a>ください。</dd>
+  <dd><a href="/nipoplus/price/invoice/">請求書によるお支払い</a>の場合、有料コースの有効期限が切れると自動で解約となります。  <a href="/nipoplus/price/subscription/">自動更新有りのクレジットカードによるお支払い</a>の場合、<a href="/nipoplus/price/subscription/#stop_subscription">自動更新の解除</a>をアプリ上からご自身の手で行ってください。  解約による条件は特に有りません。  解約いただくと翌月以降のサービス提供（有料の部分のみ）並びに請求は行われません。  【解約手順が不明で代理操作を依頼する場合】解約はご自身で行っていただく必要が有ります。手順がご不明な場合は<a href="/inquery/">お問い合わせ</a>ください。</dd>
 </dl>
 
 ### 適格請求書発行事業者登録について {#invoiceNo}

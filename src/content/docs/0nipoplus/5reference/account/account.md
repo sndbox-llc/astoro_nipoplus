@@ -1,5 +1,5 @@
 ---
-slug: docs/reference/account
+slug: nipoplus/reference/account
 title: 📨Email・🔑パスワードの変更
 description: ログインに使用するEmailおよびパスワードの変更手順を詳しく解説しています。アカウントのセキュリティを強化するための手続きや、パスワードを忘れた際の対処法も紹介しています
 sidebar:
@@ -11,7 +11,7 @@ sidebar:
 ログインに使用するメールアドレスを変更できますが、この手続きには確認のためログインパスワードの入力が必要です。
 
 :::note[パスワードがわからない場合]
-パスワードがわからない場合は先に[ログインパスワードの再設定](/docs/reference/account/#password)を行ってください。
+パスワードがわからない場合は先に[ログインパスワードの再設定](/nipoplus/reference/account/#password)を行ってください。
 :::
 
 :::note[アカウント保護のため受信可能なアドレスを使用してください]
@@ -82,7 +82,7 @@ sidebar:
 
 組織の管理者権限を有するスタッフは他スタッフのログインパスワードを強制的に書き換えることができます。
 
-1. [左メニューから組織設定をクリック](/docs/reference/userRank/#rootSettingBtn)
+1. [左メニューから組織設定をクリック](/nipoplus/reference/userRank/#rootSettingBtn)
 2. スタッフ管理のセクションまでスクロール
 3. パスワードを変更したいスタッフの行でパスワード変更ボタンをクリック
 4. 変更後のパスワードを入力する
@@ -91,4 +91,4 @@ sidebar:
 
 ![管理者権限でスタッフのパスワードを変更することも可能です](./img/force-update-pw_tablet.webp)
 
-詳しくは[組織のスタッフ管理](/docs/reference/makestaff/)を御覧ください。
+詳しくは[組織のスタッフ管理](/nipoplus/reference/makestaff/)を御覧ください。

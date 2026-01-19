@@ -1,5 +1,5 @@
 ---
-slug: docs/reference/timecard
+slug: nipoplus/reference/timecard
 title: ✍️タイムカードの使い方
 description: タイムカードを効率的に管理する方法を学びましょう。このガイドでは、タイムカード機能の有効化、日報作成時にタイムカードを同時に記入する方法、およびタイムカード単体での入力手順について詳しく説明します。時間管理を簡単にし、勤務時間、休憩時間、休日出勤などの重要情報を正確に記録するための便利なヒントを提供します。
 sidebar:
@@ -11,7 +11,7 @@ import ExcelTable from '@components/ExcelTable.astro'
 ## タイムカードの入力
 
 :::note[タイムカードを有効にする]
-タイムカードは初期状態で「無効」になっています。利用するには[グループ設定](/docs/editor/groupmanage/#optionalFunction)から「タイムカード」を有効にしてください
+タイムカードは初期状態で「無効」になっています。利用するには[グループ設定](/nipoplus/editor/groupmanage/#optionalFunction)から「タイムカード」を有効にしてください
 :::
 
 ### タイムカード機能の概要
@@ -21,19 +21,19 @@ import ExcelTable from '@components/ExcelTable.astro'
 
 入力されたデータをもとにNipoPlusが「日勤」や「超過時間」「夜勤」などに分解してそれぞれの時間を表にまとめます。
 
-まとめられたタイムカードのデータは[CSVに出力](/docs/reference/timecard/#csv)できます。エクセルなどの表計算ソフトで給与計算に使用したり、バックアップ目的として手元に保存しておくことが可能です。
-1度に表示可能なタイムカードは5件までですが、1度きりの[制限解除オプション](/docs/reference/timecard/#how_to_unlimited)を購入いただくことでこの制限は解除されます。
+まとめられたタイムカードのデータは[CSVに出力](/nipoplus/reference/timecard/#csv)できます。エクセルなどの表計算ソフトで給与計算に使用したり、バックアップ目的として手元に保存しておくことが可能です。
+1度に表示可能なタイムカードは5件までですが、1度きりの[制限解除オプション](/nipoplus/reference/timecard/#how_to_unlimited)を購入いただくことでこの制限は解除されます。
 
 :::note[タイムカードオプション販売について]
 
 - オプションのお値段は2024/7月現在、10,000円です。変化する可能性もあるため決済画面に記載される金額を必ずご確認ください
-- NipoPlusの[有料プラン](/docs/price/invoice/)加入者の方のみ購入可能なオプション扱いであることに注意してください。
-- [有料プラン](/docs/price/invoice/)でタイムカードオプション購入後、[無料プラン](/docs/price/free/)に降格させてもタイムカードの制限解除は有効のまま残ります
+- NipoPlusの[有料プラン](/nipoplus/price/invoice/)加入者の方のみ購入可能なオプション扱いであることに注意してください。
+- [有料プラン](/nipoplus/price/invoice/)でタイムカードオプション購入後、[無料プラン](/nipoplus/price/free/)に降格させてもタイムカードの制限解除は有効のまま残ります
   :::
 
 ### 日報作成時にタイムカードもセットで書く
 
-タイムカードが有効になっていると、[日報を書く](/docs/staff/writereport/)画面上にタイムカード打刻ボタンが表示されます。
+タイムカードが有効になっていると、[日報を書く](/nipoplus/staff/writereport/)画面上にタイムカード打刻ボタンが表示されます。
 日報を書き上げた後でタイムカードをそのまま打刻できます。
 
 1. 日報記入画面を開き日報を書き終える
@@ -46,7 +46,7 @@ import ExcelTable from '@components/ExcelTable.astro'
 
 ![タイムカードの入力画面では出退勤時間や休憩時間を入力します](./img/timecard-submit_tablet.png)
 
-保存ボタンをクリックするとタイムカードのみ保存が完了します。この時点でまだ日報は保存されていないので注意してください。日報も保存する際は「提出」ボタンをクリックします。詳しくは[日報を書く](/docs/staff/writereport/)を御覧ください。
+保存ボタンをクリックするとタイムカードのみ保存が完了します。この時点でまだ日報は保存されていないので注意してください。日報も保存する際は「提出」ボタンをクリックします。詳しくは[日報を書く](/nipoplus/staff/writereport/)を御覧ください。
 
 <dl class="basic">
   <dt>日付</dt>
@@ -73,7 +73,7 @@ import ExcelTable from '@components/ExcelTable.astro'
 
 ![タイムカード一覧からタイムカードを入力することもできます](./img/timecard-list_tablet.png)
 
-[編集者権限](/docs/reference/userRank/)以上のスタッフは他のスタッフのタイムカードを閲覧、入力できます。編集者権限以上の方は他のスタッフのタイムカードを誤って入力しないように注意してください。
+[編集者権限](/nipoplus/reference/userRank/)以上のスタッフは他のスタッフのタイムカードを閲覧、入力できます。編集者権限以上の方は他のスタッフのタイムカードを誤って入力しないように注意してください。
 
 ---
 
@@ -89,7 +89,7 @@ import ExcelTable from '@components/ExcelTable.astro'
 また、表示するスタッフを切り替えるには画面右下のスタッフ名を変更してください。
 
 :::caution[自分以外のタイムカードを表示するには編集者権限が必要です]
-[編集者権限](/docs/reference/userRank/)について
+[編集者権限](/nipoplus/reference/userRank/)について
 :::
 
 ### タイムカードの内容について
@@ -127,11 +127,11 @@ import ExcelTable from '@components/ExcelTable.astro'
   <dd>タイムカードの修正履歴がある場合ここにボタンが表示されます。ボタンをクリックすると編集履歴が確認できます</dd>
   <dt>ゴミ箱アイコン</dt>
   <dd>
-    タイムカードを削除します。削除には<a href="/docs/reference/userRank/">編集者権限</a>が必要です。改ざん防止の為削除した際はそのログデータが残ります。ログデータを削除することはできません。
+    タイムカードを削除します。削除には<a href="/nipoplus/reference/userRank/">編集者権限</a>が必要です。改ざん防止の為削除した際はそのログデータが残ります。ログデータを削除することはできません。
   </dd>
   <dt>編集アイコン</dt>
   <dd>
-    タイムカードの内容を修正します。改ざん防止の為修正したタイムカードは修正履歴が残ります。前述した「歴」のセルから編集履歴が確認できます。編集履歴の確認には<a href="/docs/reference/userRank/">編集者権限</a>が必要になります
+    タイムカードの内容を修正します。改ざん防止の為修正したタイムカードは修正履歴が残ります。前述した「歴」のセルから編集履歴が確認できます。編集履歴の確認には<a href="/nipoplus/reference/userRank/">編集者権限</a>が必要になります
   </dd>
   <dt>id</dt>
   <dd>タイムカードに自動で割り当てられたIDです</dd>
@@ -185,7 +185,7 @@ import ExcelTable from '@components/ExcelTable.astro'
   <summary>タイムカードの削除について</summary>
 
 タイムカードは労働時間の把握、ひいてはお給料の計算にも使われることが考えられるため、削除には厳格なルールと権限が設けられています。
-タイムカードの削除には[編集者権限](/docs/reference/userRank/)以上が必要で、なおかつ削除した[履歴](/docs/reference/log/)が残り、[通知も発行](/docs/reference/notify/#app_notify)されます。
+タイムカードの削除には[編集者権限](/nipoplus/reference/userRank/)以上が必要で、なおかつ削除した[履歴](/nipoplus/reference/log/)が残り、[通知も発行](/nipoplus/reference/notify/#app_notify)されます。
 タイムカード削除が必ずしも悪い行為というわけでは有りません。誤操作による重複タイムカードなどは削除が必要です。
 
 ### タイムカードを削除する
@@ -211,7 +211,7 @@ import ExcelTable from '@components/ExcelTable.astro'
 ## タイムカードの設定画面
 
 タイムカード機能に関する各種設定が行なえます。
-設定変更には[編集者権限](/docs/reference/userRank/)が必要です。
+設定変更には[編集者権限](/nipoplus/reference/userRank/)が必要です。
 
 1. タイムカード一覧をクリック
 2. 設定をクリック（折りたたまれている項目が展開される）
@@ -265,8 +265,8 @@ Version1.56.0から、設定の保存が手動になりました。設定を変�
 - 全てのグループに対して制限が解除されます
 - 支払い金額は人数に関係ありません。５名でも100名でも料金は一緒です
 - 現時点で解除費用は10,000円です（価格は変動する可能性もあるため最新の価格は決済画面に表示される金額をご確認ください）
-- [有料プラン](/docs/price/invoice/)の方のみお申し込み可能です
-- [有料プラン](/docs/price/invoice/)中にお申し込みをいただき、[無料プラン](/docs/price/free/)に降格しても支払い情報は消えずに残り続けます
+- [有料プラン](/nipoplus/price/invoice/)の方のみお申し込み可能です
+- [有料プラン](/nipoplus/price/invoice/)中にお申し込みをいただき、[無料プラン](/nipoplus/price/free/)に降格しても支払い情報は消えずに残り続けます
 - 決済方法はクレジットカード払いのみに対応しています（請求書払いは不可）
 
 <hr id="how_to_unlimited" />
@@ -280,8 +280,8 @@ Version1.56.0から、設定の保存が手動になりました。設定を変�
 タイムカード設定画面末尾にある「制限を解除」ボタンをクリックします
 
 画面がクレジットカード入力画面に切り替わります。
-[有料プランのお支払いにクレジットカードをご利用](/docs/price/subscription/)の方はすでにカード情報が登録済みのため再入力は不要です。
-[請求書払いの方](/docs/price/invoice/)はここでクレジットカード番号を登録する必要が有ります。
+[有料プランのお支払いにクレジットカードをご利用](/nipoplus/price/subscription/)の方はすでにカード情報が登録済みのため再入力は不要です。
+[請求書払いの方](/nipoplus/price/invoice/)はここでクレジットカード番号を登録する必要が有ります。
 
 ![お支払いのカード番号を入力します](./img/fee-timecard_tablet.webp)
 
@@ -292,7 +292,7 @@ Version1.56.0から、設定の保存が手動になりました。設定を変�
 2. ページ末尾までスクロール
 3. 単独支払いの履歴をチェック
 
-領収証の発行手順と同一ですので、[領収証発行ガイド](/docs/price/receipt/)を参照してください。
+領収証の発行手順と同一ですので、[領収証発行ガイド](/nipoplus/price/receipt/)を参照してください。
 
 ### 決済に失敗したとき
 
@@ -316,7 +316,7 @@ Version1.56.0から、設定の保存が手動になりました。設定を変�
 <details>
 <summary>回答を表示する</summary>
 
-タイムカードの制限解除自体は残りづつけます。<a href="/docs/price/free/">無料プラン</a>でも５件の表示制限が掛からずに利用できます
+タイムカードの制限解除自体は残りづつけます。<a href="/nipoplus/price/free/">無料プラン</a>でも５件の表示制限が掛からずに利用できます
 
 </details>
 

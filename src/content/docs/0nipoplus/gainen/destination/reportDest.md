@@ -1,5 +1,5 @@
 ---
-slug: docs/gainen/destination
+slug: nipoplus/gainen/destination
 title: 📤日報の提出先と共有先 - 誰が日報を読めるのか？
 description: NipoPlusでは、日報（日報、点検記録など）の「提出先」と「共有先」を明確に設定することで、誰が承認し、誰が閲覧できるかを細かく管理できます。責任の明確化や、製造現場の点検報告における承認フローの構築、関係部署への情報共有を効率的に実現します。
 sidebar:
@@ -13,9 +13,9 @@ sidebar:
 
 <dl class="basic">
 <dt><strong>提出先</strong></dt>
-<dd>日報を<a href="/docs/reference/reportstate/#agree">承認</a>・<a href="/docs/reference/reportstate/#reject">棄却</a>できるスタッフです。<strong>1名以上指定必須</strong>です。提出先には通知が送られ、日報の承認プロセスを開始します。<strong>直属の上司への日報提出</strong>や、<strong>最終的な責任者による点検結果の承認</strong>などに利用します。</dd>
+<dd>日報を<a href="/nipoplus/reference/reportstate/#agree">承認</a>・<a href="/nipoplus/reference/reportstate/#reject">棄却</a>できるスタッフです。<strong>1名以上指定必須</strong>です。提出先には通知が送られ、日報の承認プロセスを開始します。<strong>直属の上司への日報提出</strong>や、<strong>最終的な責任者による点検結果の承認</strong>などに利用します。</dd>
 <dt><strong>共有先</strong></dt>
-<dd>日報を<a href="/docs/reference/reportstate/#readed">閲覧（既読）</a>することはできますが、承認・棄却はできません。共有先には通知は送られません（管理画面での一覧には表示）。<strong>関連部署やプロジェクトメンバーへの情報共有</strong>、<strong>状況把握のみが必要な関係者</strong>などに指定します。</dd>
+<dd>日報を<a href="/nipoplus/reference/reportstate/#readed">閲覧（既読）</a>することはできますが、承認・棄却はできません。共有先には通知は送られません（管理画面での一覧には表示）。<strong>関連部署やプロジェクトメンバーへの情報共有</strong>、<strong>状況把握のみが必要な関係者</strong>などに指定します。</dd>
 </dl>
 
 - 提出先は必ず1名以上指定する必要があります。
@@ -23,7 +23,7 @@ sidebar:
 
 ## グループのモードによる影響 - 全体共有か、個別管理か {#groupMode}
 
-グループ設定にある[日報の共有モード](/docs/editor/groupmanage/#reportShare)の設定により、提出先・共有先の挙動に影響があります。
+グループ設定にある[日報の共有モード](/nipoplus/editor/groupmanage/#reportShare)の設定により、提出先・共有先の挙動に影響があります。
 
 <dl class="basic">
 <dt><strong>通常モード</strong></dt>
@@ -36,10 +36,10 @@ sidebar:
 
 ## 提出先・共有先の選択と固定化 - 日常業務の効率化 {#fixedDist}
 
-何の設定も無い状況では、[日報作成時](/docs/staff/writereport/#dist)に日報作成者が提出先・共有先を自由に選択できます。
+何の設定も無い状況では、[日報作成時](/nipoplus/staff/writereport/#dist)に日報作成者が提出先・共有先を自由に選択できます。
 この設定は記録され、次回以降は自動で同じ提出先と共有先がセットされるため、<strong>日々の入力手間を軽減</strong>できます。
 
-さらに、**日常業務で提出先や共有先が常に同じである場合**は、あらかじめ[管理者が提出先や共有先を固定する](/docs/editor/destinationlock/)ことを**強く推奨**します。これにより、スタッフが選択する手間をなくし、<strong>入力ミスを防止</strong>するとともに、<strong>提出フローを標準化</strong>できます。
+さらに、**日常業務で提出先や共有先が常に同じである場合**は、あらかじめ[管理者が提出先や共有先を固定する](/nipoplus/editor/destinationlock/)ことを**強く推奨**します。これにより、スタッフが選択する手間をなくし、<strong>入力ミスを防止</strong>するとともに、<strong>提出フローを標準化</strong>できます。
 
 ## 提出先の数だけ検印欄が表示されます - 承認リレーの仕組み {#stamp}
 
@@ -52,17 +52,17 @@ sidebar:
 この例は、すでに「管理者A」が日報を承認し、現在「C係長」の承認を待っている状態の日報を「管理者A」の画面から見たものです。
 この画面に至るまでの流れを箇条書きにしました。
 
-1.  日報を受けて管理者Aが[日報を承認](/docs/reference/reportstate/#agree)した
-1.  この時点で[承認リレー](/docs/reference/reportstate/#relay)が開始され、当該日報は編集がロックされる🔐
+1.  日報を受けて管理者Aが[日報を承認](/nipoplus/reference/reportstate/#agree)した
+1.  この時点で[承認リレー](/nipoplus/reference/reportstate/#relay)が開始され、当該日報は編集がロックされる🔐
 1.  管理者Aはすでに承認したため承認の権限はC係長へ移る（管理者Aの承認権限は無くなる）
 1.  現在はC係長の承認を待っている状態（上記画像の状態）
 1.  同様の処理が繰り返され、全ての検印欄が埋まると日報が最終的に「承認済み」の状態になります。
 
-承認や棄却については[日報を読む](/docs/staff/readreport/)のページで詳しく解説しています。
+承認や棄却については[日報を読む](/nipoplus/staff/readreport/)のページで詳しく解説しています。
 
 ### ⚠グループのモードが共有の場合は承認リレーの運用に留意 {#hint}
 
-[グループの基本設定](/docs/admin/about/)で日報の共有が「共有する」に設定されていると、すべてのスタッフが日報を閲覧できます。
+[グループの基本設定](/nipoplus/admin/about/)で日報の共有が「共有する」に設定されていると、すべてのスタッフが日報を閲覧できます。
 提出先が複数名いる場合、承認の順番が回ってくるよりも前に、後続の承認者がその日報を読めてしまう点に留意してください。
 
 例えばA管理者が承認する前に、後続のC係長がその日報を読めてしまいます。ただし、この時点では承認権限はA管理者にあるため、C係長はまだ承認できません。
@@ -104,7 +104,7 @@ NipoPlusでは１件１件の日報に対して「誰が読めるのか？」「
 <dl class="basic">
 <dt>提出先</dt>
 <dd>
-    その日報を読み、<a href="/docs/reference/reportstate/#agree">承認や棄却</a>ができる人です。「直属の上司」や「承認者」にあたるユーザーです。
+    その日報を読み、<a href="/nipoplus/reference/reportstate/#agree">承認や棄却</a>ができる人です。「直属の上司」や「承認者」にあたるユーザーです。
 </dd>
 <dt>共有先</dt>
 <dd>
@@ -121,9 +121,9 @@ NipoPlusでは１件１件の日報に対して「誰が読めるのか？」「
 基本は上記の「提出先」と「共有先」で指定しますが、それらをバイパスする設定がいくつかあります。
 
 <dl class="basic">
-<dt><a href="/docs/editor/groupmanage/#reportShare">グループ設定で共有ONにする</a></dt>
+<dt><a href="/nipoplus/editor/groupmanage/#reportShare">グループ設定で共有ONにする</a></dt>
 <dd>グループ内の日報ルールで、「日報を共有する」をONにすると、全ての日報がグループ内の全員が閲覧できるようになります。（全員が共有先に含まれるようなイメージ）</dd>
-<dt><a href="/docs/editor/staffmanage/">グループ内のアカウントに「重役」を指定する</a></dt>
+<dt><a href="/nipoplus/editor/staffmanage/">グループ内のアカウントに「重役」を指定する</a></dt>
 <dd>重役として指定されたスタッフアカウントは、自分が本来読めない日報（提出先にも共有先にも名前がない日報）に対しても閲覧が可能で、受信BOX一覧上に表示されます。</dd>
 </dl>
 

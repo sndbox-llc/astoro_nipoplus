@@ -1,5 +1,5 @@
 ---
-slug: docs/system/security
+slug: nipoplus/system/security
 title: NipoPlusのセキュリティ対策｜お客様のデータを守る堅牢な基盤
 description: NipoPlus（ニポプラス）は、お客様の大切な日報データを守るため、Google Cloud Platform（GCP）を基盤とした最高水準のセキュリティ対策を講じています。安心・安全なご利用環境を提供します。
 sidebar:
@@ -29,7 +29,7 @@ NipoPlusは、世界有数のクラウドプロバイダーである**Google Clo
 <dd>すべての日報は同じサーバーに保管されますが、お客様ごとのデータは論理的に厳重に分離されており、権限のない他社が閲覧することは絶対にできません。各グループに所属するメンバーのみが、そのグループ内のデータにアクセスする権限を持ちます。</dd>
 </dl>
 
-[詳細なセキュリティ対策はこちらで確認できます 🔐](/docs/system/security/)
+[詳細なセキュリティ対策はこちらで確認できます 🔐](/nipoplus/system/security/)
 
 ---
 
@@ -46,7 +46,7 @@ NipoPlusの認証には、Googleが提供する**Firebase Authentication**を採
 <dd>お客様のパスワードは、復元不可能な形で暗号化されて保管されます。開発者であっても、元のパスワードを知ることはできません。</dd>
 
 <dt>アカウント復旧機能</dt>
-<dd>万が一ログインパスワードが漏洩し、アカウントが乗っ取られた場合でも、<a href="/docs/reference/account/">ログインE-mailの変更ページ</a>で解説しているFirebaseの保護機能により、アカウントを安全に回復できます。メール通知による不正ログインの早期発見や、変更されたメールアカウントを巻き戻す仕組みが搭載されています。</dd>
+<dd>万が一ログインパスワードが漏洩し、アカウントが乗っ取られた場合でも、<a href="/nipoplus/reference/account/">ログインE-mailの変更ページ</a>で解説しているFirebaseの保護機能により、アカウントを安全に回復できます。メール通知による不正ログインの早期発見や、変更されたメールアカウントを巻き戻す仕組みが搭載されています。</dd>
 </dl>
 
 ### 機密情報の徹底した暗号化 {#data_encryption}
@@ -206,5 +206,5 @@ NipoPlusは「サーバーレス」アーキテクチャを採用しており、
 
 <details>
 <summary>回答を表示する</summary>
-基本的に個別の契約は行っておりません。NipoPlusの<a href="/docs/system/agree/">利用規約</a>の記載をご確認のうえご利用ください。
+基本的に個別の契約は行っておりません。NipoPlusの<a href="/nipoplus/system/agree/">利用規約</a>の記載をご確認のうえご利用ください。
 </details>

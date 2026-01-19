@@ -1,5 +1,5 @@
 ---
-slug: docs/system/privacy-policy
+slug: nipoplus/system/privacy-policy
 title: 🔒プライバシーポリシー
 description: クラウド日報NipoPlusでお客様からお預かりする個人情報の取り扱いについてのお約束事をまとめました
 sidebar:
@@ -14,7 +14,7 @@ NipoPlusは、お客様の日報業務をサポートするために開発され
 
 このプライバシーポリシーは、合同会社サンドボックスが運営するクラウド日報「NipoPlus」およびその関連Webサイト（以下「NipoPlus」）に適用されます。
 
-詳細な運営情報は[「特定商取引法に基づく表記」](/docs/system/business-deal/)ページでご確認いただけます。
+詳細な運営情報は[「特定商取引法に基づく表記」](/nipoplus/system/business-deal/)ページでご確認いただけます。
 
 ---
 
