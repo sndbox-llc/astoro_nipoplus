@@ -9,21 +9,21 @@ import starlightSidebarTopics from 'starlight-sidebar-topics'
 import starlightLinksValidator from 'starlight-links-validator'
 
 export default defineConfig({
-  site: 'https://test5.sndbox.jp',
-  // site: 'https://nipo-plus-doc.sndbox.jp',
+  // site: 'https://test5.sndbox.jp',
+  site: 'https://nipo-plus-doc.sndbox.jp',
   integrations: [
     starlight({
       title: 'NipoPlus',
       favicon: '/images/favicon.svg',
-      head: [
-        {
-          tag: 'meta',
-          attrs: {
-            name: 'robots',
-            content: 'noindex, nofollow',
-          },
-        },
-      ],
+      // head: [
+      //   {
+      //     tag: 'meta',
+      //     attrs: {
+      //       name: 'robots',
+      //       content: 'noindex, nofollow',
+      //     },
+      //   },
+      // ],
 
       components: {
         // ここでコンポーネントを上書き（オーバーライド）
