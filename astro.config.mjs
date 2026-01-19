@@ -13,6 +13,11 @@ const isProd = process.env.NODE_ENV === 'production'
 export default defineConfig({
   // site: 'https://test5.sndbox.jp',
   site: 'https://nipo-plus-doc.sndbox.jp',
+  // プリフェッチ設定を有効化
+  prefetch: {
+    prefetchAll: true,
+    defaultStrategy: 'viewport', // 画面内に入ったら読み込み開始
+  },
   integrations: [
     starlight({
       title: 'NipoPlus',
