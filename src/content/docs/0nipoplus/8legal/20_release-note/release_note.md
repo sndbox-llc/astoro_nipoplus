@@ -30,7 +30,7 @@ NipoPlusは[Android版](/nipoplus/system/mobile-install/#android_usage)・[iOS�
 
 #### 【NipoPlus】 2026/1/19 v1.76.8 {#vp1_76_8}
 
-- ホームページリニューアルに伴い一部URLが変更になりました。アプリ内ガイドのURLを修正しています
+- ホームページリニューアルに伴い一部URLが変更になりました。アプリ内ガイドのURLを修正しました
 
 #### 【NipoPlus】 2026/1/7 v1.76.7 {#vp1_76_7}
 
