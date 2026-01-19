@@ -142,7 +142,6 @@ export default defineConfig({
                   { slug: 'docs/gainen/destination' },
                   { slug: 'docs/gainen/reportdate' },
                   { slug: 'docs/gainen/sosiki' },
-                  { slug: 'docs/gainen/faq' },
                 ],
               },
               {

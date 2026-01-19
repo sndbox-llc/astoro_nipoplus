@@ -1,7 +1,7 @@
 ---
 slug: docs/reference/userRank
 title: アカウントの権限について
-description: userRank
+description: アカウントの権限について
 sidebar:
   label: 🔑権限について
 ---
