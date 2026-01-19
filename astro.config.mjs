@@ -17,26 +17,7 @@ export default defineConfig({
     starlight({
       title: 'NipoPlus',
       favicon: '/images/favicon.svg',
-      head: [
-        {
-          tag: 'script',
-          attrs: { type: 'application/ld+json' },
-          content: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'SoftwareApplication',
-            name: 'Nipo Plus',
-            alternateName: ['NipoPlus', 'Nipo Plus', 'ニポプラス', 'にぽぷらす', 'Nipoぷらす', 'にぽ＋', 'ニッポウプラス', 'にっぽぷらす', 'NIPO Plus', 'にぽplus', 'Nipo＋', 'Nipoプラス', 'NIPOPLUS', 'Nipo-Plus'],
-            operatingSystem: 'Windows, Android, iOS, macOS',
-            applicationCategory: 'BrowserApplication',
-            offers: {
-              '@type': 'Offer',
-              price: '0',
-              priceCurrency: 'JPY',
-            },
-            free: true,
-          }),
-        },
-      ],
+      head: [],
 
       components: {
         Head: './src/components/CustomHeader.astro',
