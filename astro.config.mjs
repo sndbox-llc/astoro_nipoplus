@@ -8,6 +8,8 @@ import remarkHeadingId from 'remark-heading-id'
 import starlightSidebarTopics from 'starlight-sidebar-topics'
 import starlightLinksValidator from 'starlight-links-validator'
 
+const isProd = process.env.NODE_ENV === 'production'
+
 export default defineConfig({
   // site: 'https://test5.sndbox.jp',
   site: 'https://nipo-plus-doc.sndbox.jp',
