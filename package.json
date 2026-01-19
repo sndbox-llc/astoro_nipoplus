@@ -1,5 +1,5 @@
 {
-  "name": "evolved-equinox",
+  "name": "nipoplus-doc",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -12,12 +12,12 @@
     "format:check": "prettier --check ."
   },
   "dependencies": {
-    "@astrojs/sitemap": "^3.6.0",
-    "@astrojs/starlight": "^0.37.1",
-    "astro": "^5.16.6",
+    "@astrojs/sitemap": "^3.7.0",
+    "@astrojs/starlight": "^0.37.3",
+    "astro": "^5.16.11",
     "rehype-figure": "^1.0.1",
     "remark-heading-id": "^1.0.1",
-    "sharp": "^0.34.2",
+    "sharp": "^0.34.5",
     "starlight-image-zoom": "^0.13.2",
     "starlight-links-validator": "^0.19.2",
     "starlight-sidebar-topics": "^0.6.2"
@@ -26,6 +26,6 @@
     "@types/remark-heading-id": "^1.0.0",
     "prettier": "^3.7.4",
     "prettier-plugin-astro": "^0.14.1",
-    "sass-embedded": "^1.97.1"
+    "sass-embedded": "^1.97.2"
   }
 }

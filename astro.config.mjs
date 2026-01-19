@@ -350,7 +350,7 @@ export default defineConfig({
           lang: 'ja',
         },
       },
-      social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+      social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/sndbox-llc/astoro_nipoplus' }],
     }),
     sitemap(),
   ],

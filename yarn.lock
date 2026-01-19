@@ -65,7 +65,7 @@
   dependencies:
     prismjs "^1.30.0"
 
-"@astrojs/sitemap@^3.3.0", "@astrojs/sitemap@^3.6.0":
+"@astrojs/sitemap@^3.3.0":
   version "3.6.1"
   resolved "https://registry.npmjs.org/@astrojs/sitemap/-/sitemap-3.6.1.tgz"
   integrity sha512-+o+TbxXqQJAOd+HxCjz/5RdAMrRFGjeuO+U6zddUuTO59WqMqXnsc8uveRiEr2Ff+3McZiEne7iG4J5cnuI6kA==
@@ -74,10 +74,19 @@
     stream-replace-string "^2.0.0"
     zod "^3.25.76"
 
-"@astrojs/starlight@^0.37.1":
-  version "0.37.2"
-  resolved "https://registry.npmjs.org/@astrojs/starlight/-/starlight-0.37.2.tgz"
-  integrity sha512-DGeaaKizwxHDsz72FdxyIBZ32eY8OdUoH6b757BGZlLEDq82O4uipFWoh+kz7+aKg1QoFu/rDq6fqtw+58tpRQ==
+"@astrojs/sitemap@^3.7.0":
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/@astrojs/sitemap/-/sitemap-3.7.0.tgz#26ffe9b2f51e2720e5e96f358ecc20f4d87f7218"
+  integrity sha512-+qxjUrz6Jcgh+D5VE1gKUJTA3pSthuPHe6Ao5JCxok794Lewx8hBFaWHtOnN0ntb2lfOf7gvOi9TefUswQ/ZVA==
+  dependencies:
+    sitemap "^8.0.2"
+    stream-replace-string "^2.0.0"
+    zod "^3.25.76"
+
+"@astrojs/starlight@^0.37.3":
+  version "0.37.3"
+  resolved "https://registry.yarnpkg.com/@astrojs/starlight/-/starlight-0.37.3.tgz#3e7e36d712847bc00b6da6420b40ce98a6006589"
+  integrity sha512-p7cqbAkBYkBTiK1NIomxAEoF9Wko+mTV503qDm5Wgh+0MGGJnSsIzCSSJ+rWm8toFk9mnzNwNbxcnjwzIBEU3w==
   dependencies:
     "@astrojs/markdown-remark" "^6.3.1"
     "@astrojs/mdx" "^4.2.3"
@@ -1029,10 +1038,10 @@ astro-expressive-code@^0.41.1:
   dependencies:
     rehype-expressive-code "^0.41.5"
 
-astro@^5.16.6:
-  version "5.16.7"
-  resolved "https://registry.npmjs.org/astro/-/astro-5.16.7.tgz"
-  integrity sha512-Kfv7FKisFR+THvmojXWtvJGRCvQ4D9przguE9XdeUtS464ned6hvbgmyFDvPzyaNmDtkHGNpPwAQ9tgFcVqp+Q==
+astro@^5.16.11:
+  version "5.16.11"
+  resolved "https://registry.yarnpkg.com/astro/-/astro-5.16.11.tgz#e273708a5f1350d0b44ea9e486f63be284b5dd0f"
+  integrity sha512-Z7kvkTTT5n6Hn5lCm6T3WU6pkxx84Hn25dtQ6dR7ATrBGq9eVa8EuB/h1S8xvaoVyCMZnIESu99Z9RJfdLRLDA==
   dependencies:
     "@astrojs/compiler" "^2.13.0"
     "@astrojs/internal-helpers" "0.7.5"
@@ -1052,8 +1061,8 @@ astro@^5.16.6:
     cssesc "^3.0.0"
     debug "^4.4.3"
     deterministic-object-hash "^2.0.2"
-    devalue "^5.6.1"
-    diff "^5.2.0"
+    devalue "^5.6.2"
+    diff "^8.0.3"
     dlv "^1.1.3"
     dset "^3.1.4"
     es-module-lexer "^1.7.0"
@@ -1347,10 +1356,10 @@ deterministic-object-hash@^2.0.2:
   dependencies:
     base-64 "^1.0.0"
 
-devalue@^5.6.1:
-  version "5.6.1"
-  resolved "https://registry.npmjs.org/devalue/-/devalue-5.6.1.tgz"
-  integrity sha512-jDwizj+IlEZBunHcOuuFVBnIMPAEHvTsJj0BcIp94xYguLRVBcXO853px/MyIJvbVzWdsGvrRweIUWJw8hBP7A==
+devalue@^5.6.2:
+  version "5.6.2"
+  resolved "https://registry.yarnpkg.com/devalue/-/devalue-5.6.2.tgz#931e2bb1cc2b299e0f0fb9e4e5be8ebf521a25b8"
+  integrity sha512-nPRkjWzzDQlsejL1WVifk5rvcFi/y1onBRxjaFMjZeR9mFpqu2gmAZ9xUB9/IEanEP/vBtGeGganC/GO1fmufg==
 
 devlop@^1.0.0, devlop@^1.1.0:
   version "1.1.0"
@@ -1359,10 +1368,10 @@ devlop@^1.0.0, devlop@^1.1.0:
   dependencies:
     dequal "^2.0.0"
 
-diff@^5.2.0:
-  version "5.2.0"
-  resolved "https://registry.npmjs.org/diff/-/diff-5.2.0.tgz"
-  integrity sha512-uIFDxqpRZGZ6ThOk84hEfqWoHx2devRFvpTZcTHur85vImfaxUbTW9Ryh4CpCuDnToOP1CEtXKIgytHBPVff5A==
+diff@^8.0.3:
+  version "8.0.3"
+  resolved "https://registry.yarnpkg.com/diff/-/diff-8.0.3.tgz#c7da3d9e0e8c283bb548681f8d7174653720c2d5"
+  integrity sha512-qejHi7bcSD4hQAZE0tNAawRK1ZtafHDmMTMkrrIGgSLl7hTnQHmKCeB45xAcbfTqK2zowkM3j3bHt/4b/ARbYQ==
 
 direction@^2.0.0:
   version "2.0.1"
@@ -3311,9 +3320,9 @@ sass-embedded-win32-x64@1.97.2:
   resolved "https://registry.yarnpkg.com/sass-embedded-win32-x64/-/sass-embedded-win32-x64-1.97.2.tgz#88993deffdfa048f60fef6d4dca853a7c0862a3d"
   integrity sha512-DVxLxkeDCGIYeyHLAvWW3yy9sy5Ruk5p472QWiyfyyG1G1ASAR8fgfIY5pT0vE6Rv+VAKVLwF3WTspUYu7S1/Q==
 
-sass-embedded@^1.97.1:
+sass-embedded@^1.97.2:
   version "1.97.2"
-  resolved "https://registry.npmjs.org/sass-embedded/-/sass-embedded-1.97.2.tgz"
+  resolved "https://registry.yarnpkg.com/sass-embedded/-/sass-embedded-1.97.2.tgz#03622086bd0f43af4df92972d9bf1d6d76655c36"
   integrity sha512-lKJcskySwAtJ4QRirKrikrWMFa2niAuaGenY2ElHjd55IwHUiur5IdKu6R1hEmGYMs4Qm+6rlRW0RvuAkmcryg==
   dependencies:
     "@bufbuild/protobuf" "^2.5.0"
@@ -3372,7 +3381,7 @@ semver@^7.7.3:
   resolved "https://registry.npmjs.org/semver/-/semver-7.7.3.tgz"
   integrity sha512-SdsKMrI9TdgjdweUSR9MweHA4EJ8YxHn8DFaDisvhVlUOe4BF1tLD7GAj0lIqWVl+dPb/rExr0Btby5loQm20Q==
 
-sharp@^0.34.0, sharp@^0.34.2:
+sharp@^0.34.0, sharp@^0.34.5:
   version "0.34.5"
   resolved "https://registry.npmjs.org/sharp/-/sharp-0.34.5.tgz"
   integrity sha512-Ou9I5Ft9WNcCbXrU9cMgPBcCK8LiwLqcbywW3t4oDV37n1pzpuNLsYiAV8eODnjbtQlSDwZ2cUEeQz4E54Hltg==
