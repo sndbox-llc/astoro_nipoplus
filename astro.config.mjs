@@ -44,6 +44,7 @@ export default defineConfig({
       components: {
         // ここでコンポーネントを上書き（オーバーライド）
         // Header: './src/components/Header.astro',
+        Footer: './src/components/CustomFooter.astro',
         Banner: './src/components/LegacyNotice.astro',
         Pagination: './src/components/CustomPagination.astro',
         SiteTitle: './src/components/CustomSiteTitle.astro',

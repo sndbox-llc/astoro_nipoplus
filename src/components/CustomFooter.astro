@@ -1,0 +1,14 @@
+---
+import type { Props } from '@astrojs/starlight/props';
+import Default from '@astrojs/starlight/components/Footer.astro';
+---
+
+<Default {...Astro.props}>
+  <slot />
+</Default>
+
+<footer style="text-align: right;">
+  <address>
+    開発運営:<a href="https://sndbox.jp/" target="_blank">合同会社サンドボックス</a> / 協力: <a href="https://pandafirm.jp/">パンダ商会</a>
+  </address>
+</footer>
