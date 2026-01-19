@@ -14,6 +14,7 @@ export default defineConfig({
   integrations: [
     starlight({
       title: 'NipoPlus',
+      favicon: '/images/favicon.svg',
       head: [
         {
           tag: 'meta',
