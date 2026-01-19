@@ -9,11 +9,13 @@ import starlightSidebarTopics from 'starlight-sidebar-topics'
 import starlightLinksValidator from 'starlight-links-validator'
 
 export default defineConfig({
-  site: 'https://sndbox-llc.github.io/astoro_nipoplus/',
+  site: 'https://sndbox-llc.github.io',
+  base: '/astoro_nipoplus', // ここにリポジトリ名（先頭にスラッシュが必要）
   // site: 'https://nipo-plus-doc.sndbox.jp',
   integrations: [
     starlight({
       title: 'NipoPlus',
+
       components: {
         // ここでコンポーネントを上書き（オーバーライド）
         // Header: './src/components/Header.astro',
