@@ -1,0 +1,18 @@
+---
+import type { Props } from '@astrojs/starlight/props';
+import Default from '@astrojs/starlight/components/Banner.astro';
+import { Aside } from '@astrojs/starlight/components';
+
+const { entry } = Astro.props;
+// URLに /legacy/ が含まれる場合に表示
+const showLegacyNotice = Astro.url.pathname.includes('/legacy/')  
+---
+
+{showLegacyNotice && (
+  <Aside type="caution" title="旧バージョンガイド">
+    ご覧のページはNipo（旧バージョン）のガイドです。今から始める方は
+    <a href="docs/admin/quickstart">NipoPlus</a> をご検討ください。
+  </Aside>
+)}
+
+<Default {...Astro.props}><slot /></Default>

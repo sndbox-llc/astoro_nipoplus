@@ -1,0 +1,39 @@
+---
+// ExcelTable.astro
+let content = await Astro.slots.render('default');
+
+// MDXが勝手に付与する <p> タグや <div> タグを正規表現で除去
+// 前後のタグを取り除き、中身のテキストだけを抽出します
+content = content.replace(/^<p>|<\/p>$/g, '').trim();
+
+// あとは以前と同じロジック
+const rows = content.split('\n');
+const tableData = rows.map(row => row.split(',').map(cell => cell.trim()));
+
+// 最大列数の計算
+const numColumns = tableData.length > 0 ? Math.max(...tableData.map(r => r.length)) : 0;
+const getColumnLabel = (index: number) => String.fromCharCode(65 + index);
+---
+
+<div class="excelTable">
+  <table>
+    <thead>
+      <tr>
+        <th>-</th>
+        {Array.from({ length: numColumns }).map((_, i) => (
+          <th>{getColumnLabel(i)}</th>
+        ))}
+      </tr>
+    </thead>
+    <tbody>
+      {tableData.map((row, rowIndex) => (
+        <tr>
+          <td>{rowIndex + 1}</td>
+          {Array.from({ length: numColumns }).map((_, colIndex) => (
+            <td>{row[colIndex] || ''}</td>
+          ))}
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>

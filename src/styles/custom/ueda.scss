@@ -1,0 +1,23 @@
+@use '../vars' as *; // vars.scssを読み込む。as * で接頭辞なしで使える。
+
+/** 料金テーブル */
+// .priceBoard {
+//   font-size: 3rem;
+//   font-weight: bold;
+// }
+
+// .rootMainText p {
+//   font-size: 1.3em;
+// }
+
+.next-arrow {
+  text-align: center;
+  font-size: 5rem;
+  color: orange;
+  margin: 2rem 0;
+}
+
+figcaption {
+  margin-top: 0;
+  font-size: 0.9em;
+}
