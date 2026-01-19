@@ -1,6 +1,6 @@
 ---
 slug: nipoplus/system/release-note
-title: システム更新履歴
+title: リリースノート
 description: Nipo【旧版】及びNipoPlusの新しいバージョンが公開されるたびにこのページでご案内します。Android/iOS/Web版それぞれで最新のバージョンが異なる場合があります。
 toc: false
 sidebar:
@@ -28,7 +28,9 @@ NipoPlusは[Android版](/nipoplus/system/mobile-install/#android_usage)・[iOS�
 
 ### リリース詳細▼ {#more}
 
-####
+#### 【NipoPlus】 2026/1/19 v1.76.8 {#vp1_76_8}
+
+- ホームページリニューアルに伴い一部URLが変更になりました。アプリ内ガイドのURLを修正しています
 
 #### 【NipoPlus】 2026/1/7 v1.76.7 {#vp1_76_7}
 
