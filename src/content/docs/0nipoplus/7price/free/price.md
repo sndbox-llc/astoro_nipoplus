@@ -17,7 +17,8 @@ NipoPlusは初めてご登録いただいた段階では「トライアル期間
 
 <div style="background-color:#ccc">
 
-<img src="./img/free_flow.svg" />
+![プランの流れ](./img/free_flow.svg)
+
 </div>
 
 [トライアル期間](/nipoplus/price/#trial)が終了すると自動で無料プランへ切り替わります。  

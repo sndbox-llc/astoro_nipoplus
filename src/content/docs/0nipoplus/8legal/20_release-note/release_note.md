@@ -38,6 +38,9 @@ NipoPlusは[Android版](/nipoplus/system/mobile-install/#android_usage)・[iOS�
 書きかけの日報を復元する仕様が一部変更になりました。これまでは日報テンプレートごとに書きかけの日報を記録しましたが、綴り機能の関係で、
 書きかけの日報は直前の１データのみとなりました。これは綴り機能によってテンプレートをまたいで複数の日報を同時に書けるようになったための修正です。
 
+<details>
+  <summary>2025年の更新情報</summary>
+
 #### 【Nipo(旧)】 2025/12/23 v11.0.2 {#legacy11_0_2}
 
 - モバイルアプリ向けセキュリティアップデートを実施しました
@@ -253,8 +256,10 @@ Android SDKバージョンが22から23に更新されました。
 - [数値入力フォーム](/nipoplus/template/digital/#commonNumber)で文字サイズを設定値により変化するように修正しました
 - スタッフの単体選択を解除できるようになりました
 
+</details>
+
 <details>
-  <summary>２０２４年の更新情報</summary>
+  <summary>2024年の更新情報</summary>
 
 #### 【NipoPlus】 2024/12/26 v1.67.1 {#vp1_67_1}
 
@@ -656,7 +661,7 @@ Version8で使用していた検索DB（Typesense）のサーバは2024年7月22
 </details>
 
 <details>
-  <summary>２０２３年の更新情報</summary>
+  <summary>2023年の更新情報</summary>
 
 #### 【Nipo(旧)】2023/12/25 v8.0.2 {#vo8_0_2}
 
@@ -906,7 +911,7 @@ Vue3移行に伴い、カレンダー機能が移植できなかったためカ�
 </details>
 
 <details>
-  <summary>２０２２年の更新情報</summary>
+  <summary>2022年の更新情報</summary>
 
 #### 【NipoPlus】 2022/12/23 v1.24.0 {#vp1_24_0}
 
@@ -1158,7 +1163,7 @@ Vue3移行に伴い、カレンダー機能が移植できなかったためカ�
 </details>
 
 <details>
-  <summary>２０２１年の更新情報</summary>
+  <summary>2021年の更新情報</summary>
 
 #### 【Nipo(旧)】 2021/01/06 v7.1.10 {#v7.1.10}
 
@@ -1232,7 +1237,7 @@ Vue3移行に伴い、カレンダー機能が移植できなかったためカ�
 </details>
 
 <details>
-  <summary>２０２０年の更新情報</summary>
+  <summary>2020年の更新情報</summary>
 
 #### 【Nipo(旧)】 2020/10/19 v6.2.5 {#v6.2.5}
 
@@ -1410,7 +1415,7 @@ Vue3移行に伴い、カレンダー機能が移植できなかったためカ�
 
 </details>
 <details>
-  <summary>２０１９年の更新情報</summary>
+  <summary>2019年の更新情報</summary>
 
 #### 【Nipo(旧)】 2019/12/16 v5.4.0 {#v5.4.0}
 
@@ -1576,7 +1581,7 @@ Vue3移行に伴い、カレンダー機能が移植できなかったためカ�
 
 </details>
 <details>
-  <summary>２０１８年の更新情報</summary>
+  <summary>2018年の更新情報</summary>
 
 #### 【Nipo(旧)】 2018/12/18 v3.21.0 {#v3.21.0}
 

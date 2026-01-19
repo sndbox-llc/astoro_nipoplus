@@ -7,7 +7,6 @@ dl.basic {
   margin-top: 4rem;
   margin-bottom: 4rem;
 
-
   dt {
     // background-color: aliceblue;
     font-size: 16px;
@@ -41,7 +40,7 @@ dl.basic {
     text-decoration: none; /* ホバー時に下線を消す */
   }
 
-    /* dd 内の ul では margin を 0 にする */
+  /* dd 内の ul では margin を 0 にする */
   dd ul {
     margin-top: 0;
     margin-bottom: 0;
@@ -70,79 +69,6 @@ dl.basic {
     dt a,
     dd a {
       font-size: 18px; /* モバイルでは少し大きく */
-    }
-  }
-}
-
-dl.faq {
-  padding: 1em;
-
-  dt {
-    padding-bottom: 5px;
-    margin-bottom: 5px;
-    border-bottom: 1px dotted;
-    font-weight: bold;
-    display: flex;
-    align-items: flex-start;
-
-    &:before {
-      content: 'Q';
-      font-weight: normal;
-      background: red;
-      color: #fff;
-      width: 1.5em;
-      height: 1.5em;
-      line-height: 1.6;
-      text-align: center;
-      display: inline-block;
-      border-radius: 1em;
-      margin-right: 0.5em;
-      flex-shrink: 0;
-    }
-  }
-
-  dd {
-    margin-bottom: 2em;
-    display: flex;
-    align-items: flex-start;
-    flex-wrap: wrap;
-
-
-    &:before {
-      content: 'A';
-      font-weight: normal;
-      background: blueviolet;
-      color: #fff;
-      width: 1.5em;
-      height: 1.5em;
-      line-height: 1.6;
-      text-align: center;
-      display: inline-block;
-      border-radius: 1em;
-      margin-right: 0.5em;
-      flex-shrink: 0;
-    }
-
-    span {
-      display: inline-block;
-      vertical-align: top;
-    }
-
-    ul {
-      display: inline-block; /* UL要素をインライン要素として扱い、回り込みを回避する */
-    }
-
-    &:last-child {
-      margin-bottom: 0;
-    }
-  }
-
-  a {
-    font-weight: bold;
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
     }
   }
 }

@@ -125,7 +125,7 @@ iOSではSafariブラウザの機能を使って、NipoPlusをアプリのよう
 
 一般的に広く知られている方法です。App StoreからNipoPlusアプリをダウンロードできます。
 
-<a href="https://apps.apple.com/jp/app/id1625797169" target="_blank"><img src="/images/apple.svg" width="300px" alt="app store logo"></a>
+[![app store](/images/apple.svg)](https://apps.apple.com/jp/app/id1625797169)
 
 <dl class="basic">
     <dt>対応iOSバージョン</dt>
