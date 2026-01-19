@@ -9,7 +9,7 @@ import starlightSidebarTopics from 'starlight-sidebar-topics'
 import starlightLinksValidator from 'starlight-links-validator'
 
 export default defineConfig({
-  site: 'https://sndbox-llc.github.io',
+  site: 'https://sndbox-llc.github.io/astoro_nipoplus/',
   // site: 'https://nipo-plus-doc.sndbox.jp',
   integrations: [
     starlight({
