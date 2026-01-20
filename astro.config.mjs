@@ -19,7 +19,6 @@ export default defineConfig({
     defaultStrategy: 'viewport', // 画面内に入ったら読み込み開始
   },
   image: {
-    // すべてのMarkdown内の画像に対して、以下のサイズを自動生成する
     breakpoints: [1000, 2000],
   },
   integrations: [
