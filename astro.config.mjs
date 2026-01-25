@@ -89,6 +89,26 @@ export default defineConfig({
                 ],
               },
               {
+                label: 'テンプレートパーツ',
+                collapsed: true,
+
+                items: [
+                  //
+                  { slug: 'nipoplus/template/make' },
+                  { slug: 'nipoplus/template/text' },
+                  { slug: 'nipoplus/template/selects' },
+                  { slug: 'nipoplus/template/date_time' },
+                  { slug: 'nipoplus/template/binarys' },
+                  { slug: 'nipoplus/template/binarys' },
+                  { slug: 'nipoplus/template/digital' },
+                  { slug: 'nipoplus/template/mod' },
+                  { slug: 'nipoplus/template/array' },
+                  { slug: 'nipoplus/template/directory' },
+                  { slug: 'nipoplus/template/manage' },
+                  { slug: 'nipoplus/template/key' },
+                ],
+              },
+              {
                 label: '日報以外のデータ管理',
                 collapsed: true,
 
@@ -156,26 +176,7 @@ export default defineConfig({
                   { slug: 'nipoplus/gainen/sosiki' },
                 ],
               },
-              {
-                label: 'テンプレートパーツ',
-                collapsed: true,
 
-                items: [
-                  //
-                  { slug: 'nipoplus/template/make' },
-                  { slug: 'nipoplus/template/text' },
-                  { slug: 'nipoplus/template/selects' },
-                  { slug: 'nipoplus/template/date_time' },
-                  { slug: 'nipoplus/template/binarys' },
-                  { slug: 'nipoplus/template/binarys' },
-                  { slug: 'nipoplus/template/digital' },
-                  { slug: 'nipoplus/template/mod' },
-                  { slug: 'nipoplus/template/array' },
-                  { slug: 'nipoplus/template/directory' },
-                  { slug: 'nipoplus/template/manage' },
-                  { slug: 'nipoplus/template/key' },
-                ],
-              },
               {
                 label: '料金',
                 collapsed: true,
