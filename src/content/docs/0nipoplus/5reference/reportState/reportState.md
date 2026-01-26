@@ -13,16 +13,16 @@ sidebar:
 日報の状態は「新規」から始まり、最終的に「承認済み」へ向けて進みます。各段階の状態は以下のとおりです。
 
 <dl class="basic">
-<dt><strong>新規</strong></dt>
+<dt>新規</dt>
 <dd>日報が作成され、まだ承認や棄却が行われていない初期状態です。</dd>
-<dt><a href="/nipoplus/reference/reportstate/#relay"><strong>進行</strong></a></dt>
-<dd>（提出先が2名以上の場合に限る）1名以上が承認をし、かつ最後の承認がされていない状態です。この状態になると日報はロックされ、直接修正はできません。<strong>承認リレーの途中</strong>であることを示します。</dd>
-<dt><a href="/nipoplus/reference/reportstate/#reject"><strong>棄却</strong></a></dt>
+<dt><a href="/nipoplus/reference/reportstate/#relay">進行</a></dt>
+<dd>（提出先が2名以上の場合に限る）1名以上が承認をし、かつ最後の承認がされていない状態です。この状態になると日報はロックされ、直接修正はできません。承認リレーの途中であることを示します。</dd>
+<dt><a href="/nipoplus/reference/reportstate/#reject">棄却</a></dt>
 <dd>日報が提出先のスタッフによって棄却された状態です。<a href="/nipoplus/reference/redacted/">修正が必要</a>です。棄却された理由はコメント欄で確認できます。</dd>
-<dt><a href="/nipoplus/reference/reportstate/#state"><strong>修正</strong></a></dt>
+<dt><a href="/nipoplus/reference/reportstate/#state">修正</a></dt>
 <dd><a href="/nipoplus/reference/redacted/">日報を修正</a>した直後で、まだ承認や棄却が行われていない状態です。新規と違い、この状態の日報は削除できません。</dd>
-<dt><a href="/nipoplus/reference/reportstate/#agree"><strong>承認</strong></a></dt>
-<dd>全ての提出先スタッフによって承認された最終状態です。日報はロックされ、内容の変更はできません。<strong>正式な記録として確定した</strong>ことを意味します。</dd>
+<dt><a href="/nipoplus/reference/reportstate/#agree">承認</a></dt>
+<dd>全ての提出先スタッフによって承認された最終状態です。日報はロックされ、内容の変更はできません。正式な記録として確定したことを意味します。</dd>
 </dl>
 
 ## 日報を読んだあとのアクション - 承認・既読・棄却 {#action}

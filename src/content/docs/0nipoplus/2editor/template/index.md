@@ -31,18 +31,18 @@ sidebar:
 使用可能な入力フォーム一覧は以下の通りです。
 
 <dl class="basic">
-<dt><a href="/nipoplus/template/text/"><strong>文字入力系</strong></a></dt>
-<dd>本文の入力や住所、<strong>作業詳細</strong>、<strong>所感</strong>といったシンプルな文字入力に最適です。</dd>
-<dt><a href="/nipoplus/template/selects/"><strong>選択入力系</strong></a></dt>
-<dd>予め回答を用意しておき、選ぶだけで入力できるお手軽入力です。<strong>業務内容の定型化</strong>や、<strong>点検項目</strong>、<strong>ステータス管理</strong>に役立ちます。</dd>
-<dt><a href="/nipoplus/template/date_time/"><strong>日付入力系</strong></a></dt>
-<dd>作業時間や予定の日時など、日付関係はこれで決まりです。期間指定をするとかかった合計時間も自動で算出するため、<strong>作業工数の計測</strong>や<strong>勤務時間管理</strong>にも使えます。</dd>
-<dt><a href="/nipoplus/template/binarys/"><strong>署名・写真系</strong></a></dt>
-<dd><strong>作業現場の写真</strong>や顧客の受領サイン、ファイルなど、いわゆるバイナリ系のデータを日報に添付できます。<strong>点検時の証拠写真</strong>や<strong>納品物の確認</strong>などに。</dd>
-<dt><a href="/nipoplus/template/digital/"><strong>数値系</strong></a></dt>
-<dd>売上高や訪問件数、走行距離、<strong>設備稼働時間</strong>、<strong>測定値</strong>など数値として扱えるものはこれできまり。数値なので集計機能との相性も抜群です。</dd>
+<dt><a href="/nipoplus/template/text/">文字入力系</a></dt>
+<dd>本文の入力や住所、作業詳細、所感といったシンプルな文字入力に最適です。</dd>
+<dt><a href="/nipoplus/template/selects/">選択入力系</a></dt>
+<dd>予め回答を用意しておき、選ぶだけで入力できるお手軽入力です。業務内容の定型化や、点検項目、ステータス管理に役立ちます。</dd>
+<dt><a href="/nipoplus/template/date_time/">日付入力系</a></dt>
+<dd>作業時間や予定の日時など、日付関係はこれで決まりです。期間指定をするとかかった合計時間も自動で算出するため、作業工数の計測や勤務時間管理にも使えます。</dd>
+<dt><a href="/nipoplus/template/binarys/">署名・写真系</a></dt>
+<dd>作業現場の写真や顧客の受領サイン、ファイルなど、いわゆるバイナリ系のデータを日報に添付できます。点検時の証拠写真や納品物の確認などに。</dd>
+<dt><a href="/nipoplus/template/digital/">数値系</a></dt>
+<dd>売上高や訪問件数、走行距離、設備稼働時間、測定値など数値として扱えるものはこれできまり。数値なので集計機能との相性も抜群です。</dd>
 <dt>その他</dt>
-<dd><a href="/nipoplus/template/array/"><strong>反復入力</strong></a>や<a href="/nipoplus/template/mod/"><strong>商品入力</strong></a>など、ちょっとユニークなフォームもあります。詳しくはそれぞれのページでご確認ください。これらは<strong>複数商品の同時入力</strong>や<strong>簡易的な在庫・工程管理</strong>に利用できます。</dd>
+<dd><a href="/nipoplus/template/array/">反復入力</a>や<a href="/nipoplus/template/mod/">商品入力</a>など、ちょっとユニークなフォームもあります。詳しくはそれぞれのページでご確認ください。これらは複数商品の同時入力や簡易的な在庫・工程管理に利用できます。</dd>
 </dl>
 
 ## プレビューを確認する
@@ -103,7 +103,7 @@ sidebar:
 
 ### PDF出力時の設定 {#pdf}
 
-日報をPDFに出力する際の余白や透かしといったレイアウトの設定ができます。ここで設定したPDFオプションが**デフォルト値**として記録されます。
+日報をPDFに出力する際の余白や透かしといったレイアウトの設定ができます。ここで設定したPDFオプションがデフォルト値として記録されます。
 詳しくは[PDF出力設定](/nipoplus/staff/pdf/)を御覧ください。
 
 ### テンプレートに補足情報を付け加える {#memo}
@@ -127,7 +127,7 @@ sidebar:
 
 ### 入力の順序を制御する(任意) {#input_control}
 
-決まった順に入力を強制したい場合はフォームの入力順序を指定できます。入力順序はすべて制御することも、一部だけを制御することもできます。これは特に、**作業手順や点検フローの標準化**に役立ちます。
+決まった順に入力を強制したい場合はフォームの入力順序を指定できます。入力順序はすべて制御することも、一部だけを制御することもできます。これは特に、作業手順や点検フローの標準化に役立ちます。
 
 1.  「入力順序を指示する」にチェックを入れる
 1.  「入力順の設定」をクリック

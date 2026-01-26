@@ -12,7 +12,7 @@ sidebar:
 やり方はかんたんです。
 
 1. PDFに変換したい日報を表示
-2. **PDF出力**ボタンをクリック
+2. PDF出力ボタンをクリック
 
 ![PDF化したい日報を表示してPDF出力を押下する](./img/report-to-pdf_tablet.png)
 

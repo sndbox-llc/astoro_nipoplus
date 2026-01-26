@@ -1,0 +1,85 @@
+/* 利用規約のコンテナ */
+.agreepage {
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+
+  h2 {
+    font-size: 1.25rem; // サイズは控えめに
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    background: #f1f8ff; // 非常に薄い青
+    border-radius: 8px;
+    color: #1976d2; // QuasarのPrimaryに近い色
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+    // 「第12条」の部分だけ色を変える、または装飾する
+    &::before {
+      content: 'CHECK';
+      font-size: 0.7rem;
+      background: #1976d2;
+      color: white;
+      padding: 2px 8px;
+      border-radius: 4px;
+      letter-spacing: 1px;
+    }
+  }
+
+  h3 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #455a64; // H2より少し柔らかい色
+    margin: 24px 0 12px 4px; // 左に少し余白
+    padding-left: 12px;
+    border-left: 4px solid #90caf9; // H2より明るい青のアクセント線
+    display: flex;
+    align-items: center;
+
+    // アイコン的なドットを添える
+    &::after {
+      content: '';
+      flex-grow: 1;
+      height: 1px;
+      background: linear-gradient(to right, #e0e0e0, transparent);
+      margin-left: 15px;
+    }
+  }
+  h4 {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #607d8b; // さらに一段階ソフトなグレー
+    margin: 16px 0 8px 12px; // H3よりさらに少し右に寄せる
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    // 小さな丸いアイコンをアクセントに
+    &::before {
+      content: '';
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      background-color: #bbdefb; // H3の線よりさらに薄い水色
+      border-radius: 50%; // まんまる
+    }
+  }
+
+  /* 条文の内容（pタグやdiv） */
+  .terms-content {
+    padding-left: 8px;
+    border-left: 2px solid #e0e0e0;
+    margin-left: 4px;
+    margin-bottom: 24px;
+  }
+
+  /* 重要なポイントの強調 */
+  .highlight-point {
+    font-weight: bold;
+    color: #d32f2f; // 重要なところは少し赤みを
+    background: linear-gradient(transparent 70%, #ffecb3 70%); // 蛍光ペン風
+  }
+}

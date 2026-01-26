@@ -17,23 +17,23 @@ sidebar:
 集計可能な入力フォームは以下のとおりです。大きく2種類に分けることができます。
 
 <dl class="basic">
-<dt><strong>回数の集計（COUNT）</strong></dt>
+<dt>回数の集計（COUNT）</dt>
 <dd>
-特定の項目が<strong>「選ばれた回数」</strong>や<strong>「チェックされた回数」</strong>を集計できます。<strong>文字列データ（選択肢）の傾向分析</strong>に特に有効です。
+特定の項目が「選ばれた回数」や「チェックされた回数」を集計できます。文字列データ（選択肢）の傾向分析に特に有効です。
 <ul>
-<li><a href="/nipoplus/template/selects/#plain">選択入力（単一選択）フォーム</a>：「<strong>良好</strong>」「<strong>不良</strong>」「<strong>異常</strong>」といった選択肢の中で、「異常」が何回選ばれたかなど。</li>
+<li><a href="/nipoplus/template/selects/#plain">選択入力（単一選択）フォーム</a>：「良好」「不良」「異常」といった選択肢の中で、「異常」が何回選ばれたかなど。</li>
 <li><a href="/nipoplus/template/selects/#multiple">選択入力（複数選択）フォーム</a>：使用した機材の種類や、該当する不具合項目の選択回数など。</li>
 <li><a href="/nipoplus/template/selects/#layerd">２層式選択（非推奨）フォーム</a>（※現在非推奨ですが集計は可能です）</li>
 <li><a href="/nipoplus/template/digital/#rate">レート入力フォーム</a>：製品やサービスの評価（星の数）の合計や、各評価（星1、星5など）が何回選ばれたか。</li>
 </ul>
 </dd>
-<dt><strong>合計の集計（SUM）</strong></dt>
+<dt>合計の集計（SUM）</dt>
 <dd>
-<strong>数値データ</strong>を単純に合算して集計できます。<strong>売上合計、作業時間合計、生産数合計</strong>など、量的な分析に用います。
+数値データを単純に合算して集計できます。売上合計、作業時間合計、生産数合計など、量的な分析に用います。
 <ul>
-<li><a href="/nipoplus/template/date_time/#range">日付と時刻（期間）入力フォーム</a> (単位は分：1時間半は90分として出力)。<strong>作業工数</strong>や<strong>設備稼働時間</strong>の合計など。</li>
-<li><a href="/nipoplus/template/digital/#commonNumber">数値入力（汎用）フォーム</a>：売上高、訪問件数、<strong>生産数、測定値</strong>など。</li>
-<li><a href="/nipoplus/template/digital/#slider">スライダ入力フォーム</a>：<strong>気温や湿度などの平均値</strong>や、測定範囲内の合計など。</li>
+<li><a href="/nipoplus/template/date_time/#range">日付と時刻（期間）入力フォーム</a> (単位は分：1時間半は90分として出力)。作業工数や設備稼働時間の合計など。</li>
+<li><a href="/nipoplus/template/digital/#commonNumber">数値入力（汎用）フォーム</a>：売上高、訪問件数、生産数、測定値など。</li>
+<li><a href="/nipoplus/template/digital/#slider">スライダ入力フォーム</a>：気温や湿度などの平均値や、測定範囲内の合計など。</li>
 <li><a href="/nipoplus/template/digital/#calc">算術フォーム</a>：他のフォームから算出された計算結果（例：不良率、合計コスト）の合計など。</li>
 </ul>
 </dd>
@@ -65,5 +65,5 @@ NipoPlusの集計はテンプレートごとに集計されますが、異なる
 
 ## Excelを用いた集計・分析 {#excel}
 
-NipoPlusの標準集計機能でカバーできない、より複雑な集計や分析が必要な場合は、<strong>日報データをCSV出力してExcelで集計や分析を行う</strong>ことが可能です。例えば、特定のキーワードの出現回数を数えたり、複数の項目を組み合わせて詳細なクロス集計を行ったりといったことがExcelで簡単に行えます。
+NipoPlusの標準集計機能でカバーできない、より複雑な集計や分析が必要な場合は、日報データをCSV出力してExcelで集計や分析を行うことが可能です。例えば、特定のキーワードの出現回数を数えたり、複数の項目を組み合わせて詳細なクロス集計を行ったりといったことがExcelで簡単に行えます。
 [Excel集計テクはこちら](/excel/sales_report/)

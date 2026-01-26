@@ -6,7 +6,7 @@ sidebar:
   label: 🔐セキュリティ対策
 ---
 
-クラウドサービスにおいて、お客様の**データの安全性は最優先課題**です。NipoPlusは、お客様に安心してご利用いただくため、常にセキュリティ対策に気を配り、大切な日報データを厳重に保護しています。
+クラウドサービスにおいて、お客様のデータの安全性は最優先課題です。NipoPlusは、お客様に安心してご利用いただくため、常にセキュリティ対策に気を配り、大切な日報データを厳重に保護しています。
 
 ここでは、NipoPlusがどのようなインフラ上で稼働し、お客様のデータをどのように守っているのか、具体的な対策をご紹介します。
 
@@ -14,7 +14,7 @@ sidebar:
 
 ## １．Google Cloud Platform (GCP) が支える強固な基盤 {#gcp_infrastructure}
 
-NipoPlusは、世界有数のクラウドプロバイダーである**Google Cloud Platform (GCP)** を基盤としています。GCPは、Googleが自社のサービス（Gmail、YouTubeなど）で培った技術を活かし、**堅牢なインフラと多層的なセキュリティ対策**を提供しています。
+NipoPlusは、世界有数のクラウドプロバイダーであるGoogle Cloud Platform (GCP) を基盤としています。GCPは、Googleが自社のサービス（Gmail、YouTubeなど）で培った技術を活かし、堅牢なインフラと多層的なセキュリティ対策を提供しています。
 
 ### GCPの主なセキュリティ特徴 {#gcp_security_features}
 
@@ -39,7 +39,7 @@ NipoPlusは、世界有数のクラウドプロバイダーである**Google Clo
 
 ### Firebase Authenticationによる安全な認証 {#firebase_auth}
 
-NipoPlusの認証には、Googleが提供する**Firebase Authentication**を採用しています。
+NipoPlusの認証には、Googleが提供するFirebase Authenticationを採用しています。
 
 <dl class="basic">
 <dt>パスワードの保護</dt>
@@ -68,7 +68,7 @@ NipoPlusで扱うすべてのデータは、保存時も通信時も厳しく暗
 
 ### NoSQLデータベースによる構造的安全性 {#nosql_security}
 
-NipoPlusは、**Firestore**や**Elastic**といった**NoSQL型のデータベース**を利用しています。これは、広く知られているSQLインジェクションのような、従来のリレーショナルデータベースを標的とした攻撃が、**構造的に適用されない**という大きな利点があります。これにより、システム設計の段階からセキュリティ上の潜在的なリスクを低減しています。
+NipoPlusは、FirestoreやElasticといったNoSQL型のデータベースを利用しています。これは、広く知られているSQLインジェクションのような、従来のリレーショナルデータベースを標的とした攻撃が、構造的に適用されないという大きな利点があります。これにより、システム設計の段階からセキュリティ上の潜在的なリスクを低減しています。
 
 ---
 
@@ -111,100 +111,72 @@ NipoPlusは、**Firestore**や**Elastic**といった**NoSQL型のデータベ�
 
 <div class="faq-page">
 
-### データセンターは国内にありますか？
-
 <details>
-<summary>回答を表示する</summary>
+<summary>データセンターは国内にありますか？</summary>
 いいえ、NipoPlusのデータは米国の複数の拠点（マルチリージョン）に保管されています。
 </details>
 
-### データセンターは安全ですか
-
 <details>
-<summary>回答を表示する</summary>
+<summary>データセンターは安全ですか</summary>
 はい、安全です。Google Cloud Platformのデータセンターは、物理的・論理的に最高水準のセキュリティ対策が施されています。<a href="https://firebase.google.com/terms/data-processing-terms?hl=ja#1.-data-center-and-network-security" target="_blank">Firebase公式サイトのデータセンターに関する情報</a>もご参照ください
 </details>
 
-### ハードウェアの限界（メモリやCPU、ストレージ）に対する対策は行われますか？
-
 <details>
-<summary>回答を表示する</summary>
+<summary>ハードウェアの限界（メモリやCPU、ストレージ）に対する対策は行われますか？</summary>
 はい、柔軟に拡張が行われます。Firebaseはオートスケーリング機能を持つため、負荷が増えれば自動で性能が向上します（ただし、急激な増加には一時的な遅れが生じる可能性もあります）。
 </details>
 
-### サーバーの脆弱性に関するガイドラインや対策はマニュアル化されていますか？
-
 <details>
-<summary>回答を表示する</summary>
+<summary>サーバーの脆弱性に関するガイドラインや対策はマニュアル化されていますか？</summary>
 NipoPlusは「サーバーレス」アーキテクチャを採用しており、サーバーの管理はすべてFirebase（Google）に任せています。サーバー側で発見されたセキュリティリスクはFirebaseが責任を持って修正するため、お客様は安心してご利用いただけます。
 </details>
 
-### ネットワークの回線と伝送は安全ですか？
-
 <details>
-<summary>回答を表示する</summary>
+<summary>ネットワークの回線と伝送は安全ですか？</summary>
 はい、安全です。通信回線はすべて暗号化（HTTPS）されており、データの盗聴や改ざんを防ぎます。<a href="https://firebase.google.com/terms/data-processing-terms?hl=ja#1.-data-center-and-network-security" target="_blank">Firebase公式サイトのネットワークセキュリティに関する情報</a>もご参照ください。
 </details>
 
-### マルチテナント型（同じサーバーに複数のクライアントを格納）ですか?
-
 <details>
-<summary>回答を表示する</summary>
+<summary>マルチテナント型（同じサーバーに複数のクライアントを格納）ですか?</summary>
 すべてのお客様のデータを同一のサーバーに格納しておりますが、前述の通り堅牢なアクセス制御により、お客様のデータは論理的に厳格に分離されています。
 </details>
 
-### データのバックアップは行われますか？
-
 <details>
-<summary>回答を表示する</summary>
+<summary>データのバックアップは行われますか？</summary>
 はい、24時間に1度のバックアップが自動で行われます。データは最短10日以上保管されます。
 </details>
 
-### データは暗号化されて保存されていますか？
-
 <details>
-<summary>回答を表示する</summary>
+<summary>データは暗号化されて保存されていますか？</summary>
 はい、すべてのデータは暗号化されて保存されます。通信回線も暗号化（HTTPS）されて送受信されています。
 </details>
 
-### 従業員のITリテラシー教育などは行っていますか？
-
 <details>
-<summary>回答を表示する</summary>
+<summary>従業員のITリテラシー教育などは行っていますか？</summary>
 はい、行っております。日々セキュリティに関する情報を収集し、サービスの安全性を確保するよう努めております。
 </details>
 
-### 従業員による情報流出などについての罰則や就業規則はありますか？
-
 <details>
-<summary>回答を表示する</summary>
+<summary>従業員による情報流出などについての罰則や就業規則はありますか？</summary>
 いいえ、個別の罰則や就業規則は設けておりません。
 </details>
 
-### 開発者のマスターパスワードは定期的に変更されていますか？
-
 <details>
-<summary>回答を表示する</summary>
+<summary>開発者のマスターパスワードは定期的に変更されていますか？</summary>
 いいえ、パスワードの定期的な変更は行っていません。現代のセキュリティ基準では、定期的なパスワード変更はむしろ推奨されておらず、<a href="https://www.soumu.go.jp/main_sosiki/cybersecurity/kokumin/security/business/staff/06/" target="_blank">総務省</a>なども推奨していません。
 </details>
 
-### 開発に利用する端末はセキュリティ対策ソフトが導入されていますか？
-
 <details>
-<summary>回答を表示する</summary>
+<summary>開発に利用する端末はセキュリティ対策ソフトが導入されていますか？</summary>
 はい、ESETウイルス対策ソフトを導入しています。なお、ウォッチガードなどのUTMは利用しておりません。
 </details>
 
-### 開発に利用する端末は施錠できるロッカーに保存されていますか？または盗難防止用チェーンなどの対策は取られていますか？
-
 <details>
-<summary>回答を表示する</summary>
+<summary>開発に利用する端末は施錠できるロッカーに保存されていますか？または盗難防止用チェーンなどの対策は取られていますか？</summary>
 いいえ、物理的な施錠や盗難防止チェーンは使用していません。代わりに、<a href="https://support.apple.com/ja-jp/HT204837" target="_blank">ストレージは強力に暗号化</a>されており、データ保護を徹底しています。
 </details>
 
-### 守秘義務契約を結ぶことは可能ですか？
-
 <details>
-<summary>回答を表示する</summary>
+<summary>守秘義務契約を結ぶことは可能ですか？</summary>
 基本的に個別の契約は行っておりません。NipoPlusの<a href="/nipoplus/system/agree/">利用規約</a>の記載をご確認のうえご利用ください。
 </details>
