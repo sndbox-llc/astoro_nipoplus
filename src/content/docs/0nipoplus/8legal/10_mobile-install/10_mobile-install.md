@@ -1,48 +1,37 @@
 ---
 slug: nipoplus/system/mobile-install
-title: NipoPlusをスマホ・PC・タブレットにインストール
+title: NipoPlusをスマホ・PC・タブレットで使う
 description: NipoPlusはWebブラウザで動作するため、お手持ちのスマホ（iOS/Android）、PC、タブレットからいつでも利用できます。推奨のPWAインストール方法から、ストア版アプリでの利用まで、デバイスごとの最適な使い方を解説します。
 sidebar:
   label: 🍏iOS・🤖Android・PCで使う
 ---
 
-NipoPlusはWebアプリケーションなので、インターネットにつながるブラウザさえあれば、PC、スマートフォン、タブレットなど、あらゆるデバイスから利用可能です。
-さらに、より快適にご利用いただくために、各デバイスへの 「インストール」や「専用アプリ」もご用意しています。
-
+NipoPlusはWebアプリのため、ブラウザがある端末ならスマホでもPCでも利用できます。  
+Android / iosはそれぞれ専用アプリも用意しています。
 NipoPlusのダウンロード用QRコードも用意しています。印刷の上ご活用下さい。
 
 [印刷用PDFファイルはこちら](/pdf/link2.pdf)
 
 ---
 
-## NipoPlusのインストールと利用方法 {#nipo_install_usage}
+## PCで使う場合 {#pc_usage}
 
-NipoPlusは、Web版を **PWA（Progressive Web App）としてホーム画面に追加する**のが最もおすすめの利用方法です。通常のアプリのようにアイコンから起動でき、フル機能が利用可能です。
-
-もちろん、PCならブラウザを開くだけでOK。AndroidとiOSでは、App StoreやGoogle Playからも手軽にアプリをダウンロードできます。
-
-### 【推奨】PWA（Webアプリ）をホーム画面に追加するメリット {#pwa_home_merits}
-
-- **フル機能が使える**: CSV出力など、ストア版アプリでは制限される機能もすべて利用できます。
-- **常に最新版**: アップデートが即座に反映され、常に最新の機能をご利用いただけます。
-- **インストール不要**: ブラウザの機能でホーム画面に追加するため、ストア経由の手間がありません。
-
----
-
-## １．PCで使う：ブラウザでアクセスするだけ！ {#pc_usage}
-
-今このページをPCでご覧いただいている方は、下のボタンをクリックするだけでNipoPlusをすぐに使い始められます。面倒なインストールは一切不要です。
+▼以下のリンクをクリックするだけです。
 
 [NipoPlusを起動](https://nipoplus.sndbox.jp/)
 
+:::tip[ブックマークしておこう]
+https://nipoplus.sndbox.jp/ をブックマークしておくと次回アクセスが楽です
+:::
+
 <dl class="basic">
-<dt>動作確認済みOS</dt>
+<dt>OS</dt>
 <dd>Windows / macOS / iOS / Android</dd>
 <dt>推奨ブラウザ</dt>
 <dd>
 <a href="https://www.google.co.jp/chrome/" target="_blank">Google Chrome</a> / <a href="https://www.apple.com/jp/safari/" target="_blank">Safari</a>
 </dd>
-<dt>動作確認済みブラウザ</dt>
+<dt>その他のブラウザ</dt>
 <dd>
 <a href="https://www.microsoft.com/ja-jp/windows/microsoft-edge" target="_blank">Microsoft Edge</a> / <a href="https://www.mozilla.org/ja/firefox/new/" target="_blank">FireFox</a> / <a href="https://www.opera.com/ja" target="_blank">Opera</a>
 </dd>
@@ -52,34 +41,30 @@ NipoPlusは、Web版を **PWA（Progressive Web App）としてホーム画面�
     <ul>
         <li>モニターサイズは13インチ以上を推奨します。</li>
         <li>タッチ対応ディスプレイのPCでは、手書き機能も活用できます。</li>
-        <li>Internet Explorerでは動作しません。</li>
-        <li>レガシーなMicrosoft Edge（非Chromiumベース版）やSafari（Version14以前）では一部機能が動作しない場合があります。</li>
     </ul>
 </div>
 </dd>
 </dl>
-Windows 7以降のPCであれば、ほとんどの環境で問題なく動作しますのでご安心ください。
 
 ---
 
-## ２．Androidで使う：PWAインストールがおすすめ！ {#android_usage}
+## Androidで使う場合 {#android_usage}
 
-AndroidスマートフォンやタブレットでNipoPlusを使うには、以下の2つの方法があります。**PWA（Webアプリ）としてインストール**するのがおすすめです。
+Google Play Storeからインストールするか、PWAとしてインストールする方法があります。
 
-### 【推奨】WebのNipoPlusをインストール（PWA） {#android_pwa_install}
+### PWAインストール【推奨】 {#android_pwa_install}
 
-WebのNipoPlusはPWAという技術により、**Webサイトでありながらアプリのようにホーム画面に追加して利用できます。**
+:::note[PWAとは？]
+Webアプリが、ネイティブアプリのように振る舞う技術のことです。ネイティブと比較しても遜色ありません
+:::
 
-1.  Google Chromeで[NipoPlusのウェブサイト](https://nipoplus.sndbox.jp/)を開きます。
-2.  画面下部に表示される「**ホーム画面にNipoPlusを追加**」バナーをタップします。
-    （表示されない場合は、次の手順へ進んでください）
+1.  Google Chromeで[NipoPlusのウェブサイト](https://nipoplus.sndbox.jp/)を開きます
+2.  画面下部に表示される「**ホーム画面にNipoPlusを追加**」バナーをタップします（表示されない場合は、次の手順へ進んでください）
 3.  画面右上のメニューアイコン（︙）をタップします。
 4.  メニューの中から「**アプリをインストール**」をタップします。
-5.  ホーム画面にNipoPlusのアイコンが追加され、通常のアプリと同じように起動できるようになります。
+5.  ホーム画面にNipoPlusのアイコンが追加されます
 
-![ChromeからPWA対応サイトを開くとインストールの通知が表示されます。ホーム画面に追加をタップするだけでインストールが完了し、ホーム画面にアイコンが追加されます。](./android-install-pwa.png)
-
-インストール後は、普通のアプリと同様にNipoPlusを快適にご利用いただけます。
+![Androidにインストールする手順図解](./android-install-pwa.png)
 
 ### Google Playストアからインストール {#android_usage}
 
@@ -97,16 +82,16 @@ WebのNipoPlusはPWAという技術により、**Webサイトでありながら�
     <dt>必要なストレージ容量</dt>
     <dd>約8MB</dd>
     <dt>推奨モニターサイズ</dt>
-    <dd>スマートフォン：4インチ以上<br>タブレット：9.7インチ以上<br>（極端に小さな画面では操作性が低下する場合があります）</dd>
+    <dd>スマートフォン：4インチ以上<br>タブレット：9.7インチ以上</dd>
 </dl>
 
 ---
 
-## ３．iOSで使う：PWAインストールがおすすめ！ {#ios_usage}
+## iOSで使う場合 {#ios_usage}
 
-iPhone・iPadでNipoPlusを使うには、以下の2つの方法があります。iOSでも**PWA（Webアプリ）としてインストール**するのがおすすめです。
+App Storeからインストールするか、PWAとしてインストールする方法があります。
 
-### 【推奨】WebのNipoPlusをホーム画面に追加（PWA） {#ios_pwa_add_home}
+### PWAインストール【推奨】 {#ios_pwa_add_home}
 
 iOSではSafariブラウザの機能を使って、NipoPlusをアプリのようにホーム画面に追加できます。
 
@@ -116,10 +101,9 @@ iOSではSafariブラウザの機能を使って、NipoPlusをアプリのよう
 4.  追加するアイコンの名前を任意で決め、画面右上の「追加」をタップします。
 5.  ホーム画面にNipoPlusのアイコンが追加されたことを確認してください。
 
-![PWAをiOSにインストールするにはSafariを起動してインストールしたいページを開きます。その後メニューから「ホーム画面に追加」をタップします](./ios-pwa-install1.png)
+![IOSではSafariを使ってPWAインストールします](./ios-pwa-install1.png)
 
 これでインストールは完了です。アイコンを長押しすると、通常のアプリと同様に削除できます。
-厳密にはウェブページへのショートカットリンクですが、全画面表示になり、まるでアプリのように快適にご利用いただけます。
 
 ### App Storeからインストール {#ios_appstore_install}
 
