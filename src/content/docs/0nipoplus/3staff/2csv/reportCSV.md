@@ -1,7 +1,7 @@
 ---
 slug: nipoplus/staff/csv
 title: CSV出力
-description: CSV出力
+description: NipoPlusに蓄積された日報データを1枚のCSVに一括出力する方法を解説します。月単位の集計やスタッフ別・日別の分割出力に対応。Excelでの高度な分析、長期バックアップ、ペーパーレス化に役立ちます。※本機能はWeb版のみ対応しています。
 sidebar:
   label: 🗂️CSV出力
 ---

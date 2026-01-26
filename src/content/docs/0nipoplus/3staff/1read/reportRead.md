@@ -1,7 +1,7 @@
 ---
 slug: nipoplus/staff/readreport
 title: 日報を読む
-description: すたっふ
+description: スタッフが作成した日報の閲覧方法から、承認・棄却の操作、コメントによるコミュニケーション術まで詳しく解説します。PDFやCSVへのエクスポート手順や、複数枚をまとめる「綴り日報」の仕様、データの詳細確認方法など、日報管理に必要な操作を網羅したガイドです。
 sidebar:
   label: 日報を読む
 ---

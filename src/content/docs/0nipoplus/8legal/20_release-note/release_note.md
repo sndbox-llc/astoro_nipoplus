@@ -28,6 +28,10 @@ NipoPlusは[Android版](/nipoplus/system/mobile-install/#android_usage)・[iOS�
 
 ### リリース詳細▼ {#more}
 
+#### 【NipoPlus】 2026/1/26 v1.76.13 {#vp1_76_13}
+
+- セキュリティアップデートを実施しました
+
 #### 【NipoPlus】 2026/1/19 v1.76.8 {#vp1_76_8}
 
 - ホームページリニューアルに伴い一部URLが変更になりました。アプリ内ガイドのURLを修正しました

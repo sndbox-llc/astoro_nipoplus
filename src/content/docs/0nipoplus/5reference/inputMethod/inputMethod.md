@@ -1,7 +1,7 @@
 ---
 slug: nipoplus/reference/inputmethod
 title: 🖊入力方法について - 各種フォームの操作と具体的な入力例
-description: 🖊入力方法について
+description: NipoPlusで利用できる全10種類以上の入力フォームを徹底解説。テキスト入力のコツから、タップだけで済む選択式、スマホで便利な署名・写真添付、自動計算される算術フォームまで、実際の操作画面を交えて紹介します。
 sidebar:
   label: 🖊入力方法について
 ---
