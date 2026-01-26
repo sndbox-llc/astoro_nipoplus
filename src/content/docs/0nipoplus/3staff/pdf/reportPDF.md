@@ -48,7 +48,7 @@ AndroidやiPhoneでもWeb版NipoPlusを使えば、共有機能は立ち上が�
 :::
 
 :::note[WEB版のみサポート]
-もしAndroidやiOSでこの機能が必要な場合は、[PWA版](/nipoplus/system/mobile-install/#pwa_home_merits)としてインストールしてください。
+もしAndroidやiOSでこの機能が必要な場合は、[PWA版](/nipoplus/system/mobile-install/)としてインストールしてください。
 :::
 
 :::caution[ダウンロードしたZipファイルが文字化け？]
