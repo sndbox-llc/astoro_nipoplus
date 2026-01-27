@@ -19,7 +19,7 @@ export default defineConfig({
     defaultStrategy: 'viewport', // 画面内に入ったら読み込み開始
   },
   image: {
-    breakpoints: [1000, 2000],
+    breakpoints: [500, 1000, 2000],
   },
   integrations: [
     starlight({
