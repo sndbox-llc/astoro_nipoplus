@@ -45,7 +45,7 @@ ZIPファイルを開く時、標準のエクスプローラーで開くよう�
 
 ![ZIPファイルを開くときに使用するソフトを変更する](./img/file-relation-windows.png)
 
-![関連付けの設定画面。エクスプローラーではなくUTF8に対応した解凍ソフトを指定しても良いです。](./img/select-default-application.png)
+![関連付けの設定画面。エクスプローラーではなくUTF8に対応した解凍ソフトを指定しても良い](./img/select-default-application.png)
 
 これで.zipファイルを見つけると、Windows標準のエクスプローラーで開くようになります。この設定でzipファイルのアイコンも変わったはずです。
 さて、これでZipファイルを開いてみましょう。

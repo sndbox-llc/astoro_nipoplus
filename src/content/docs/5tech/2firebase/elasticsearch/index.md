@@ -103,7 +103,7 @@ async function makeElastic() {
 これでElasticSearch側の準備が完了です。
 なお私はこのあたりの処理をCUIでいつでも作成・破壊が出来るようにしておきました。何かとテストで作成破壊を繰り返すことになるので、面倒臭がらず先に作っておくと開発がスムーズになります。
 
-![ElasticCloudにアクセスする簡単なCLIの管理ツールを作りました。シンプルだけど自分しか使わないならこのくらいでも必要十分ですね](./img/terminal.png)
+![ElasticCloudにアクセスする簡単なCLIの管理ツールを作りました](./img/terminal.png)
 
 ### Cloud FunctionsでFirestoreのデータをElastic Searchへプッシュする {#documentMerge}
 

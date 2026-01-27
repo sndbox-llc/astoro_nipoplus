@@ -352,7 +352,7 @@ sidebar:
 
 の選択ができます。下向き▼ボタンをを押さない場合は、「シンプルなメモ」をクリックしたように振る舞います。
 
-![顧客メモにもテンプレートが使えるよ](./img/customerReportWrite_tablet.webp)
+![顧客メモにもテンプレートが使用可能](./img/customerReportWrite_tablet.webp)
 
 ### 顧客対応の種類について {#customer_memo_type}
 
@@ -409,7 +409,7 @@ NipoPlusの顧客対応メモは大きく分けて２種類あります。
 1. 左メニューから「顧客メモ」をクリック
 2. 必要に応じて右パネルのカレンダーを操作する（メモの作成された日で絞り込み）
 
-![全部のメモが見れるよ](./img/customerMemoBox_tablet.webp)
+![全部のメモが見れる](./img/customerMemoBox_tablet.webp)
 
 全顧客のメモでは全てのメモが一覧で表示されます。通常の日報保存箱と見た目はほとんど同じです。
 
@@ -419,7 +419,7 @@ NipoPlusの顧客対応メモは大きく分けて２種類あります。
 2. 一覧から表示したい任意の顧客をクリック
 3. 顧客情報詳細の下部に選択した顧客のメモのみが一覧で表示される
 
-![特定顧客のメモだけ全部見れるよ](./img/customerOneMemo_tablet.webp)
+![特定顧客のメモだけ全部見れる](./img/customerOneMemo_tablet.webp)
 
 ### カレンダー上でメモを表示する {#mapping_calendar_report}
 

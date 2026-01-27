@@ -94,7 +94,7 @@ sidebar:
 :::caution[２文字以上の入力が必要です（１文字だとHitしません）]
 :::
 
-![自由に単語で検索できるよ](./img/fulltextSearch_tablet.webp)
+![自由に単語で検索可能](./img/fulltextSearch_tablet.webp)
 
 ### 検索の条件を保存する - ワンクリックで検索を再実行 {#saveQuery}
 
