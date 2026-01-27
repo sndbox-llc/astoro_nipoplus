@@ -155,6 +155,7 @@ export default defineConfig({
                   // 管理者編集者向け
                   { slug: 'nipoplus/reference/makestaff' },
                   { slug: 'nipoplus/reference/tokumei' },
+                  { slug: 'nipoplus/reference/signin' },
 
                   // その他
                   { slug: 'nipoplus/reference/account' },
@@ -174,6 +175,7 @@ export default defineConfig({
                   { slug: 'nipoplus/gainen/destination' },
                   { slug: 'nipoplus/gainen/reportdate' },
                   { slug: 'nipoplus/gainen/sosiki' },
+                  { slug: 'nipoplus/gainen/faq' },
                 ],
               },
 
@@ -200,7 +202,6 @@ export default defineConfig({
                   { slug: 'nipoplus/system/load-map' },
                   { slug: 'nipoplus/system/security' },
                   { slug: 'nipoplus/system/fix' },
-                  { slug: 'nipoplus/system/faq' },
                   { slug: 'nipoplus/system/business-deal' },
                   { slug: 'nipoplus/system/agree' },
                   { slug: 'nipoplus/system/privacy-policy' },
