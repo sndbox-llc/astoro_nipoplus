@@ -36,7 +36,7 @@ NipoPlusは、[様々な入力フォーム](/tips/templatemake/)を組み合わ�
 
 ### [選択入力複数選択](/nipoplus/template/selects/#multiple) {#select2}
 
-![あらかじめ用意したリストから複数選ぶことができます。見た目はチェックボックスです。](./img/select2_tablet.png)
+![あらかじめ用意したリストから複数選べる](./img/select2_tablet.png)
 
 - 該当する選択肢をタップやクリックで選択します。
 - 複数の回答を選択可能です。
@@ -56,7 +56,7 @@ NipoPlusは、[様々な入力フォーム](/tips/templatemake/)を組み合わ�
 
 ### [チェックボックス](/nipoplus/template/selects/#checkbox) {#checkbox}
 
-![タップでON、もう一度タップでOFFと、直感的な2択入力です。](./img/checkbox-preview_tablet.png)
+![タップでON、もう一度タップでOFF](./img/checkbox-preview_tablet.png)
 
 - クリックでONになり、もう一度クリックするとOFFになります。
 
@@ -102,7 +102,7 @@ NipoPlusは、[様々な入力フォーム](/tips/templatemake/)を組み合わ�
 :::caution[無料プランの場合は低画質になります]
 :::
 
-![PCはドラッグ＆ドロップで写真を追加、スマホやタブレットの場合はボタンをタップしてカメラ起動や写真選択。現場の状況をその場で手軽に記録しましょう](./img/picinput_tablet.png)
+![PCはドラッグ＆ドロップで写真を追加、スマホやタブレットの場合はボタンをタップしてカメラ起動や写真選択](./img/picinput_tablet.png)
 
 :::note[画像の見切れ]
 画面上は上下がカットされているように見えますがデータは残っていますのでご安心下さい

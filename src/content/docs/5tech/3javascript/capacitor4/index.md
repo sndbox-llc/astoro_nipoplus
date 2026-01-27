@@ -68,7 +68,7 @@ migrate中にエラーが発生する場合は、エラー内容を確認して�
 java 11を使えということですね。
 Android Studio -> Preferenceを開きます。 Build, Execution, Deploymentを開き、Build tools -> Gradleの順にアクセスします。
 
-![AndroidStudioのメニューからBuildBundlesを選びます](./img/android-studio.png)
+![AndroidStudioのメニューからBuildBundlesを選ぶ](./img/android-studio.png)
 
 Gradle JDKを11に修正します。
 修正後に再び同じコマンドを入力します。

@@ -26,7 +26,7 @@ sidebar:
 4. 変更したいE-mailアドレスを入力
 5. 変更ボタンをクリック
 
-![メールアドレスの変更にはパスワードの入力が必要だよ](./img/email-edit_tablet.webp)
+![メールアドレスの変更にはパスワードの入力が必要](./img/email-edit_tablet.webp)
 
 ### メールアドレスの変更をキャンセルする {#cancel}
 

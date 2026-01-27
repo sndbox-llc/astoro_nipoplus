@@ -48,7 +48,7 @@ Viエディタの j k l ; によるカーソル移動は私結局なじめませ
 
 ### ControlキーがAキーの左隣にあります。もう小指を無理やり曲げる必要はありません {#control_key_best_position}
 
-![HHKBのCtrlキーはAのすぐ左隣に配置されています](./img/hhkb_ctrl.webp)
+![HHKBのCtrlキーはAのすぐ左隣に配置されている](./img/hhkb_ctrl.webp)
 
 コントロールキーって非常によく使います。ショートカット操作に必ずついて回りますね。
 

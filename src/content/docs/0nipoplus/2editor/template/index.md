@@ -150,7 +150,7 @@ sidebar:
 
 <div class="next-arrow">▼</div>
 
-![入力の並び順を指定した入力イメージをプレビューで確認してみましょう。例えば、点検項目を順番にチェックする流れなど](./img/order-preview_tablet.png)
+![入力の並び順を指定した入力イメージをプレビューで確認する](./img/order-preview_tablet.png)
 
 ## 日報テンプレートに関する質質問
 

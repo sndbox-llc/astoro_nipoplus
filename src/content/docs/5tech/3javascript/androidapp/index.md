@@ -42,12 +42,12 @@ npx cap open android
 Android Studioの上部メニューから以下を選択
 Build -> Build Bundle(s) / APK (s)-> Build Bundle(s)
 
-![AndroidStudioのメニューからBuildBundlesを選びます](./img/android-studio-build.png)
+![AndroidStudioのメニューからBuildBundlesを選ぶ](./img/android-studio-build.png)
 
 少し待つとビルドが完了します。完了後にビルド後に上部メニューから以下を選択します。
 Build -> Generate Signed Bundle / Apk...
 
-![署名付きファイルとしてビルドします](./img/android-studio-generate-sign-app.png)
+![署名付きファイルとしてビルド](./img/android-studio-generate-sign-app.png)
 
 ダイアログボックスが表示されるので「Android App bundle」を選択します。
 署名用鍵などの情報を入力し、Nextボタンをクリックします（※鍵がない場合は同じ画面上から作成できる模様）

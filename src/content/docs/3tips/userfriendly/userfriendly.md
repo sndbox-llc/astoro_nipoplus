@@ -59,7 +59,7 @@ NipoPlusの[写真入力フォーム](/nipoplus/template/binarys/#picture)は１
 
 <div>
 
-![作業現場写真日報を横向きでPDF出力すると写真がより大きく出力されます。](./img/shuzen_landscape.webp)
+![作業現場写真日報を横向きでPDF出力すると写真がより大きく出力される](./img/shuzen_landscape.webp)
 
 </div>
 
@@ -102,7 +102,7 @@ WordやExcelで写真付きの日報を作るのは手間が掛かりますが�
 機器の状態を定期的にチェックするための点検表です。
 紙と違い記入をリアルタイムに管理者が把握できる利点があります。
 
-![設備点検シートの簡易版。実際はもっとたくさんの項目があることでしょう](./img/sample6_tablet.png)
+![設備点検シートの簡易版](./img/sample6_tablet.png)
 
 ## タクシー日報 {#taxi}
 

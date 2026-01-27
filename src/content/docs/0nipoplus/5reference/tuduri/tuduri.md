@@ -41,8 +41,8 @@ sidebar:
 １枚目の日報が書き終わったら、午後の報告分も一緒に書きましょう。
 「日報を追加」をクリックし、「メーカ訪問テンプレート」を選択します。
 
-![日報を追加をクリックします。](./img/writeReport_tablet.webp)
-![２枚目に使用するテンプレートを選びましょう。](./img/addReport_tablet.webp)
+![日報を追加をクリック](./img/writeReport_tablet.webp)
+![２枚目に使用するテンプレートを選ぶ](./img/addReport_tablet.webp)
 ![２枚目の日報が入力画面に追加される](./img/addReport2_tablet.webp)
 
 この手順の繰り返しで、日報を綴っていきます。ご利用プランによって綴れる上限には差があります。
