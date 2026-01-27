@@ -16,7 +16,7 @@ sidebar:
 1.  新規作成をクリック
 1.  タグ名・タグカラーなどの設定を行う
 
-![日報も点検シートも、タグを作っておけばいつでもクリックで使えるから便利です](./img/tag-add1_tablet.png)
+![タグを使えば様々なシーンで活用できて便利](./img/tag-add1_tablet.png)
 
 <div class="next-arrow">▼</div>
 

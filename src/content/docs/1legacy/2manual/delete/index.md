@@ -24,7 +24,7 @@ Nipo【旧版】では通常、「日報は蓄積していくもの」という�
 
 ## 日報の一括削除操作画面 {#show}
 
-![一括削除画面です](./img/batchRemove_tablet.webp)
+![一括削除画面](./img/batchRemove_tablet.webp)
 
 最初に、日報を一覧表示で取得する条件を決めます。設定項目は３つしかありません
 

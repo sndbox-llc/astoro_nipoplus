@@ -6,8 +6,7 @@ sidebar:
   label: 👥顧客管理機能の使い方
 ---
 
-:::note[メニューに無いときはグループ設定から機能を有効にしてください]
-[グループ設定はこちら](/nipoplus/editor/groupmanage/#optionalFunction)
+:::note[[メニューに無いときはグループ設定から機能を有効にしてください](/nipoplus/editor/groupmanage/#optionalFunction)]
 :::
 
 日報テンプレートとは別に、顧客情報を管理するための「顧客テンプレート」も備わっています。  
@@ -82,7 +81,7 @@ sidebar:
 2. ポップアップで編集ウインドウが表示される
 3. ドラッグ操作で任意の順に並べ替えする
 
-![ドラッグ操作で並べ替えします。非表示中の項目にはチップが表示されます](./img/orderby_tablet.webp)
+![ドラッグ操作で並べ替え](./img/orderby_tablet.webp)
 
 ### ラベルを任意に設定する {#edit_label}
 
@@ -195,7 +194,7 @@ sidebar:
 
 登録されている顧客一覧を表示するには、左メニューから「顧客一覧」をクリックします。
 
-![顧客一覧画面です](./img/customerList_tablet.webp)
+![顧客一覧画面](./img/customerList_tablet.webp)
 
 :::note[グループごとに異なる顧客を登録できます]
 :::
@@ -282,7 +281,7 @@ sidebar:
 
 顧客一覧から顧客をクリックすると、当該顧客の詳細表示画面に切り替わります。
 
-![顧客詳細画面です](./img/customerDetail_tablet.webp)
+![顧客詳細画面](./img/customerDetail_tablet.webp)
 
 ### 詳細表示から行えるアクション {#customer_actions}
 
@@ -344,7 +343,7 @@ sidebar:
 応対メモを書きたい顧客を選択し、「応対メモ作成」をクリックします。  
 作成ボタンは顧客一覧画面と、顧客詳細画面両方に配置されています。ここでは詳細画面の例を表示します。
 
-![顧客詳細画面下部にある「応対メモを書く」ボタンを押します](./img/makeCustomerLog_tablet.webp)
+![顧客詳細画面下部にある「応対メモを書く」を押下](./img/makeCustomerLog_tablet.webp)
 
 なお、下向きの三角矢印を押すと
 

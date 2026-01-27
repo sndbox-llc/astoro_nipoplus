@@ -15,7 +15,7 @@ NipoPlusは、[様々な入力フォーム](/tips/templatemake/)を組み合わ�
 
 ### [テキスト入力](/nipoplus/template/text/) {#text}
 
-![シンプルな文字入力フォームです。URLを貼れば自動でリンクになります](./img/text-preview_tablet.png)
+![シンプルな文字入力フォーム。URLを貼れば自動でリンクになる](./img/text-preview_tablet.png)
 
 - シンプルな文字入力です
 - 改行を入れることで入力エリアが自動で広がります
@@ -27,7 +27,7 @@ NipoPlusは、[様々な入力フォーム](/tips/templatemake/)を組み合わ�
 
 ### [選択入力単一選択](/nipoplus/template/selects/#plain) {#select}
 
-![あらかじめ用意したリストから1つだけ選ぶ簡単入力です](./img/select_tablet.png)
+![あらかじめ用意したリストから1つだけ選ぶ入力方式](./img/select_tablet.png)
 
 - 該当する選択肢をタップやクリックで選択します
 - 1つだけ選択可能です
@@ -48,7 +48,7 @@ NipoPlusは、[様々な入力フォーム](/tips/templatemake/)を組み合わ�
 代わりに選択式入力フォームの[動的変化機能](/nipoplus/template/selects/#dinamic_switch_select)をご検討下さい
 :::
 
-![問1の選択によって問2の回答リストが変化します](./img/select2-preview_tablet.png)
+![問1の選択によって問2の回答リストが変化する](./img/select2-preview_tablet.png)
 
 - 日報作成直後の画面では問1しか表示されませんが、問1を選択すると自動で問2が出現します
 - 問2の内容は問1の選択によって変化します
@@ -74,7 +74,7 @@ NipoPlusは、[様々な入力フォーム](/tips/templatemake/)を組み合わ�
 
 ### [日付と時刻-期間](/nipoplus/template/date_time/#range) {#datetimes}
 
-![作業開始日時と終了日時を入力します](./img/datetimes-preview_tablet.png)
+![作業開始日時と終了日時を入力](./img/datetimes-preview_tablet.png)
 
 - 開始日時と終了日時を入力します。
 - 正しい日付や時刻入力がされると、その間の経過時間（所要時間）が自動で計算されて画面に表示されます。
@@ -88,7 +88,7 @@ NipoPlusは、[様々な入力フォーム](/tips/templatemake/)を組み合わ�
 1. 書き足すボタンをクリック
 2. 表示されるキャンバスにペンや指で描画
 
-![署名ボタンをタップすると、直筆サインやイラストを入力するウィンドウがポップアップ表示されます](./img/sign-input_tablet.png)
+![署名ボタンをタップすると、直筆サインやイラストを入力するウィンドウがポップアップ表示](./img/sign-input_tablet.png)
 
 - 描画キャンバスは署名用とイラスト用の2種類があります。
 - 描かれたデータは日報内に画像として埋め込まれます。
@@ -114,7 +114,7 @@ NipoPlusは、[様々な入力フォーム](/tips/templatemake/)を組み合わ�
 
 ### [ファイル入力](/nipoplus/template/binarys/#file) {#file}
 
-![ドラッグ＆ドロップ、またはクリックで各種ファイルを日報に添付できます](./img/file-input_tablet.png)
+![ドラッグ＆ドロップまたはクリックで各種ファイルを日報に添付する](./img/file-input_tablet.png)
 
 - 日報にファイルを添付できるフォームです
 - 1つのファイルにつき1MB、最大で10ファイルまで添付可能です
@@ -133,21 +133,21 @@ NipoPlusは、[様々な入力フォーム](/tips/templatemake/)を組み合わ�
 - 半角のみ扱えます
 - マイナス、小数点も入力可能です
 
-![キーボードから数値を入力します。タッチパネル対応デバイスなら専用テンキーが使いやすく、生産数や測定値などの入力もスムーズです](./img/math-input_tablet.webp)
+![キーボードから数値を入力。タッチパネル対応デバイスなら専用テンキーも便利](./img/math-input_tablet.webp)
 
 ### [レート入力](/nipoplus/template/digital/#rate) {#rate}
 
 - クリック操作で任意の星の数を入力できる評価フォームです
 - 同じ数をもう一度クリックすると未入力状態に戻ります
 
-![タップで星の数を選びます。同じ数をもう一度タップすると★0の状態に戻ります](./img/rate-preview_tablet.png)
+![タップで星の数を選ぶ。同じ数をもう一度タップすると★0の状態に戻る](./img/rate-preview_tablet.png)
 
 ### [スライダ入力](/nipoplus/template/digital/#slider) {#slider}
 
 - PCの場合はつまみをドラッグで数値を入力します
 - スマホの場合はつまみをスワイプして数値を入力します
 
-![ドラッグやスワイプでつまみを動かして数値を入力します](./img/slider-preview_tablet.png)
+![ドラッグやスワイプでつまみを動かして数値を入力](./img/slider-preview_tablet.png)
 
 ### [範囲入力](/nipoplus/template/digital/#range) {#range}
 
@@ -160,7 +160,7 @@ NipoPlusは、[様々な入力フォーム](/tips/templatemake/)を組み合わ�
 
 このフォームは他のデータを参照して自動入力されるため、ユーザの操作は不要です。
 
-![他のフォームの値を参照して自動で入力されるため、手動入力はできません。正確な計算結果で業務を効率化します](./img/calc-preview_tablet.png)
+![他のフォームの値を参照して自動で入力されるため手動入力は不可](./img/calc-preview_tablet.png)
 
 ## その他入力フォーム {#otherCategory}
 
@@ -183,7 +183,7 @@ NipoPlusは、[様々な入力フォーム](/tips/templatemake/)を組み合わ�
 
 設計によって見た目が異なります。この画像は一例です。
 
-![反復入力の偶数行は水色の背景で表示されます。日報の時系列作業や点検項目を、行を追加しながら効率的に入力できます](./img/array-input_tablet.png)
+![反復入力の偶数行は水色の背景で表示される](./img/array-input_tablet.png)
 
 表示形式が表・カードの2種類から切替が可能です。スマートフォンではカード表示が初期状態になります。
 画像では見えていませんが、「+1行追加」ボタンをクリックすると新規の行が一番下に挿入されます。

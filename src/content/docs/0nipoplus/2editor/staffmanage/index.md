@@ -59,7 +59,7 @@ sidebar:
 2.  上部メニューの「スタッフ管理」をクリック
 3.  画面下部にある活動実績の表を確認します。
 
-![このグループ内で行ったアクティビティを集計表示します](./img/staff-activity_tablet.png)
+![グループ内で行ったアクティビティを集計表示](./img/staff-activity_tablet.png)
 
 <dl class="basic">
 <dt><a href="/nipoplus/reference/reportstate/#agree">承認</a></dt>
@@ -91,7 +91,7 @@ sidebar:
 1. 追放アイコンを表示する
 2. 追放アイコンをクリックする
 
-![追放しても組織にアカウントは残ります](./img/bang_tablet.webp)
+![追放しても組織にアカウントは残る](./img/bang_tablet.webp)
 
 :::tip[再加入させるには？]
 [組織設定から該当グループに再アサイン](/nipoplus/admin/about/#join_staff)できます。

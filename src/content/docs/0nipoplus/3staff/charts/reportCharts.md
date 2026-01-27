@@ -43,27 +43,17 @@ sidebar:
 アクセス権限の足りない日報は集計されません。アクセス権限については<a href="/nipoplus/gainen/destination/">提出先または共有先</a>を御覧ください
 :::
 
-## データの累積を見る
-
-一定期間の合計値を集計したいときは[累積機能](/nipoplus/reference/accumn/)を使います。
-
-## データの推移を見る
-
-一定期間におけるデータの増減推移を確認したいときは[推移機能](/nipoplus/reference/transition/)を使います
-
-## データをグラフ化する
-
-累積、推移のデータをグラフとして可視化したい場合は、[グラフ作成機能](/nipoplus/reference/chart/)を使います。
-
-## 目標と実績の対比表
-
-１ヶ月の目標値を設定し、それに対して現在どの程度進捗しているかを知りたいときは[目標実績表](/nipoplus/reference/progress/)を使います。
-
-## 異なるテンプレート同士を一度に比較したいとき
-
-NipoPlusの集計はテンプレートごとに集計されますが、異なるテンプレート同士の集計をしたいときは[クロス集計](/nipoplus/reference/cross/)を使います。
-
-## Excelを用いた集計・分析 {#excel}
-
-NipoPlusの標準集計機能でカバーできない、より複雑な集計や分析が必要な場合は、日報データをCSV出力してExcelで集計や分析を行うことが可能です。例えば、特定のキーワードの出現回数を数えたり、複数の項目を組み合わせて詳細なクロス集計を行ったりといったことがExcelで簡単に行えます。
-[Excel集計テクはこちら](/excel/sales_report/)
+<dl class="basic">
+<dt><a href="/nipoplus/reference/accumn/">データの累積</a></dt>
+<dd>一定期間の合計値を集計したいときは累積機能をご利用下さい</dd>
+<dt><a href="/nipoplus/reference/transition/">データの推移</a></dt>
+<dd>一定期間におけるデータの増減推移を確認したいときは推移機能をご利用下さい</dd>
+<dt><a href="/nipoplus/reference/chart/">データをグラフ化する</a></dt>
+<dd>累積、推移のデータをグラフとして可視化したい場合は、グラフ機能をご利用下さい</dd>
+<dt><a href="/nipoplus/reference/progress/">目標と実績の対比表</a></dt>
+<dd>１ヶ月の目標値を設定し、それに対して現在どの程度進捗しているかを知りたいときは目標実績表をご利用下さい</dd>
+<dt><a href="/nipoplus/reference/cross/">クロス集計</a></dt>
+<dd>異なるテンプレート同士を一度に比較したいときはクロス集計をご利用下さい</dd>
+<dt><a href="/excel/sales_report/">Excelを用いた集計・分析</a></dt>
+<dd>NipoPlusの標準集計機能でカバーできない、より複雑な集計や分析が必要な場合は、日報データをCSV出力してExcelで集計や分析を行うことが可能です</dd>
+</dl>

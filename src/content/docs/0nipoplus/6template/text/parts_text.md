@@ -18,7 +18,7 @@ sidebar:
 | :------: | :-----: | :-----: | :------: |
 |    ✗     |   ⭕    |   ⭕    |    ⭕    |
 
-![文字入力フォームは、日報の本文、引き継ぎ、点検時の所見や作業メモなど、自由な記録に最適です](./img/input-method-keyboard_tablet.png)
+![文字入力フォーム。、日報の本文などに最適](./img/input-method-keyboard_tablet.png)
 
 ## 追加の手順 {#addForm}
 
@@ -26,7 +26,7 @@ sidebar:
 2.  フォームリストから文字入力をクリックして追加
 3.  必要に応じて設定を行う
 
-![日報や点検シートのテンプレートに、自由記述用のテキスト入力を追加した画面イメージです](./img/template-edit-text_tablet.png)
+![テキスト入力フォームを追加した例](./img/template-edit-text_tablet.png)
 
 ## 設定 {#settings}
 

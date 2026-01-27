@@ -55,7 +55,7 @@ sidebar:
 
 ヘッダーエリアの入力を行います。
 
-![日報の提出日・提出先・共有先といったヘッダ情報を入力します。日報の提出先や点検記録の報告先を明確にしましょう](./img/report-header_tablet.png)
+![日報の提出日や提出先を入力する](./img/report-header_tablet.png)
 
 <dl class="basic">
   <dt><a href="/nipoplus/gainen/reportdate/">提出日時</a></dt>

@@ -6,8 +6,7 @@ sidebar:
   label: 📚ログデータ
 ---
 
-:::note[メニューに無いときはグループ設定から機能を有効にしてください]
-[グループ設定はこちら](/nipoplus/editor/groupmanage/#optionalFunction)
+:::note[[メニューに無いときはグループ設定から機能を有効にしてください](/nipoplus/editor/groupmanage/#optionalFunction)]
 :::
 
 グループ内の様々な出来事はログデータとして自動保存されます。ログは改ざん防止のため読み取り専用であり、管理者であってもログの書き換えや削除はできません。

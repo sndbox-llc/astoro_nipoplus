@@ -13,8 +13,8 @@
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.0",
-    "@astrojs/starlight": "^0.37.3",
-    "astro": "^5.16.11",
+    "@astrojs/starlight": "^0.37.4",
+    "astro": "^5.16.15",
     "rehype-figure": "^1.0.1",
     "remark-heading-id": "^1.0.1",
     "sharp": "^0.34.5",
@@ -26,6 +26,6 @@
     "@types/remark-heading-id": "^1.0.0",
     "prettier": "^3.7.4",
     "prettier-plugin-astro": "^0.14.1",
-    "sass-embedded": "^1.97.2"
+    "sass-embedded": "^1.97.3"
   }
 }

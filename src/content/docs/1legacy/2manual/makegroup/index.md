@@ -36,7 +36,7 @@ Nipo【旧版】はグループを作り、その中にスタッフのアカウ�
 
 グループ一覧画面の末尾にある「グループの作成」ボタンをクリックします
 
-![グループを新規に作ります](./img/createGroup_tablet.webp)
+![グループを新規に作る](./img/createGroup_tablet.webp)
 
 グループ名を聞かれるので、任意の名前を入力してください。これでグループの作成が完了です。
 
@@ -126,7 +126,7 @@ https://nipoapp.sndbox.jp/#/room/2Oq0yOZgKWsogVstjdUg/res
 グループモードでは３つのモードしか無いため、より細かく制御したい場合は提出先や共有先を個別に指定する方法を用意しています。
 この設定はスタッフ単位で指定できます。詳しくは[スタッフ管理](/legacy/manual/staff-manage/)を御覧ください
 
-![スタッフごとに提出先を強制指定できます](./img/fixDist_tablet.webp)
+![スタッフごとに提出先を強制指定する](./img/fixDist_tablet.webp)
 
 ## 途中でモードを切り替えるとどうなるの？ {#hint}
 

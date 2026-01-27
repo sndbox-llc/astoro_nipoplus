@@ -24,6 +24,16 @@ $font-family-sans-serif:
 }
 
 figcaption {
-  margin-top: 0;
-  font-size: 0.9em;
+  /* 上下の余白を微調整。detailsとの距離感を保つ */
+  margin: 0.8rem auto 1.5rem;
+  /* 本文（1em）より少し小さく、でも読みづらくない絶妙なサイズ */
+  font-size: 0.82rem;
+  /* 文字間隔を広げると、パッと見で「ラベル」だと認識しやすくなる */
+  letter-spacing: 0.05em;
+  /* 本文より少し薄いグレー。detailsの文字色より一段落とすのがコツ */
+  color: var(--sl-color-gray-3);
+  /* 中央寄せ。これが一番「図の解説」っぽく見えます */
+  text-align: center;
+  /* 行間を詰め気味にして、塊感を出す */
+  line-height: 1.4;
 }
