@@ -3,7 +3,7 @@ slug: nipoplus/reference/withdrawal
 title: 組織を削除する(退会)
 description: 退会に伴いすべてのデータを安全に削除します
 sidebar:
-  label: 退会処理
+  label: ⚠️退会処理
   badge:
     text: 注意
     variant: danger

@@ -47,7 +47,7 @@ NipoPlusのスタッフアカウントには、それぞれ「権限」が設定
 
 主な役割は次のとおりです
 
-- [テンプレートの作成・編集](/nipoplus/template/make/)
+- [テンプレートの作成・編集](/tips/templatemake/)
 - [日報提出先の指定（グループ内）](/nipoplus/editor/destinationlock/)
 - グループからスタッフを追放する（グループ内）
 - グループ内のタグ管理など、グループ全般の設定

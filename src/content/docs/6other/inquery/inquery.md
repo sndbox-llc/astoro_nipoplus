@@ -17,9 +17,7 @@ sidebar:
 - Nipo【旧版】の解約手順がわからない方はお問い合わせ前に[解約ガイド](/legacy/manual/leave-account/)を御覧ください
 - Nipo【旧版】からNipoPlusへ乗り換えを検討の方はお問い合わせ前に[NipoPlusへの移行ガイド](/legacy/about/diff/)を御覧ください
 
-:::note[営業メールは送らないで💦]
-お客様のお問い合わせ用です。営業メールは絶対に送らないでください🚫
-SEO対策・IT人材派遣・BAAS比較サイト掲載。全部間に合っております✋
+:::note[営業メールは送らないで下さい]
 :::
 
 <div class="contact-form">

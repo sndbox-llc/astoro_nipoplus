@@ -3,7 +3,7 @@ slug: nipoplus/staff/pdf
 title: 日報をPDFに変換する
 description: 日報をPDFに変換する
 sidebar:
-  label: 日報をPDFに変換する
+  label: 🖨️日報をPDFに変換する
 ---
 
 日報アプリで作成された日報をワンクリックでかんたんにPDFへ変換できます。
@@ -179,7 +179,7 @@ PDF設定画面では出力される日報の本文自体も変更可能です�
 
 ![同じ日報を異なるレイアウトで出力したよ](./img/pdf_tablet.webp)
 
-レイアウト1はNipoPlusで[作ったテンプレート](/nipoplus/template/make/)をできるだけ再現できるように動作するレイアウトです。
+レイアウト1はNipoPlusで[作ったテンプレート](/tips/templatemake/)をできるだけ再現できるように動作するレイアウトです。
 [専有幅](/nipoplus/editor/template/#width)をできるだけ模倣してPDF出力します。
 一方で、レイアウト2は列の数を1〜6から選択してPDFに出力します。テンプレート内の[専有幅](/nipoplus/editor/template/#width)は無視されます。
 

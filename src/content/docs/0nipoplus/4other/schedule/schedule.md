@@ -3,7 +3,7 @@ slug: nipoplus/other/schedule
 title: 予定管理機能の使い方
 description: schedule
 sidebar:
-  label: 予定管理機能の使い方
+  label: 📅予定管理機能の使い方
 ---
 
 :::note[メニューに無いときはグループ設定から機能を有効にしてください]

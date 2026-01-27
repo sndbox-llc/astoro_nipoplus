@@ -1,31 +1,69 @@
 ---
-// デザインは自由に変更してください
+// CTA
 ---
-<div class="cta-container">
-  <div class="cta-content">
-    <h3>現場のDXを今すぐ始めましょう</h3>
-    <p>NipoPlusは無料でトライアル可能です。まずは使い心地を試してみてください。</p>
-    <a href="https://nipoplus.sndbox.jp/" target="_blank" class="cta-button">無料で始める</a>
+<div class="cta-card">
+  <div class="cta-inner">
+    <div class="cta-brand">
+      <img src="/images/favicon.svg" alt="NipoPlus logo" />
+    </div>
+    <h3>現場のDXを、もっと軽やかに。</h3>
+    <p>日報・チェックリスト作成を自動化する「NipoPlus」。<br>まずは無料トライアルで、その使い心地を体験してください。</p>
+    <a href="https://nipoplus.sndbox.jp/" target="_blank" class="cta-btn">無料で始める</a>
   </div>
 </div>
 
 <style>
-  .cta-container {
-    margin-top: 3rem;
-    padding: 2rem;
-    background: var(--sl-color-bg-nav);
-    border: 1px solid var(--sl-color-hairline);
-    border-radius: 0.5rem;
+  :root {
+    /* 必要に応じて Starlight の変数を使用、なければ直接指定 */
+    --accent-color: #3b82f6; 
+    --text-muted: #64748b;
+  }
+
+  .cta-card {
+    margin: 4rem auto;
+    max-width: 650px;
+    padding: 3rem 2rem;
+    background: linear-gradient(145deg, #ffffff, #f8fafc);
+    border: 1px solid #e2e8f0;
+    border-radius: 1.5rem;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05);
     text-align: center;
   }
-  .cta-button {
+
+  .cta-brand img {
+    width: 60px; /* アイコンを少し控えめに */
+    margin-bottom: 1.5rem;
+    opacity: 0.9;
+  }
+
+  .cta-card h3 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    color: #1e293b;
+  }
+
+  .cta-card p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--text-muted);
+    margin-bottom: 2rem;
+  }
+
+  .cta-btn {
     display: inline-block;
-    margin-top: 1rem;
-    padding: 0.5rem 1.5rem;
-    background: var(--sl-color-accent);
-    color: var(--sl-color-white);
-    text-decoration: none;
-    border-radius: 0.25rem;
-    font-weight: bold;
+    padding: 0.8rem 2.5rem;
+    background-color: var(--accent-color);
+    color: white !important;
+    text-decoration: none !important;
+    border-radius: 9999px; /* 丸みのあるボタン */
+    font-weight: 600;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+  }
+
+  .cta-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(59, 130, 246, 0.4);
   }
 </style>

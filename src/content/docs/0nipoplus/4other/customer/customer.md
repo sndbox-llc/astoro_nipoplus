@@ -3,7 +3,7 @@ slug: nipoplus/other/customer
 title: 顧客管理機能の使い方
 description: customer
 sidebar:
-  label: 顧客管理機能の使い方
+  label: 👥顧客管理機能の使い方
 ---
 
 :::note[メニューに無いときはグループ設定から機能を有効にしてください]

@@ -1,9 +1,9 @@
 ---
 slug: nipoplus/staff/writereport
-title: 日報を書く
+title: ✍️日報を書く
 description: NipoPlusで日報を作成・提出する基本手順を5つのステップで解説します。テンプレートの選び方から、報告内容の入力、提出先の指定方法までを網羅。入力必須項目のチェックや、万が一アプリが閉じてしまった際の自動復旧（リカバリー）機能についても紹介しています。
 sidebar:
-  label: 日報を書く
+  label: ✍️日報を書く
   badge:
     text: 基本
     variant: note

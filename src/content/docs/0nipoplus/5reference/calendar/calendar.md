@@ -3,7 +3,7 @@ slug: nipoplus/reference/calendar
 title: カレンダーの使い方
 description: カレンダーの使い方
 sidebar:
-  label: カレンダーの使い方
+  label: 🗓️カレンダーの使い方
 ---
 
 :::note[メニューに無いときはグループ設定から機能を有効にしてください]

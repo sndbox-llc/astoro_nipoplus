@@ -94,7 +94,6 @@ export default defineConfig({
 
                 items: [
                   //
-                  { slug: 'nipoplus/template/make' },
                   { slug: 'nipoplus/template/text' },
                   { slug: 'nipoplus/template/selects' },
                   { slug: 'nipoplus/template/date_time' },
@@ -288,6 +287,8 @@ export default defineConfig({
             icon: 'information',
             items: [
               //
+              { slug: 'tips/templatemake' },
+
               { slug: 'tips/templatesample' },
               { slug: 'tips/usecase' },
               { slug: 'tips/analytics' },

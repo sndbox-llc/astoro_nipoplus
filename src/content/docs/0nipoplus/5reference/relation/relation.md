@@ -3,7 +3,7 @@ slug: nipoplus/reference/relation
 title: 複数人で日報を書き上げる
 description: 複数人で日報を書き上げる
 sidebar:
-  label: 複数人で日報を書き上げる
+  label: ⛓️複数人で日報を書き上げる
 ---
 
 ## 複数人で日報をリレー - 交代勤務や共同作業の記録を明確に {#about}

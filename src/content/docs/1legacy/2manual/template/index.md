@@ -8,7 +8,7 @@ sidebar:
 ---
 
 :::note[後続のNipoPlusでも利用可能]
-[詳しくはこちら](/nipoplus/template/make)
+[詳しくはこちら](/tips/templatemake)
 :::
 
 ## テンプレートの役割 {#about}

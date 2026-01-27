@@ -1,9 +1,9 @@
 ---
 slug: nipoplus/admin/about
-title: 管理者のやるべきこと
+title: 👔管理者の役割
 description: 管理者がNipoPlusで果たすべき役割と操作方法のガイドページです。
 sidebar:
-  label: 管理者の役割
+  label: 👔管理者の役割
 ---
 
 ようこそ。管理者様。

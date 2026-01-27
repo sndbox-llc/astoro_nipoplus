@@ -3,7 +3,7 @@ slug: nipoplus/system/load-map
 title: 今後の更新予定・バグ情報
 description: 今後のアップデート予定について
 sidebar:
-  label: バグ及び今後の更新予定
+  label: 📢バグ及び今後の更新予定
 ---
 
 NipoPlusで現在実装されていませんがこれから実装を予定している機能についてまとめています。

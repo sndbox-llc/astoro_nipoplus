@@ -1,9 +1,9 @@
 ---
 slug: nipoplus/editor/inventory
-title: 商品在庫管理
+title: 📦商品在庫管理
 description: 商品在庫管理
 sidebar:
-  label: 商品在庫管理
+  label: 📦商品在庫管理
   badge:
     text: 応用
     variant: caution

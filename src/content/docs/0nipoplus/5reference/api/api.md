@@ -3,7 +3,7 @@ slug: nipoplus/reference/api
 title: APIの使い方
 description: APIキーを使用すると、外部システムやCurlなどのコマンドラインツールを通じて、日報データを直接取得できます。このガイドでは、APIキーの取得方法や無効化の手順について詳しく解説します。
 sidebar:
-  label: API
+  label: 🔌API
   badge:
     text: 応用
     variant: caution
