@@ -669,7 +669,7 @@ NipoPlusでは通信コストを減らすために変化しにくいデータを
 4. 必要に応じて色を変更
 5. 保存ボタンを押下
 
-![バナーで全員に周知しよう](./img/banner_tablet.webp)
+![バナーで全員に周知](./img/banner_tablet.webp)
 
 </details>
 
