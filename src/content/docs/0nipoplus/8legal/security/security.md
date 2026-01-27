@@ -109,8 +109,6 @@ NipoPlusは、FirestoreやElasticといったNoSQL型のデータベースを利
 
 お客様からいただくセキュリティに関するご質問をまとめました。
 
-<div class="faq-page">
-
 <details>
 <summary>データセンターは国内にありますか？</summary>
 いいえ、NipoPlusのデータは米国の複数の拠点（マルチリージョン）に保管されています。

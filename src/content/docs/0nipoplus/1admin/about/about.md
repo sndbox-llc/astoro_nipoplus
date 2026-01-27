@@ -29,6 +29,7 @@ NipoPlusを使用する従業員のためにアカウントを作成しましょ
 参考資料:
 
 - [スタッフ権限について](/nipoplus/reference/userRank/)
+- [アカウント作成詳細ガイド](/nipoplus/reference/makestaff/)
 - [スタッフの一括作成](/nipoplus/reference/makestaff/)
 
 ## グループを作成する
