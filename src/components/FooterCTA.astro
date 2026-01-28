@@ -1,6 +1,3 @@
----
-// CTA
----
 <div class="cta-card">
   <div class="cta-inner">
     <div class="cta-brand">
@@ -8,13 +5,24 @@
     </div>
     <h3>現場のDXを、もっと軽やかに。</h3>
     <p>日報・チェックリスト作成を電子化する「NipoPlus」。<br>まずは無料トライアルで、その使い心地を体験してください。</p>
-    <a href="https://nipoplus.sndbox.jp/" target="_blank" class="cta-btn">無料で始める</a>
+    
+    <div class="cta-actions">
+      <a href="https://nipoplus.sndbox.jp/" target="_blank" class="cta-btn main-btn">Webで無料で始める</a>
+      
+      <div class="store-badges">
+        <a href="/nipoplus/system/mobile-install/#ios_usage" target="_blank" class="store-link">
+          <img src="/images/apple.svg" width="130" alt="App Storeからダウンロード" />
+        </a>
+        <a href="/nipoplus/system/mobile-install/#android_usage" target="_blank" class="store-link">
+          <img src="/images/google-play-badge.png" width="100" alt="Google Playで手に入れよう" />
+        </a>
+      </div>
+    </div>
   </div>
 </div>
 
 <style>
   :root {
-    /* 必要に応じて Starlight の変数を使用、なければ直接指定 */
     --accent-color: #3b82f6; 
     --text-muted: #64748b;
   }
@@ -31,9 +39,8 @@
   }
 
   .cta-brand img {
-    width: 60px; /* アイコンを少し控えめに */
+    width: 60px;
     margin-bottom: 1.5rem;
-    opacity: 0.9;
   }
 
   .cta-card h3 {
@@ -41,6 +48,7 @@
     font-weight: 800;
     margin-bottom: 1rem;
     color: #1e293b;
+    border: none; /* Starlightのデフォルト消し */
   }
 
   .cta-card p {
@@ -50,20 +58,60 @@
     margin-bottom: 2rem;
   }
 
-  .cta-btn {
+  /* アクションエリア */
+  .cta-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .cta-btn.main-btn {
     display: inline-block;
-    padding: 0.8rem 2.5rem;
+    padding: 0.8rem 3rem;
     background-color: var(--accent-color);
     color: white !important;
     text-decoration: none !important;
-    border-radius: 9999px; /* 丸みのあるボタン */
+    border-radius: 9999px;
     font-weight: 600;
-    transition: transform 0.2s, box-shadow 0.2s;
+    transition: transform 0.2s;
     box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
   }
 
-  .cta-btn:hover {
+  .cta-btn.main-btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(59, 130, 246, 0.4);
+  }
+
+  /* ストアバナーエリア */
+  .store-badges {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .store-link img {
+    height: 40px; /* バナーの高さを統一 */
+    width: auto;
+    transition: opacity 0.2s;
+  }
+
+  .store-link:hover img {
+    opacity: 0.8;
+  }
+
+  /* Google Playのバナーは余白が大きいため微調整 */
+  .store-link img[alt*="Google"] {
+    height: 58px;
+    margin: -9px 0;
+  }
+
+  /* モバイル対応 */
+  @media (max-width: 480px) {
+    .store-badges {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
   }
 </style>
