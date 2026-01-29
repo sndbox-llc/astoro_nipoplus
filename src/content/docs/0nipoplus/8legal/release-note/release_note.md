@@ -204,7 +204,7 @@ NipoPlusは[Android版](/nipoplus/system/mobile-install/#android_usage)・[iOS�
 
 #### 【NipoPlus】 2025/6/20 サーバサイドアップデート
 
-APIのエンドポイントに[タイムカードのエンドポイント](/nipoplus/reference/api/#timecard)を追加しました。
+APIのエンドポイントに[タイムカードのエンドポイント](/nipoplus/reference/api/)を追加しました。
 
 #### 【NipoPlus】 2025/6/13 v1.70.1 {#vp1_70_1}
 

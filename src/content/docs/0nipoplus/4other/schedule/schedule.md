@@ -44,10 +44,10 @@ sidebar:
 
 カレンダー画面からも簡単に予定を追加できます。カレンダーの表示モード（月、週、表、日）に応じて追加の手順が少し異なるため、以下の各ページで詳細をご確認ください。
 
-- [月カレンダから予定を追加する](/nipoplus/reference/calendar/#add_event)
-- [週カレンダから予定を追加する](/nipoplus/reference/calendar/#add_event)
-- [表カレンダから予定を追加する](/nipoplus/reference/calendar/#add_event)
-- [日カレンダから予定を追加する](/nipoplus/reference/calendar/#add_event)
+- [月カレンダから予定を追加する](/nipoplus/reference/calendar/#add_event_month)
+- [週カレンダから予定を追加する](/nipoplus/reference/calendar/#add_event_about)
+- [表カレンダから予定を追加する](/nipoplus/reference/calendar/#add_event_map)
+- [日カレンダから予定を追加する](/nipoplus/reference/calendar/#add_event_day)
 
 ---
 
