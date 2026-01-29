@@ -1,7 +1,7 @@
 ---
 slug: nipoplus/reference/withdrawal
 title: 組織を削除する(退会)
-description: 退会に伴いすべてのデータを安全に削除します
+description: NipoPlusの利用を辞める場合は退会を行って下さい。すべてのデータは安全に削除されます。
 sidebar:
   label: ⚠️退会処理
   badge:

@@ -1,7 +1,7 @@
 ---
 slug: nipoplus/editor/inventory
 title: 商品在庫管理
-description: 商品在庫管理
+description: 簡易的ですが商品の状態管理や数量管理が可能です。日報テンプレートに組み込むことで、入庫伝票・出庫伝票のような使い方も可能です。あくまでも簡易版であることには留意して下さい
 sidebar:
   label: 📦商品在庫管理
   badge:

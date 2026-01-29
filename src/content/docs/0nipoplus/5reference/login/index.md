@@ -1,7 +1,7 @@
 ---
 slug: nipoplus/reference/signin
 title: ログイン・ログアウト
-description: NipoPlusのログイン、アカウント情報の確認、ログアウト手順を解説. E-mailとパスワードの管理や複数デバイスでのログイン方法、セキュリティ対策もカバーします。
+description: ログインにはE-mailとパスワードの組み合わせを使用します。パスワードを忘れた方はEmailを使ってリセットすることができます。
 sidebar:
   label: 🚪ログイン・ログアウト
 ---

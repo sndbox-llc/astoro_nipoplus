@@ -1,7 +1,7 @@
 ---
 slug: nipoplus/editor/about
 title: 編集者のやるべきこと
-description: 編集者がNipoPlusで果たすべき役割と操作方法のガイドページです。
+description: 編集者は各グループに関するあらゆる設定が可能です。日報テンプレートの作成、スタッフの提出先や使用可能なテンプレートの制限、テーマカラーの設定などが主な役割となります
 sidebar:
   label: 編集者のやるべきこと
 ---

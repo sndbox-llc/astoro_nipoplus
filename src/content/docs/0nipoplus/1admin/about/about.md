@@ -1,7 +1,7 @@
 ---
 slug: nipoplus/admin/about
 title: グループの作成とスタッフの作成
-description: 管理者がNipoPlusで果たすべき役割と操作方法のガイドページです。
+description: 管理者向けの操作ガイドです。アカウントの作成・グループの作成と各グループへのスタッフのアサインが主な管理者の役割となります
 sidebar:
   label: 👔グループとスタッフの作成
 ---

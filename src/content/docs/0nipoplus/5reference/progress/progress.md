@@ -1,7 +1,7 @@
 ---
 slug: nipoplus/reference/progress
 title: 📈目標と実績の管理
-description: 📈目標と実績の管理
+description: 月間の目標を設定し、それに対してどの程度進んでいるかを分析する機能です。集計のデータには日報を使用するため、日々の日報がそのままKPI分析に役立てることができます。
 sidebar:
   label: 📈目標と実績の管理
 ---

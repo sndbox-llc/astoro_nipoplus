@@ -1,7 +1,7 @@
 ---
 slug: nipoplus/other/customer
 title: 顧客管理機能の使い方
-description: customer
+description: 顧客管理機能が備わっています。顧客の作成や編集、そして顧客ごとに対応履歴を「日報」として作成できます。顧客ごとにどのような履歴があるのかを全員が把握でき、属人化を防ぐ効果があります。
 sidebar:
   label: 👥顧客管理機能の使い方
 ---

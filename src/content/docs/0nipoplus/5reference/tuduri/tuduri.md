@@ -1,7 +1,7 @@
 ---
 slug: nipoplus/reference/tuduri
 title: 日報の綴り機能
-description: 日報の綴り機能
+description: 複数の日報を１つづりに束ねて提出することができます。綴られた日報はまるで１つの日報のように振る舞います。異なるテンプレート同士を綴ることもできます。
 sidebar:
   label: 📔日報の綴り機能
 ---

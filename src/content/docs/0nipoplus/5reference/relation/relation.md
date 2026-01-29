@@ -1,7 +1,7 @@
 ---
 slug: nipoplus/reference/relation
 title: 複数人で日報を書き上げる
-description: 複数人で日報を書き上げる
+description: 早番・遅番のように分けて業務を行う場合に二人で１つの日報を書き上げることができます。
 sidebar:
   label: ⛓️複数人で日報を書き上げる
 ---

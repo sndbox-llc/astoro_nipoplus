@@ -1,7 +1,7 @@
 ---
 slug: nipoplus/reference/tokumei
 title: 1クリックで手軽に体験可能な匿名アカウント
-description: メールアドレスもパスワードも無しで手軽にNipoPlusを使ってみてください。言葉通りワンクリックでお試しができます。
+description: 匿名アカウントはその名の通り、Emailやパスワード無しでワンクリックで発行される一時アカウントです。手軽に試せる便利な機能です
 sidebar:
   label: 👤匿名アカウント
 ---

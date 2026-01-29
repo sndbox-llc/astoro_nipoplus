@@ -1,7 +1,7 @@
 ---
 slug: nipoplus/other/schedule
 title: 予定管理機能の使い方
-description: schedule
+description: 日報が「実績」であるならば予実管理における「予定」がこの機能になります。予定はカレンダーとも連動し、グループ内のスケジュール全体を簡単に把握できます
 sidebar:
   label: 📅予定管理機能の使い方
 ---

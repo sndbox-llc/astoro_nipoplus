@@ -1,7 +1,7 @@
 ---
 slug: nipoplus/staff/pdf
 title: 日報をPDFに変換する
-description: 日報をPDFに変換する
+description: NipoPlusで作成された日報データはそのままだときれいに印刷できません。外部出力する際はPDFに変換することでレイアウトを保ったまま出力可能です。
 sidebar:
   label: 🖨️日報をPDFに変換する
 ---

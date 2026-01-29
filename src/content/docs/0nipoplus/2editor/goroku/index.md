@@ -1,7 +1,7 @@
 ---
 slug: nipoplus/editor/wordBookManagement
 title: 語録集の管理
-description: 語録集の管理
+description: 語録は単語のマスターデータです。選択式入力フォームと組み合わせて使用し、単語の追加や削除が簡単に行えます。選択肢が多い場合は語録の使用を推奨します
 sidebar:
   label: 語録集の管理
   badge:

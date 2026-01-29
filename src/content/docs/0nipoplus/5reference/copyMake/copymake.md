@@ -1,7 +1,7 @@
 ---
 slug: nipoplus/reference/copymake
 title: 日報のコピー新規作成
-description: 日報のコピー新規作成
+description: 前回の内容をコピーして新規に日報を作成できます。ただし署名など一分のデータは複製されません
 sidebar:
   label: 📑日報のコピー新規作成
 ---

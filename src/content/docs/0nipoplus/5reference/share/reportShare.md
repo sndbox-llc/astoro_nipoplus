@@ -1,7 +1,7 @@
 ---
 slug: nipoplus/reference/staffshare
 title: アカウントの共用
-description: 用途として限定的な機能です。人数分の端末が用意できない際にご利用ください
+description: この機能は応用的な機能です。人数分のPCやタブレットが用意できない場合に御覧ください。
 sidebar:
   label: ⛔アカウントの共用
   badge:

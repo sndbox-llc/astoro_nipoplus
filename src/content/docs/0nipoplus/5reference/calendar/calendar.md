@@ -1,7 +1,7 @@
 ---
 slug: nipoplus/reference/calendar
 title: カレンダーの使い方
-description: カレンダーの使い方
+description: 日報や予定、顧客対応履歴がカレンダー上に自動で表示されます。時系列や月単位で日報等のデータを確認したい際に便利です。月間カレンダーのほか、デイリーカレンダーやウィークリーカレンダーサポートしています
 sidebar:
   label: 🗓️カレンダーの使い方
 ---
