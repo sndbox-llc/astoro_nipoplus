@@ -23,7 +23,7 @@ NipoPlusは[Android版](/nipoplus/system/mobile-install/#android_usage)・[iOS�
 <a href="https://play.google.com/store/apps/details?id=jp.sndbox.nipoapp">Android</a> / <a href="https://itunes.apple.com/jp/app/nipo/id1385965600?mt=8">iOS</a>版</dt>
 <dd>各アプリストアからの更新を行うことでバージョンを更新できます</dd>
 <dt>web版(PWA版)</dt>
-<dd>起動時に更新チェックが入り、更新があると画面右下のポップで通知が入ります。通知を無視しても次回起動時に更新されます。</dd>
+<dd>起動時に更新チェックが入り、更新があると画面右下のポップで通知が入ります。通知を無視しても次回起動時に更新されます</dd>
 </dl>
 
 ### リリース詳細▼ {#more}
@@ -739,7 +739,7 @@ Vue3移行に伴い、カレンダー機能が移植できなかったためカ�
 
 #### 【NipoPlus】 2023/08/25 v1.42.2 {#vp1_42_0}
 
-- 日報作成画面にタイムカード入力ボタンを追加しました。
+- 日報作成画面にタイムカード入力ボタンを追加しました
 - CSVダウンロード時にスタッフごとやテンプレートごとに個別に分けてダウンロードできるようになりました。[【詳細はこちら】](/nipoplus/staff/csv/#splid_download)
 - [タグの管理画面](/nipoplus/editor/tagManagement/)で分類による絞り込みをサポートしました
 - テンプレートの管理にフォルダ分けが使えるようになりました。[【詳細はこちら】](/nipoplus/template/directory/)

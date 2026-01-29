@@ -39,7 +39,7 @@ sidebar:
   <dt>日報作成エリア</dt>
   <dd>実際に報告内容を書くエリアです。スマホでは見え方が変わります</dd>
   <dt>ヘッダーエリア</dt>
-  <dd>提出日付や、<a href="/nipoplus/gainen/destination/">提出先共有先</a>、<a href="/nipoplus/reference/draft/">下書き</a>などの情報を設定します。</dd>
+  <dd>提出日付や、<a href="/nipoplus/gainen/destination/">提出先共有先</a>、<a href="/nipoplus/reference/draft/">下書き</a>などの情報を設定します</dd>
 </dl>
 
 日報記入エリアについては所定の項目を適切に記入してください。
@@ -95,9 +95,9 @@ sidebar:
   <dt>テンプレートを変更</dt>
   <dd><a href="#select_template">テンプレート選択画面</a>に切り替わります</dd>
   <dt>提出した日報表示</dt>
-  <dd>先程提出した日報を表示します（<a href="/nipoplus/reference/searchreport/">保存箱へ移動</a>）。提出内容を確認したい場合に便利です。</dd>
+  <dd>先程提出した日報を表示します（<a href="/nipoplus/reference/searchreport/">保存箱へ移動</a>）。提出内容を確認したい場合に便利です</dd>
   <dt>提出者にメールを送信する</dt>
-  <dd>お使いのメールソフトが起動します。<a href="/nipoplus/reference/notify/#email">通知</a>とは別に、個別にメールを送りたいときにご利用ください。</dd>
+  <dd>お使いのメールソフトが起動します。<a href="/nipoplus/reference/notify/#email">通知</a>とは別に、個別にメールを送りたいときにご利用ください</dd>
 </dl>
 
 ## 【補足】書きかけデータのリカバリーについて {#hint}

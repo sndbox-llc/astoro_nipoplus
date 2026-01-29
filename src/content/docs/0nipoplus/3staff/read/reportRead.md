@@ -57,21 +57,21 @@ sidebar:
 
 <dl class="basic">
 <dt>作者ID</dt>
-<dd>日報を作成したスタッフの内部的なIDです。通常は下の「作成者アカウント」と同じものになりますが、<a href="/nipoplus/reference/staffshare/">共用アカウント</a>を使って書かれた日報の場合に限り、共用先のIDがセットされます。</dd>
+<dd>日報を作成したスタッフの内部的なIDです。通常は下の「作成者アカウント」と同じものになりますが、<a href="/nipoplus/reference/staffshare/">共用アカウント</a>を使って書かれた日報の場合に限り、共用先のIDがセットされます</dd>
 <dt>作成者アカウント</dt>
-<dd>日報を作成したスタッフのアカウント名です。</dd>
+<dd>日報を作成したスタッフのアカウント名です</dd>
 <dt>文書ID</dt>
-<dd>日報1つ1つに割り当てられたランダムなユニークIDです。システム内部での日報識別に使用されます。</dd>
+<dd>日報1つ1つに割り当てられたランダムなユニークIDです。システム内部での日報識別に使用されます</dd>
 <dt>作成日（サーバ基準）</dt>
-<dd>日報が初めてサーバー上に保存された日時です。改変不可。<a href="/nipoplus/gainen/reportdate/">詳しくは日付概念参照</a></dd>
+<dd>日報が初めてサーバー上に保存された日時です。改変不可。<a href="/nipoplus/gainen/reportdate/">日付概念参照</a></dd>
 <dt>更新日（サーバ基準）</dt>
-<dd>日報が保存後に書き換えられた（修正された）日時です。<a href="/nipoplus/gainen/reportdate/">詳しくは日付概念参照</a></dd>
+<dd>日報が保存後に書き換えられた（修正された）日時です。<a href="/nipoplus/gainen/reportdate/">日付概念参照</a></dd>
 <dt>日報上の日付</dt>
-<dd>日報作成者が提出時に指定した日付です。<a href="/nipoplus/gainen/reportdate/">詳しくは日付概念参照</a></dd>
+<dd>日報作成者が提出時に指定した日付です。<a href="/nipoplus/gainen/reportdate/">日付概念参照</a></dd>
 <dt>予定との紐付け</dt>
-<dd><a href="/nipoplus/other/schedule/">予定の報告</a>として書かれた日報の場合、ここに紐付けられた予定のIDが表示されます。セットされていない場合は「none」と表示されます。</dd>
+<dd><a href="/nipoplus/other/schedule/">予定の報告</a>として書かれた日報の場合、ここに紐付けられた予定のIDが表示されます。セットされていない場合は「none」と表示されます</dd>
 <dt>承認</dt>
-<dd>その日報が<a href="/nipoplus/staff/readreport/">承認</a>された日時を表示します。承認者が複数名いる場合、この項目は承認者の数だけ増えます。</dd>
+<dd>その日報が<a href="/nipoplus/staff/readreport/">承認</a>された日時を表示します。承認者が複数名いる場合、この項目は承認者の数だけ増えます</dd>
 </dl>
 
 ---

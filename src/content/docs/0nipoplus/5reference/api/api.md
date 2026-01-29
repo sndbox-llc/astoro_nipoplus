@@ -166,7 +166,7 @@ EOS
 
 <dl class="basic">
 <dt>groupId</dt>
-<dd>グループIDを指定します。グループIDはグループ全般やURLから確認できます。</dd>
+<dd>グループIDを指定します。グループIDはグループ全般やURLから確認できます</dd>
 <dt>size</dt>
 <dd>日報を1000件リクエストしています</dd>
 <dt>from・to</dt>

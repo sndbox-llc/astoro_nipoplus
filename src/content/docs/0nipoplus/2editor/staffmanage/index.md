@@ -39,15 +39,15 @@ sidebar:
 <dt><a href="/nipoplus/reference/makestaff/#stop_remove">状態</a></dt>
 <dd>状態（有効：緑 / 無効：赤）を示します。変更は<a href="/nipoplus/reference/makestaff/#disable">組織管理</a>から行います</dd>
 <dt>E-mail</dt>
-<dd>ログインに使用するメールアドレスです。変更は<a href="/nipoplus/reference/account/">当該スタッフ自身で行う</a>か、管理者権限で組織設定から変更可能です。</dd>
+<dd>ログインに使用するメールアドレスです。変更は<a href="/nipoplus/reference/account/">当該スタッフ自身で行う</a>か、管理者権限で組織設定から変更可能です</dd>
 <dt><a href="/nipoplus/editor/destinationlock/">提出先の固定</a></dt>
 <dd>日報を作成する際の提出先を固定します（設定を推奨）</dd>
 <dt><a href="/nipoplus/editor/limitedTemplate/">テンプレートの制限</a></dt>
-<dd>利用できるテンプレートの種類を制限します。</dd>
+<dd>利用できるテンプレートの種類を制限します</dd>
 <dt><a href="#bang">追放</a></dt>
-<dd>グループからスタッフを追放します。アカウントの削除ではなく、このグループへのアクセス権を失効させるだけです。アカウント自体の削除は<a href="/nipoplus/reference/makestaff/#remove">組織管理</a>から行います。</dd>
+<dd>グループからスタッフを追放します。アカウントの削除ではなく、このグループへのアクセス権を失効させるだけです。アカウント自体の削除は<a href="/nipoplus/reference/makestaff/#remove">組織管理</a>から行います</dd>
 <dt>重役</dt>
-<dd><a href="/nipoplus/gainen/destination/">提出先の設定</a>に影響されずグループ内のすべての日報を閲覧可能になります。</dd>
+<dd><a href="/nipoplus/gainen/destination/">提出先の設定</a>に影響されずグループ内のすべての日報を閲覧可能になります</dd>
 <dt><a href="/nipoplus/reference/staffshare/">共用</a></dt>
 <dd>1つのアカウントを複数人で使い回す際に使用します</dd>
 </dl>

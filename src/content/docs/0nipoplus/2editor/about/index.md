@@ -21,15 +21,15 @@ sidebar:
 <dt><a href="/nipoplus/editor/template/">テンプレート管理</a></dt>
 <dd>このグループで使用する日報やチェックシートのテンプレートの管理を行います</dd>
 <dt><a href="/nipoplus/editor/tagManagement/">タグ管理</a></dt>
-<dd>このグループで使用するタグ（分類ラベル）の管理を行います。</dd>
+<dd>このグループで使用するタグ（分類ラベル）の管理を行います</dd>
 <dt><a href="/nipoplus/editor/inventory/">商品管理</a></dt>
-<dd>商品などの在庫状況を簡易的に管理します。<a href="/nipoplus/template/mod/">商品入力フォーム</a>と組み合わせて使用します。</dd>
+<dd>商品などの在庫状況を簡易的に管理します。<a href="/nipoplus/template/mod/">商品入力フォーム</a>と組み合わせて使用します</dd>
 <dt><a href="/nipoplus/editor/wordBookManagement/">語録管理</a></dt>
-<dd><a href="/nipoplus/template/selects/">選択式入力フォーム</a>で使える「語録」（定型文や選択肢リスト）を管理します。</dd>
+<dd><a href="/nipoplus/template/selects/">選択式入力フォーム</a>で使える「語録」（定型文や選択肢リスト）を管理します</dd>
 <dt><a href="/nipoplus/other/customer/">顧客管理</a></dt>
 <dd>顧客のテンプレートを設定します</dd>
 <dt><a href="/nipoplus/reference/removereport/">一括削除</a></dt>
-<dd>このグループ内の日報をまとめて削除する機能です。</dd>
+<dd>このグループ内の日報をまとめて削除する機能です</dd>
 </dl>
 
 ## 現在のグループを確認する
