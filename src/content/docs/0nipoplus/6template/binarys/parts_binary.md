@@ -58,9 +58,10 @@ NipoPlusの署名・イラストフォームは、スマートフォンやタブ
 <li>全画面サイズ：画面全体を使ってイラストを描くのに適しています。色変え機能も利用可能です。</li>
 </ul>
 </dd>
-</dl>
+<dt>その他の設定</dt>
+<dd><a href="/nipoplus/editor/template/#common_setting">共通設定事項をご確認ください</a></dd>
 
-補足：[共通設定事項](/nipoplus/editor/template/#common_setting)もご確認ください。
+</dl>
 
 </details>
 
@@ -98,9 +99,9 @@ NipoPlusの署名・イラストフォームは、スマートフォンやタブ
 <dl class="basic">
 <dt>入力必須</dt>
 <dd>ONにすると、ファイルが添付されていない場合日報の提出ができなくなります。現場写真が必須となる点検報告などに設定します</dd>
+<dt>その他の設定</dt>
+<dd><a href="/nipoplus/editor/template/#common_setting">共通設定事項をご確認ください</a></dd>
 </dl>
-
-補足：[共通設定事項](/nipoplus/editor/template/#common_setting)もご確認ください。
 
 </details>
 
