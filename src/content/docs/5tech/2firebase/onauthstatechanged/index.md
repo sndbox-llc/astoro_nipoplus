@@ -93,7 +93,7 @@ export default defineComponent({
 ```
 
 Vueのライフサイクルでログインコンポーネントが破壊されてもonAuthStateChangedは手動でunsubscribeしない限り残り続けてしまいます。そのため手動でunsubscribeして上げる必要があります。
-一見すると気づきにくい問題ですので注意しましょう。
+一見すると気づきにくい問題ですので注意が必要です。
 
 ### ログアウトの検知もできなくなるので注意 {#logoutWarning}
 

@@ -80,7 +80,7 @@ NipoPlusは、FirestoreやElasticといったNoSQL型のデータベースを利
 <dt>強力なパスワード設定</dt>
 <dd>
 `password`、`123456`、`000000`など、推測されやすいパスワードは絶対に使用しないでください。システム側では利便性を考慮し、文字種類の制限は設けていませんが、複雑なパスワードを設定することを強く推奨します。
-<a href="https://www.itmedia.co.jp/news/articles/2202/08/news101.html" target="_blank">2021年の漏洩パスワードランキング</a>を参考に、安全なパスワードを設定しましょう。
+<a href="https://www.itmedia.co.jp/news/articles/2202/08/news101.html" target="_blank">2021年の漏洩パスワードランキング</a>を参考に、安全なパスワードを設定してください。
 
 | 順位 | 漏洩パスワード |
 | ---- | -------------- |

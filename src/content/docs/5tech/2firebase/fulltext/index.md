@@ -48,7 +48,7 @@ Cloud FunctionsからFirebaseのログインユーザIDなどを取得して、�
 
 Algoliaの廉価版という立ち位置かな？と思いますが、Algoliaより優れた点も多くあります。
 Algolia同様に制限付きAPIキーを発行できるのはとても便利です。Cloud Functionsから制限つきAPIキーをフロントに渡せば、フロント側で直接Typesenseにアクセスできます。
-基本的には読み取り専用です。データの書き込みはFirebase Cloud Functionsを使うようにしましょう。
+基本的には読み取り専用です。データの書き込みはFirebase Cloud Functionsを使うようにします。
 Algoliaはデータを投げれば勝手にインデックスしてくれますが、Typesenseではデータを入れる前に、テーブルの作成をしなくてはなりません。
 この時点でAlgoliaより手間がかかる感じがしてきますね。実際、作業の手間で言えばAlgoliaより多くなります。
 

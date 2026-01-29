@@ -6,14 +6,15 @@ sidebar:
   label: 👤グループ内のスタッフ管理
 ---
 
-:::tip[組織のスタッフ管理との違い]
-[組織のスタッフ管理についてはこちら](/nipoplus/admin/about/)です
+:::caution[[組織のスタッフ管理についてはこちら](/nipoplus/admin/about/)]
 :::
 
-グループに所属しているスタッフの各種設定を行いましょう。グループにスタッフを追加するには[組織のスタッフ管理](/nipoplus/admin/about/)から行います。
-[組織設定からグループへの所属](/nipoplus/reference/makestaff/)させることができます。
+グループに所属しているスタッフの各種設定を行います。グループにスタッフを追加するには[組織のスタッフ管理](/nipoplus/admin/about/)から行います。
 
-組織のスタッフとグループのスタッフは同じアカウントですが適用される設定範囲が異なります。詳しくは[組織とグループの概念](/nipoplus/gainen/sosiki/)を御覧ください
+補足資料:
+
+- [組織設定からグループへの所属](/nipoplus/reference/makestaff/)
+- [組織とグループの概念](/nipoplus/gainen/sosiki/)
 
 ## グループ所属のスタッフを確認 {#showStaffList}
 
@@ -27,7 +28,7 @@ sidebar:
 スタッフリストの各項目の詳細です。
 
 :::note[表示項目は切替可能]
-お探しの項目が画面上に表示されていない場合は表右上の「項目」から表示項目をONに
+項目が画面上に表示されていない場合は表右上の「表示項目」から変更して下さい
 :::
 
 <dl class="basic">
@@ -38,7 +39,7 @@ sidebar:
 <dt><a href="/nipoplus/reference/makestaff/#stop_remove">状態</a></dt>
 <dd>状態（有効：緑 / 無効：赤）を示します。変更は<a href="/nipoplus/reference/makestaff/#disable">組織管理</a>から行います</dd>
 <dt>E-mail</dt>
-<dd>ログインに使用するメールアドレスです。変更は<a href="/nipoplus/reference/account/">当該スタッフ自身で行います</a></dd>
+<dd>ログインに使用するメールアドレスです。変更は<a href="/nipoplus/reference/account/">当該スタッフ自身で行う</a>か、管理者権限で組織設定から変更可能です。</dd>
 <dt><a href="/nipoplus/editor/destinationlock/">提出先の固定</a></dt>
 <dd>日報を作成する際の提出先を固定します（設定を推奨）</dd>
 <dt><a href="/nipoplus/editor/limitedTemplate/">テンプレートの制限</a></dt>
@@ -46,7 +47,7 @@ sidebar:
 <dt><a href="#bang">追放</a></dt>
 <dd>グループからスタッフを追放します。アカウントの削除ではなく、このグループへのアクセス権を失効させるだけです。アカウント自体の削除は<a href="/nipoplus/reference/makestaff/#remove">組織管理</a>から行います。</dd>
 <dt>重役</dt>
-<dd>提出先の設定に影響されずグループ内のすべての日報を閲覧可能になります。</dd>
+<dd><a href="/nipoplus/gainen/destination/">提出先の設定</a>に影響されずグループ内のすべての日報を閲覧可能になります。</dd>
 <dt><a href="/nipoplus/reference/staffshare/">共用</a></dt>
 <dd>1つのアカウントを複数人で使い回す際に使用します</dd>
 </dl>
@@ -57,7 +58,7 @@ sidebar:
 
 1.  左メニューから「グループ設定」をクリック
 2.  上部メニューの「スタッフ管理」をクリック
-3.  画面下部にある活動実績の表を確認します。
+3.  画面下部にある活動実績の表を確認
 
 ![グループ内で行ったアクティビティを集計表示](./img/staff-activity_tablet.png)
 
@@ -84,12 +85,11 @@ sidebar:
 
 スタッフをグループから追放することで、そのスタッフはグループ内の日報データにアクセス出来なくなります。
 
-:::tip[ボタンは非表示]
-誤って追放しないようにするため、追放アイコンは「非表示」の状態になっています。
+:::tip[追放アイコンは「非表示」の状態になっています]
 :::
 
 1. 追放アイコンを表示する
-2. 追放アイコンをクリックする
+2. 追放アイコンをクリック
 
 ![追放しても組織にアカウントは残る](./img/bang_tablet.webp)
 
@@ -99,10 +99,4 @@ sidebar:
 
 ## グループの管理画面からスタッフを作成する {#createStaff}
 
-通常は[組織管理](/nipoplus/admin/about/)からアカウントを作成しますがグループ内から作成もできます。
-
-:::caution[管理者権限が必要]
-アカウント作成は管理者権限が必要です
-:::
-
-詳しくは[グループ設定からアカウントを１件追加](/nipoplus/reference/makestaff/#make_group)を御覧ください。
+通常は[組織管理](/nipoplus/admin/about/)からアカウントを作成しますがグループ内から作成もできます。詳しくは[グループ設定からアカウントを１件追加](/nipoplus/reference/makestaff/#make_group)を御覧ください。
