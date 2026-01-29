@@ -444,10 +444,10 @@ JSON形式は { key: value }の形で表現されたデータ構造です。
 
 #### 📌 備考 {#columns_info}
 
-- `calcData` はサーバ側で勤務情報から自動算出される集計値。
-- `breaks` に複数の休憩時間がある場合も、`calcBreakTimeDay` や `calcBreakTimeNight` に反映されます。
-- `isHolydayWork` が true のとき、`dayWorkHolyDay` や `nightWorkHolyDay` に値が入る場合があります。
-- `memo` や `redacted` はユーザー操作により変更される要素です。
+- `calcData` はサーバ側で勤務情報から自動算出される集計値
+- `breaks` に複数の休憩時間がある場合も、`calcBreakTimeDay` や `calcBreakTimeNight` に反映されます
+- `isHolydayWork` が true のとき、`dayWorkHolyDay` や `nightWorkHolyDay` に値が入る場合があります
+- `memo` や `redacted` はユーザー操作により変更される要素です
 
 #### タイムカードのAPIレスポンス例 {#timecard_result}
 
