@@ -199,7 +199,7 @@ https://nipoplus.sndbox.jp/#/room/BLyx3SG72rId24BnKcGC/eZu8bXFNh73YtVoR83ic/teal
 
 日報の取得以外に用意されているエンドポイントとパラメータについてまとめています。
 
-#### テンプレートの取得エンドポイント {#template}
+#### テンプレートの取得エンドポイント {#template_Endpoint}
 
 <dl class="basic">
   <dt>/templtes</dt>
@@ -265,7 +265,7 @@ curl -X POST https://us-central1-nipo-plus.cloudfunctions.net/v0/staffs \
 -d "{ "groupId": "nipodefaultgroup" }"
 ```
 
-#### タイムカード取得エンドポイント {#timecard}
+#### タイムカード取得エンドポイント {#timecard_endpoint}
 
 <dl class="basic">
 <dt>/timecards/取得するスタッフのID</dt>
@@ -408,7 +408,7 @@ JSON形式は { key: value }の形で表現されたデータ構造です。
 };
 ```
 
-### タイムカードのJSON構造 {#timecard}
+### タイムカードのJSON構造 {#timecard_JSON}
 
 | キー          | 型             | 説明                                                                                   |
 | ------------- | -------------- | -------------------------------------------------------------------------------------- |
@@ -499,7 +499,7 @@ JSON形式は { key: value }の形で表現されたデータ構造です。
 }
 ```
 
-### テンプレートのJSON構造 {#template}
+### テンプレートのJSON構造 {#template_JSON}
 
 | キー   | 型         | 説明                                                       |
 | ------ | ---------- | ---------------------------------------------------------- |
