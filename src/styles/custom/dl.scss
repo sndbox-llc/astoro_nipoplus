@@ -3,9 +3,8 @@ dl.basic {
   width: 100%;
   display: grid;
   grid-template-columns: 200px 1fr;
-  /* 上下の余白をギュッと詰めました */
-  margin-top: 1.5rem;
-  margin-bottom: 4rem;
+  margin-top: 1rem; /* 上の文章との距離を詰める */
+  margin-bottom: 2rem;
   border-top: 1px solid #ddd;
 
   dt,
@@ -14,28 +13,34 @@ dl.basic {
     padding: 15px 30px;
     border-bottom: 1px solid #ddd;
     box-sizing: border-box;
-    /* 上揃えにする（テキスト量が増えてもタイトルが上に固定される） */
-    display: flex;
-    align-items: flex-start;
   }
 
   dt {
     font-weight: bold;
-    border-right: 1px solid #ddd; /* 縦線 */
+    border-right: 1px solid #ddd;
+    /* dtだけは上下中央（または上揃え）にしたいのでflexを維持 */
+    display: flex;
+    align-items: flex-start;
+  }
+
+  dd {
+    /* ここがポイント！flexを解除して普通のブロック要素にする */
+    display: block;
+    line-height: 1.6; /* 文章を読みやすく */
   }
 
   /* モバイル対応 */
   @media screen and (max-width: 750px) {
     display: block;
-    margin-top: 1rem; /* スマホではさらに詰める */
 
     dt {
       border-right: none;
       border-bottom: none;
       padding-bottom: 5px;
+      display: block; /* モバイルでも解除 */
     }
     dd {
-      padding-top: 0; /* タイトルと説明の距離を縮める */
+      padding-top: 0;
       padding-bottom: 15px;
     }
   }
