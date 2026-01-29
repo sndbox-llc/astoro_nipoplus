@@ -11,7 +11,7 @@ sidebar:
 :::
 
 :::caution[Web版のみ対応]
-CSV一括出力機能はスマホアプリ版（<a href="/nipoplus/system/mobile-install/#android_usage">Android</a> / <a href="/nipoplus/system/mobile-install/#ios_usage">iOS</a>版）では利用いただけません。<a href="/nipoplus/system/mobile-install/#pc_usage">Web版NipoPlus</a>をご利用ください。
+スマホアプリ版（<a href="/nipoplus/system/mobile-install/#android_usage">Android</a> / <a href="/nipoplus/system/mobile-install/#ios_usage">iOS</a>版）では利用いただけません。<a href="/nipoplus/system/mobile-install/#pc_usage">Web版NipoPlus</a>をご利用ください。
 :::
 
 :::note[[メニューに無いときはグループ設定から機能を有効にしてください](/nipoplus/editor/groupmanage/#optionalFunction)]
