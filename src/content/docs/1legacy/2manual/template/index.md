@@ -2,7 +2,6 @@
 slug: legacy/manual/template
 title: テンプレートの編集
 description: 日報のテンプレートを作ることでスタッフは決められたフォームに沿って業務の報告ができます。テンプレートは10種類を超すパーツを組み合わせることでかんたんに作成できます。
-isNipo: true
 sidebar:
   label: テンプレートの編集
 ---

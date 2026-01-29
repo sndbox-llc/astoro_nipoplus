@@ -1,7 +1,7 @@
 ---
 slug: nipoplus/reference/chart
-title: 📈グラフの作成
-description: 📈グラフの作成
+title: グラフの作成
+description: 蓄積した日報のデータを元に、円グラフ・折れ線グラフ・棒グラフと行った主要なグラフを簡単に生成できます。日報が増えるたびに自動でグラフにも反映します
 sidebar:
   label: 📈グラフの作成
 ---

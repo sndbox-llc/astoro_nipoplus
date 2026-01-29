@@ -1,6 +1,6 @@
 ---
 slug: nipoplus/reference/makestaff
-title: 👤従業員アカウントの作成・管理
+title: 従業員アカウントの作成・管理
 description: ログインに使用するEmailおよびパスワードの変更手順を詳しく解説しています。アカウントのセキュリティを強化するための手続きや、パスワードを忘れた際の対処法も紹介しています
 sidebar:
   label: 👤従業員アカウントの作成・管理

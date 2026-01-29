@@ -1,7 +1,7 @@
 ---
 slug: nipoplus/reference/removereport
-title: 🗑️日報の削除
-description: 🗑️日報の削除
+title: 日報の削除
+description: 日報は削除せずに蓄積していくものですが、保守や安全性の観点から削除が必要になるケースもあります。削除は改ざん防止のため特別なルールや権限が必要になります。ここでは削除までの手順や削除不可能な日報について解説します
 sidebar:
   label: 🗑️日報の削除
 ---

@@ -1,6 +1,6 @@
 ---
 slug: nipoplus/editor/groupmanage
-title: ⚙️グループ全般の設定
+title: グループ全般の設定
 description: グループ全般設定ではテーマカラーの変更や日報の提出基本ルール、機能のON/OFF設定が行えます
 sidebar:
   label: ⚙️グループ全般の設定

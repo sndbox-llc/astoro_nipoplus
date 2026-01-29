@@ -2,7 +2,6 @@
 slug: legacy/manual/project
 title: プロジェクト機能について
 description: プロジェクト機能
-isNipo: true
 sidebar:
   label: プロジェクト
 ---

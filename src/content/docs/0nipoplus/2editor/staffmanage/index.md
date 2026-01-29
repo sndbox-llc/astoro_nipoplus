@@ -1,7 +1,7 @@
 ---
 slug: nipoplus/editor/staffmanage
-title: 👤グループ内のスタッフ管理
-description: 👤グループ内のスタッフ管理
+title: グループ内のスタッフ管理
+description: グループ内のスタッフ管理では日報の提出先の固定や、使用可能なテンプレートの制限、その他活動実績の確認などが行えます。
 sidebar:
   label: 👤グループ内のスタッフ管理
 ---

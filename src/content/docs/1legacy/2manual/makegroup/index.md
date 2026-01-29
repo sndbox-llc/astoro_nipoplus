@@ -2,7 +2,6 @@
 slug: legacy/manual/group
 title: グループの新規作成と削除について
 description: グループはスタッフと日報をやり取りするための空間です。用途に応じて複数のグループを作成して切り分けて使うことができます。不要になればグループを解散できます
-isNipo: true
 sidebar:
   label: グループの新規作成と削除
 ---

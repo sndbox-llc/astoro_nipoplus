@@ -2,7 +2,6 @@
 slug: legacy/system/privacypolicy
 title: プライバシーポリシー
 description: クラウド日報Nipo【旧版】でお客様からお預かりする個人情報の取り扱いについてのお約束事をまとめました
-isNipo: true
 sidebar:
   label: プライバシーポリシー
 ---

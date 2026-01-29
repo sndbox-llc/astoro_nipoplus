@@ -2,7 +2,6 @@
 slug: legacy/manual/staff-manage
 title: スタッフアカウントの管理
 description: グループにスタッフを追加したり、各スタッフの権限や提出先の設定を行う手順について解説しています
-isNipo: true
 sidebar:
   label: スタッフアカウントの管理
 ---

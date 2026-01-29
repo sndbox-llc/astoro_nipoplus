@@ -1,6 +1,6 @@
 ---
 slug: nipoplus/reference/log
-title: 📚ログデータ
+title: ログデータ
 description: 日報の提出やコメント・承認など様々な変化をログとして蓄積します。ログデータは最低2年以上保存されます
 sidebar:
   label: 📚ログデータ

@@ -2,7 +2,6 @@
 slug: legacy/manual/delete
 title: 日報の一括削除
 description: この機能は管理者限定です。蓄積したレポートをまとめて削除することができます。
-isNipo: true
 sidebar:
   label: 日報の一括削除
 ---

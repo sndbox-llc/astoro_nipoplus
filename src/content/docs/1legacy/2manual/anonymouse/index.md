@@ -2,7 +2,6 @@
 slug: legacy/manual/anonymouse
 title: 手軽に体験できる匿名アカウント
 description: 【旧版です】匿名アカウントとはE-mailやパスワードを設定しないアカウントです。手軽に体験していただくことを目的に実装されてた機能で、あくまでも一時的なアカウントです。継続利用には正規アカウントへ簡単に昇格できます
-isNipo: true
 sidebar:
   label: 匿名アカウント
 ---

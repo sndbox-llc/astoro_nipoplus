@@ -2,7 +2,6 @@
 slug: legacy/system/mobile-install
 title: スマートフォン・タブレットにインストール
 description: Nipo【旧版】をスマートフォンにインストールするにはApp storeからダウンロードするか、PWAとしてインストールする方法があります
-isNipo: true
 sidebar:
   label: 📱スマホ・タブレットにインストール
 ---

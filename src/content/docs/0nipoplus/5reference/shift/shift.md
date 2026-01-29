@@ -1,7 +1,7 @@
 ---
 slug: nipoplus/reference/shift
 title: 🗓️シフト管理
-description: シフト管理機能
+description: 従業員の休みや勤務予定時間を管理できます。提出簿上には休みのフラグが表示されるため、未提出の場合に「欠勤」なのか「提出忘れ」なのかを判断しやすくなります
 sidebar:
   label: 🗓️シフト管理
 ---

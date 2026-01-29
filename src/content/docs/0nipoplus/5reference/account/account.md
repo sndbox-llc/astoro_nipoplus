@@ -1,6 +1,6 @@
 ---
 slug: nipoplus/reference/account
-title: 📨Email・🔑パスワードの変更
+title: Email・パスワードの変更
 description: ログインに使用するEmailおよびパスワードの変更手順を詳しく解説しています。アカウントのセキュリティを強化するための手続きや、パスワードを忘れた際の対処法も紹介しています
 sidebar:
   label: 📨Email・🔑パスワードの変更

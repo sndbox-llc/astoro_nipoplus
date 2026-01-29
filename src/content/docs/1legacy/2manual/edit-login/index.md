@@ -2,7 +2,6 @@
 slug: legacy/manual/edit-login
 title: パスワードリセット
 description: Nipo【旧版】のログインパスワードを忘れてしまった場合やメールアドレスの変更をしたい場合はこちらをご覧ください
-isNipo: true
 sidebar:
   label: パスワードリセット
 ---

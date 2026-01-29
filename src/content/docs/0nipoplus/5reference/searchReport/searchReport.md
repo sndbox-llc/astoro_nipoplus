@@ -1,7 +1,7 @@
 ---
 slug: nipoplus/reference/searchreport
-title: 🔍日報を探す
-description: 🔍日報を探す
+title: 日報を探す
+description: 蓄積した日報を効率的に検索、絞り込みする方法について紹介しています。全文検索やタグによる検索、テンプレートによる絞り込みなど様々な検索が可能です
 sidebar:
   label: 🔍日報を探す
 ---

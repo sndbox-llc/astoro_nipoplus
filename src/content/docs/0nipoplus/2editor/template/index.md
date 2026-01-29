@@ -1,7 +1,7 @@
 ---
 slug: nipoplus/editor/template
-title: 📐テンプレートの作成
-description: テンプレートの作成管理
+title: テンプレートの作成
+description: 日報の雛形となるテンプレートを作成します。一度作れば何度でも繰り返し利用が可能。コピー作成やほかグループからの取込も可能です。
 sidebar:
   label: 📐テンプレートの作成
 ---

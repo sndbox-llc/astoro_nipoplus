@@ -2,7 +2,6 @@
 slug: legacy/manual/email-verify
 title: メールアドレスを確認する
 description: Nipo【旧版】に登録されたE-mailに誤りが無いかを確認することを「メールの確認」といいます。このページではE-mailの確認について解説しています
-isNipo: true
 sidebar:
   label: メールアドレスを確認する
 ---
