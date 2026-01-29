@@ -1,7 +1,7 @@
 ---
 slug: tips
 title: NipoPlus活用Tips
-description: NipoPlusは、テンプレートに沿って入力する入力管理アプリであるが、テンプレートの工夫によりチェックシートアプリや日報アプリとしても利用できる。具体的なユースケースについてのTips集【アーカイブスページ】
+description: NipoPlusの活用TIPS
 sidebar:
   label: NipoPlus活用Tips
 ---
