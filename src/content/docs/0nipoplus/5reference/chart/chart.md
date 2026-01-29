@@ -6,8 +6,7 @@ sidebar:
   label: 📈グラフの作成
 ---
 
-:::note[集計機能の有効化が必要です]
-左メニューに「集計」ボタンが表示されない場合は、<a href="/nipoplus/editor/groupmanage/#optionalFunction">グループ設定</a>から集計機能を有効にしてください。
+:::note[[メニューに無いときはグループ設定から機能を有効にしてください](/nipoplus/editor/groupmanage/#optionalFunction)]
 :::
 
 NipoPlusのグラフ機能は、「<a href="/nipoplus/reference/transition/">推移表</a>」や「<a href="/nipoplus/reference/accumn/">累積表</a>」で集計したデータを元に、視覚的に分かりやすいグラフを自動生成します。

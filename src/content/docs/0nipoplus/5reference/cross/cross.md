@@ -6,8 +6,7 @@ sidebar:
   label: 📊クロス集計
 ---
 
-:::note[集計機能の有効化が必要です]
-左メニューに「集計」ボタンが表示されない場合は、<a href="/nipoplus/editor/groupmanage/#optionalFunction">グループ設定</a>から集計機能を有効にしてください。
+:::note[[メニューに無いときはグループ設定から機能を有効にしてください](/nipoplus/editor/groupmanage/#optionalFunction)]
 :::
 
 NipoPlusの「クロス集計」機能は、異なる複数のテンプレート（日報、点検シート、生産報告書など）に記録されたデータを、一つの表にまとめて横断的に比較・集計する強力な機能です。

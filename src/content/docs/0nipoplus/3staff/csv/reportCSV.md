@@ -6,8 +6,15 @@ sidebar:
   label: 🗂️CSV出力
 ---
 
-:::note[Web版のみ対応]
-CSV一括出力機能は、スマートフォンアプリ版（<a href="/nipoplus/system/mobile-install/#android_usage">Android</a> / <a href="/nipoplus/system/mobile-install/#ios_usage">iOS</a>版）ではご利用いただけません。<a href="/nipoplus/system/mobile-install/#pc_usage">Web版NipoPlus</a>をご利用ください。
+:::note[CSVの出力設定]
+出力形式を一部変更できます。詳しくは[CSV出力設定](/nipoplus/reference/csvsettings/)を御覧ください
+:::
+
+:::caution[Web版のみ対応]
+CSV一括出力機能はスマホアプリ版（<a href="/nipoplus/system/mobile-install/#android_usage">Android</a> / <a href="/nipoplus/system/mobile-install/#ios_usage">iOS</a>版）では利用いただけません。<a href="/nipoplus/system/mobile-install/#pc_usage">Web版NipoPlus</a>をご利用ください。
+:::
+
+:::note[[メニューに無いときはグループ設定から機能を有効にしてください](/nipoplus/editor/groupmanage/#optionalFunction)]
 :::
 
 ## 1ヶ月分の日報を1枚のCSVに出力する {#monthly}
@@ -27,8 +34,7 @@ CSV一括出力機能は、スマートフォンアプリ版（<a href="/nipoplu
 
 ### 一括CSV出力の手順 {#csv_export_steps}
 
-:::note[集計機能が無い場合]
-左メニューに「集計」ボタンが表示されない場合は、<a href="/nipoplus/editor/groupmanage/#optionalFunction">グループ設定</a>から集計機能を有効にしてください。
+:::note[[メニューに無いときはグループ設定から機能を有効にしてください](/nipoplus/editor/groupmanage/#optionalFunction)]
 :::
 
 1.  左メニューの「集計・CSV出力」をクリック
@@ -44,10 +50,6 @@ CSV一括出力機能は、スマートフォンアプリ版（<a href="/nipoplu
 
 出力されたCSVファイルはExcelなどの表計算ソフトで開くことができます。<a href="/excel/">Excel加工テクニック集</a>も併せてご覧ください。
 
-:::note[CSVの出力設定]
-出力形式を一部変更できます。詳しくは[CSV出力設定](/nipoplus/reference/csvsettings/)を御覧ください
-:::
-
 ## スタッフ別や日別に分けてCSV出力する {#splid_download}
 
 CSVファイル全体を1枚のシートにまとめるだけでなく、スタッフ別や日別にCSVファイルを分割して出力することもできます。
@@ -59,13 +61,11 @@ CSVファイル全体を1枚のシートにまとめるだけでなく、スタ�
 
 ![日付またはスタッフで分けて出力可能](./img/selectable-csv-download_tablet.png)
 
-## CSVを解凍すると文字化けする？ - Windowsでの注意点 {#text_shaking}
+## CSVを解凍すると文字化けする場合 {#text_shaking}
 
-WindowsでCSVファイルをまとめたZipファイルを解凍する際、一部の解凍ソフトを使用すると文字化けが発生することがあります。これは、解凍ソフトのエンコード設定が原因で起こります。
-Windows標準の解凍機能を使用すれば、文字化けの問題は発生しません。もし文字化けが起きた場合は、現在お使いの解凍ソフトを変更するか、Windows標準機能で解凍してみてください。
-より詳しい解決策については<a href="/tech/other/mojibake/">ダウンロードしたファイルが文字化けする原因と解決策</a>を御覧ください。
+特にWindowsで古い解凍ソフトを使用すると文字化けする可能性があります。詳しくは<a href="/tech/other/mojibake/">ダウンロードしたファイルが文字化けする原因と解決策</a>を御覧ください。
 
-## 複数のCSVファイルを連結させるツール「CSVSC」のご紹介 {#csvsc}
+## 複数のCSVファイルを連結させる {#csvsc}
 
 毎月月末にCSVファイルをダウンロードすると、テンプレートごとにCSVファイルが増えていきます。
 これらの複数のCSVファイルを1つにまとめたい場合は、NipoPlusが提供する「CSVSC」というWebアプリをぜひご利用ください。

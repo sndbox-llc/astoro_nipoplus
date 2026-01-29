@@ -58,11 +58,11 @@ Google Play Storeからインストールするか、PWAとしてインストー
 Webアプリが、ネイティブアプリのように振る舞う技術のことです。ネイティブと比較しても遜色ありません
 :::
 
-1.  Google Chromeで[NipoPlusのウェブサイト](https://nipoplus.sndbox.jp/)を開きます
-2.  画面下部に表示される「ホーム画面にNipoPlusを追加」バナーをタップします（表示されない場合は、次の手順へ進んでください）
+1.  Google Chromeで[NipoPlusのウェブサイト](https://nipoplus.sndbox.jp/)を開く
+2.  画面下部に表示される「ホーム画面にNipoPlusを追加」バナーをタップ（表示されない場合は、次の手順へ）
 3.  画面右上のメニューアイコン（︙）をタップ
 4.  メニューの中から「アプリをインストール」をタップ
-5.  ホーム画面にNipoPlusのアイコンが追加されます
+5.  ホーム画面にNipoPlusのアイコンが追加される
 
 ![Androidにインストールする手順図解](./android-install-pwa.png)
 
