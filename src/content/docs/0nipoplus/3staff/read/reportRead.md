@@ -78,8 +78,7 @@ sidebar:
 
 ## 日報にコメントを書く {#comment}
 
-:::note[この機能はGOLDPLAN限定です]
-[GOLDPLAN](/nipoplus/price/invoice/)について
+:::caution[[この機能はGOLDPLAN限定です](/nipoplus/price/#fee)]
 :::
 
 ![1つの日報に最大500コメントまで書き込み可](./img/write-comment_tablet.png)

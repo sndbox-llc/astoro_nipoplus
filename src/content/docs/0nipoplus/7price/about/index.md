@@ -45,7 +45,7 @@ NipoPlus（にぽぷらす）は、初期費用・解約金は一切不要。ま
 [無料プラン](/nipoplus/price/free/)はいくつかの機能制限がかかりますが、日報の作成や承認といった基本的な機能は利用が可能です。
 申込みは必要なく、トライアルが終了すると自動で無料プランに切り替わります。
 
-## 有料プラン（GOLDプラン）について {#fee}
+## GOLDPLAN(有料)について {#fee}
 
 NipoPlusの有料プランは、月額180円/名から利用できるGOLDプランです。
 すべての高機能が利用でき、5名からお申し込みいただけます。
@@ -158,27 +158,27 @@ NipoPlusは、高機能でありながら、競合のクラウド日報・点検
 </details>
 
 <details>
-<summary>GOLD PLANになるとURLは変わりますか？</summary>
+<summary>GOLDPLANになるとURLは変わりますか？</summary>
 いいえ、変わりません。
 </details>
 
 <details>
-<summary>GOLD PLANに申し込む方法がわかりません</summary>
+<summary>GOLDPLANに申し込む方法がわかりません</summary>
 申込みはWeb版からのみです。Android/iOS版は申込みフォームが表示されません。<a href="/nipoplus/price/subscription/">申し込みガイド</a>も御覧ください
 </details>
 
 <details>
-<summary>GOLD PLANの契約中に人数を変更できますか？</summary>
+<summary>GOLDPLANの契約中に人数を変更できますか？</summary>
 クレジットカード:いつでも自由に増減が可能です。差額は次回引き落とし時に調整されます。<br>請求書払い:管理画面から１ヶ月に最大3回まで変更が可能です。増減に伴う過不足は残存日数で調整されます。
 </details>
 
 <details>
-<summary>GOLD PLANが失効するとその間に作成したデータはどうなってしまうんですか？</summary>
-そのまま残ります。失効すると<a href="/nipoplus/price/free/">無料プラン</a>へ降格し、一部機能が利用できなくなりますが、改めてGOLD PLANに加入すれば、これまで通り継続して利用可能です。データももちろんそのまま引き継げます
+<summary>GOLDPLANが失効するとその間に作成したデータはどうなってしまうんですか？</summary>
+そのまま残ります。失効すると<a href="/nipoplus/price/free/">無料プラン</a>へ降格し、一部機能が利用できなくなりますが、改めてGOLDPLANに加入すれば、これまで通り継続して利用可能です。データももちろんそのまま引き継げます
 </details>
 
 <details>
-<summary>今すぐGOLD PLANを使いたいのですが、請求書払いで利用開始可能までにどのくらいの時間がかかりますか？</summary>
+<summary>今すぐGOLDPLANを使いたいのですが、請求書払いで利用開始可能までにどのくらいの時間がかかりますか？</summary>
 クレカ払いは即時です。請求書払いは、その金額をクレカで支払う場合は即時、口座振込の場合は最大2営業日後になります。詳しくは<a href="/nipoplus/price/invoice/">請求書払い</a>を御覧ください
 </details>
 

@@ -120,7 +120,7 @@ sidebar:
 
 ### 顧客データを一括インポートする {#customer_import}
 
-:::caution[この機能はGOLDPLAN限定です]
+:::caution[[この機能はGOLDPLAN限定です](/nipoplus/price/#fee)]
 :::
 
 既存の顧客データがある場合はCSVインポートが使えます。
@@ -260,7 +260,7 @@ sidebar:
 
 ### 頻繁に使用する検索条件を保存して業務効率をUP {#query_save}
 
-:::caution[この機能はGOLDPLAN限定です]
+:::caution[[この機能はGOLDPLAN限定です](/nipoplus/price/#fee)]
 :::
 
 毎回同じ条件で検索をする必要がある場合は、その検索条件を保存することで手間を大幅に軽減できます。

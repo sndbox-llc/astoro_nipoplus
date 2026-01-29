@@ -1,74 +1,42 @@
 /* 用語説明等に使う一般的なDL */
 dl.basic {
   width: 100%;
-  border: none;
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  /* 上下の余白をギュッと詰めました */
+  margin-top: 1.5rem;
   margin-bottom: 4rem;
-
-  dt {
-    // background-color: aliceblue;
-    font-size: 16px;
-    width: 200px;
-  }
-
-  dd,
-  p {
-    width: calc(100% - 200px);
-  }
+  border-top: 1px solid #ddd;
 
   dt,
-  dd,
-  p {
+  dd {
     margin: 0;
-    padding: 0;
+    padding: 15px 30px;
     border-bottom: 1px solid #ddd;
     box-sizing: border-box;
-    padding: 15px 30px;
+    /* 上揃えにする（テキスト量が増えてもタイトルが上に固定される） */
+    display: flex;
+    align-items: flex-start;
   }
 
-  /* リンクを強調 */
-  dt a,
-  dd a {
-    text-decoration: underline;
-    font-weight: bold; /* 太字にして強調 */
+  dt {
+    font-weight: bold;
+    border-right: 1px solid #ddd; /* 縦線 */
   }
 
-  dt a:hover,
-  dd a:hover {
-    text-decoration: none; /* ホバー時に下線を消す */
-  }
-
-  /* dd 内の ul では margin を 0 にする */
-  dd ul {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-
+  /* モバイル対応 */
   @media screen and (max-width: 750px) {
-    width: 100%;
-    border-left: none;
     display: block;
+    margin-top: 1rem; /* スマホではさらに詰める */
 
-    dt,
-    p {
-      border-bottom: none;
-      padding-bottom: 0;
-    }
-
-    dt,
-    dd,
-    p {
+    dt {
       border-right: none;
-      width: 100%;
-      padding: 10px 15px;
+      border-bottom: none;
+      padding-bottom: 5px;
     }
-
-    /* モバイル用のリンク強調 */
-    dt a,
-    dd a {
-      font-size: 18px; /* モバイルでは少し大きく */
+    dd {
+      padding-top: 0; /* タイトルと説明の距離を縮める */
+      padding-bottom: 15px;
     }
   }
 }
