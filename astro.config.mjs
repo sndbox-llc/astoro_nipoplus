@@ -98,7 +98,6 @@ export default defineConfig({
                   { slug: 'nipoplus/template/selects' },
                   { slug: 'nipoplus/template/date_time' },
                   { slug: 'nipoplus/template/binarys' },
-                  { slug: 'nipoplus/template/binarys' },
                   { slug: 'nipoplus/template/digital' },
                   { slug: 'nipoplus/template/mod' },
                   { slug: 'nipoplus/template/array' },
