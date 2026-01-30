@@ -201,9 +201,9 @@ sidebar:
 NipoPlusでは、作成できるアカウント数と[料金プラン](/nipoplus/price/#fee)が連動しています。
 
 <dl class="basic">
-<dt><a href="/nipoplus/price/free/">無料プラン</a></dt>
+<dt><a href="/nipoplus/price/free/">無料PLAN</a></dt>
 <dd>有効アカウントは４つまで</dd>
-<dt><a href="/nipoplus/price/#fee">有料プラン</a></dt>
+<dt><a href="/nipoplus/price/#fee">GOLDPLAN</a></dt>
 <dd>ご契約いただいた人数に応じて利用可能なアカウント数が変化します</dd>
 </dl>
 
