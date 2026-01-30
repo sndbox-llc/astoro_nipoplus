@@ -25,9 +25,7 @@ PWAとしてインストールすることで、Web版のNipo【旧版】を使�
   <dt>必要な容量</dt>
   <dd>20MB以上のストレージ</dd>
   <dt>推奨モニタサイズ</dt>
-  <dd>
-    iPad(9.7inch)サイズ以上が適しています。※iPhone SE以下の小さなディスプレイは非推奨
-  </dd>
+  <dd>iPad(9.7inch)サイズ以上が適しています。※iPhone SE以下の小さなディスプレイは非推奨</dd>
 </dl>
 
 iPhone・iPadをご利用の方は、<a href="#pc_usage">Webアプリ版</a>の他、こちらのiOS専用アプリを利用することも可能です
@@ -67,10 +65,7 @@ PWAとしてインストールすることで、Web版のNipo【旧版】を使�
 
 <dl class="basic">
   <dt>Androidバージョン</dt>
-  <dd>
-    必須：<a href="https://www.android.com/intl/ja_jp/versions/lollipop-5-0/">5.0(Lolipop)</a>以上
-    推奨：<a href="https://www.android.com/intl/ja_jp/android-11/">Android 11.0</a>
-  </dd>
+  <dd>Pie(API Lv28)以上</dd>
   <dt>必要な容量</dt>
   <dd>20MB以上のストレージ</dd>
   <dt>推奨モニタサイズ</dt>
