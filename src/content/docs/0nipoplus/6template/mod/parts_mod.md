@@ -24,7 +24,9 @@ sidebar:
 ![在庫入力フォームの追加](./img/modFormAdd_tablet.webp)
 
 商品入力フォームを使うには、予め管理対象となる商品データを[商品管理画面で登録しておく](/nipoplus/editor/inventory/)必要があります。詳細は「[商品在庫・状態管理](/nipoplus/editor/inventory/)」のページをご確認ください。
-[実際の入力イメージはこちら](/nipoplus/reference/inputmethod/#item)からご確認ください。
+
+:::note[[入力イメージはこちらから確認できます](/nipoplus/reference/inputmethod/#item)]
+:::
 
 ## 日報を受け取る {#receive}
 

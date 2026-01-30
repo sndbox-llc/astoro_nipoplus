@@ -198,12 +198,12 @@ sidebar:
 
 ## アカウント数と料金プランの関係 {#userAccountLimit}
 
-NipoPlusでは、作成できるアカウント数と[料金プラン](/nipoplus/price/invoice/)が連動しています。
+NipoPlusでは、作成できるアカウント数と[料金プラン](/nipoplus/price/#fee)が連動しています。
 
 <dl class="basic">
 <dt><a href="/nipoplus/price/free/">無料プラン</a></dt>
 <dd>有効アカウントは４つまで</dd>
-<dt><a href="/nipoplus/price/invoice/">有料プラン</a></dt>
+<dt><a href="/nipoplus/price/#fee">有料プラン</a></dt>
 <dd>ご契約いただいた人数に応じて利用可能なアカウント数が変化します</dd>
 </dl>
 

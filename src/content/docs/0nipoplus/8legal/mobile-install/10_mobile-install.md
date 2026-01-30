@@ -123,7 +123,7 @@ iOSではSafariブラウザの機能を使って、NipoPlusをアプリのよう
 App Store版・Google Play版のNipoPlusは、ストアの規約や技術的な制約により、Web版（PWA含む）と比べていくつかの機能が制限されます。
 
 - CSV出力など、ファイルの「ダウンロード」を伴う処理ができません
-- [有料プラン](/nipoplus/price/invoice/)のお申し込みや解約など、決済に関する操作ができません
+- [有料プラン](/nipoplus/price/#fee)のお申し込みや解約など、決済に関する操作ができません
 - 操作ガイドへのリンクボタンなど、一部のWebサイトへの直接リンクが表示されません
 - [システム更新](/nipoplus/system/release-note/)の反映がPWA版に比べて遅れる場合があります
 
