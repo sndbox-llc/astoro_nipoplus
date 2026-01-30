@@ -15,22 +15,14 @@ sidebar:
 <dl class="basic">
   <dt>自分宛ての日報が提出されたとき</dt>
   <dd>あなたが承認する必要がある日報が作成されたときに通知が発行されます。自分が自分宛てに日報を書いたときは通知されません</dd>
-  <dt>
-    <a href="/nipoplus/staff/readreport/#comment">コメントを書いたとき</a>
-  </dt>
+  <dt><a href="/nipoplus/staff/readreport/#comment">コメントを書いたとき</a></dt>
   <dd>日報のオーナーと、その日報を既読したユーザアカウントに対して通知が発行されます（ただし自分自身に対しては通知されません）</dd>
-  <dt>
-    <a href="/nipoplus/reference/reportstate/#agree">日報を承認や棄却したとき</a>
-  </dt>
+  <dt><a href="/nipoplus/reference/reportstate/#agree">日報を承認や棄却したとき</a></dt>
   <dd>日報のオーナーに対して通知が発行されます。承認リレーが行われているときで、自身が承認した日報がより上流で棄却されたときも承認者に対して通知が発行されます</dd>
-  <dt>
-    <a href="/nipoplus/reference/reportstate/#readed">日報を誰かが既読にした</a>
-  </dt>
+  <dt><a href="/nipoplus/reference/reportstate/#readed">日報を誰かが既読にした</a></dt>
   <dd>日報のオーナーに対して通知が発行されます</dd>
   <dt>日報の引継が作成されたとき</dt>
-  <dd>
-    <a href="/nipoplus/reference/relation/">引継日報であなたが指名されたとき</a>通知が発生します
-  </dd>
+  <dd><a href="/nipoplus/reference/relation/">引継日報であなたが指名されたとき</a>通知が発生します</dd>
 </dl>
 
 通知は削除しない限り残り続けますが、画面上に表示される通知は直近15日間までの通知に限ります。

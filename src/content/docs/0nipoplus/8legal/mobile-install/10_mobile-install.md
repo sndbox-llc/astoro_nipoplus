@@ -28,13 +28,9 @@ https://nipoplus.sndbox.jp/ をブックマークしておくと次回アクセ�
 <dt>OS</dt>
 <dd>Windows / macOS / iOS / Android</dd>
 <dt>推奨ブラウザ</dt>
-<dd>
-<a href="https://www.google.co.jp/chrome/" target="_blank">Google Chrome</a> / <a href="https://www.apple.com/jp/safari/" target="_blank">Safari</a>
-</dd>
+<dd><a href="https://www.google.co.jp/chrome/" target="_blank">Google Chrome</a> / <a href="https://www.apple.com/jp/safari/" target="_blank">Safari</a></dd>
 <dt>その他のブラウザ</dt>
-<dd>
-<a href="https://www.microsoft.com/ja-jp/windows/microsoft-edge" target="_blank">Microsoft Edge</a> / <a href="https://www.mozilla.org/ja/firefox/new/" target="_blank">FireFox</a> / <a href="https://www.opera.com/ja" target="_blank">Opera</a>
-</dd>
+<dd><a href="https://www.microsoft.com/ja-jp/windows/microsoft-edge" target="_blank">Microsoft Edge</a> / <a href="https://www.mozilla.org/ja/firefox/new/" target="_blank">FireFox</a> / <a href="https://www.opera.com/ja" target="_blank">Opera</a></dd>
 <dt>その他</dt>
 <dd>
 <div>
