@@ -91,4 +91,4 @@ sidebar:
 
 ![管理者権限でスタッフのパスワードを変更することも可能](./img/force-update-pw_tablet.webp)
 
-詳しくは[組織のスタッフ管理](/nipoplus/reference/makestaff/)を御覧ください。
+詳しくは[組織のスタッフ管理](/nipoplus/reference/makestaff)を御覧ください。

@@ -27,14 +27,14 @@ Firebase公式サイトでは、全文検索データベースとして、
 最も簡単で即効性のある全文検索データベースでした。導入までのハードルは低いです。
 難しいことを考えずとも良しなにインデックスしてくれます。
 
-Firebaseのアカウントに応じてアクセスできるデータを制御する必要がある場合は、[ファセット](https://www.algolia.com/doc/guides/managing-results/refine-results/faceting/)を登録する必要があります。
+Firebaseのアカウントに応じてアクセスできるデータを制御する必要がある場合は、[ファセット](https://www.algolia.com/doc/guides/managing-results/refine-results/faceting)を登録する必要があります。
 データの検索時は、制限付きAPIキーを使うことで安全・簡単にデータにアクセスできます。Vueなどのフロントから直接Algoliaのデータベースにアクセスできるので、開発もテストも簡単に行なえます。
 制限付きAPIキーだけはフロント側で発行させるわけにはいきませんので、Cloud Functionsを使う必要があります。
 Cloud FunctionsからFirebaseのログインユーザIDなどを取得して、そのユーザIDのデータを予めファセットした状態で検索される制限付きAPIキーを発行してフロントに渡す必要があります。
 
 検索の速度や制度も申し分はありませんが、データの登録だけは体感上ラグがあるように感じました。データ登録後すぐに検索するということはあまりないと思いますが、登録後すぐに検索してもHitしないことがあります。反映には10秒前後かかります。
 
-最大のデメリットはコストで、[Algoliaの費用](https://www.algolia.com/pricing/)は決して安くは有りません。
+最大のデメリットはコストで、[Algoliaの費用](https://www.algolia.com/pricing)は決して安くは有りません。
 1000レコードで1ドルかかります。数十万件のデータを保存するような規模になるとこのコストは無視できません。
 
 | 評価項目 | ポイント(5点を満点とする） |
@@ -57,7 +57,7 @@ Typesense Cloudというサービスを展開しており、自前でサーバ�
 極端な話、データが0件ならAlgoliaのほうが安価ですが、数万件を超えたあたりでTypesenseのほうが安くなります。しかもこの差はデータ量が増えるごとに相対的に広がっていくことになります。
 
 Algoliaとの大きな違いとして、オープンソースのため自前でサーバを用意して使うこともできるという点です。
-Algoliaでは[ソート機能](https://www.algolia.com/doc/guides/managing-results/refine-results/sorting/how-to/sort-by-attribute/)がランキング形式で、任意のフィールドでソートするにはそれ専用のインデックスを作る必要があります。
+Algoliaでは[ソート機能](https://www.algolia.com/doc/guides/managing-results/refine-results/sorting/how-to/sort-by-attribute)がランキング形式で、任意のフィールドでソートするにはそれ専用のインデックスを作る必要があります。
 Typesenseでは数値フィールドであれば自由にソートできる点が優秀です。ただし、文字によるソートはサポートされない点がマイナスポイント。
 製品名順に並べたいといったことが残念ながらできません。
 一時期は大変良いプロジェクトと考えていましたが、Elastic Searchに乗り換えてからはあまり積極的に推奨できなくなりました。
@@ -76,7 +76,7 @@ Typesenseでは数値フィールドであれば自由にソートできる点�
 
 3つのデータベースの中では最もとっつきにくいですが、最も優秀でした。
 日本語の全文検索制度を語る上で外すことのできないN-gramや形態素解析といった機能がプラグインとして予め用意されています。
-[日本語の検索を実装するガイド](https://www.elastic.co/jp/blog/how-to-implement-japanese-full-text-search-in-elasticsearch/)が非常に参考になります。
+[日本語の検索を実装するガイド](https://www.elastic.co/jp/blog/how-to-implement-japanese-full-text-search-in-elasticsearch)が非常に参考になります。
 クエリもかなり優秀ですし、文字列によるソート、数値によるソートも完全に対応しています。
 非常に面白いと思ったのが、1つのフィールドに2つ以上のデータをもたせることができるという仕組みでした。
 例えば nameというフィールドに、 name.keywordとname.ngramの2つのフィールドを作ると言ったことができます。

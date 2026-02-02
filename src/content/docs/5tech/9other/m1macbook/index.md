@@ -30,10 +30,10 @@ pod install
 というコマンドを叩く必要がたまにありますが、このpod installも購入直後手はうまく動きませんでした。
 この問題についても2023年現在では解決しております。
 
-静的サイトジェネレータの「[Gatsby](https://www.gatsbyjs.com/)」がそのままでは動作しませんでした。解決策はみんなの味方[Qiita](https://qiita.com/yudwig/items/c533f676b7b8015da723)に記載があります。
-同様に、静的サイトジェネレータの「[GridSome](https://gridsome.org/)」もM1マックでは動きません。
+静的サイトジェネレータの「[Gatsby](https://www.gatsbyjs.com)」がそのままでは動作しませんでした。解決策はみんなの味方[Qiita](https://qiita.com/yudwig/items/c533f676b7b8015da723)に記載があります。
+同様に、静的サイトジェネレータの「[GridSome](https://gridsome.org)」もM1マックでは動きません。
 どうも画像圧縮処理系のプログラムがM1マックではうまくインストールできないようで、失敗するようです。
-よって、Nuxt-jsの「[Nuxt-img](https://image.nuxtjs.org/components/nuxt-img/)」も対策しないとうまく動きませんでした。
+よって、Nuxt-jsの「[Nuxt-img](https://image.nuxtjs.org/components/nuxt-img)」も対策しないとうまく動きませんでした。
 [解決策はGitHubのissue](https://github.com/nuxt/image/issues/204)に上がっています。
 Quasarが提供している[icon Genie](https://quasar.dev/icongenie/introduction)もインストールに失敗しましたが今では問題なくインストールや実行ができるようになりました。
 

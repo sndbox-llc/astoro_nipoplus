@@ -6,7 +6,7 @@ sidebar:
   label: QuasarでAndroidアプリを作る
 ---
 
-NipoPlusは[Quasar Framework](https://quasar.dev/)を使用してWebアプリ、Androidアプリ、iOSアプリの3つに変換してそれぞれにリリースを行っています。
+NipoPlusは[Quasar Framework](https://quasar.dev)を使用してWebアプリ、Androidアプリ、iOSアプリの3つに変換してそれぞれにリリースを行っています。
 iOSについてはこれまでそこまで大きなトラブルは比較的少ない方でしたが、ことAndroidについては定期的に仕様が変更になるためその都度トラブルを解決するために多くの労力を必要とします。
 ここでは2022年8月現在、Android AppをQuasar Frameworkでビルドしてストアに提出するまでの流れについて備忘録を兼ねて記載しています。
 開発にはMacBook Air(M1)を使用しております。NodeJSのバージョンは16を使用しています。変換にはCapacitor3を使用しています。

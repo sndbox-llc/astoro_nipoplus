@@ -6,16 +6,16 @@ sidebar:
   label: Typesense+Firestoreの全文検索
 ---
 
-この記事のあとに、[Elastic Searchを交えた新たな記事](/tech/firebase/fulltext/)を書きました。
+この記事のあとに、[Elastic Searchを交えた新たな記事](/tech/firebase/fulltext)を書きました。
 
 ## AlgoliaからTypeSenseへ切り替えは可能か？ {#switching_from_algolia_to_typesense}
 
 FireStoreを使ってシステムを構築すると、検索機能の貧弱さに頭を抱えることになります。mySQLなどにある「Like検索」は前方一致で行うことは可能ですが、部分一致による検索はできません。
 FireStoreの公式サイトでは、[全文検索を実装するには外部のデータベースを使用](https://firebase.google.com/docs/firestore/solutions/search?provider=algolia)するように案内しています。2021年7月時点では、外部のデータベースとして
 
-- [Algolia](https://www.algolia.com/)
-- [Elastic Search](https://www.elastic.co/jp/elasticsearch/)
-- [TypeSense](https://typesense.org/)
+- [Algolia](https://www.algolia.com)
+- [Elastic Search](https://www.elastic.co/jp/elasticsearch)
+- [TypeSense](https://typesense.org)
 
 の3種類が案内されています。現在のNipoではAlgoliaを使って全文検索を実装していますが、実はAlgolia、小規模なプロジェクトでも結構高額になる料金体系のため予算に限りのあるプロダクトでは実装するのが非常に厳しいです。
 特に料金形態が変更されてからは事実上の値上げとなりました。
@@ -28,7 +28,7 @@ FireStoreの公式サイトでは、[全文検索を実装するには外部の�
 Typesenseの情報自体はまだまだ少ないです。日本語によるTypesense導入を解説しているページはほとんど有りません。Typesenseがどのようなものかというと、メモリ上だけで保存される全文検索が可能なデータベースです。
 制限付きAPIキーなどを使えばマルチテナント型のサービスでも安全にデータを隔離可能で、検索はもちろん、並べ替えなども可能です。
 気になる料金ですが、自前でサーバを用意できる場合はそのサーバ費用のみです。サーバを用意するのが大変な場合は、Typesense Cloudを使うこともできます。
-[Typesense Cloud](https://cloud.typesense.org/)の料金は使用するメモリ量やCPU、リージョンによって変わりますが、最小構成で、リージョンを「ムンバイ」にすると月額費用はたったの7.2ドルです。
+[Typesense Cloud](https://cloud.typesense.org)の料金は使用するメモリ量やCPU、リージョンによって変わりますが、最小構成で、リージョンを「ムンバイ」にすると月額費用はたったの7.2ドルです。
 
 ![TypesenseCloudの料金はリージョンによっても金額が変わります。ムンバイは特にリーズナブルな価格で提供されています](./img/typesense_price.png)
 

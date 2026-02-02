@@ -6,7 +6,7 @@ sidebar:
   label: Zipの文字化け問題と解決策
 ---
 
-NipoPlusの[一括CSVダウンロード](/nipoplus/staff/csv/)を使ってレポートのデータをZip形式でダウンロードすると、特定の環境では文字化けを起こすことがあります。
+NipoPlusの[一括CSVダウンロード](/nipoplus/staff/csv)を使ってレポートのデータをZip形式でダウンロードすると、特定の環境では文字化けを起こすことがあります。
 
 ![ZIPファイルをダブルクリックで開くと文字化けしてしまう](./img/zip-open.png)
 
@@ -19,8 +19,8 @@ NipoPlusの[一括CSVダウンロード](/nipoplus/staff/csv/)を使ってレポ
 文字コードに対応しておらず、昔ながらのSHIFT-JISしか対応していないソフトがあります。
 筆者が確認できたものでは、次のソフトは文字化けします
 
-- [LhaPlus(ラプラス)](https://forest.watch.impress.co.jp/library/software/lhaplus/)
-- [+Lhaca](https://forest.watch.impress.co.jp/library/software/pluslhaca/)
+- [LhaPlus(ラプラス)](https://forest.watch.impress.co.jp/library/software/lhaplus)
+- [+Lhaca](https://forest.watch.impress.co.jp/library/software/pluslhaca)
 
 いずれのソフトも長い間メンテナンスがされておらず、UTF8という文字コードに対応していません。
 Windowsが一強の時代であればSHIFT-JISが利用できれば問題が有りませんでした。しかし今の時代はスマートフォンやタブレット、MacOSなどの勢力拡大が顕著です。Windows以外の多くはUTF8を利用しているため、SHIFT-JISしか使えない解凍ソフトは時代の流れとともに、その役目を終えようとしています。
@@ -56,8 +56,8 @@ ZIPファイルを開く時、標準のエクスプローラーで開くよう�
 
 もう一つの解決方法として、UTF8に対応した解凍ソフトを使用する方法があります。UTF8に対応しているソフトとしては次のようなソフトがあります。
 
-- [Explzh](https://www.ponsoftware.com/)(商用利用の場合は有料です)
-- [7Zip](https://sevenzip.osdn.jp/)
+- [Explzh](https://www.ponsoftware.com)(商用利用の場合は有料です)
+- [7Zip](https://sevenzip.osdn.jp)
 
 例えば7Zipをインストールし、前述したような手順で.zipを7Zipで解凍するように関連付けをしてあげることで.zipのファイルアイコンが7Zipのアイコンに変わります。
 

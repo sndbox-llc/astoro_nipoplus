@@ -13,7 +13,7 @@ sidebar:
 ## 今後の対応について {#future_plans}
 
 - [GOLDPLANへ移行](/legacy/system/price/#newInvoice)していただく
-- [NipoPlus](/nipoplus/admin/quickstart/)へ移行する
+- [NipoPlus](/nipoplus/admin/quickstart)へ移行する
 - Nipo【旧版】の利用を辞める
 
 ### 【GOLDPLANへ移行】 {#gold_migration}
@@ -23,8 +23,8 @@ Nipo【旧版】のGOLDPLANは今後もサービスを継続します。
 ### 【NipoPlusへ移行する】 {#nipoplus_migration}
 
 Nipo【旧版】の後継AppであるNipoPlusはNipo【旧版】よりコストが安いので無料PLANを提供し続けることができます。
-[Nipo【旧版】とNipoPlusの違い](/legacy/about/diff/)
-[NipoPlusの無料PLAN](/nipoplus/price/free/)
+[Nipo【旧版】とNipoPlusの違い](/legacy/about/diff)
+[NipoPlusの無料PLAN](/nipoplus/price/free)
 
 ### Nipo【旧版】の利用を辞める {#stop_old_nipo}
 

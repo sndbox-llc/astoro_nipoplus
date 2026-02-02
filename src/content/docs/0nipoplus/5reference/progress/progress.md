@@ -22,7 +22,7 @@ sidebar:
 - <a href="/nipoplus/template/digital/#commonNumber">数値入力（汎用）フォーム</a>
 - <a href="/nipoplus/template/digital/#calc">算術フォーム</a>
 
-上記いずれかのフォームが含まれた[テンプレートを作成](/tips/templatemake/)し、目標として設定したい数値を日報で記録してください。
+上記いずれかのフォームが含まれた[テンプレートを作成](/tips/templatemake)し、目標として設定したい数値を日報で記録してください。
 
 ### 予定・実績表を作成する手順 {#make}
 

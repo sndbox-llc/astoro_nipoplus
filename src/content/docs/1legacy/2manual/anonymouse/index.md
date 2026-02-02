@@ -31,7 +31,7 @@ sidebar:
 ![匿名アカウントから正式なアカウントへ変更する](./img/realAccount_tablet.webp)
 
 正式なアカウントを作るには、ログイン用のE-mailとログイン用のパスワードを登録します。
-これで匿名アカウントから正式アカウントへ昇格しました。最後に[E-mail確認](/legacy/manual/email-verify/)を行って下さい。
+これで匿名アカウントから正式アカウントへ昇格しました。最後に[E-mail確認](/legacy/manual/email-verify)を行って下さい。
 
 ## 仮アカウントを削除する {#remove}
 

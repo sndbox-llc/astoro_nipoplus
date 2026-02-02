@@ -6,7 +6,7 @@ sidebar:
   label: moment.jsよ永遠に
 ---
 
-Javascriptで日付を扱う際は、「Moment一択」という方もいるのではないでしょうか？私自身、日付の処理はMoment.jsで行っていましたが、久しぶりに[Moment.js公式サイト](https://momentjs.com/docs/)を訪問したところ、なんとMomentが非推奨になっていました。
+Javascriptで日付を扱う際は、「Moment一択」という方もいるのではないでしょうか？私自身、日付の処理はMoment.jsで行っていましたが、久しぶりに[Moment.js公式サイト](https://momentjs.com/docs)を訪問したところ、なんとMomentが非推奨になっていました。
 
 ## Javascriptで日付といったらMomentの時代は終わったようです {#momentjsIsEnd}
 
@@ -17,7 +17,7 @@ Javascriptの日付機能は非常に使い勝手が悪く、バグが混入し�
 過去に開発したクラウド日報Nipoや、サロンカルテといった作品でもMomentを使わせていただきました。本サイトで紹介している「Maroud」はday.jsを利用していますが、day.jsを選んだ理由も
 「Moment.jsと同じような操作感が得られる」ことが一番の要因で選択しました。そのくらい、直感的で使いやすいライブラリでした。
 
-フロントエンドでの開発が活発になる中で、「Moment.jsはデータ量が多くて重い」という記事を目にするようになり、軽量な[Dayjs](https://day.js.org/)への移行記事などもたくさん見かけられます。
+フロントエンドでの開発が活発になる中で、「Moment.jsはデータ量が多くて重い」という記事を目にするようになり、軽量な[Dayjs](https://day.js.org)への移行記事などもたくさん見かけられます。
 Maroudはそんなさなかの開発だったので、最初からDayjsを選択しました。実際にDayjsを使ってみて思ったのは、「Momentの代用は十分可能」という率直な感想でした。
 
 ## Moment.js今までありがとう {#thank_you_moment_js}

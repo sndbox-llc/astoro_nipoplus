@@ -16,7 +16,7 @@ sidebar:
 
 ## 退会の手順 {#leaveMethod}
 
-退会処理には[管理者権限](/nipoplus/reference/userRank/)が必要です。
+退会処理には[管理者権限](/nipoplus/reference/userRank)が必要です。
 
 1. [左メニューから組織設定をクリック](/nipoplus/reference/userRank/#rootSettingBtn)
 2. 組織全般までスクロール

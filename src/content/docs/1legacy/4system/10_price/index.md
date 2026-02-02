@@ -7,7 +7,7 @@ sidebar:
 ---
 
 :::note[こちらはNipo(旧)の料金ページです]
-[NipoPlusの料金](/nipoplus/price/)と混同されないように注意してください
+[NipoPlusの料金](/nipoplus/price)と混同されないように注意してください
 :::
 
 :::caution[2024年8月13日から料金と決済手順が変更になりました]
@@ -17,9 +17,9 @@ sidebar:
 ## 無料PLANは廃止されます {#free_plan_end}
 
 重要なお知らせです。Nipo【旧版】の無料PLANは2024年12月末をもって廃止となります。
-この日付以降、Nipo【旧版】は無料で利用することはできません。(旧バージョンのみ廃止！[NipoPlusの無料PLANは継続](/nipoplus/price/free/)します)
+この日付以降、Nipo【旧版】は無料で利用することはできません。(旧バージョンのみ廃止！[NipoPlusの無料PLANは継続](/nipoplus/price/free)します)
 
-詳しくは[無料PLAN廃止](/legacy/about/warning/)を御覧ください
+詳しくは[無料PLAN廃止](/legacy/about/warning)を御覧ください
 
 ## 請求書払い {#newInvoice}
 
@@ -139,7 +139,7 @@ Nipo【旧版】のGOLDPLAN（サブスクリプション）を解約する方�
 
 ## 解約手順 {#cancel_steps}
 
-1. [Web版Nipo【旧版】にログイン](https://nipoapp.sndbox.jp/)する（画面右上の起動ボタンから起動）
+1. [Web版Nipo【旧版】にログイン](https://nipoapp.sndbox.jp)する（画面右上の起動ボタンから起動）
 2. 全体設定をクリックしグループ管理のセクションへ移動する
 3. サブスクリプション情報の中にある「課金を停止」ボタンをクリック
 4. 確認メッセージを確認し、解約を実行する

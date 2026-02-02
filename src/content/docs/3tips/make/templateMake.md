@@ -13,7 +13,7 @@ NipoPlusでもテンプレートの考え方は同じ。枠を作って、そこ
 
 テンプレートの作り方は簡単です。  
 10種類以上ある入力フォームから欲しいものをピックアップして並べるだけ。
-例えば次のサンプルは、[数値入力フォーム](/nipoplus/template/digital/)や[選択式入力フォーム](/nipoplus/template/selects/)を並べています。
+例えば次のサンプルは、[数値入力フォーム](/nipoplus/template/digital)や[選択式入力フォーム](/nipoplus/template/selects)を並べています。
 
 ![パーツを組み合わせるだけの簡単操作](./img/report-guide-memo_tablet.png)
 

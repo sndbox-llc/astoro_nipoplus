@@ -280,7 +280,7 @@ export default defineComponent({
 
 ```
 
-グーグルに認証を通してログインすると、ログイン中のユーザのカレンダー予定が画面に表示されます。なおAPI Keyの取得やCliantIDの作成は[Google Developer Console](https://console.cloud.google.com/)から行います。
+グーグルに認証を通してログインすると、ログイン中のユーザのカレンダー予定が画面に表示されます。なおAPI Keyの取得やCliantIDの作成は[Google Developer Console](https://console.cloud.google.com)から行います。
 
 ## front endで実装するべきか、サーバ側で実装するべきか？ {#question}
 

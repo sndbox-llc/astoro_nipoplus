@@ -29,7 +29,7 @@ sidebar:
 
 ![グループを解散する](./img/groupdelete_tablet.png)
 
-グループの解散について詳しくは[グループについて](/legacy/manual/group/)を御覧ください。
+グループの解散について詳しくは[グループについて](/legacy/manual/group)を御覧ください。
 
 グループに他のスタッフが残っている場合は、２つのやり方があります
 
