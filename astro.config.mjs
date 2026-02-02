@@ -171,6 +171,7 @@ export default defineConfig({
                 items: [
                   //
                   { slug: 'nipoplus/gainen/destination' },
+                  { slug: 'nipoplus/gainen/inbox' },
                   { slug: 'nipoplus/gainen/reportdate' },
                   { slug: 'nipoplus/gainen/sosiki' },
                   { slug: 'nipoplus/gainen/faq' },
