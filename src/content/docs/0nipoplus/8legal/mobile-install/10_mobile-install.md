@@ -60,7 +60,7 @@ Webアプリが、ネイティブアプリのように振る舞う技術のこ�
 4.  メニューの中から「アプリをインストール」をタップ
 5.  ホーム画面にNipoPlusのアイコンが追加される
 
-![Androidにインストールする手順図解](./android-install-pwa.png)
+![Androidにインストールする手順図解](./img/android-install-pwa.png)
 
 ### Google Playストアからインストール {#android_usage}
 
@@ -68,7 +68,7 @@ Webアプリが、ネイティブアプリのように振る舞う技術のこ�
 
 <div style="max-width:300px">
 
-[![google play](google-play-badge.png)](https://play.google.com/store/apps/details?id=jp.sndbox.nipoplus)
+[![google play](./img/google-play-badge.png)](https://play.google.com/store/apps/details?id=jp.sndbox.nipoplus)
 
 </div>
 
@@ -97,7 +97,7 @@ iOSではSafariブラウザの機能を使って、NipoPlusをアプリのよう
 4.  追加するアイコンの名前を任意で決め、画面右上の「追加」をタップ
 5.  ホーム画面にNipoPlusのアイコンが追加されたことを確認する
 
-![IOSではSafariを使ってPWAインストール](./ios-pwa-install1.png)
+![IOSではSafariを使ってPWAインストール](./img/ios-pwa-install1.png)
 
 これでインストールは完了です。アイコンを長押しすると、通常のアプリと同様に削除できます。
 
