@@ -8,7 +8,7 @@ sidebar:
 
 スタッフごとに特定のテンプレートを使用できなくさせることが可能です。
 
-:::note[[制限ではなくフォルダ分けによる管理も有効です](/nipoplus/template/directory/)]
+:::tip[[制限ではなくフォルダ分けによる管理も有効です](/nipoplus/template/directory/)]
 :::
 
 ---
