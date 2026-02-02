@@ -6,15 +6,15 @@ sidebar:
   label: 👤グループ内のスタッフ管理
 ---
 
-:::note[[組織のスタッフ管理についてはこちら](/nipoplus/admin/about/)]
+:::note[[組織のスタッフ管理についてはこちら](/nipoplus/admin/about)]
 :::
 
-グループに所属しているスタッフの各種設定を行います。グループにスタッフを追加するには[組織のスタッフ管理](/nipoplus/admin/about/)から行います。
+グループに所属しているスタッフの各種設定を行います。グループにスタッフを追加するには[組織のスタッフ管理](/nipoplus/admin/about)から行います。
 
 補足資料:
 
-- [組織設定からグループへの所属](/nipoplus/reference/makestaff/)
-- [組織とグループの概念](/nipoplus/gainen/sosiki/)
+- [組織設定からグループへの所属](/nipoplus/reference/makestaff)
+- [組織とグループの概念](/nipoplus/gainen/sosiki)
 
 ## グループ所属のスタッフを確認 {#showStaffList}
 
@@ -99,4 +99,4 @@ sidebar:
 
 ## グループの管理画面からスタッフを作成する {#createStaff}
 
-通常は[組織管理](/nipoplus/admin/about/)からアカウントを作成しますがグループ内から作成もできます。詳しくは[グループ設定からアカウントを１件追加](/nipoplus/reference/makestaff/#make_group)を御覧ください。
+通常は[組織管理](/nipoplus/admin/about)からアカウントを作成しますがグループ内から作成もできます。詳しくは[グループ設定からアカウントを１件追加](/nipoplus/reference/makestaff/#make_group)を御覧ください。

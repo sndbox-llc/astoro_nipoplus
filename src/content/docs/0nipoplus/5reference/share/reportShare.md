@@ -69,7 +69,7 @@ NipoPlusは通常「1人につき1つのアカウント」でログインして�
 
 ## 共用設定後の日報作成 {#shared_report_creation}
 
-共用先の設定が完了したら、共用元のアカウント（例：社員アカウント）でNipoPlusにログインし、[日報作成画面](/nipoplus/staff/writereport/)を開きます。
+共用先の設定が完了したら、共用元のアカウント（例：社員アカウント）でNipoPlusにログインし、[日報作成画面](/nipoplus/staff/writereport)を開きます。
 
 「提出者」という項目が追加されているのが確認できます。
 

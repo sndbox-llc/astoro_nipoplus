@@ -6,7 +6,7 @@ sidebar:
   label: 🏷タグの管理
 ---
 
-タグは[日報作成時](/nipoplus/staff/writereport/)や[顧客管理](/nipoplus/other/customer/)などに付与できるラベルのようなものです。
+タグは[日報作成時](/nipoplus/staff/writereport)や[顧客管理](/nipoplus/other/customer)などに付与できるラベルのようなものです。
 タグを使うことで日報を絞り込んだり、目印として活用することができます。
 
 ## タグを作成する {#makeTag}

@@ -8,7 +8,7 @@ sidebar:
 ---
 
 :::caution[こちらはNipoPlusの料金ページです]
-[旧Nipoの料金](/legacy/system/price/)と混同されないように注意してください
+[旧Nipoの料金](/legacy/system/price)と混同されないように注意してください
 :::
 
 NipoPlus（にぽぷらす）は、初期費用・解約金は一切不要。まずは無料でNipoPlusの機能を体験し、納得して使い続けられるシンプルな料金体系が特徴です。
@@ -16,7 +16,7 @@ NipoPlus（にぽぷらす）は、初期費用・解約金は一切不要。ま
 ### NipoPlusご利用開始までの流れ {#nipoplus_getting_started}
 
 1.  まずは無料でお試し！: ご利用を開始いただくと、1ヶ月間の「トライアル期間」が自動で適用されます。この期間中は、有料プランと同じすべての高機能をご利用いただけます（最大10名まで）
-2.  無料PLANで継続: トライアル期間終了後は、自動的に機能制限付きの[無料PLAN](/nipoplus/price/free/)へ切り替わります。データが消えることはありません
+2.  無料PLANで継続: トライアル期間終了後は、自動的に機能制限付きの[無料PLAN](/nipoplus/price/free)へ切り替わります。データが消えることはありません
 3.  有料プランへアップグレード: さらなる快適さを求める場合は、いつでも[GOLDPLAN](#fee)にお申し込みいただけます
 
 全体の流れは以下の図でご確認ください。
@@ -29,7 +29,7 @@ NipoPlus（にぽぷらす）は、初期費用・解約金は一切不要。ま
 トライアル期間は有料プランと同じくすべての機能が利用可能です。人数も10名まで利用可能です。
 トライアルが満了したら３つの選択肢があります。
 
-- [無料PLAN](/nipoplus/price/free/)で使い続ける
+- [無料PLAN](/nipoplus/price/free)で使い続ける
 - [GOLDPLAN（自動更新有り）](/nipoplus/price/subscription)に申し込む
 - [GOLDPLAN（自動更新無し）](/nipoplus/price/invoice)に申し込む
 
@@ -38,11 +38,11 @@ NipoPlus（にぽぷらす）は、初期費用・解約金は一切不要。ま
 ### トライアル期間の延長 {#extension_span}
 
 もしトライアル期間1ヶ月が足りない場合や、トライアル期間中にもっと大人数で使用したい場合は、1度に限り延長を無償で提供させていただくことが可能です。
-詳しくは[お問い合わせ](/inquery/)ください。
+詳しくは[お問い合わせ](/inquery)ください。
 
 ## 無料PLANについて {#free}
 
-[無料PLAN](/nipoplus/price/free/)はいくつかの機能制限がかかりますが、日報の作成や承認といった基本的な機能は利用が可能です。
+[無料PLAN](/nipoplus/price/free)はいくつかの機能制限がかかりますが、日報の作成や承認といった基本的な機能は利用が可能です。
 申込みは必要なく、トライアルが終了すると自動で無料PLANに切り替わります。
 
 ## GOLDPLAN(有料)について {#fee}
@@ -60,9 +60,9 @@ NipoPlusの有料プランは、月額180円/名から利用できるGOLDPLANで
 どちらのプランも、月額180円/名の低価格でご提供しています。
 自動更新有りの方が、継続利用に便利でおすすめです。
 
-[月額払い（自動更新有り）はこちら](/nipoplus/price/subscription/)
+[月額払い（自動更新有り）はこちら](/nipoplus/price/subscription)
 
-[都度払い（自動更新無し）はこちら](/nipoplus/price/invoice/)
+[都度払い（自動更新無し）はこちら](/nipoplus/price/invoice)
 
 ## 決済システムについて：Stripeを採用し安全性を確保 {#stripe}
 
@@ -91,20 +91,20 @@ NipoPlusは、高機能でありながら、競合のクラウド日報・点検
 
 <div class="tableWrapper">
 
-| サービス名                                         |                              1名単価 |                         最小利用人数 |                                                   月額総額▼ | 備考                             |
-| -------------------------------------------------- | -----------------------------------: | -----------------------------------: | ----------------------------------------------------------: | -------------------------------- |
-| [Pace](https://paces.jp/pricing/)                  |                                550円 | <span style="color:blue">不明</span> |                                                     ？550円 | 最小が1名なら最安                |
-| [日報くん](https://nippoukun.bpsinc.jp/#price)     |                                165円 |                                  5名 |                                                       825円 | ミニマムプラン登場で安価になった |
-| ✅[NipoPlus](/nipoplus/admin/quickstart/)          |                                180円 |                                  5名 | <span style="color:red;background-color:pink;">900円</span> | 無料有                           |
-| [ニッピー](https://nippii.info/)                   |                                980円 | <span style="color:blue">不明</span> |                                                     ？980円 | 製造業特化型                     |
-| [DeskNetsNeo](https://www.desknets.com/neo/price/) |                                400円 |                                  5名 |                                                     2,000円 | 売切版有                         |
-| [Nipo](/legacy/about/quick/)                       |                           200〜500円 |                                  5名 |                                                     2,250円 | 無料有                           |
-| [houren.so](https://www.houren.so/)                | <span style="color:blue">不明</span> | <span style="color:blue">不明</span> |                                                     2,500円 | 無料有                           |
-| [FieldPlus](https://www.fieldplus.net/price/)      |                                500円 | <span style="color:blue">不明</span> |                                                     5,500円 | 基本料5,000円                    |
-| [Gamba](https://www.getgamba.com/price/)           |                                980円 |                                  5名 |                                                     4,900円 | 税別                             |
-| [未来日報](https://www.mirairepo.net/)             |                                330円 |                                 20名 |                                                     6,600円 |
-| [Nanoty](https://www.nanotybp.jp/price/)           |                                600円 |                                 20名 |                                                    12,000円 |
-| [i-Reporter](https://i-reporter.jp/)               | <span style="color:blue">不明</span> |                                  5名 |                                                    37,500円 | 初期費用50,000円                 |
+| サービス名                                        |                              1名単価 |                         最小利用人数 |                                                   月額総額▼ | 備考                             |
+| ------------------------------------------------- | -----------------------------------: | -----------------------------------: | ----------------------------------------------------------: | -------------------------------- |
+| [Pace](https://paces.jp/pricing)                  |                                550円 | <span style="color:blue">不明</span> |                                                     ？550円 | 最小が1名なら最安                |
+| [日報くん](https://nippoukun.bpsinc.jp/#price)    |                                165円 |                                  5名 |                                                       825円 | ミニマムプラン登場で安価になった |
+| ✅[NipoPlus](/nipoplus/admin/quickstart)          |                                180円 |                                  5名 | <span style="color:red;background-color:pink;">900円</span> | 無料有                           |
+| [ニッピー](https://nippii.info)                   |                                980円 | <span style="color:blue">不明</span> |                                                     ？980円 | 製造業特化型                     |
+| [DeskNetsNeo](https://www.desknets.com/neo/price) |                                400円 |                                  5名 |                                                     2,000円 | 売切版有                         |
+| [Nipo](/legacy/about/quick)                       |                           200〜500円 |                                  5名 |                                                     2,250円 | 無料有                           |
+| [houren.so](https://www.houren.so)                | <span style="color:blue">不明</span> | <span style="color:blue">不明</span> |                                                     2,500円 | 無料有                           |
+| [FieldPlus](https://www.fieldplus.net/price)      |                                500円 | <span style="color:blue">不明</span> |                                                     5,500円 | 基本料5,000円                    |
+| [Gamba](https://www.getgamba.com/price)           |                                980円 |                                  5名 |                                                     4,900円 | 税別                             |
+| [未来日報](https://www.mirairepo.net)             |                                330円 |                                 20名 |                                                     6,600円 |
+| [Nanoty](https://www.nanotybp.jp/price)           |                                600円 |                                 20名 |                                                    12,000円 |
+| [i-Reporter](https://i-reporter.jp)               | <span style="color:blue">不明</span> |                                  5名 |                                                    37,500円 | 初期費用50,000円                 |
 
 </div>
 
@@ -116,7 +116,7 @@ NipoPlusは、高機能でありながら、競合のクラウド日報・点検
 例えば製造業であれば作業員全員に端末が配られることは稀で、通常は1台の端末を複数人で共通利用します。
 作業員が100名いて、入力用タブレットやPCが20台ある場合は、アカウントは20でお申し込みください。
 
-スタッフが全員自分たちのスマートフォンから[日報を書く](/nipoplus/staff/writereport/)場合は、使用する端末数＝スタッフの人数となるため、スタッフ人数分のお申し込みをお願いします。
+スタッフが全員自分たちのスマートフォンから[日報を書く](/nipoplus/staff/writereport)場合は、使用する端末数＝スタッフの人数となるため、スタッフ人数分のお申し込みをお願いします。
 
 また、スタッフ別の集計や提出状況表といったアカウントに関する便利機能をフル活用するには人数分の申込みが必要です。
 
@@ -307,10 +307,10 @@ NipoPlusは、高機能でありながら、競合のクラウド日報・点検
 
 となります。料金は税込みとなっています。
 
-- [自動更新ありはこちら](/nipoplus/price/subscription/)
-- [自動更新無しはこちら](/nipoplus/price/invoice/)
+- [自動更新ありはこちら](/nipoplus/price/subscription)
+- [自動更新無しはこちら](/nipoplus/price/invoice)
 - [インボイス制度はこちら](/nipoplus/system/business-deal/#invoiceNo)
-- [領収証ダウンロードはこちら](/nipoplus/price/receipt/)
+- [領収証ダウンロードはこちら](/nipoplus/price/receipt)
 
 </details>
 

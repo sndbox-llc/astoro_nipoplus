@@ -50,12 +50,12 @@ NipoPlusのユーザから頂戴した様々な<a href="/inquery/">お問い合�
 なお、重役の設定項目はデフォルトで非表示になっているため、
 グループ設定ー＞スタッフ管理　に進んだあと、スタッフ一覧のテーブルの「表示項目」から重役項目をONにしてください
 
-[重役についてはこちら](/nipoplus/editor/staffmanage/)
+[重役についてはこちら](/nipoplus/editor/staffmanage)
 
 通常は「共有先」を使っていただくのがおすすめです。共有先は日報ごとに読める人、読めない人を細かく設定できるので柔軟に対応できるためです。
 予め、管理者側で「共有先」を指定しておくのが、最も混乱が少ないはずです。実際に日報を書く人に共有先の指定を任せると、おそらくしっちゃかめっちゃかなことになります。
 
-[提出先の固定はこちら](/nipoplus/editor/destinationlock/)
+[提出先の固定はこちら](/nipoplus/editor/destinationlock)
 
 また、全員に情報共有をすることを目的とするのであれば、「グループモードを共有」にしちゃうのもおすすめです。最後に紹介した「重役」はちょっと特殊なケースなので参考程度にとどめて下さい
 
@@ -87,7 +87,7 @@ NipoPlusのユーザから頂戴した様々な<a href="/inquery/">お問い合�
 日報１つに対して、NipoPlusのアカウントが無くても閲覧できる共有リンクを作ることができます。
 そのリンクを使ってアクセスすると、アクセス権限をバイパスして日報の閲覧が可能です。
 
-[外部共有リンクについて](/nipoplus/reference/outsideread/)
+[外部共有リンクについて](/nipoplus/reference/outsideread)
 
 ただ、この方法はNipoPlusのアカウントを持っていない相手を対象としているため、少し使い勝手は悪いかもしれません。
 （ログアウトして見てもらう必要があるため）
@@ -97,9 +97,9 @@ NipoPlusのユーザから頂戴した様々な<a href="/inquery/">お問い合�
 もっとも確実な方法は、日報をPDF出力、またはCSV出力してデータとして渡すことです。
 これならシンプルに閲覧ができますし、PDFやCSVは一括出力にも対応しているため、まとまった数の日報の共有も行いやすいです。
 
-[一括PDF出力について](/nipoplus/staff/pdf/)
+[一括PDF出力について](/nipoplus/staff/pdf)
 
-[一括CSV出力について](/nipoplus/staff/csv/)
+[一括CSV出力について](/nipoplus/staff/csv)
 
 </details>
 <details>
@@ -157,7 +157,7 @@ NipoPlusではレポート作成時に、スタッフがその日報の提出日
 
 全文検索以外の検索についてはこちらをご覧ください。
 
-[日報検索はこちら](/nipoplus/reference/searchreport/)
+[日報検索はこちら](/nipoplus/reference/searchreport)
 
 </details>
 
@@ -278,11 +278,11 @@ NipoPlusではレポートの公開範囲を細かく指定できる「通常モ
 
 補足：通常モードについて
 
-通常モードはレポートの[提出先や共有先](/nipoplus/gainen/destination/)を細かく指定することができます。
+通常モードはレポートの[提出先や共有先](/nipoplus/gainen/destination)を細かく指定することができます。
 管理者だけが読めれば良いといったケースでは、通常モードがおすすめです。
 
 :::note[提出先の固定]
-[提出先と共有先の固定](/nipoplus/editor/destinationlock/)をしておくと毎回自動で提出先などがセットされるので設定しておくことを推奨します
+[提出先と共有先の固定](/nipoplus/editor/destinationlock)をしておくと毎回自動で提出先などがセットされるので設定しておくことを推奨します
 :::
 
 </details>
@@ -333,7 +333,7 @@ kintoneとの専用連携機能は提供しておりませんが、いくつか�
 最も一般的な方法としてはCSV出力があります。
 CSV（カンマ区切り）は最もシンプルなデータ構造で、Nipo PlusのデータをCSVで出力▶KintoneにCSVで入力　という工程で取り込むことができます。
 
-[CSVオプションはこちら](/nipoplus/reference/csvsettings/)
+[CSVオプションはこちら](/nipoplus/reference/csvsettings)
 
 「CSVで出力してエクセルで編集する」といった一般的な方法も、Nipo Plusから出力ー＞Excelへ入力　という１つの「連携」の形といえます。
 あるいは、もう少し自動化するのであればAPIを使う方法もありますが、少し専門的な知識が必要になってくるケースが多いです。
@@ -346,7 +346,7 @@ CSV（カンマ区切り）は最もシンプルなデータ構造で、Nipo Plu
 一般的なWebアプリケーションの入口の形として、CSVやJSONといった形がよく使われております。
 Kintoneを調べてみると、CSVインポートに対応しているようなので、連携は可能だと思われます。
 
-[kintoneCSVインポートはこちら](https://www.focus-u.jp/blog/2024/01/kintone7-csv-import/)
+[kintoneCSVインポートはこちら](https://www.focus-u.jp/blog/2024/01/kintone7-csv-import)
 [サイボウズ公式Webガイドはこちら](https://jp.cybozu.help/k/ja/app/data/import_records/import_csv.html)
 
 実際に連携を試みたことは無いため、明確に「できる」と断言はできませんが、Kintoneの公式ガイドを見る限り、問題なくNipo Plusのデータを取り込むことはできると考えられます。

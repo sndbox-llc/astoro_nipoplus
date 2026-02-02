@@ -8,7 +8,7 @@ sidebar:
 
 :::note[【重要】NipoPlus（現行版）の領収証について]
 このガイドはNipoPlus（現行版）でのお支払いに対する領収証発行手順です。
-Nipo【旧版】をご利用の方は、[Nipo【旧版】の料金ページ](/legacy/system/price/)をご確認ください。
+Nipo【旧版】をご利用の方は、[Nipo【旧版】の料金ページ](/legacy/system/price)をご確認ください。
 :::
 
 ---

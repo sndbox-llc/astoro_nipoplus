@@ -54,7 +54,7 @@ sidebar:
 
 ## 受信BOXを使って日報を探す {#listbox}
 
-:::caution[[権限](/nipoplus/reference/userRank/)がゲスト・書き込みのみの場合は受信BOXにアクセスできません]
+:::caution[[権限](/nipoplus/reference/userRank)がゲスト・書き込みのみの場合は受信BOXにアクセスできません]
 :::
 
 受信BOXにはあなたが閲覧可能な日報のみ表示されます。様々な絞り込みや検索が可能です。

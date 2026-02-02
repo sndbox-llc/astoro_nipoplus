@@ -7,7 +7,7 @@ sidebar:
 ---
 
 :::note[CSVの出力設定]
-出力形式を一部変更できます。詳しくは[CSV出力設定](/nipoplus/reference/csvsettings/)を御覧ください
+出力形式を一部変更できます。詳しくは[CSV出力設定](/nipoplus/reference/csvsettings)を御覧ください
 :::
 
 :::caution[Web版のみ対応]

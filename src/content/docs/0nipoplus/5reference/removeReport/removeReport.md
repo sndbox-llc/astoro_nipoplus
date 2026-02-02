@@ -12,9 +12,9 @@ sidebar:
 
 削除できる日報の主な条件は以下のとおりです。
 
-- [日報の状態](/nipoplus/reference/reportstate/)が「新規」または「棄却」の日報であること
+- [日報の状態](/nipoplus/reference/reportstate)が「新規」または「棄却」の日報であること
 - 日報を作成した本人であること
-- [一括削除機能](#batch_remove)を使う場合は[管理者](/nipoplus/reference/userRank/)権限が必要
+- [一括削除機能](#batch_remove)を使う場合は[管理者](/nipoplus/reference/userRank)権限が必要
 
 ## １件の日報を削除する {#remove}
 
@@ -32,7 +32,7 @@ sidebar:
 
 ## 複数の日報をまとめて削除 {#batch_remove}
 
-:::note[[管理者権限が必要です](/nipoplus/reference/userRank/)]
+:::note[[管理者権限が必要です](/nipoplus/reference/userRank)]
 :::
 
 - 日報の状態が承認や進行中のものも含めて削除可能です

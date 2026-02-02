@@ -9,7 +9,7 @@ sidebar:
 :::note[[メニューに無いときはグループ設定から機能を有効にしてください](/nipoplus/editor/groupmanage/#optionalFunction)]
 :::
 
-[日報](/nipoplus/reference/searchreport/#listbox)や[予定](/nipoplus/other/schedule/)、顧客対応履歴などをデータをカレンダー上に表示できます。
+[日報](/nipoplus/reference/searchreport/#listbox)や[予定](/nipoplus/other/schedule)、顧客対応履歴などをデータをカレンダー上に表示できます。
 カレンダーには表示形式の違いで「月間カレンダー」「週間カレンダー」「日カレンダー」「表カレンダー」があり、簡単に切り替えが可能です。
 
 ## カレンダーの表示設定 {#switch_dist}
@@ -54,7 +54,7 @@ sidebar:
 <dd>カレンダー上に顧客メモを表示する</dd>
 </dl>
 
-「日報を表示」では表示基準に関する設定も可能です。[日報は３つの日付をもつ](/nipoplus/gainen/reportdate/)も参照して下さい。
+「日報を表示」では表示基準に関する設定も可能です。[日報は３つの日付をもつ](/nipoplus/gainen/reportdate)も参照して下さい。
 
 <dl class="basic">
 <dt>スタッフが指定した日付</dt>
@@ -84,7 +84,7 @@ sidebar:
 
 ![カレンダから予定を追加可能](./img/add-event20_tablet.webp)
 
-[予定登録](/nipoplus/other/schedule/)も参照してください。
+[予定登録](/nipoplus/other/schedule)も参照してください。
 
 ---
 
@@ -113,7 +113,7 @@ sidebar:
 
 ![予定をドラッグ操作で追加する。スマホの場合は「ホールド」して「スワイプ」のイメージ](./img/drag-event-add_tablet.webp)
 
-[予定登録](/nipoplus/other/schedule/)も参照してください。
+[予定登録](/nipoplus/other/schedule)も参照してください。
 
 ---
 
@@ -136,7 +136,7 @@ sidebar:
 
 ![セル内の＋ボタンをクリックして予定を追加可能](./img/add-eventtable_tablet.webp)
 
-[予定登録](/nipoplus/other/schedule/)も参照してください。
+[予定登録](/nipoplus/other/schedule)も参照してください。
 
 ---
 

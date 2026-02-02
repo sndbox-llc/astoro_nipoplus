@@ -16,7 +16,7 @@ sidebar:
 
 ![受信BOXから日報を開く](./img/report-box1_tablet.webp)
 
-たくさんの日報から[目的の日報を素早く探す](/nipoplus/reference/searchreport/)ガイドはこちら
+たくさんの日報から[目的の日報を素早く探す](/nipoplus/reference/searchreport)ガイドはこちら
 
 :::tip[ポップ表示？ページ遷移？]
 ▶アイコンをクリックして日報を開くとページ遷移、カード自体をクリックするとポップアップで表示されます
@@ -41,7 +41,7 @@ sidebar:
 :::
 
 :::tip[読みたい日報が表示されない？]
-一覧に日報が無い場合は、その日報に対するアクセス権が不足しています。詳しくは[提出先と共有先](/nipoplus/gainen/destination/)を御覧ください
+一覧に日報が無い場合は、その日報に対するアクセス権が不足しています。詳しくは[提出先と共有先](/nipoplus/gainen/destination)を御覧ください
 :::
 
 :::note[全体共有モードがONの場合]
@@ -93,8 +93,8 @@ sidebar:
 - コメントは新しいものが上位に表示される
 - 1つの日報に対してコメントは最大で500件まで書込みが可能
 - 自分の書いたコメントのみ削除することが可能
-- コメントを書き込むと日報のオーナー（作成者や提出先）に対して[通知が発行](/nipoplus/reference/notify/)される
-- コメントの内容は[ログ](/nipoplus/reference/log/)上にも記録される
+- コメントを書き込むと日報のオーナー（作成者や提出先）に対して[通知が発行](/nipoplus/reference/notify)される
+- コメントの内容は[ログ](/nipoplus/reference/log)上にも記録される
 - コメントの活動はスタッフの[活動実績](/nipoplus/editor/staffmanage/#activity)としてもカウントされる
 
 ---
@@ -115,7 +115,7 @@ sidebar:
 日報の生データや集計しやすい形式で出力したい場合に利用します。
 
 :::note[一括CSV出力]
-複数の日報をまとめてCSV出力するには[一括CSV出力](/nipoplus/staff/csv/)をご覧ください。
+複数の日報をまとめてCSV出力するには[一括CSV出力](/nipoplus/staff/csv)をご覧ください。
 :::
 
 出力する手順は次の通りです。
@@ -123,18 +123,18 @@ sidebar:
 1.  CSV出力したい日報を表示
 2.  メニューから「CSV出力」をクリック
 
-詳しくは[CSV出力](/nipoplus/staff/csv/)を御覧ください。
+詳しくは[CSV出力](/nipoplus/staff/csv)を御覧ください。
 
 ### 日報をPDF出力する📄 {#pdf_export}
 
 日報を印刷したり、外部に共有したりする際に、視覚的に分かりやすいPDF形式で出力します。
 
 :::note[まとめてPDF出力する場合]
-複数の日報をまとめて出力するには[一括PDF出力](/nipoplus/staff/pdf/)をご覧ください。
+複数の日報をまとめて出力するには[一括PDF出力](/nipoplus/staff/pdf)をご覧ください。
 :::
 
 :::note[PDF出力設定の詳細]
-日報のレイアウト、余白、透かしといった[PDF出力設定](/nipoplus/staff/pdf/)についてはこちらをご覧ください。
+日報のレイアウト、余白、透かしといった[PDF出力設定](/nipoplus/staff/pdf)についてはこちらをご覧ください。
 :::
 
 PDFに変換する手順は次のとおりです。

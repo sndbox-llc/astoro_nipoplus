@@ -64,9 +64,9 @@ import ExcelTable from '@components/ExcelTable.astro'
   <dt>入力必須</dt>
   <dd>選択肢が選ばれていないと日報の提出ができなくなります</dd>
   <dt>集計する</dt>
-  <dd>このフォームの回答データが[集計機能](/nipoplus/staff/charts/)で利用できます</dd>
+  <dd>このフォームの回答データが[集計機能](/nipoplus/staff/charts)で利用できます</dd>
   <dt>選択肢を語録から取得</dt>
-  <dd>[語録機能](/nipoplus/editor/wordBookManagement/)を使って単語リストを指定します</dd>
+  <dd>[語録機能](/nipoplus/editor/wordBookManagement)を使って単語リストを指定します</dd>
   <dt>入力方式</dt>
   <dd>
     <ul>
@@ -88,11 +88,11 @@ import ExcelTable from '@components/ExcelTable.astro'
 
 ### 選択入力（単体）の集計について
 
-[集計・グラフ化](/nipoplus/staff/charts/)が可能です。
+[集計・グラフ化](/nipoplus/staff/charts)が可能です。
 
 - 単語が選ばれた回数を自動集計し、円グラフや棒グラフとして表示できます。
 - 選択式の単語に数字が含まれていれば、その値を数値として集計やグラフ化できます。
-- [CSV出力オプションを変更](/nipoplus/reference/csvsettings/)することで列展開の出力形式を変更できます。
+- [CSV出力オプションを変更](/nipoplus/reference/csvsettings)することで列展開の出力形式を変更できます。
 
 ![選択肢は単語だが数値に置き換えてグラフ化することも可能](./img/num-select_tablet.png)
 
@@ -166,7 +166,7 @@ import ExcelTable from '@components/ExcelTable.astro'
 
 各選択肢が個別の列に展開されます
 
-- [CSV出力オプションについてはこちら](/nipoplus/reference/csvsettings/)
+- [CSV出力オプションについてはこちら](/nipoplus/reference/csvsettings)
 
 {/* prettier-ignore */}
 <ExcelTable>
@@ -181,7 +181,7 @@ import ExcelTable from '@components/ExcelTable.astro'
 
 1つのセルに複数の回答がまとめられます
 
-- [CSV出力オプションについてはこちら](/nipoplus/reference/csvsettings/)
+- [CSV出力オプションについてはこちら](/nipoplus/reference/csvsettings)
 
 {/* prettier-ignore */}
 <ExcelTable>
@@ -231,9 +231,9 @@ ON/OFFの2択で回答する際に利用するフォームです。
   <dt>初期状態でON</dt>
   <dd>ONにすると、日報作成時にチェックボックスはONの状態でスタートします。デフォルトでONにしたい場合に設定します</dd>
   <dt>集計する</dt>
-  <dd>ONにすると[集計機能](/nipoplus/staff/charts/)で利用できます。チェック項目の達成率や異常発生率などをグラフで可視化したい場合に設定します</dd>
+  <dd>ONにすると[集計機能](/nipoplus/staff/charts)で利用できます。チェック項目の達成率や異常発生率などをグラフで可視化したい場合に設定します</dd>
   <dt>CSV出力時列を展開</dt>
-  <dd>[CSV出力オプション](/nipoplus/reference/csvsettings/)を参照してください</dd>
+  <dd>[CSV出力オプション](/nipoplus/reference/csvsettings)を参照してください</dd>
   <dt>形状</dt>
   <dd>
     <ul>
@@ -248,12 +248,12 @@ ON/OFFの2択で回答する際に利用するフォームです。
 
 ### チェックボックスの集計
 
-チェックボックスのデータは[集計対象](/nipoplus/staff/charts/)です。
+チェックボックスのデータは[集計対象](/nipoplus/staff/charts)です。
 
 ![チェックボックスのデータを円グラフにしたイメージ](./img/pie-charts_tablet.png)
 
-- [日報をグラフ化する方法はこちら](/nipoplus/reference/chart/)
-- [CSV出力オプションについてはこちら](/nipoplus/reference/csvsettings/)
+- [日報をグラフ化する方法はこちら](/nipoplus/reference/chart)
+- [CSV出力オプションについてはこちら](/nipoplus/reference/csvsettings)
 
 #### CSV出力オプションにて列展開がONの場合のCSV出力
 
@@ -435,14 +435,14 @@ ON/OFFの状態が1つの列にまとめられます
 動的変化を使用する具体的な条件は以下のとおりです。
 
 - 自身の[選択入力フォーム](#plain)の他に別の[選択入力フォーム](#plain)が存在すること
-- 上記のフォームが[語録機能](/nipoplus/editor/wordBookManagement/)を無効にしていること
-- [無料PLAN](/nipoplus/price/free/)では無いこと
+- 上記のフォームが[語録機能](/nipoplus/editor/wordBookManagement)を無効にしていること
+- [無料PLAN](/nipoplus/price/free)では無いこと
 
 上記条件を満たすことで動的変化設定が可能になります。
 
 ### 動的変化を反復入力と組み合わせて使う
 
-- 動的変化を[反復入力](/nipoplus/template/array/)と組み合わせて使用できます
+- 動的変化を[反復入力](/nipoplus/template/array)と組み合わせて使用できます
 - 反復入力内で動的変化を使う際は変化の監視対象が同じ反復入力フォーム内の同じ行のデータに依存します
 
 ![訪問先エリアを監視対象にすると、その行ごとに選択肢が動的に変化する](./img/dinamicValiable_tablet.webp)

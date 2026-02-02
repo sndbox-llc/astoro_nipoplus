@@ -18,7 +18,7 @@ NipoPlusのダウンロード用QRコードも用意しています。印刷の�
 
 ▼以下のリンクをクリックするだけです。
 
-[NipoPlusを起動](https://nipoplus.sndbox.jp/)
+[NipoPlusを起動](https://nipoplus.sndbox.jp)
 
 :::tip[ブックマークしておこう]
 https://nipoplus.sndbox.jp/ をブックマークしておくと次回アクセスが楽です
@@ -54,7 +54,7 @@ Google Play Storeからインストールするか、PWAとしてインストー
 Webアプリが、ネイティブアプリのように振る舞う技術のことです。ネイティブと比較しても遜色ありません
 :::
 
-1.  Google Chromeで[NipoPlusのウェブサイト](https://nipoplus.sndbox.jp/)を開く
+1.  Google Chromeで[NipoPlusのウェブサイト](https://nipoplus.sndbox.jp)を開く
 2.  画面下部に表示される「ホーム画面にNipoPlusを追加」バナーをタップ（表示されない場合は、次の手順へ）
 3.  画面右上のメニューアイコン（︙）をタップ
 4.  メニューの中から「アプリをインストール」をタップ
@@ -91,7 +91,7 @@ App Storeからインストールするか、PWAとしてインストールす�
 
 iOSではSafariブラウザの機能を使って、NipoPlusをアプリのようにホーム画面に追加できます。
 
-1.  Safariブラウザで[NipoPlusのウェブサイト](https://nipoplus.sndbox.jp/)を開く
+1.  Safariブラウザで[NipoPlusのウェブサイト](https://nipoplus.sndbox.jp)を開く
 2.  画面下部にある 「共有」アイコン（↑が四角から出るようなアイコン）をタップ
 3.  メニューの中から「ホーム画面に追加」をタップ
 4.  追加するアイコンの名前を任意で決め、画面右上の「追加」をタップ
@@ -125,6 +125,6 @@ App Store版・Google Play版のNipoPlusは、ストアの規約や技術的な�
 - CSV出力など、ファイルの「ダウンロード」を伴う処理ができません
 - [GOLDPLAN](/nipoplus/price/#fee)のお申し込みや解約など、決済に関する操作ができません
 - 操作ガイドへのリンクボタンなど、一部のWebサイトへの直接リンクが表示されません
-- [システム更新](/nipoplus/system/release-note/)の反映がPWA版に比べて遅れる場合があります
+- [システム更新](/nipoplus/system/release-note)の反映がPWA版に比べて遅れる場合があります
 
 以上の理由から、フル機能が利用でき、常に最新版が使えるWeb版（PWAとしてインストール）を推奨しています。

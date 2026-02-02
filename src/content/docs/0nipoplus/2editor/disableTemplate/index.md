@@ -8,7 +8,7 @@ sidebar:
 
 スタッフごとに特定のテンプレートを使用できなくさせることが可能です。
 
-:::tip[[制限ではなくフォルダ分けによる管理も有効です](/nipoplus/template/directory/)]
+:::tip[[制限ではなくフォルダ分けによる管理も有効です](/nipoplus/template/directory)]
 :::
 
 ---
@@ -53,7 +53,7 @@ sidebar:
 
 この設定は日報作成時にスタッフが選択できるテンプレートを制御するのみです。
 
-- [日報の集計](/nipoplus/staff/charts/)
-- 既に作成された[過去の日報を閲覧する](/nipoplus/staff/readreport/)
+- [日報の集計](/nipoplus/staff/charts)
+- 既に作成された[過去の日報を閲覧する](/nipoplus/staff/readreport)
 
 といった行為には制限はかかりません。

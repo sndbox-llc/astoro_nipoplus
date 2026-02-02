@@ -26,13 +26,13 @@ Nipo【旧版】/NipoPlusの中で使われているアイコンは[GoogleFonts]
 
 本サイトで使用されている画像のすべてが当社のものと言うわけでは有りません。例えばGoogle Play StoreやAppStoreのロゴは各アプリストア元が画像を管理しています。
 
-ご不明な点については[お問い合わせ](/inquery/)ください。
+ご不明な点については[お問い合わせ](/inquery)ください。
 
 ---
 
 ## 本サイト・本アプリで使用している各種技術 {#site_tech}
 
-当社[合同会社サンドボックス](https://sndbox.jp/)では様々なWebAppを開発していますが、その多くは先人たちの築き上げてきたオープンソースを利用させて頂いております。
+当社[合同会社サンドボックス](https://sndbox.jp)では様々なWebAppを開発していますが、その多くは先人たちの築き上げてきたオープンソースを利用させて頂いております。
 彼らの活躍無しには今日のようなソフトウェア開発は不可能でした。深く感謝いたします。
 
 <dl class="basic">
@@ -78,8 +78,8 @@ Nipo【旧版】/NipoPlusの中で使われているアイコンは[GoogleFonts]
 ## Nipo【旧版】およびNipoPlusを取り上げてくれた方々 {#medias}
 
 - Senses Lab　様[おすすめ日報アプリ・ツールの7選を比較 | 価格（無料あり）・特徴](https://product-senses.mazrica.com/senseslab/tool-reviews/nippou-software)
-- BOXIL 様[日報をアプリで！クラウド日報ツールまとめ](https://boxil.jp/mag/a1499/)
-- melma 様[ＩＴでらくらく建設業 Vol.714](http://melma.com/backnumber_114938_6635216/)
+- BOXIL 様[日報をアプリで！クラウド日報ツールまとめ](https://boxil.jp/mag/a1499)
+- melma 様[ＩＴでらくらく建設業 Vol.714](http://melma.com/backnumber_114938_6635216)
 - ITでらくらく建設業　様[日報サービス・アプリ](http://mint-s.jp/it-easy/2018/01/post-2127.html)
 - 人事評価制度の教科書　様[日報業務を効率化すれば残業も減る！外出先でも使える日報管理ツール6個](https://media.jinjiseido.com/nippou_tool)
 - Tab-biz 様[業務日誌とは・書き方とフォーマット例・おすすめアプリ](https://tap-biz.jp/tap_cat_100401/tap_cat_100405/1014295)
@@ -88,5 +88,5 @@ Nipo【旧版】/NipoPlusの中で使われているアイコンは[GoogleFonts]
 
 ### Nipo【旧版】ご利用のお客様からのご紹介 {#special_thanks}
 
-- 曽我冷熱株式会社　様[クラウド版の業務日報Nipo](https://www.sogareinetsu.com/worklog/nipo/)
+- 曽我冷熱株式会社　様[クラウド版の業務日報Nipo](https://www.sogareinetsu.com/worklog/nipo)
 - 有限会社デューク　様[デュークの日報](https://ameblo.jp/dukeblog-life/entry-12452375114.html)

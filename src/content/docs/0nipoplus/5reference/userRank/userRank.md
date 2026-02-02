@@ -24,7 +24,7 @@ sidebar:
 - [グループの作成](/nipoplus/admin/about/#createGroup)
 - [スタッフの作成](/nipoplus/admin/about/#createStaff)
 - [スタッフの権限や名前の変更](/nipoplus/reference/makestaff/#change_staff_data)
-- [料金プランの切替](/nipoplus/price/)
+- [料金プランの切替](/nipoplus/price)
 
 :::tip[管理者権限の移譲]
 予め管理者をもう一人作成し、そのアカウントから自身の権限を降格してもらうことで移譲できます。
@@ -48,10 +48,10 @@ sidebar:
 
 編集者の主な役割はグループ内の統治です。例えば以下の作業を行うことができます
 
-- [テンプレートの作成・編集](/nipoplus/editor/template/)
-- [日報提出先の指定（グループ内）](/nipoplus/editor/destinationlock/)
+- [テンプレートの作成・編集](/nipoplus/editor/template)
+- [日報提出先の指定（グループ内）](/nipoplus/editor/destinationlock)
 - [グループからスタッフを追放](/nipoplus/editor/staffmanage/#bang)
-- [グループ内のタグ管理](/nipoplus/editor/tagManagement/)
+- [グループ内のタグ管理](/nipoplus/editor/tagManagement)
 
 ### 編集者の画面
 
@@ -66,7 +66,7 @@ sidebar:
 
 日々の業務に必要な基本的な操作が可能です。
 
-- [日報の作成・編集](/nipoplus/staff/writereport/)
+- [日報の作成・編集](/nipoplus/staff/writereport)
 - 日報の閲覧
 - 日報の集計
 
@@ -95,7 +95,7 @@ sidebar:
 ### ゲスト：外部ユーザー向けの「投稿専用」権限 {#guest}
 
 :::caution[ゲスト権限は現在非推奨]
-[外部入力機能](/nipoplus/reference/outsidewrite/)機能を検討して下さい。ゲスト権限を使うメリットは現在有りません
+[外部入力機能](/nipoplus/reference/outsidewrite)機能を検討して下さい。ゲスト権限を使うメリットは現在有りません
 :::
 
 - 日報の作成のみが可能

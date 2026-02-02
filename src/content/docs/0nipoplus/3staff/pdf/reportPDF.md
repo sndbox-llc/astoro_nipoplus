@@ -6,7 +6,7 @@ sidebar:
   label: 🖨️日報をPDFに変換する
 ---
 
-:::note[[無料PLANでは背景に透かしが入ります](/legacy/system/price/)]
+:::note[[無料PLANでは背景に透かしが入ります](/legacy/system/price)]
 :::
 
 NipoPlusで提出された日報を簡単にPDFに変換できます。
@@ -14,7 +14,7 @@ NipoPlusで提出された日報を簡単にPDFに変換できます。
 
 ## 日報１件をPDF出力する
 
-1. PDFに変換したい[日報を表示](/nipoplus/staff/readreport/)
+1. PDFに変換したい[日報を表示](/nipoplus/staff/readreport)
 2. PDF出力ボタンをクリック
 
 ![PDF化したい日報を表示してPDF出力を押下](./img/report-to-pdf_tablet.png)
@@ -44,11 +44,11 @@ AndroidやiPhoneでもWeb版NipoPlusを使えば、共有機能は立ち上が�
 :::
 
 :::caution[モバイル版は使えません]
-もしAndroidやiOSでこの機能が必要な場合は、[PWA版](/nipoplus/system/mobile-install/)としてインストールしてください。
+もしAndroidやiOSでこの機能が必要な場合は、[PWA版](/nipoplus/system/mobile-install)としてインストールしてください。
 :::
 
 :::caution[ダウンロードしたZipファイルが文字化け？]
-ZIPファイルを回答すると文字化けする場合は、[ZIPの文字化け対策](/tech/other/mojibake/)を御覧ください
+ZIPファイルを回答すると文字化けする場合は、[ZIPの文字化け対策](/tech/other/mojibake)を御覧ください
 :::
 
 ## カレンダー上に表示されている日報を一括でPDF出力 {#exportReportPDF}
@@ -159,7 +159,7 @@ PDF設定画面では出力される日報の本文自体も変更可能です�
 
 ![同じ日報を異なるレイアウトで出力した例](./img/pdf_tablet.webp)
 
-レイアウト1はNipoPlusで[作ったテンプレート](/tips/templatemake/)をできるだけ再現できるように動作するレイアウトです。
+レイアウト1はNipoPlusで[作ったテンプレート](/tips/templatemake)をできるだけ再現できるように動作するレイアウトです。
 [専有幅](/nipoplus/editor/template/#width)をできるだけ模倣してPDF出力します。
 一方で、レイアウト2は列の数を1〜6から選択してPDFに出力します。テンプレート内の[専有幅](/nipoplus/editor/template/#width)は無視されます。
 
@@ -206,7 +206,7 @@ Nipo【旧版】では無料PLANで日報をPDFに出力すると、小学５年
 PDF出力設定で「内容を簡易にする」のチェックをONにしていただくことで、実現できます。PDF出力したい日報を表示し、右パネルにある「PDF設定」のボタンを押していただくと設定画面が表示されますので、そこから設定してください。
 PDF出力設定は「永続記録」と「一時的記録」の２種類があり、今回ご案内した方法は「一時的記録」になります。一時的記録では設定内容は保存されず、出力の都度設定変更が必要です。永続記録したい場合は、テンプレートの設定からPDF出力設定が可能です。
 
-[PDF設定についてはこちら](/nipoplus/staff/pdf/)
+[PDF設定についてはこちら](/nipoplus/staff/pdf)
 ![PDF設定](./img/pdf_setting.webp)
 
 </details>

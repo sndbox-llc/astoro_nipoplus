@@ -29,11 +29,11 @@ NipoPlusを使用する従業員のためにアカウントを作成します。
 参考資料:
 
 :::note[権限について]
-[スタッフ権限について](/nipoplus/reference/userRank/)はこちら
+[スタッフ権限について](/nipoplus/reference/userRank)はこちら
 :::
 
 :::tip[一括作成も可能]
-もしアカウントの作成が多い場合は[スタッフの一括作成](/nipoplus/reference/makestaff/)をご利用下さい
+もしアカウントの作成が多い場合は[スタッフの一括作成](/nipoplus/reference/makestaff)をご利用下さい
 :::
 
 ## グループを作成する {#createGroup}

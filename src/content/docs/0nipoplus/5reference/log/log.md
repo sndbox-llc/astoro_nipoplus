@@ -19,8 +19,8 @@ sidebar:
 1. [タイムカードが削除](/nipoplus/reference/timecard)されたとき
 2. 日報や予定に[コメントが書かれた](/nipoplus/staff/readreport/#comment)とき
 3. 日報や予定からコメントが削除されたとき
-4. [日報が削除](/nipoplus/reference/removereport/)されたとき
-5. [日報が作成されたとき](/nipoplus/staff/writereport/)
+4. [日報が削除](/nipoplus/reference/removereport)されたとき
+5. [日報が作成されたとき](/nipoplus/staff/writereport)
 6. 日報が既読・[承認](/nipoplus/reference/reportstate/#agree)・[棄却](/nipoplus/reference/reportstate/#reject)されたとき
 7. 日報にタグがセット・解除されたとき
 8. 予定が作成されたとき
