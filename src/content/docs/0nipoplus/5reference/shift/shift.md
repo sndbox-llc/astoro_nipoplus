@@ -9,7 +9,7 @@ sidebar:
 :::note[[メニューに無いときはグループ設定から機能を有効にしてください](/nipoplus/editor/groupmanage/#optionalFunction)]
 :::
 
-:::note[[シフト表は提出状況表と連動します](/nipoplus/reference/searchreport/#teishutuMap)]
+:::note[[シフト表は提出状況表と連動します](/nipoplus/gainen/inbox/#map)]
 :::
 
 シフト表を使ってスタッフの出勤：退勤予定時間や、休日といった設定ができます。単純にメモだけを残すことも可能です。
