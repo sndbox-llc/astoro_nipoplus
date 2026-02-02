@@ -48,7 +48,7 @@ sidebar:
 ![日報作成画面](./img/write-report_tablet.png)
 
 :::tip[タグも使えます]
-日報作成画面でタグが表示されている場合はタグを付けて日報を提出することもできます。[検索や目印](/nipoplus/reference/searchreport/#searchFunction)にもなるので積極的に使ってみましょう
+日報作成画面でタグが表示されている場合はタグを付けて日報を提出することもできます。[検索や目印](/nipoplus/reference/searchreport)にもなるので積極的に使ってみましょう
 :::
 
 ## 3. ヘッダーエリアを入力する {#dist}

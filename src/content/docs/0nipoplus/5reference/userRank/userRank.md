@@ -22,7 +22,7 @@ sidebar:
 
 - [組織設定画面へのアクセス](/nipoplus/admin/about/#adminPage)
 - [グループの作成](/nipoplus/admin/about/#createGroup)
-- [スタッフの作成](/nipoplus/reference/makestaff/#createStaff)
+- [スタッフの作成](/nipoplus/admin/about/#createStaff)
 - [スタッフの権限や名前の変更](/nipoplus/reference/makestaff/#change_staff_data)
 - [料金プランの切替](/nipoplus/price/)
 
