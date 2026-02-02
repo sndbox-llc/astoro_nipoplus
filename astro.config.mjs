@@ -25,7 +25,17 @@ export default defineConfig({
     starlight({
       title: 'NipoPlus',
       favicon: '/images/favicon.svg',
-      head: [],
+      // head: [],
+      head: [
+        {
+          tag: 'meta',
+          attrs: { property: 'og:image', content: 'images/nipoplus.png' },
+        },
+        {
+          tag: 'meta',
+          attrs: { name: 'twitter:image', content: 'images/nipoplus.png' },
+        },
+      ],
 
       components: {
         Head: './src/components/CustomHeader.astro',
