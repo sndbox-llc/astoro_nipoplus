@@ -9,8 +9,7 @@ sidebar:
     variant: caution
 ---
 
-:::caution[この設定には編集者権限以上が必要です]
-[編集者権限以上](/nipoplus/reference/userRank/#editor)が必要です
+:::note[[編集者権限以上が必要です](/nipoplus/reference/userRank/#editor)]
 :::
 
 :::note[この機能は、通常の日報運用では不要です]

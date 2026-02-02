@@ -59,8 +59,7 @@ NipoPlusではテンプレートのカスタマイズに力を入れて開発さ
 
 ---
 
-:::note[この設定には編集者権限以上が必要です]
-[権限について](/nipoplus/reference/userRank/#editor)
+:::note[[編集者権限以上が必要です](/nipoplus/reference/userRank/#editor)]
 :::
 
 ## NipoPlusでオリジナルテンプレートを作成しよう！ {#template_guide}

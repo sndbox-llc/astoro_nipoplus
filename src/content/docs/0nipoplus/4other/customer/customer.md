@@ -14,7 +14,7 @@ sidebar:
 
 ## 顧客テンプレートを編集する {#edit_customer_template}
 
-:::caution[この設定には編集者権限以上が必要です]
+:::note[[編集者権限以上が必要です](/nipoplus/reference/userRank/#editor)]
 :::
 
 ![顧客テンプレート編集画面](./img/customerTemplate_tablet.webp)
