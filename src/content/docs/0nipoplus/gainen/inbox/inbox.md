@@ -13,9 +13,9 @@ sidebar:
 <dl class="basic">
 <dt><a href="#card">カード</a></dt>
 <dd>縦にカードが並ぶため、スマートフォンに最適な表示モード</dd>
-<dt><a href="table">表</a></dt>
+<dt><a href="#table">表</a></dt>
 <dd>日報が一覧表で表示される。並べ替えも可能。PCやタブレットに最適</dd>
-<dt><a href="map">提出状況</a></dt>
+<dt><a href="#map">提出状況</a></dt>
 <dd>日報の提出漏れを書くにする際に便利</dd>
 </dl>
 
