@@ -35,7 +35,7 @@ sidebar:
 :::note[[管理者権限が必要です](/nipoplus/reference/userRank)]
 :::
 
-- 日報の状態が承認や進行中のものも含めて削除可能です
+- [日報の状態](/nipoplus/reference/reportstate/)が承認や進行中のものも含めて削除可能です
 - 他のスタッフが書いた日報も削除可能です
 
 慎重に、そして細心の注意を払ってご利用ください。

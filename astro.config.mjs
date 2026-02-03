@@ -137,12 +137,12 @@ export default defineConfig({
                   // 日報関係
                   { slug: 'nipoplus/reference/searchreport' },
                   { slug: 'nipoplus/reference/reportstate' },
-                  { slug: 'nipoplus/reference/removereport' },
                   { slug: 'nipoplus/reference/redacted' },
                   { slug: 'nipoplus/reference/tuduri' },
                   { slug: 'nipoplus/reference/draft' },
                   { slug: 'nipoplus/reference/copymake' },
                   { slug: 'nipoplus/reference/relation' },
+                  { slug: 'nipoplus/reference/removereport' },
                   { slug: 'nipoplus/reference/inputmethod' },
 
                   // 外部共有
