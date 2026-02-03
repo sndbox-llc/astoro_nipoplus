@@ -37,7 +37,7 @@ sidebar:
 3.  テンプレートを制限したいスタッフの行にある「テンプレートを制限」ボタンをクリック
 4.  ポップアップで設定画面が開く
 
-![制限すると情報ノイズが減るからストレス軽減](./img/show-template-setting_tablet.png)
+![制限すると目的のテンプレートを見つけやすくなる](./img/show-template-setting_tablet.png)
 
 <div class="next-arrow">▼</div>
 

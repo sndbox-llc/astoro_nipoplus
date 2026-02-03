@@ -21,7 +21,7 @@ sidebar:
 <dt>グループ名</dt>
 <dd>グループの名称です。左上のグループ切替ボタンなどで表示されます</dd>
 <dt>テーマカラー</dt>
-<dd>グループのテーマカラーを変更できます。アイコンの色やタイトルバーの色などが、指定したテーマカラーに一括で変わります</dd>
+<dd>グループのテーマカラーを変更できます</dd>
 </dl>
 
 ## 日報の共有の設定 {#reportShare}
@@ -37,13 +37,12 @@ sidebar:
 
 全員が全員の日報を読みたい場合は「共有モード」がおすすめです。
 
-:::caution[日報が読めない権限もある]
-「共有モード」でも[書き込みのみ権限・ゲスト権限](/nipoplus/reference/userRank/#others)は他人の日報を読めません
+:::caution[[共有モードでも書き込みのみ権限・ゲスト権限は他人の日報を読めません](/nipoplus/reference/userRank/#others)]
 :::
 
 ## バナーの設定 {#banner}
 
-グループの画面上部に、任意のお知らせ（アナウンス）を表示できます。
+グループの画面上部に、任意のお知らせを表示できます。お知らせはグループ内の全員が見れます
 
 1. 画面上部にバナーを表示するのチェックをONにする
 2. 表示するテキストを入力
@@ -65,11 +64,11 @@ sidebar:
 <dt><a href="/nipoplus/reference/timecard/">タイムカード</a></dt>
 <dd>日報作成画面にタイムカード打刻ボタンが追加されます</dd>
 <dt><a href="/nipoplus/reference/calendar/">カレンダー</a></dt>
-<dd> メニュー追加以外に変化は有りません</dd>
+<dd>❌️メニュー追加以外に変化無し</dd>
 <dt><a href="/nipoplus/staff/charts/">集計/CSV出力</a></dt>
-<dd> メニュー追加以外に変化は有りません</dd>
+<dd>❌️メニュー追加以外に変化無し</dd>
 <dt><a href="/nipoplus/reference/shift/">シフト管理</a></dt>
-<dd> 提出簿において未提出者にメールを送る機能が有効化されます</dd>
+<dd> <a href="/nipoplus/gainen/reportStorage/#map">提出状況表</a>において未提出者にメールを送る機能が有効化されます</dd>
 <dt><a href="/nipoplus/reference/log/">ログ</a></dt>
 <dd> 左メニューにログが追加されます</dd>
 <dt><a href="/nipoplus/reference/relation/">引継ぎ</a></dt>
@@ -79,6 +78,8 @@ sidebar:
 </dl>
 
 ## 現在の各種総数
+
+![グループ内の各データ総数](./img/dataTotal.webp)
 
 グループ内のデータ総数を表示します
 

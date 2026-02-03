@@ -160,7 +160,7 @@ The caller does not have permission
 ```
 
 と出力されることがあります。これはgetSignedUrl()関数の実行権限が足りていないために起こります。権限を追加するにはFirebaseの外側にあるGCPからIAMを編集する必要があります。
-まずはGCPを開き、IAMのページを開きます。IAMページではたくさんのアカウントが並んでいます。ここから**プロジェクト名@appspot.gserviceaccount.comのアカウント**を見つけ出してください。
+GCPを開き、IAMのページを開きます。IAMページではたくさんのアカウントが並んでいます。ここから**プロジェクト名@appspot.gserviceaccount.comのアカウント**を見つけ出してください。
 
 見つけたらそのアカウントの鉛筆ボタンをクリックし、ロールを2つ追加します
 

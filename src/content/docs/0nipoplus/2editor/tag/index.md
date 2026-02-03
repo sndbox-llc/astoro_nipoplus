@@ -7,7 +7,7 @@ sidebar:
 ---
 
 タグは[日報作成時](/nipoplus/staff/writereport)や[顧客管理](/nipoplus/other/customer)などに付与できるラベルのようなものです。
-タグを使うことで日報を絞り込んだり、目印として活用することができます。
+タグを使うことで[日報を絞り込み検索](/nipoplus/reference/searchreport/#filterd)したり、目印として活用することができます。
 
 ## タグを作成する {#makeTag}
 

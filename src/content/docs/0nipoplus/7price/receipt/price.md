@@ -37,6 +37,6 @@ NipoPlusのGOLDPLANでお支払いいただいた領収証は、Web版の管理�
 
 ### 領収証に関する注意事項 {#receipt_notes}
 
-- 領収証に記載される会社名は、発行時点でNipoPlusに登録されている会社名です。会社名を変更した後に発行すると、変更後の名前で出力されますのでご注意ください
+- 領収証に記載される会社名は、発行時点でNipoPlusに登録されている会社名です
 - 領収証はPDF形式でダウンロードされます
-- NipoPlusの領収証は[インボイス制度に対応](/nipoplus/system/business-deal/#invoiceNo)しており、登録番号も適切に表示されます。ご安心ください
+- NipoPlusの領収証は[インボイス制度に対応](/nipoplus/system/business-deal/#invoiceNo)しており、登録番号も適切に表示されます。

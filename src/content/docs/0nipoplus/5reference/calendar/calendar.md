@@ -34,7 +34,7 @@ sidebar:
 
 <dl class="basic">
 <dt><a href="/nipoplus/reference/calendar/">表</a></dt>
-<dd>縦軸にスタッフ、横軸に日付の形をしたカレンダー。スタッフごとに提出状況を見たいときに便利</dd>
+<dd>縦軸にスタッフ、横軸に日付の形をしたカレンダー。スタッフごとに提出状況を見たいときに便利。類似に<a href="/nipoplus/gainen/reportStorage/#map">提出状況表</a>がある</dd>
 <dt><a href="/nipoplus/reference/calendar/">週</a></dt>
 <dd>縦軸に時刻、横軸に日を表示したカレンダー。直近の全体の予定を俯瞰したいときに便利</dd>
 <dt><a href="/nipoplus/reference/calendar/">日</a></dt>

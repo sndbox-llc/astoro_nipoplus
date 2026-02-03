@@ -65,7 +65,7 @@ sidebar:
 ![受信BOX画面イメージ](./img/inbox.webp)
 
 :::tip[表示モードは3種類]
-受信BOXは「カード」「表」「提出状況」の3種類の表示モードが選択可能です
+受信BOXは「カード」「表」「[提出状況](/nipoplus/gainen/reportStorage/#map)」の3種類の表示モードが選択可能です
 :::
 
 ### 表示期間を変更する
