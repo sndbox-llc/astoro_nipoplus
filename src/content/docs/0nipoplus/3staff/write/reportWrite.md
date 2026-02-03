@@ -59,7 +59,7 @@ sidebar:
 
 <dl class="basic">
   <dt><a href="/nipoplus/gainen/reportdate/">提出日時</a></dt>
-  <dd>自動で本日の現在時刻が入ります。必要に応じて修正可能です</dd>
+  <dd>自動で本日の現在時刻が入ります。修正可能です</dd>
   <dt><a href="/nipoplus/gainen/destination/">提出先</a></dt>
   <dd>日報の提出先です。複数名設定した場合は指定された順に<a href="/nipoplus/reference/reportstate/#relay">承認のリレー</a>がおこなわれます</dd>
   <dt><a href="/nipoplus/gainen/destination/">他に読める人（共有先）</a></dt>
