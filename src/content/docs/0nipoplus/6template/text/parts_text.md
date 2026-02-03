@@ -25,13 +25,13 @@ sidebar:
 
 <dl class="basic">
 <dt>集計</dt>
-<dd>非対応</dd>
+<dd>❌ 非対応</dd>
 <dt>CSV出力</dt>
-<dd>対応</dd>
+<dd>✅ 対応</dd>
 <dt>PDF出力</dt>
-<dd>対応</dd>
+<dd>✅ 対応</dd>
 <dt>文字検索</dt>
-<dd>対応</dd>
+<dd>✅ 対応</dd>
 </dl>
 
 ## 追加の手順 {#addForm}
