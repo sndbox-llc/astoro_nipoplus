@@ -1,41 +1,31 @@
 ---
 slug: nipoplus/staff/csv
-title: CSV出力
+title: 日報のCSV出力
 description: NipoPlusに蓄積された日報データを1枚のCSVに一括出力する方法を解説します。月単位の集計やスタッフ別・日別の分割出力に対応。Excelでの高度な分析、長期バックアップ、ペーパーレス化に役立ちます。※本機能はWeb版のみ対応しています。
 sidebar:
   label: 🗂️CSV出力
 ---
 
-:::note[CSVの出力設定]
-出力形式を一部変更できます。詳しくは[CSV出力設定](/nipoplus/reference/csvsettings)を御覧ください
+:::note[[CSV出力設定も合わせてご覧下さい](/nipoplus/reference/csvsettings)]
 :::
 
 :::caution[Web版のみ対応]
-スマホアプリ版（<a href="/nipoplus/system/mobile-install/#android_usage">Android</a> / <a href="/nipoplus/system/mobile-install/#ios_usage">iOS</a>版）では利用いただけません。<a href="/nipoplus/system/mobile-install/#pc_usage">Web版NipoPlus</a>をご利用ください。
+スマホアプリ版（<a href="/nipoplus/system/mobile-install/#android_usage">Android</a> / <a href="/nipoplus/system/mobile-install/#ios_usage">iOS</a>版）では利用できません。<a href="/nipoplus/system/mobile-install/#pc_usage">Web版NipoPlus</a>をご利用ください
 :::
 
 :::note[[メニューに無いときはグループ設定から機能を有効にしてください](/nipoplus/editor/groupmanage/#optionalFunction)]
 :::
 
-## 1ヶ月分の日報を1枚のCSVに出力する {#monthly}
+## 複数の日報を1枚のCSVに出力するメリット {#monthly}
 
-一定期間の日報を1枚のCSVデータにまとめて出力することが可能です。1枚にまとめられることで多くのメリットがあります
+一定期間の日報を1枚のCSVデータにまとめて出力することが可能です。1枚にまとめることで多くのメリットがあります
 
-<dl class="basic">
-<dt>Excelでの自由な分析</dt>
-<dd>1枚のCSVファイルにまとまっているため、後はExcelやGoogleスプレッドシートなどの表計算ソフトで開けば、1ヶ月分のデータがすぐに手元に。グラフ化したり、ソートしたり、ピボットテーブルを作成したりと、自由自在に詳細なデータ分析が可能です</dd>
-<dt>データのバックアップと長期保管</dt>
-<dd>NipoPlusに蓄積されたデータを、定期的に外部へバックアップする手段として非常に有用です</dd>
-<dt>収納場所の節約とペーパーレス化</dt>
-<dd>ある製造業者の方の例では、10年分の紙の点検シートを保管するために一部屋が丸ごと段ボールで埋まっていると言います。CSVデータなら、USBメモリ一つにすっぽり収まります。これにより、物理的な収納場所の節約と、環境負荷の軽減、そしてペーパーレス化に大きく貢献します</dd>
-<dt>監査証跡としての活用</dt>
-<dd>一括出力されたデータは、過去の業務記録の監査証跡としても利用できます</dd>
-</dl>
+- Excelなどの表計算ソフトのデータソースに最適
+- 蓄積されたデータの定期的なバックアップに便利
+- 収納場所の節約とペーパーレス化に貢献
+- 一括出力されたデータは、過去の業務記録の監査証跡としても利用できます
 
-### 一括CSV出力の手順 {#csv_export_steps}
-
-:::note[[メニューに無いときはグループ設定から機能を有効にしてください](/nipoplus/editor/groupmanage/#optionalFunction)]
-:::
+## 1ヶ月分の日報を一括CSV出力する手順 {#csv_export_steps}
 
 1.  左メニューの「集計・CSV出力」をクリック
 2.  「期間」を選択（初期値は今月）
@@ -46,13 +36,11 @@ sidebar:
 - CSVファイルは、テンプレートごとに分けて出力されます
 - 指定期間内に1度も使用されなかったテンプレートは、CSV出力の対象から自動で除外されます
 - [無効化したテンプレート](/nipoplus/template/manage/#delete_template)でも集計期間内にデータが存在する場合は出力対象となります
-- 出力対象のファイルが1つの場合はCSVファイルがそのまま、2つ以上ある場合は、複数のCSVファイルをZIPでまとめた形で出力されます
-
-出力されたCSVファイルはExcelなどの表計算ソフトで開くことができます。<a href="/excel/">Excel加工テクニック集</a>も併せてご覧ください。
+- 出力対象のファイルが2つ以上ある場合はZIPでまとめた形で出力されます
+- 出力されたCSVファイルはExcelなどの表計算ソフトで開くことができます
+- <a href="/excel/">Excel加工テクニック集</a>も併せてご覧ください
 
 ## スタッフ別や日別に分けてCSV出力する {#splid_download}
-
-CSVファイル全体を1枚のシートにまとめるだけでなく、スタッフ別や日別にCSVファイルを分割して出力することもできます。
 
 1.  左メニューの「集計・CSV出力」をクリック
 2.  「期間」を選択（初期値は今月）
