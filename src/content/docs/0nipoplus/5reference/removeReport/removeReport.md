@@ -18,7 +18,7 @@ sidebar:
 
 ## １件の日報を削除する {#remove}
 
-1.  削除したい日報を[送信BOX](/nipoplus/reference/searchreport/#listbox)などから開く
+1.  削除したい日報を[送信BOX](/nipoplus/gainen/reportStorage/#outbox)などから開く
 2.  右パネルの「削除」ボタンをクリック
 3.  確認メッセージが表示されるので「削除」をクリック
 

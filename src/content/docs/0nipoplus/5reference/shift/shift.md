@@ -9,14 +9,14 @@ sidebar:
 :::note[[メニューに無いときはグループ設定から機能を有効にしてください](/nipoplus/editor/groupmanage/#optionalFunction)]
 :::
 
-:::note[[シフト表は提出状況表と連動します](/nipoplus/gainen/inbox/#map)]
+:::note[[シフト表は提出状況表と連動します](/nipoplus/gainen/reportStorage/#map)]
 :::
 
 :::note[[編集者権限以上が必要です](/nipoplus/reference/userRank/#editor)]
 :::
 
 シフト表を使ってスタッフの出勤：退勤予定時間や、休日といった設定ができます。単純にメモだけを残すことも可能です。
-シフト表の休みステータスは[提出状況表](/nipoplus/gainen/inbox/#map)からも視認できます。
+シフト表の休みステータスは[提出状況表](/nipoplus/gainen/reportStorage/#map)からも視認できます。
 
 ## シフト表を登録する {#entry_shift}
 

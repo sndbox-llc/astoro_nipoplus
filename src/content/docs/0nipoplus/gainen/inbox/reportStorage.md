@@ -1,6 +1,6 @@
 ---
-slug: nipoplus/gainen/inbox
-title: 受信BOXの表示モードは３種類
+slug: nipoplus/gainen/reportStorage
+title: 保存箱の表示モードについて
 description: 受信BOXの表示モードは３種類あります。ワンクリックで表示の切替が可能です
 sidebar:
   label: 受信BOXの表示モードは３種類
@@ -8,22 +8,11 @@ sidebar:
 
 受信BOXは３種類の表示モードが用意されており、簡単に切り替えが可能です
 
-![スマートフォンなら「カード」、PCなら「表」が適している](./img/view.webp)
+![保存BOXの外観](./img/view.webp)
 
-<dl class="basic">
-<dt><a href="#card">カード</a></dt>
-<dd>縦にカードが並ぶため、スマートフォンに最適な表示モード</dd>
-<dt><a href="#table">表</a></dt>
-<dd>日報が一覧表で表示される。並べ替えも可能。PCやタブレットに最適</dd>
-<dt><a href="#map">提出状況</a></dt>
-<dd>日報の提出漏れを書くにする際に便利</dd>
-</dl>
+## 表示対象について
 
-:::tip[見え方が変わるだけ]
-表示形式は違いますが中身の日報リストは同一です
-:::
-
-また、表示対象は３種類から切り替え可能です。
+表示対象は３種類から切り替え可能です。
 
 <dl class="basic">
 <dt>受信BOX</dt>
@@ -38,7 +27,44 @@ sidebar:
 [書き込みのみの権限](/nipoplus/reference/userRank/#others)アカウントは受信BOXが表示されません
 :::
 
-## カード表示 {#card}
+### 表示対象-受信BOX {#inbox}
+
+![受信BOX](./img/inbox.webp)
+
+- あなたが読める日報が表示されます
+- 自分が書いた自分宛ての日報は受信BOX、送信BOX双方に表示されます
+- 検索や絞り込みが可能です
+
+### 表示対象-送信BOX {#outbox}
+
+- あなたが書いた日報が表示されます
+- 承認や進行状態でなければ修正や削除が可能です
+- 受信BOXに比べて利用できる機能に制限があります
+
+### 表示対象-下書きBOX {#draftbox}
+
+![下書きBOX外観](./img/draftBox.webp)
+
+- 下書き保存した日報の一覧が表示されます
+- 検索や絞り込みと行った機能は一切使えまえん
+- ここにある日報はあなた以外アクセスできない隔離された状態で保管されます
+
+## 表示モードについて
+
+<dl class="basic">
+<dt><a href="#card">カード</a></dt>
+<dd>縦にカードが並ぶため、スマートフォンに最適な表示モード</dd>
+<dt><a href="#table">表</a></dt>
+<dd>日報が一覧表で表示される。並べ替えも可能。PCやタブレットに最適</dd>
+<dt><a href="#map">提出状況</a></dt>
+<dd>日報の提出漏れを書くにする際に便利</dd>
+</dl>
+
+:::tip[見え方が変わるだけ]
+表示形式は違いますが中身の日報リストは同一です
+:::
+
+### 表示モード-カード表示 {#card}
 
 ![カード](./img/card.webp)
 
@@ -58,57 +84,57 @@ sidebar:
   </thead>
   <tbody>
     <tr>
-      <td><strong>承認</strong></td>
+      <td>承認</td>
       <td style="color: purple;">紫</td>
       <td>日報ステータス</td>
     </tr>
     <tr>
-      <td><strong>棄却</strong></td>
+      <td>棄却</td>
       <td style="color: red;">赤</td>
       <td>日報ステータス</td>
     </tr>
     <tr>
-      <td><strong>修正</strong></td>
+      <td>修正</td>
       <td style="color: indigo;">インディゴ</td>
       <td>日報ステータス</td>
     </tr>
     <tr>
-      <td><strong>新規</strong></td>
+      <td>新規</td>
       <td style="color: teal;">緑</td>
       <td>日報ステータス</td>
     </tr>
     <tr>
-      <td><strong>進行</strong></td>
+      <td>進行</td>
       <td style="color: orange;">橙</td>
       <td>日報ステータス</td>
     </tr>
     <tr>
-      <td><strong>予定</strong></td>
+      <td>予定</td>
       <td style="color: purple;">紫</td>
       <td>顧客メモ</td>
     </tr>
     <tr>
-      <td><strong>未対応</strong></td>
+      <td>未対応</td>
       <td style="color: orange;">橙</td>
       <td>顧客メモ</td>
     </tr>
     <tr>
-      <td><strong>対応中</strong></td>
+      <td>対応中</td>
       <td style="color: green;">深緑</td>
       <td>顧客メモ</td>
     </tr>
     <tr>
-      <td><strong>完了</strong></td>
+      <td>完了</td>
       <td style="color: blue;">青</td>
       <td>顧客メモ</td>
     </tr>
     <tr>
-      <td><strong>着手</strong></td>
+      <td>着手</td>
       <td style="color: #d4af37;">黄</td>
       <td>その他</td>
     </tr>
     <tr>
-      <td><strong>破棄</strong></td>
+      <td>破棄</td>
       <td style="color: grey;">灰</td>
       <td>その他</td>
     </tr>
@@ -120,7 +146,7 @@ sidebar:
   </tbody>
 </table>
 
-## 表表示 {#table}
+### 表示モード-表表示 {#table}
 
 ![表表示](./img/table.webp)
 
@@ -129,7 +155,7 @@ sidebar:
 
 表では唯一並べ替え機能が備わっています。詳しくは[日報検索](/nipoplus/reference/searchreport/#sort)を御覧ください。
 
-### 提出状況表示 {#map}
+### 表示モード-提出状況表示 {#map}
 
 - 提出状況は、その名の通り「日報の提出状況」を表にまとめたものです
 - 列に日付、行にスタッフを取った一覧表です

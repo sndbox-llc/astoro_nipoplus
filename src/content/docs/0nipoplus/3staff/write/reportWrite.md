@@ -63,15 +63,14 @@ sidebar:
   <dt><a href="/nipoplus/gainen/destination/">提出先</a></dt>
   <dd>日報の提出先です。複数名設定した場合は指定された順に<a href="/nipoplus/reference/reportstate/#relay">承認のリレー</a>がおこなわれます</dd>
   <dt><a href="/nipoplus/gainen/destination/">他に読める人（共有先）</a></dt>
-  <dd>承認はできませんが、この<a href="/nipoplus/reference/reportstate/#readed">日報を読める人</a>を指定します。複数名指定可能です。提出先に指定しているスタッフを共有先に指定する必要はありません</dd>
+  <dd>承認はできませんが、この日報を読める人を指定します。複数名指定可能です。提出先に指定しているスタッフを共有先に指定する必要はありません</dd>
 </dl>
 
-:::note[提出先は編集者が固定可能]
-[提出先は管理者が固定する](/nipoplus/editor/destinationlock)こともできます。これにより日報作成者の作業負担を軽減できます
+:::tip[[提出先や共有先は編集者が固定可能です](/nipoplus/editor/destinationlock)]
 :::
 
 :::note[自動承認]
-1番目の提出先を自分にすると「自動承認」が選択できます。ONにすると、提出と同時に承認が行われます。
+1番目の提出先を自分にすると自動承認が選択できます。ONにすると[提出と同時に承認](/nipoplus/staff/readreport/#agree)が行われます。
 :::
 
 ## 4. 提出ボタンをクリック {#post}
