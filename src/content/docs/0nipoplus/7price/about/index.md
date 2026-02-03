@@ -78,7 +78,7 @@ NipoPlusのカード決済には、世界中で利用されている信頼性の
 
 あなたの組織がどのプランかを確認してみましょう。
 
-1. [左メニューから組織設定をクリック](/nipoplus/admin/about/#adminPage)
+1. 左メニュー[組織設定](/nipoplus/reference/userRank/#rootSettingBtn)をクリック
 2. 右メニューから「組織全般」をクリック
 3. 「状態」に現在のプランが記載されます
 
@@ -135,7 +135,7 @@ NipoPlusは、高機能でありながら、競合のクラウド日報・点検
 <details>
 <summary>初期費用はかかりますか？なにか他に余分な費用はかかりますか？</summary>
 
-<a href="/nipoplus/price/invoice/">請求書払いの場合</a>振込手数料の負担をお願いしています
+<a href="/nipoplus/price/invoice">請求書払いの場合</a>振込手数料の負担をお願いしています
 
 </details>
 
@@ -164,7 +164,7 @@ NipoPlusは、高機能でありながら、競合のクラウド日報・点検
 
 <details>
 <summary>GOLDPLANに申し込む方法がわかりません</summary>
-申込みはWeb版からのみです。Android/iOS版は申込みフォームが表示されません。<a href="/nipoplus/price/subscription/">申し込みガイド</a>も御覧ください
+申込みはWeb版からのみです。Android/iOS版は申込みフォームが表示されません。<a href="/nipoplus/price/subscription">申し込みガイド</a>も御覧ください
 </details>
 
 <details>
@@ -174,18 +174,18 @@ NipoPlusは、高機能でありながら、競合のクラウド日報・点検
 
 <details>
 <summary>GOLDPLANが失効するとその間に作成したデータはどうなってしまうんですか？</summary>
-そのまま残ります。失効すると<a href="/nipoplus/price/free/">無料PLAN</a>へ降格し、一部機能が利用できなくなりますが、改めてGOLDPLANに加入すれば、これまで通り継続して利用可能です。データももちろんそのまま引き継げます
+そのまま残ります。失効すると<a href="/nipoplus/price/free">無料PLAN</a>へ降格し、一部機能が利用できなくなりますが、改めてGOLDPLANに加入すれば、これまで通り継続して利用可能です。データももちろんそのまま引き継げます
 </details>
 
 <details>
 <summary>今すぐGOLDPLANを使いたいのですが、請求書払いで利用開始可能までにどのくらいの時間がかかりますか？</summary>
-クレカ払いは即時です。請求書払いは、その金額をクレカで支払う場合は即時、口座振込の場合は最大2営業日後になります。詳しくは<a href="/nipoplus/price/invoice/">請求書払い</a>を御覧ください
+クレカ払いは即時です。請求書払いは、その金額をクレカで支払う場合は即時、口座振込の場合は最大2営業日後になります。詳しくは<a href="/nipoplus/price/invoice">請求書払い</a>を御覧ください
 </details>
 
 <details>
 <summary>１年のうち半年だけGOLDPLANを使いたいのですが可能ですか？</summary>
 
-可能です。稼働のない期間は無料PLANに切替えていただくことで、使用しない間のコストを抑制できます。解約忘れを防ぐため、<a href="/nipoplus/price/invoice/">請求書払い</a>がおすすめです。
+可能です。稼働のない期間は無料PLANに切替えていただくことで、使用しない間のコストを抑制できます。解約忘れを防ぐため、<a href="/nipoplus/price/invoice">請求書払い</a>がおすすめです。
 
 </details>
 
@@ -211,7 +211,7 @@ NipoPlusは、高機能でありながら、競合のクラウド日報・点検
 
 <details>
 <summary>入会金や解約金は掛かりますか？</summary>
-いいえ。掛かりません。年会費や会員維持費、基本使用料など、名称を変えたその他の費用も一切ありません。ただし<a href="/nipoplus/price/invoice/">請求書払い</a>の場合、決済時に掛かる口座振込手数料はご負担ください。請求書をクレジットカードでお支払いいただく場合、この手数料も掛かりません。
+いいえ。掛かりません。年会費や会員維持費、基本使用料など、名称を変えたその他の費用も一切ありません。ただし<a href="/nipoplus/price/invoice">請求書払い</a>の場合、決済時に掛かる口座振込手数料はご負担ください。請求書をクレジットカードでお支払いいただく場合、この手数料も掛かりません。
 </details>
 
 <details>
@@ -221,7 +221,7 @@ NipoPlusは、高機能でありながら、競合のクラウド日報・点検
 
 <details>
 <summary>領収証は発行できますか？</summary>
-アプリ上から<a href="/nipoplus/price/receipt/">領収証</a>の発行が可能です
+アプリ上から<a href="/nipoplus/price/receipt">領収証</a>の発行が可能です
 </details>
 
 <details>
@@ -236,12 +236,12 @@ NipoPlusは、高機能でありながら、競合のクラウド日報・点検
 
 <details>
 <summary>タイムカードの制限解除は1ユーザごとに料金がかかるのですか？</summary>
-いいえ。<a href="/nipoplus/reference/timecard/">タイムカードの制限解除</a>は１度のお支払いで組織に所属している全スタッフ分のタイムカードが解除されます。その後に追加されたスタッフも全て解除されます
+いいえ。<a href="/nipoplus/reference/timecard">タイムカードの制限解除</a>は１度のお支払いで組織に所属している全スタッフ分のタイムカードが解除されます。その後に追加されたスタッフも全て解除されます
 </details>
 
 <details>
 <summary>見積書を作っていただくことは可能ですか？</summary>
-はい、可能です。宛名、ご利用人数、ご利用予定期間、自動更新の有無を記載の上、<a href="/inquery/">お問い合わせフォーム</a>からご連絡下さい
+はい、可能です。宛名、ご利用人数、ご利用予定期間、自動更新の有無を記載の上、<a href="/inquery">お問い合わせフォーム</a>からご連絡下さい
 </details>
 
 <details>

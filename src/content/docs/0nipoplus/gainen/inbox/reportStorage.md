@@ -16,11 +16,11 @@ sidebar:
 
 <dl class="basic">
 <dt>受信BOX</dt>
-<dd>あなたが<a href="/nipoplus/gainen/destination/">提出先または共有先</a>に指定された日報、つまりあなたが読める日報が表示されます</dd>
+<dd>あなたが<a href="/nipoplus/gainen/destination">提出先または共有先</a>に指定された日報、つまりあなたが読める日報が表示されます</dd>
 <dt>送信BOX</dt>
 <dd>あなたが提出した日報が表示されます</dd>
 <dt>下書きBOX</dt>
-<dd><a href="/nipoplus/reference/draft/">下書きとして保存した日報</a>が表示されます</dd>
+<dd><a href="/nipoplus/reference/draft">下書きとして保存した日報</a>が表示されます</dd>
 </dl>
 
 :::tip[受信BOXが表示されない権限]

@@ -36,7 +36,7 @@ NipoPlusの請求書払いプランは、1名あたり月額200円、1ヶ月5名
 
 ### 1. 請求書の発行とダウンロード {#invoice_download}
 
-NipoPlusのWeb版で、[左メニューから「組織設定」をクリック](/nipoplus/reference/userRank/#rootSettingBtn)し、「組織全般」までスクロール。「自動更新無しで申し込み」ボタンをクリックしてください。
+NipoPlusのWeb版で、左メニュー[組織設定](/nipoplus/reference/userRank/#rootSettingBtn)をクリックし、「組織全般」までスクロール。「自動更新無しで申し込み」ボタンをクリックしてください。
 
 ![請求書を発行するには「自動更新無しで申込」を選ぶ](./img/invoice1_tablet.png)
 

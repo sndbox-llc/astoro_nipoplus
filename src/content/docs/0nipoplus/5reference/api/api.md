@@ -19,7 +19,7 @@ APIキーで日報を読むことができるのでAPIキーは厳重に管理�
 
 APIの有効無効設定は[管理者権限](/nipoplus/reference/userRank)が必要です。
 
-1. [左メニューから組織設定をクリック](/nipoplus/reference/userRank/#rootSettingBtn)
+1. 左メニュー[組織設定](/nipoplus/reference/userRank/#rootSettingBtn)をクリック
 2. APIを有効にするスタッフを選択
 3. APIの項目をクリックし、ボタンを緑色にする
 
@@ -172,7 +172,7 @@ EOS
 <dt>from・to</dt>
 <dd>検索期間を2022年8月1日〜2022年9月30日に指定しています　</dd>
 <dt>tags</dt>
-<dd>タグによるフィルタを使う場合に指定します。タグ名ではなくタグのIDで指定します。タグのIDは<a href="/nipoplus/editor/tagManagement/">タグ管理</a>から確認できます</dd>
+<dd>タグによるフィルタを使う場合に指定します。タグ名ではなくタグのIDで指定します。タグのIDは<a href="/nipoplus/editor/tagManagement">タグ管理</a>から確認できます</dd>
 <dt>states</dt>
 <dd>日報の状態によるフィルタを使う場合に指定します。この例では新規、進行、棄却の日報のみを取得します（承認や修正の日報は除外）</dd>
 <dt>templates</dt>
@@ -330,7 +330,7 @@ WebAPIにリクエストを投げたとき、戻り値に{ error: true }がか�
 
 <dl class="basic">
   <dt>トークンの更新に失敗</dt>
-  <dd>Bearerトークンが失効しています.<a href="/nipoplus/reference/api/">APIキーの管理</a>から再度取得してください</dd>
+  <dd>Bearerトークンが失効しています.<a href="/nipoplus/reference/api">APIキーの管理</a>から再度取得してください</dd>
   <dt>グループIDが不正です</dt>
   <dd>パラメータ groupIdに誤りがあります。groupIdを見直してください</dd>
   <dt>このグループに対する権限がありません</dt>

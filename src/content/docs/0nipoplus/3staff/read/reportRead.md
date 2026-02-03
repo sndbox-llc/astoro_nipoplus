@@ -10,7 +10,7 @@ sidebar:
 
 ## 閲覧する日報を受信BOXから開く
 
-1. 左メニューから「受信BOX」をクリック
+1. 左メニュー[受信BOX](/nipoplus/gainen/reportStorage/#inbox)をクリック
 2. 日報一覧から閲覧したい日報をクリック
 3. 日報の内容が表示される
 
@@ -56,21 +56,21 @@ sidebar:
 
 <dl class="basic">
 <dt>作者ID</dt>
-<dd>日報を作成したスタッフの内部的なIDです。通常は下の「作成者アカウント」と同じものになりますが、<a href="/nipoplus/reference/staffshare/">共用アカウント</a>を使って書かれた日報の場合に限り、共用先のIDがセットされます</dd>
+<dd>日報を作成したスタッフの内部的なIDです。通常は下の「作成者アカウント」と同じものになりますが、<a href="/nipoplus/reference/staffshare">共用アカウント</a>を使って書かれた日報の場合に限り、共用先のIDがセットされます</dd>
 <dt>作成者アカウント</dt>
 <dd>日報を作成したスタッフのアカウント名です</dd>
 <dt>文書ID</dt>
 <dd>日報1つ1つに割り当てられたランダムなIDです</dd>
 <dt>作成日（サーバ基準）</dt>
-<dd>日報が初めてサーバー上に保存された日時です。改変不可。<a href="/nipoplus/gainen/reportdate/">日付概念参照</a></dd>
+<dd>日報が初めてサーバー上に保存された日時です。改変不可。<a href="/nipoplus/gainen/reportdate">日付概念参照</a></dd>
 <dt>更新日（サーバ基準）</dt>
-<dd>日報が保存後に書き換えられた（修正された）日時です。<a href="/nipoplus/gainen/reportdate/">日付概念参照</a></dd>
+<dd>日報が保存後に書き換えられた（修正された）日時です。<a href="/nipoplus/gainen/reportdate">日付概念参照</a></dd>
 <dt>日報上の日付</dt>
-<dd>日報作成者が提出時に指定した日付です。<a href="/nipoplus/gainen/reportdate/">日付概念参照</a></dd>
+<dd>日報作成者が提出時に指定した日付です。<a href="/nipoplus/gainen/reportdate">日付概念参照</a></dd>
 <dt>予定との紐付け</dt>
-<dd><a href="/nipoplus/other/schedule/">予定の報告</a>として書かれた日報の場合、ここに紐付けられた予定のIDが表示されます。セットされていない場合は「none」と表示されます</dd>
+<dd><a href="/nipoplus/other/schedule">予定の報告</a>として書かれた日報の場合、ここに紐付けられた予定のIDが表示されます。セットされていない場合は「none」と表示されます</dd>
 <dt>承認</dt>
-<dd>その日報が<a href="/nipoplus/staff/readreport/">承認</a>された日時を表示します。承認者が複数名いる場合、この項目は承認者の数だけ増えます</dd>
+<dd>その日報が<a href="/nipoplus/staff/readreport">承認</a>された日時を表示します。承認者が複数名いる場合、この項目は承認者の数だけ増えます</dd>
 </dl>
 
 ---
@@ -154,7 +154,7 @@ PDFに変換する手順は次のとおりです。
 
 ## 綴り日報について
 
-複数枚の日報を束ねたものを綴り日報といい、受信BOX上では１塊のデータとして表示されます。
+複数枚の日報を束ねたものを綴り日報といい、[受信BOX](/nipoplus/gainen/reportStorage/#inbox)上では１塊のデータとして表示されます。
 
 ![2件の日報が１塊として表示されている様子](./img/arrayReport_tablet.webp)
 

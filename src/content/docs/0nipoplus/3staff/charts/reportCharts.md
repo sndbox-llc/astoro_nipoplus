@@ -40,20 +40,20 @@ sidebar:
 </dl>
 
 :::caution[閲覧可能な日報のみが集計対象です]
-アクセス権限の足りない日報は集計されません。アクセス権限については<a href="/nipoplus/gainen/destination/">提出先または共有先</a>を御覧ください
+アクセス権限の足りない日報は集計されません。アクセス権限については<a href="/nipoplus/gainen/destination">提出先または共有先</a>を御覧ください
 :::
 
 <dl class="basic">
-<dt><a href="/nipoplus/reference/accumn/">データの累積</a></dt>
+<dt><a href="/nipoplus/reference/accumn">データの累積</a></dt>
 <dd>一定期間の合計値を集計したいときは累積機能をご利用下さい</dd>
-<dt><a href="/nipoplus/reference/transition/">データの推移</a></dt>
+<dt><a href="/nipoplus/reference/transition">データの推移</a></dt>
 <dd>一定期間におけるデータの増減推移を確認したいときは推移機能をご利用下さい</dd>
-<dt><a href="/nipoplus/reference/chart/">データをグラフ化する</a></dt>
+<dt><a href="/nipoplus/reference/chart">データをグラフ化する</a></dt>
 <dd>累積、推移のデータをグラフとして可視化したい場合は、グラフ機能をご利用下さい</dd>
-<dt><a href="/nipoplus/reference/progress/">目標と実績の対比表</a></dt>
+<dt><a href="/nipoplus/reference/progress">目標と実績の対比表</a></dt>
 <dd>１ヶ月の目標値を設定し、それに対して現在どの程度進捗しているかを知りたいときは目標実績表をご利用下さい</dd>
-<dt><a href="/nipoplus/reference/cross/">クロス集計</a></dt>
+<dt><a href="/nipoplus/reference/cross">クロス集計</a></dt>
 <dd>異なるテンプレート同士を一度に比較したいときはクロス集計をご利用下さい</dd>
-<dt><a href="/excel/sales_report/">Excelを用いた集計・分析</a></dt>
+<dt><a href="/excel/sales_report">Excelを用いた集計・分析</a></dt>
 <dd>NipoPlusの標準集計機能でカバーできない、より複雑な集計や分析が必要な場合は、日報データをCSV出力してExcelで集計や分析を行うことが可能です</dd>
 </dl>

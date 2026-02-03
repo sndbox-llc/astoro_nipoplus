@@ -106,7 +106,7 @@ Androidに標準でインストールされているGoogle Chromeを起動して
   <dt>ブラウザ</dt>
   <dd>
     推奨ブラウザ
-    <a href="https://www.google.co.jp/chrome/">Google Chrome</a>・Safari
+    <a href="https://www.google.co.jp/chrome">Google Chrome</a>・Safari
     動作確認（動作しますが推奨ではありません）
     <a href="https://www.microsoft.com/ja-jp/windows/microsoft-edge" target="_blank" rel="noopener">Microsoft Edge</a> / <a href="https://www.mozilla.org/ja/firefox/new/" target="_blank" rel="noopener">Fire Fox</a> / <a href="https://www.opera.com/ja" target="_blank" rel="noopener">Opera</a>
   </dd>

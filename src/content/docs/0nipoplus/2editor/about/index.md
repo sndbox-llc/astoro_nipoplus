@@ -14,21 +14,21 @@ sidebar:
 この画面には、以下のような設定カテゴリがまとまっています。
 
 <dl class="basic">
-<dt><a href="/nipoplus/editor/groupmanage/">グループ全般</a></dt>
+<dt><a href="/nipoplus/editor/groupmanage">グループ全般</a></dt>
 <dd>グループの名前やテーマカラーなど、基本的な設定を行います</dd>
-<dt><a href="/nipoplus/editor/staffmanage/">スタッフ管理</a></dt>
+<dt><a href="/nipoplus/editor/staffmanage">スタッフ管理</a></dt>
 <dd>このグループに所属しているスタッフに対する各種設定を行います</dd>
-<dt><a href="/nipoplus/editor/template/">テンプレート管理</a></dt>
+<dt><a href="/nipoplus/editor/template">テンプレート管理</a></dt>
 <dd>このグループで使用する日報テンプレートの管理を行います</dd>
-<dt><a href="/nipoplus/editor/tagManagement/">タグ管理</a></dt>
+<dt><a href="/nipoplus/editor/tagManagement">タグ管理</a></dt>
 <dd>このグループで使用するタグ（分類ラベル）の管理を行います</dd>
-<dt><a href="/nipoplus/editor/inventory/">商品管理</a></dt>
-<dd>商品などの在庫状況を簡易的に管理します。<a href="/nipoplus/template/mod/">商品入力フォーム</a>と組み合わせて使用します</dd>
-<dt><a href="/nipoplus/editor/wordBookManagement/">語録管理</a></dt>
-<dd><a href="/nipoplus/template/selects/">選択式入力フォーム</a>で使える語録を管理します</dd>
-<dt><a href="/nipoplus/other/customer/">顧客管理</a></dt>
+<dt><a href="/nipoplus/editor/inventory">商品管理</a></dt>
+<dd>商品などの在庫状況を簡易的に管理します。<a href="/nipoplus/template/mod">商品入力フォーム</a>と組み合わせて使用します</dd>
+<dt><a href="/nipoplus/editor/wordBookManagement">語録管理</a></dt>
+<dd><a href="/nipoplus/template/selects">選択式入力フォーム</a>で使える語録を管理します</dd>
+<dt><a href="/nipoplus/other/customer">顧客管理</a></dt>
 <dd>顧客のテンプレートを設定します</dd>
-<dt><a href="/nipoplus/reference/removereport/">一括削除</a></dt>
+<dt><a href="/nipoplus/reference/removereport">一括削除</a></dt>
 <dd>このグループ内の日報をまとめて削除する機能です</dd>
 </dl>
 

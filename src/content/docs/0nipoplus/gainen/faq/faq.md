@@ -6,7 +6,7 @@ sidebar:
   label: ❓FAQ
 ---
 
-NipoPlusのユーザから頂戴した様々な<a href="/inquery/">お問い合わせ</a>の内容を個人が特定できない形で掲載しております。
+NipoPlusのユーザから頂戴した様々な<a href="/inquery">お問い合わせ</a>の内容を個人が特定できない形で掲載しております。
 
 ## 日報に関する質問
 
@@ -17,7 +17,7 @@ NipoPlusのユーザから頂戴した様々な<a href="/inquery/">お問い合�
 
 <details>
 <summary>提出先をアドレス帳のようにあらかじめ登録しておくことは可能でしょうか？</summary>
-はい、可能です。<a href="/nipoplus/editor/destinationlock/">提出先の固定機能</a>をご利用ください
+はい、可能です。<a href="/nipoplus/editor/destinationlock">提出先の固定機能</a>をご利用ください
 </details>
 
 <details>
@@ -378,7 +378,7 @@ Kintoneを調べてみると、CSVインポートに対応しているような�
 </details>
 <details>
 <summary>導入に向けて体験版を使ってみたいんですが</summary>
-ぜひお試しください。<a href="/nipoplus/reference/tokumei/">匿名アカウント</a>を使えばワンクリックで手軽に体験できます
+ぜひお試しください。<a href="/nipoplus/reference/tokumei">匿名アカウント</a>を使えばワンクリックで手軽に体験できます
 </details>
 
 <details>
@@ -388,7 +388,7 @@ Kintoneを調べてみると、CSVインポートに対応しているような�
 
 <details>
 <summary>セキュリティが心配です</summary>
-最大限のできることを行っています。<a href="/nipoplus/system/security/">セキュリティのページ</a>も合わせて御覧ください。設問シートを送っていただければ、回答記入の上返信いたします。設問は30以下に抑えて下さい。
+最大限のできることを行っています。<a href="/nipoplus/system/security">セキュリティのページ</a>も合わせて御覧ください。設問シートを送っていただければ、回答記入の上返信いたします。設問は30以下に抑えて下さい。
 </details>
 
 <details>
@@ -402,7 +402,7 @@ NipoPlusでは最大999名まで対応しております。それ以上でのご
 Nipo【旧版】/NipoPlusを合わせて500社ほどGOLDPLANをご利用頂いています（無料PLANはカウント対象外）
 お客様個別に関する情報は公開できませんが、NipoPlusでは特に製造業の方が多いです。
 サイト上に公開してくださっているお客様に関してはここでご紹介させていただいても問題ないのでリンクをさせていただきます
-<a href="https://www.sogareinetsu.com/worklog/nipo/">曽我冷熱株式会社様</a><br>
+<a href="https://www.sogareinetsu.com/worklog/nipo">曽我冷熱株式会社様</a><br>
 <a href="https://ameblo.jp/dukeblog-life/entry-12452375114.html">有限会社デューク様</a>
 
 </details>
@@ -443,7 +443,7 @@ Nipo【旧版】/NipoPlusを合わせて500社ほどGOLDPLANをご利用頂い�
 
 <details>
 <summary>画面が真っ白でログイン画面が表示されないんですが</summary>
-アプリの更新に失敗したときに見られる現象です。<a href="/nipoplus/system/fix/">トラブルシューティング</a>を参照してください
+アプリの更新に失敗したときに見られる現象です。<a href="/nipoplus/system/fix">トラブルシューティング</a>を参照してください
 </details>
 
 <details>
@@ -458,7 +458,7 @@ GOLDPLANの期限が満了し、無料PLANに切り替わったためだと推�
 
 <details>
 <summary>編集は投稿者が任意のタイミングで実施できるようにしたい</summary>
-日報が「承認」される前の段階であれば、<a href="/nipoplus/reference/redacted/">編集は投稿者が行う</a>ことができます。承認されるとロックされるため、任意のタイミングで編集したい場合は「承認機能」を使わない運用が必要です
+日報が「承認」される前の段階であれば、<a href="/nipoplus/reference/redacted">編集は投稿者が行う</a>ことができます。承認されるとロックされるため、任意のタイミングで編集したい場合は「承認機能」を使わない運用が必要です
 </details>
 
 <details>
@@ -477,12 +477,12 @@ GOLDPLANの期限が満了し、無料PLANに切り替わったためだと推�
 
 <details>
 <summary>電話で問い合わせしたいんですが？</summary>
-基本的にお断りしております。画面を双方で確認できないために正しい意思疎通ができないためです。<a href="/inquery/">お問い合わせ</a>フォームをご利用ください
+基本的にお断りしております。画面を双方で確認できないために正しい意思疎通ができないためです。<a href="/inquery">お問い合わせ</a>フォームをご利用ください
 </details>
 
 <details>
 <summary>オンラインWeb打ち合わせをしたいのですが</summary>
-お客様が用意してくれるオンラインツールを使って打ち合わせさせていただきます。打ち合わせの日程等については個別に調整が必要となるため、<a href="/inquery/">お問い合わせ</a>ください
+お客様が用意してくれるオンラインツールを使って打ち合わせさせていただきます。打ち合わせの日程等については個別に調整が必要となるため、<a href="/inquery">お問い合わせ</a>ください
 </details>
 
 <details>
@@ -492,12 +492,12 @@ GOLDPLANの期限が満了し、無料PLANに切り替わったためだと推�
 
 <details>
 <summary>他のシステムと連携したいんですが</summary>
-NipoPlusでは<a href="/nipoplus/reference/api/">API</a>を使うことで連携が可能です
+NipoPlusでは<a href="/nipoplus/reference/api">API</a>を使うことで連携が可能です
 </details>
 
 <details>
 <summary>利用を辞めたいんだけど</summary>
-<a href="/nipoplus/reference/withdrawal/">退会する</a>の記事を御覧ください。こちらでサブスクリプションの解除やアカウントの削除は依頼されてもお断りしております。お客様自身の手で操作してください
+<a href="/nipoplus/reference/withdrawal">退会する</a>の記事を御覧ください。こちらでサブスクリプションの解除やアカウントの削除は依頼されてもお断りしております。お客様自身の手で操作してください
 </details>
 
 ## その他の質問 {#other}
@@ -584,7 +584,7 @@ SmartScreenはMicrosoft社によるセキュリティ機能であり、端末の
 
 グループの色はグループ内の編集者権限以上を持つスタッフが変更できます。
 
-1. 左メニューからグループ設定を開く
+1. 左メニュー「グループ設定」を開く
 2. 上部メニューから「グループ全般」を開く
 3. テーマカラーと書かれたセクションから、任意の色を選択する
 

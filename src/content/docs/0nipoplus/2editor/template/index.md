@@ -28,18 +28,18 @@ sidebar:
 使用可能な入力フォーム一覧は以下の通りです。
 
 <dl class="basic">
-<dt><a href="/nipoplus/template/text/">文字入力系</a></dt>
+<dt><a href="/nipoplus/template/text">文字入力系</a></dt>
 <dd>本文の入力や住所、作業詳細、所感といったシンプルな文字入力に最適です</dd>
-<dt><a href="/nipoplus/template/selects/">選択入力系</a></dt>
+<dt><a href="/nipoplus/template/selects">選択入力系</a></dt>
 <dd>予め回答を用意しておき、選ぶだけで入力できます。業務内容の定型化や、点検項目の入力に役立ちます</dd>
-<dt><a href="/nipoplus/template/date_time/">日付入力系</a></dt>
-<dd>作業時間や予定の日時など、日付関係に最適。期間指定をすると合計時間も自動で算出するため、作業工数の計測や勤務時間管理にも使えます</dd>
-<dt><a href="/nipoplus/template/binarys/">署名・写真系</a></dt>
+<dt><a href="/nipoplus/template/date_time">日付入力系</a></dt>
+<dd>作業時間や予定の日時など、日付関係に最適。期間指定をすると合計時間も自動で算出します</dd>
+<dt><a href="/nipoplus/template/binarys">署名・写真系</a></dt>
 <dd>作業現場の写真や顧客の受領サイン、ファイルなど、いわゆるバイナリ系のデータを日報に添付できます。点検時の証拠写真や納品物の確認などに</dd>
-<dt><a href="/nipoplus/template/digital/">数値系</a></dt>
-<dd>売上高や訪問件数、走行距離、設備稼働時間、測定値など数値として扱えるものはこれできまり。数値なので集計機能との相性も抜群です</dd>
+<dt><a href="/nipoplus/template/digital">数値系</a></dt>
+<dd>売上高や訪問件数、走行距離、設備稼働時間、測定値など数値として扱えるものはこれできまり</dd>
 <dt>その他</dt>
-<dd><a href="/nipoplus/template/array/">反復入力</a>や<a href="/nipoplus/template/mod/">商品入力</a>など、ちょっとユニークなフォームもあります</dd>
+<dd><a href="/nipoplus/template/array">反復入力</a>や<a href="/nipoplus/template/mod">商品入力</a>など、ちょっとユニークなフォームもあります</dd>
 </dl>
 
 ## プレビューを確認する
@@ -48,7 +48,7 @@ sidebar:
 
 ![実際に入力して動作確認する](./img/preview_tablet.png)
 
-## 保存
+## 💾 保存
 
 最後に忘れずに保存ボタンを押してテンプレートを保存します。
 
@@ -118,7 +118,7 @@ sidebar:
   <dd>
     この日報を1日に何枚提出するかの目安を指定できます。設定した場合、<a href="/nipoplus/staff/writereport/#select_template">テンプレート選択画面</a>で進捗バーが表示されます。
   </dd>
-  <dt><a href="/nipoplus/editor/tagManagement/">タグ</a></dt>
+  <dt><a href="/nipoplus/editor/tagManagement">タグ</a></dt>
   <dd>テンプレート選択時に探しやすくする目印です。タグによる検索もできます</dd>
 </dl>
 

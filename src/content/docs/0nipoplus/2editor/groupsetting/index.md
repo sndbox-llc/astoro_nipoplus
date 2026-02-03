@@ -8,7 +8,7 @@ sidebar:
 
 グループ全般の設定は次の手順でアクセスできます
 
-1. 左メニューから「グループ設定」をクリック
+1. 左メニュー「グループ設定」をクリック
 2. 上タブから「グループ全般」をクリック（デフォルトで選択済み）
 
 ![グループ全般設定の画面](./img/groupAbout.webp)
@@ -30,7 +30,7 @@ sidebar:
 
 <dl class="basic">
 <dt>通常モード</dt>
-<dd>日報の<a href="/nipoplus/gainen/destination/">提出先や共有先</a>を、日報作成時に細かく指定できます</dd>
+<dd>日報の<a href="/nipoplus/gainen/destination">提出先や共有先</a>を、日報作成時に細かく指定できます</dd>
 <dt>共有モード</dt>
 <dd>日報の提出先は指定できますが、共有先は自動的にグループ内の全員に設定されます</dd>
 </dl>
@@ -57,23 +57,23 @@ sidebar:
 左メニューに追加される以外にも、軽微な変化が起こります。
 
 <dl class="basic">
-<dt><a href="/nipoplus/other/project/">案件</a></dt>
+<dt><a href="/nipoplus/other/project">案件</a></dt>
 <dd>日報作成時に対象となる案件を入力する欄が追加されます。集計時に「案件集計」機能が利用可能になります</dd>
-<dt><a href="/nipoplus/other/schedule/">予定</a></dt>
+<dt><a href="/nipoplus/other/schedule">予定</a></dt>
 <dd>カレンダーの表示設定に「予定」が追加されます</dd>
-<dt><a href="/nipoplus/reference/timecard/">タイムカード</a></dt>
+<dt><a href="/nipoplus/reference/timecard">タイムカード</a></dt>
 <dd>日報作成画面にタイムカード打刻ボタンが追加されます</dd>
-<dt><a href="/nipoplus/reference/calendar/">カレンダー</a></dt>
+<dt><a href="/nipoplus/reference/calendar">カレンダー</a></dt>
 <dd>❌️メニュー追加以外に変化無し</dd>
-<dt><a href="/nipoplus/staff/charts/">集計/CSV出力</a></dt>
+<dt><a href="/nipoplus/staff/charts">集計/CSV出力</a></dt>
 <dd>❌️メニュー追加以外に変化無し</dd>
-<dt><a href="/nipoplus/reference/shift/">シフト管理</a></dt>
+<dt><a href="/nipoplus/reference/shift">シフト管理</a></dt>
 <dd> <a href="/nipoplus/gainen/reportStorage/#map">提出状況表</a>において未提出者にメールを送る機能が有効化されます</dd>
-<dt><a href="/nipoplus/reference/log/">ログ</a></dt>
+<dt><a href="/nipoplus/reference/log">ログ</a></dt>
 <dd> 左メニューにログが追加されます</dd>
-<dt><a href="/nipoplus/reference/relation/">引継ぎ</a></dt>
+<dt><a href="/nipoplus/reference/relation">引継ぎ</a></dt>
 <dd> 日報作成時に「引継先」を指定する欄が追加されます</dd>
-<dt><a href="/nipoplus/other/customer/">顧客管理</a></dt>
+<dt><a href="/nipoplus/other/customer">顧客管理</a></dt>
 <dd> 編集者ページに「顧客テンプレート」の欄が追加されます</dd>
 </dl>
 

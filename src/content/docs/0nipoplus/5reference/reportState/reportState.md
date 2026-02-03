@@ -18,9 +18,9 @@ sidebar:
 <dt><a href="/nipoplus/reference/reportstate/#relay">進行</a></dt>
 <dd>（提出先が2名以上の場合に限る）1名以上が承認をし、かつ最後の承認がされていない状態です。この状態になると日報はロックされ、直接修正はできません</dd>
 <dt><a href="/nipoplus/reference/reportstate/#reject">棄却</a></dt>
-<dd>日報が提出先のスタッフによって棄却された状態です。<a href="/nipoplus/reference/redacted/">修正が必要</a>です。棄却された理由はコメント欄で確認できます</dd>
+<dd>日報が提出先のスタッフによって棄却された状態です。<a href="/nipoplus/reference/redacted">修正が必要</a>です。棄却された理由はコメント欄で確認できます</dd>
 <dt><a href="/nipoplus/reference/reportstate/#state">修正</a></dt>
-<dd><a href="/nipoplus/reference/redacted/">日報を修正</a>した直後で、まだ承認や棄却が行われていない状態です。新規と違い、この状態の日報は削除できません</dd>
+<dd><a href="/nipoplus/reference/redacted">日報を修正</a>した直後で、まだ承認や棄却が行われていない状態です。新規と違い、この状態の日報は削除できません</dd>
 <dt><a href="/nipoplus/reference/reportstate/#agree">承認</a></dt>
 <dd>全ての提出先スタッフによって承認された最終状態です。日報はロックされ、内容の変更はできません。正式な記録として確定したことを意味します</dd>
 </dl>

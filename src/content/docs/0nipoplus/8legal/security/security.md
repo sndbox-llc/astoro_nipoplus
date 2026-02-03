@@ -46,7 +46,7 @@ NipoPlusの認証には、Googleが提供するFirebase Authenticationを採用�
 <dd>お客様のパスワードは、復元不可能な形で暗号化されて保管されます。開発者であっても、元のパスワードを知ることはできません</dd>
 
 <dt>アカウント復旧機能</dt>
-<dd>万が一ログインパスワードが漏洩し、アカウントが乗っ取られた場合でも、<a href="/nipoplus/reference/account/">ログインE-mailの変更ページ</a>で解説しているFirebaseの保護機能により、アカウントを安全に回復できます。メール通知による不正ログインの早期発見や、変更されたメールアカウントを巻き戻す仕組みが搭載されています</dd>
+<dd>万が一ログインパスワードが漏洩し、アカウントが乗っ取られた場合でも、<a href="/nipoplus/reference/account">ログインE-mailの変更ページ</a>で解説しているFirebaseの保護機能により、アカウントを安全に回復できます。メール通知による不正ログインの早期発見や、変更されたメールアカウントを巻き戻す仕組みが搭載されています</dd>
 </dl>
 
 ### 機密情報の徹底した暗号化 {#data_encryption}
@@ -176,5 +176,5 @@ NipoPlusは「サーバーレス」アーキテクチャを採用しており、
 
 <details>
 <summary>守秘義務契約を結ぶことは可能ですか？</summary>
-基本的に個別の契約は行っておりません。NipoPlusの<a href="/nipoplus/system/agree/">利用規約</a>の記載をご確認のうえご利用ください。
+基本的に個別の契約は行っておりません。NipoPlusの<a href="/nipoplus/system/agree">利用規約</a>の記載をご確認のうえご利用ください。
 </details>

@@ -10,23 +10,23 @@ sidebar:
 
 ## 日報へのアクセス方法 {#findReportMethod}
 
-日報へは受信BOXか、カレンダーからアクセスが可能です。また、URLを直接叩くことでも該当日報に直アクセスが可能です。
+日報へは[受信BOX](/nipoplus/gainen/reportStorage/#inbox)か、カレンダーからアクセスが可能です。また、URLを直接叩くことでも該当日報に直アクセスが可能です。
 
 <dl class="basic">
 <dt><a href="#calendar">カレンダーから</a></dt>
 <dd>月間カレンダーや週カレンダー上に日報や予定が直感的に表示されます。特定の日付の記録を素早く確認したい場合に便利です</dd>
 <dt><a href="#listbox">受信BOXから</a></dt>
 <dd>期間指定やフィルタ、キーワード検索など、詳細な条件で目的の日報を絞り込める強力な機能です。NipoPlusの主要な情報探索場所となります</dd>
-<dt><a href="/nipoplus/reference/notify/">通知メールから</a></dt>
+<dt><a href="/nipoplus/reference/notify">通知メールから</a></dt>
 <dd>あなた宛に日報が作成されると通知が発行されます。この通知をクリックすることで直接その日報を閲覧できます。メール通知をONにしている場合はメールからも直接日報を開けます</dd>
 </dl>
 
-このうち、受信BOXとカレンダーでは検索や絞り込みがサポートされています。
+このうち、[受信BOX](/nipoplus/gainen/reportStorage/#inbox)とカレンダーでは検索や絞り込みがサポートされています。
 
 ## カレンダーを使って日報を探す {#calendar}
 
 :::tip[より細かい検索は受信BOX]
-カレンダーは絞り込みしかできません。検索には受信BOXを使って下さい。
+カレンダーは絞り込みしかできません。検索には[受信BOX](/nipoplus/gainen/reportStorage/#inbox)を使って下さい。
 :::
 
 1.  メニュー「カレンダー」を開く
@@ -45,7 +45,7 @@ sidebar:
 <dt>提出者を選択して絞り込み</dt>
 <dd>日報提出者で絞り込みが可能です。複数チェックした場合の条件はORです</dd>
 <dt>日報の日付で表示基準を切替</dt>
-<dd>提出日や修正日など、複数の日付がありますがどの日付を基準にカレンダーに表示するかを選択できます。<a href="/nipoplus/gainen/reportdate/">日付の概念</a>を参照</dd>
+<dd>提出日や修正日など、複数の日付がありますがどの日付を基準にカレンダーに表示するかを選択できます。<a href="/nipoplus/gainen/reportdate">日付の概念</a>を参照</dd>
 </dl>
 
 :::tip[ORとは]
@@ -65,7 +65,7 @@ sidebar:
 ![受信BOX画面イメージ](./img/inbox.webp)
 
 :::tip[表示モードは3種類]
-受信BOXは「カード」「表」「[提出状況](/nipoplus/gainen/reportStorage/#map)」の3種類の表示モードが選択可能です
+[受信BOX](/nipoplus/gainen/reportStorage/#inbox)は「カード」「表」「[提出状況](/nipoplus/gainen/reportStorage/#map)」の3種類の表示モードが選択可能です
 :::
 
 ### 表示期間を変更する
@@ -132,7 +132,7 @@ sidebar:
 1. 何かしらの検索を行う
 2. 「検索モード」バナー内にある「検索条件保存」をクリック
 3. 検索名を入力し保存をクリック
-4. 受信BOX上部に追加されていれば成功
+4. [受信BOX](/nipoplus/gainen/reportStorage/#inbox)上部に追加されていれば成功
 
 ![検索条件の保存](./img/save-query_tablet.webp)
 

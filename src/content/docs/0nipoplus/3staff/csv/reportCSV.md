@@ -38,7 +38,7 @@ sidebar:
 - [無効化したテンプレート](/nipoplus/template/manage/#delete_template)でも集計期間内にデータが存在する場合は出力対象となります
 - 出力対象のファイルが2つ以上ある場合はZIPでまとめた形で出力されます
 - 出力されたCSVファイルはExcelなどの表計算ソフトで開くことができます
-- <a href="/excel/">Excel加工テクニック集</a>も併せてご覧ください
+- <a href="/excel">Excel加工テクニック集</a>も併せてご覧ください
 
 ## スタッフ別や日別に分けてCSV出力する {#splid_download}
 
@@ -51,7 +51,7 @@ sidebar:
 
 ## CSVを解凍すると文字化けする場合 {#text_shaking}
 
-特にWindowsで古い解凍ソフトを使用すると文字化けする可能性があります。詳しくは<a href="/tech/other/mojibake/">ダウンロードしたファイルが文字化けする原因と解決策</a>を御覧ください。
+特にWindowsで古い解凍ソフトを使用すると文字化けする可能性があります。詳しくは<a href="/tech/other/mojibake">ダウンロードしたファイルが文字化けする原因と解決策</a>を御覧ください。
 
 ## 複数のCSVファイルを連結させる {#csvsc}
 
@@ -63,4 +63,4 @@ sidebar:
 - ブラウザで動作するためインストール不要です
 - NipoPlusで出力されたCSVだけでなく、Nipo（旧版）やNipoPlus以外のCSVファイルも利用可能です
 
-<a href="/tips/csvsc/">CSVSCのWebアプリはこちらからご利用ください</a>
+<a href="/tips/csvsc">CSVSCのWebアプリはこちらからご利用ください</a>

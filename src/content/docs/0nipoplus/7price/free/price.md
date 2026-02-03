@@ -53,7 +53,7 @@ NipoPlusは初めてご登録いただいた段階では「トライアル期間
 ### 無料PLANで掛けられている制限 {#upperlimit}
 
 <dl class="basic">
-<dt><a href="/nipoplus/staff/csv/">CSVの一括出力</a></dt>
+<dt><a href="/nipoplus/staff/csv">CSVの一括出力</a></dt>
 <dd>無料PLANでは最大5件まで</dd>
 <dt>タグの作成上限</dt>
 <dd>無料PLANでは最大3種類まで、GOLDPLANは200種類まで作成・使用できます</dd>
@@ -63,7 +63,7 @@ NipoPlusは初めてご登録いただいた段階では「トライアル期間
 <dd>無料PLANでは最大5個まで、GOLDPLANは99,999個まで作成・使用できます</dd>
 <dt>顧客の登録</dt>
 <dd>無料PLANでは50件まで、GOLDPLANは50,000件まで作成・使用できます</dd>
-<dt><a href="/nipoplus/staff/pdf/">PDFの一括作成</a></dt>
+<dt><a href="/nipoplus/staff/pdf">PDFの一括作成</a></dt>
 <dd>無料PLANでは最大5件まで、GOLDPLANは80件まで同時に出力できます。無料PLANはNipoPlusの透かしが自動で挿入されます</dd>
 <dt><a href="/nipoplus/reference/inputmethod/#picture">日報への画像添付</a></dt>
 <dd>画質が有料に比べて低画質化されて保存されます</dd>
@@ -78,8 +78,8 @@ NipoPlusの無料PLANでは、基本的な機能はご提供しますが、よ�
 特に重要な点として、組織のスタッフアカウントが5名以上になると、日報の提出ができなくなりますのでご注意ください。
 
 - 検索機能全般
-- <a href="/nipoplus/staff/charts/">集計・グラフ作成</a>
-- <a href="/nipoplus/reference/calendar/">カレンダー機能</a>
+- <a href="/nipoplus/staff/charts">集計・グラフ作成</a>
+- <a href="/nipoplus/reference/calendar">カレンダー機能</a>
 - <a href="/nipoplus/staff/readreport/#comment">日報のコメント機能</a>
 - <a href="/nipoplus/reference/notify/#email">メール通知</a>
 - 他グループからのテンプレートインポート

@@ -31,19 +31,19 @@ sidebar:
 <dd>タグの色を選びます。視覚的な識別に役立ちます</dd>
 <dt>タグのアイコン</dt>
 <dd>タグに表示されるアイコンを選びます</dd>
-<dt><a href="/nipoplus/staff/writereport/">日報用</a></dt>
+<dt><a href="/nipoplus/staff/writereport">日報用</a></dt>
 <dd>日報に対して使用する場合はチェックをON</dd>
-<dt><a href="/nipoplus/editor/template/">テンプレート用</a></dt>
+<dt><a href="/nipoplus/editor/template">テンプレート用</a></dt>
 <dd>テンプレートに対して使用する場合はチェックをON</dd>
-<dt><a href="/nipoplus/other/schedule/">予定用</a></dt>
+<dt><a href="/nipoplus/other/schedule">予定用</a></dt>
 <dd>予定に対して使用する場合はチェックをON</dd>
-<dt><a href="/nipoplus/editor/inventory/">商品用</a></dt>
+<dt><a href="/nipoplus/editor/inventory">商品用</a></dt>
 <dd>商品に対して使用する場合はチェックをON</dd>
-<dt><a href="/nipoplus/editor/wordBookManagement/">語録用</a></dt>
+<dt><a href="/nipoplus/editor/wordBookManagement">語録用</a></dt>
 <dd>語録に対して使用する場合はチェックをON</dd>
-<dt><a href="/nipoplus/other/project/">案件</a></dt>
+<dt><a href="/nipoplus/other/project">案件</a></dt>
 <dd>案件に対して使用する場合はチェックをON</dd>
-<dt><a href="/nipoplus/other/customer/">顧客</a></dt>
+<dt><a href="/nipoplus/other/customer">顧客</a></dt>
 <dd>顧客に対して使用する場合はチェックをON</dd>
 <dt>メモ</dt>
 <dd>タグ自身のメモです。管理画面以外は見れません</dd>

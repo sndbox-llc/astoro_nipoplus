@@ -64,7 +64,7 @@ ZIPファイルを回答すると文字化けする場合は、[ZIPの文字化�
 
 ## 受信BOXから日報を一括でPDF出力する {#box}
 
-カレンダーと違い受信BOXでは日報の絞り込み検索が可能です。
+カレンダーと違い[受信BOX](/nipoplus/gainen/reportStorage/#inbox)では日報の絞り込み検索が可能です。
 例えば[日報の状態](/nipoplus/reference/reportstate/)が修正のステータスになっているものだけをPDF出力するといったことができます。
 
 ![日報を個別に選び、一括でPDFに変換する](./img/filter-pdf_tablet.png)

@@ -36,13 +36,13 @@ Nipo【旧版】/NipoPlusの中で使われているアイコンは[GoogleFonts]
 彼らの活躍無しには今日のようなソフトウェア開発は不可能でした。深く感謝いたします。
 
 <dl class="basic">
-<dt><a href="https://gohugo.io/">Hugo</a></dt>
+<dt><a href="https://gohugo.io">Hugo</a></dt>
 <dd>現在ご覧頂いているホームページ作成ジェネレータです</dd>
-<dt><a href="https://getdoks.org/">Doks</a></dt>
+<dt><a href="https://getdoks.org">Doks</a></dt>
 <dd>現在のホームページのメインテーマです。マニュアルに適したサイトを作れます</dd>
-<dt><a href="https://mcshelby.github.io/hugo-theme-relearn/">Hugo ReLearn</a></dt>
+<dt><a href="https://mcshelby.github.io/hugo-theme-relearn">Hugo ReLearn</a></dt>
 <dd>以前に使用していたNipoPlusのホームページテーマです</dd>
-<dt><a href="https://quasar.dev/">Quasar Framework</a></dt>
+<dt><a href="https://quasar.dev">Quasar Framework</a></dt>
 <dd>Nipo【旧版】/Nipo Plusの土台となるフレームワークです</dd>
 <dt><a href="https://jp.vuejs.org/index.html">Vue</a></dt>
 <dd>QuasarFrameworkの礎となるものです。本ページの検索処理にも使われています</dd>
@@ -50,25 +50,25 @@ Nipo【旧版】/NipoPlusの中で使われているアイコンは[GoogleFonts]
 <dd>通信のやり取りをよりかんたんに行えるようにしてくれるソフトウェアです</dd>
 <dt><a href="https://github.com/blueimp/JavaScript-Load-Image">Blue imp load Image</a></dt>
 <dd>画像の圧縮や回転といった処理を補助してくれます</dd>
-<dt><a href="https://www.chartjs.org/">chart.js</a></dt>
+<dt><a href="https://www.chartjs.org">chart.js</a></dt>
 <dd>棒グラフや折れ線グラフを作成してくれます</dd>
-<dt><a href="https://day.js.org/">day.js</a></dt>
+<dt><a href="https://day.js.org">day.js</a></dt>
 <dd>日付に関する処理を補助してくれます</dd>
 <dt><a href="https://github.com/sasaplus1/deepcopy.js">deepCopy</a></dt>
 <dd>データの深い層でのコピーを高速に処理してくれます</dd>
-<dt><a href="https://dexie.org/">dexie</a></dt>
+<dt><a href="https://dexie.org">dexie</a></dt>
 <dd>indexedDBの複雑な操作をかんたんにしてくれます</dd>
-<dt><a href="https://firebase.google.com/">firebase</a></dt>
+<dt><a href="https://firebase.google.com">firebase</a></dt>
 <dd>NipoPlusのインフラとしてデータの保存やアクセス制御などバックエンドを行ってくれています</dd>
-<dt><a href="https://www.papaparse.com/">papaparse</a></dt>
-<dd>JSON->CSVまたはその逆のように、データの変形をサポートしてくれます。<a href="/tips/csvsc/">CSVSC</a>にも使用しています</dd>
-<dt><a href="https://eslint.org/">Eslint</a></dt>
+<dt><a href="https://www.papaparse.com">papaparse</a></dt>
+<dd>JSON->CSVまたはその逆のように、データの変形をサポートしてくれます。<a href="/tips/csvsc">CSVSC</a>にも使用しています</dd>
+<dt><a href="https://eslint.org">Eslint</a></dt>
 <dd>プログラム開発時にミスなどをチェックしてくれます</dd>
-<dt><a href="https://www.typescriptlang.org/">typescript</a></dt>
+<dt><a href="https://www.typescriptlang.org">typescript</a></dt>
 <dd>データに型をもたせ、プログラムの視認性や開発効率、バグの混入リスクを軽減してくれます</dd>
 <dt><a href="http://pdfmake.org">Pdfmake</a></dt>
 <dd>日報をPDFに変換する処理を行ってくれます</dd>
-<dt><a href="https://capacitorjs.com/">capacitor</a></dt>
+<dt><a href="https://capacitorjs.com">capacitor</a></dt>
 <dd>WebアプリをiOS/Android専用のアプリに変換してくれます</dd>
 </dl>
 

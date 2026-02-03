@@ -21,7 +21,7 @@ NipoPlusのGOLDPLANでお支払いいただいた領収証は、Web版の管理�
 
 以下の簡単なステップで、必要な領収証を取得できます。
 
-1.  [左メニューから「組織設定」をクリック](/nipoplus/reference/userRank/#rootSettingBtn)
+1.  左メニュー[組織設定](/nipoplus/reference/userRank/#rootSettingBtn)をクリック
 2.  組織設定画面の右サイドバーにある「決済履歴」をクリックするか、画面を一番下までスクロールする
 3.  過去のお支払い履歴が一覧で表示される
 4.  ダウンロードしたい決済履歴の項目にある「ダウンロード」ボタンをクリック

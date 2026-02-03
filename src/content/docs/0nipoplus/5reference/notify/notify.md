@@ -22,7 +22,7 @@ sidebar:
   <dt><a href="/nipoplus/reference/reportstate/#readed">日報を誰かが既読にした</a></dt>
   <dd>日報のオーナーに対して通知が発行されます</dd>
   <dt>日報の引継が作成されたとき</dt>
-  <dd><a href="/nipoplus/reference/relation/">引継日報であなたが指名されたとき</a>通知が発生します</dd>
+  <dd><a href="/nipoplus/reference/relation">引継日報であなたが指名されたとき</a>通知が発生します</dd>
 </dl>
 
 通知は削除しない限り残り続けますが、画面上に表示される通知は直近15日間までの通知に限ります。
@@ -70,7 +70,7 @@ sidebar:
 
 毎月50通のメール通知を1度のお支払いで毎月10,000通にまで拡張することができます。
 
-1. [左メニューから組織設定をクリック](/nipoplus/reference/userRank/#rootSettingBtn)
+1. 左メニュー[組織設定](/nipoplus/reference/userRank/#rootSettingBtn)をクリック
 1. 「組織全般」までスクロール
 1. 「今月のメール送信」の列にある鉛筆アイコンをクリック
 
@@ -84,7 +84,7 @@ sidebar:
 
 <details>
 <summary>請求書での支払いは可能ですか？</summary>
-申し訳ございません。オプションに関してはクレジットカードによる支払いをお願いしています。どうしてもカードが使用できない環境の場合、個別に請求書で対応させていただくこともあります。詳しくは<a href="/inquery/">お問い合わせ</a>ください
+申し訳ございません。オプションに関してはクレジットカードによる支払いをお願いしています。どうしてもカードが使用できない環境の場合、個別に請求書で対応させていただくこともあります。詳しくは<a href="/inquery">お問い合わせ</a>ください
 
 </details>
 

@@ -9,7 +9,7 @@ sidebar:
 :::note[[メニューに無いときはグループ設定から機能を有効にしてください](/nipoplus/editor/groupmanage/#optionalFunction)]
 :::
 
-NipoPlusのグラフ機能は、「<a href="/nipoplus/reference/transition/">推移表</a>」や「<a href="/nipoplus/reference/accumn/">累積表</a>」で集計したデータを元に、視覚的に分かりやすいグラフを自動生成します。
+[推移表](/nipoplus/reference/transition)や<a href="/nipoplus/reference/accumn">累積表</a>で集計したデータを元に、視覚的に分かりやすいグラフを自動生成します。
 いちいちExcelを開いたり、複雑な操作を覚えたりする必要はありません。NipoPlus上で数クリックするだけで、リアルタイムの最新データが反映されたグラフを瞬時に作成・表示できます。
 
 NipoPlusでは「Charts.js」という高機能なライブラリを使用しているため、以下のような多様なグラフを作成可能です。

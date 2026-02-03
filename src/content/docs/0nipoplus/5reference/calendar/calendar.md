@@ -25,7 +25,7 @@ sidebar:
 
 <dl class="basic">
 <dt>受信日報</dt>
-<dd>自分が受け取った日報をカレンダーに表示します。保存箱の「受信BOX」と同じです</dd>
+<dd>自分が受け取った日報をカレンダーに表示します。保存箱の<a href="/nipoplus/gainen/reportStorage/#inbox">受信BOX</a>と同じです</dd>
 <dt>送信日報</dt>
 <dd>自分が書いた日報をカレンダーに表示します。保存箱の<a href="/nipoplus/gainen/reportStorage/#outbox">送信BOX</a>と同じです</dd>
 </dl>
@@ -33,13 +33,13 @@ sidebar:
 カレンダ切替は以下の通り
 
 <dl class="basic">
-<dt><a href="/nipoplus/reference/calendar/">表</a></dt>
+<dt><a href="/nipoplus/reference/calendar">表</a></dt>
 <dd>縦軸にスタッフ、横軸に日付の形をしたカレンダー。スタッフごとに提出状況を見たいときに便利。類似に<a href="/nipoplus/gainen/reportStorage/#map">提出状況表</a>がある</dd>
-<dt><a href="/nipoplus/reference/calendar/">週</a></dt>
+<dt><a href="/nipoplus/reference/calendar">週</a></dt>
 <dd>縦軸に時刻、横軸に日を表示したカレンダー。直近の全体の予定を俯瞰したいときに便利</dd>
-<dt><a href="/nipoplus/reference/calendar/">日</a></dt>
+<dt><a href="/nipoplus/reference/calendar">日</a></dt>
 <dd>縦軸に時刻、横軸にスタッフを表示したカレンダー。各スタッフの空き時間や予定を確認する際に便利</dd>
-<dt><a href="/nipoplus/reference/calendar/">月</a></dt>
+<dt><a href="/nipoplus/reference/calendar">月</a></dt>
 <dd>１ヶ月単位で表示</dd>
 </dl>
 
@@ -66,7 +66,7 @@ sidebar:
 </dl>
 
 :::note[日報受信BOXとは何が違うの？]
-日報受信BOXは細かい検索や絞り込みができ、カレンダーは全体の俯瞰に適しています
+日報[受信BOX](/nipoplus/gainen/reportStorage/#inbox)は細かい検索や絞り込みができ、カレンダーは全体の俯瞰に適しています
 :::
 
 ---
