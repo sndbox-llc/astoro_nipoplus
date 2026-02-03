@@ -40,7 +40,7 @@ sidebar:
 ![カレンダーに表示する日報を条件によって絞り込む](./img/calendarFilter.webp)
 
 <dl class="basic">
-<dt>日報の状態を選択して絞り込み</dt>
+<dt><a href="/nipoplus/reference/reportstate/">日報の状態</a>を選択して絞り込み</dt>
 <dd>承認された日報のみ表示したりできます。複数チェックした場合の条件はORです</dd>
 <dt>提出者を選択して絞り込み</dt>
 <dd>日報提出者で絞り込みが可能です。複数チェックした場合の条件はORです</dd>

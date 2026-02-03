@@ -174,7 +174,7 @@ EOS
 <dt>tags</dt>
 <dd>タグによるフィルタを使う場合に指定します。タグ名ではなくタグのIDで指定します。タグのIDは<a href="/nipoplus/editor/tagManagement">タグ管理</a>から確認できます</dd>
 <dt>states</dt>
-<dd>日報の状態によるフィルタを使う場合に指定します。この例では新規、進行、棄却の日報のみを取得します（承認や修正の日報は除外）</dd>
+<dd><a href="/nipoplus/reference/reportstate">日報の状態</a>によるフィルタを使う場合に指定します。この例では新規、進行、棄却の日報のみを取得します（承認や修正の日報は除外）</dd>
 <dt>templates</dt>
 <dd>テンプレートによるフィルタを使う場合に指定します。テンプレートIDを指定します。複数件指定できるため配列です</dd>
 <dt>owners</dt>

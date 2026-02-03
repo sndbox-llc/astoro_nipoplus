@@ -53,7 +53,7 @@ sidebar:
 設定項目は次のとおりです。
 
 <dl class="basic">
-<dt>日報の状態</dt>
+<dt><a href="/nipoplus/reference/reportstate/">日報の状態</a></dt>
 <dd>未読・あなた宛の日報・あなたの承認を待っている日報・新規・承認・棄却・修正・進行から選択し、特定の状態の日報のみを絞り込めます</dd>
 <dt><a href="/nipoplus/editor/tagManagement">タグ</a></dt>
 <dd>日報にセットされているタグから絞り込みます。例えば「テスト用」「古いデータ」「特定プロジェクト」といったタグが付いた日報を対象にできます</dd>
