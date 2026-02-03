@@ -12,20 +12,20 @@
     "format:check": "prettier --check ."
   },
   "dependencies": {
-    "@astrojs/sitemap": "^3.7.0",
-    "@astrojs/starlight": "^0.37.4",
-    "astro": "^5.16.16",
-    "rehype-figure": "^1.0.1",
-    "remark-heading-id": "^1.0.1",
-    "sharp": "^0.34.5",
-    "starlight-image-zoom": "^0.13.2",
-    "starlight-links-validator": "^0.19.2",
-    "starlight-sidebar-topics": "^0.6.2"
+    "@astrojs/sitemap": "3.7.0",
+    "@astrojs/starlight": "0.37.6",
+    "astro": "5.17.1",
+    "rehype-figure": "1.0.1",
+    "remark-heading-id": "1.0.1",
+    "sharp": "0.34.5",
+    "starlight-image-zoom": "0.13.2",
+    "starlight-links-validator": "0.19.2",
+    "starlight-sidebar-topics": "0.6.2"
   },
   "devDependencies": {
-    "@types/remark-heading-id": "^1.0.0",
-    "prettier": "^3.7.4",
-    "prettier-plugin-astro": "^0.14.1",
-    "sass-embedded": "^1.97.3"
+    "@types/remark-heading-id": "1.0.0",
+    "prettier": "3.7.4",
+    "prettier-plugin-astro": "0.14.1",
+    "sass-embedded": "1.97.3"
   }
 }

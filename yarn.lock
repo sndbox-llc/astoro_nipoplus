@@ -65,6 +65,15 @@
   dependencies:
     prismjs "^1.30.0"
 
+"@astrojs/sitemap@3.7.0":
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/@astrojs/sitemap/-/sitemap-3.7.0.tgz#26ffe9b2f51e2720e5e96f358ecc20f4d87f7218"
+  integrity sha512-+qxjUrz6Jcgh+D5VE1gKUJTA3pSthuPHe6Ao5JCxok794Lewx8hBFaWHtOnN0ntb2lfOf7gvOi9TefUswQ/ZVA==
+  dependencies:
+    sitemap "^8.0.2"
+    stream-replace-string "^2.0.0"
+    zod "^3.25.76"
+
 "@astrojs/sitemap@^3.3.0":
   version "3.6.1"
   resolved "https://registry.npmjs.org/@astrojs/sitemap/-/sitemap-3.6.1.tgz"
@@ -74,19 +83,10 @@
     stream-replace-string "^2.0.0"
     zod "^3.25.76"
 
-"@astrojs/sitemap@^3.7.0":
-  version "3.7.0"
-  resolved "https://registry.yarnpkg.com/@astrojs/sitemap/-/sitemap-3.7.0.tgz#26ffe9b2f51e2720e5e96f358ecc20f4d87f7218"
-  integrity sha512-+qxjUrz6Jcgh+D5VE1gKUJTA3pSthuPHe6Ao5JCxok794Lewx8hBFaWHtOnN0ntb2lfOf7gvOi9TefUswQ/ZVA==
-  dependencies:
-    sitemap "^8.0.2"
-    stream-replace-string "^2.0.0"
-    zod "^3.25.76"
-
-"@astrojs/starlight@^0.37.4":
-  version "0.37.4"
-  resolved "https://registry.yarnpkg.com/@astrojs/starlight/-/starlight-0.37.4.tgz#db34459c48e288e85e80565660757a3d9020f93c"
-  integrity sha512-ygPGDgRd9nCcNgaYMNN7UeAMAkDOR1ibv3ps3xEz+cuvKG3CRLd19UwdB+Gyz1tbkyfjPWPkFKNhLwNybro8Tw==
+"@astrojs/starlight@0.37.6":
+  version "0.37.6"
+  resolved "https://registry.yarnpkg.com/@astrojs/starlight/-/starlight-0.37.6.tgz#d98241dfde2b4a90da42721406b20ed7ae503e9b"
+  integrity sha512-wQrKwH431q+8FsLBnNQeG+R36TMtEGxTQ2AuiVpcx9APcazvL3n7wVW8mMmYyxX0POjTnxlcWPkdMGR3Yj1L+w==
   dependencies:
     "@astrojs/markdown-remark" "^6.3.1"
     "@astrojs/mdx" "^4.2.3"
@@ -930,9 +930,9 @@
   resolved "https://registry.npmjs.org/@types/picomatch/-/picomatch-3.0.2.tgz"
   integrity sha512-n0i8TD3UDB7paoMMxA3Y65vUncFJXjcUf7lQY7YyKGl6031FNjfsLs6pdLFCy2GNFxItPJG8GvvpbZc2skH7WA==
 
-"@types/remark-heading-id@^1.0.0":
+"@types/remark-heading-id@1.0.0":
   version "1.0.0"
-  resolved "https://registry.npmjs.org/@types/remark-heading-id/-/remark-heading-id-1.0.0.tgz"
+  resolved "https://registry.yarnpkg.com/@types/remark-heading-id/-/remark-heading-id-1.0.0.tgz#2c594c26b4d8306bb857fc357027498242436385"
   integrity sha512-V6OgBN2Uv3kaYHOrBI2+j9xIo6N56bMpIFoKVkGltoJtzHr7Vo8pFxDZxNqUXC5NScV991Iq3BYD52BkCFMY+w==
   dependencies:
     unified "^11.0.0"
@@ -1038,10 +1038,10 @@ astro-expressive-code@^0.41.1:
   dependencies:
     rehype-expressive-code "^0.41.5"
 
-astro@^5.16.16:
-  version "5.16.16"
-  resolved "https://registry.yarnpkg.com/astro/-/astro-5.16.16.tgz#046554e02a6b195ca299297e94433970a471a734"
-  integrity sha512-MFlFvQ84ixaHyqB3uGwMhNHdBLZ3vHawyq3PqzQS2TNWiNfQrxp5ag6S3lX+Cvnh0MUcXX+UnJBPMBHjP1/1ZQ==
+astro@5.17.1:
+  version "5.17.1"
+  resolved "https://registry.yarnpkg.com/astro/-/astro-5.17.1.tgz#c645a6344538407d19c69ac365e7f9e8360e54ea"
+  integrity sha512-oD3tlxTaVWGq/Wfbqk6gxzVRz98xa/rYlpe+gU2jXJMSD01k6sEDL01ZlT8mVSYB/rMgnvIOfiQQ3BbLdN237A==
   dependencies:
     "@astrojs/compiler" "^2.13.0"
     "@astrojs/internal-helpers" "0.7.5"
@@ -2890,18 +2890,18 @@ postcss@^8.4.38, postcss@^8.5.3:
     picocolors "^1.1.1"
     source-map-js "^1.2.1"
 
-prettier-plugin-astro@^0.14.1:
+prettier-plugin-astro@0.14.1:
   version "0.14.1"
-  resolved "https://registry.npmjs.org/prettier-plugin-astro/-/prettier-plugin-astro-0.14.1.tgz"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-astro/-/prettier-plugin-astro-0.14.1.tgz#50bff8a659f2a6a4ff3b1d7ea73f2de93c95b213"
   integrity sha512-RiBETaaP9veVstE4vUwSIcdATj6dKmXljouXc/DDNwBSPTp8FRkLGDSGFClKsAFeeg+13SB0Z1JZvbD76bigJw==
   dependencies:
     "@astrojs/compiler" "^2.9.1"
     prettier "^3.0.0"
     sass-formatter "^0.7.6"
 
-prettier@^3.0.0, prettier@^3.7.4:
+prettier@3.7.4, prettier@^3.0.0:
   version "3.7.4"
-  resolved "https://registry.npmjs.org/prettier/-/prettier-3.7.4.tgz"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.7.4.tgz#d2f8335d4b1cec47e1c8098645411b0c9dff9c0f"
   integrity sha512-v6UNi1+3hSlVvv8fSaoUbggEM5VErKmmpGA7Pl3HF8V6uKY7rvClBOJlH6yNwQtfTueNkGVpOv/mtWL9L4bgRA==
 
 prismjs@^1.30.0:
@@ -3010,9 +3010,9 @@ rehype-expressive-code@^0.41.5:
   dependencies:
     expressive-code "^0.41.5"
 
-rehype-figure@^1.0.1:
+rehype-figure@1.0.1:
   version "1.0.1"
-  resolved "https://registry.npmjs.org/rehype-figure/-/rehype-figure-1.0.1.tgz"
+  resolved "https://registry.yarnpkg.com/rehype-figure/-/rehype-figure-1.0.1.tgz#6fac89f0ec6042ce8b99163b4cc796a934267be0"
   integrity sha512-g7DJuK8R8xHIaPI3QJ6/OoWiKepn92RF2CV3z4dO7lRO6ZHo48Tu9X3KgnZUKK035srFHqWQx93AybBy12XqmQ==
   dependencies:
     hastscript "^6.0.0"
@@ -3094,9 +3094,9 @@ remark-gfm@^4.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-remark-heading-id@^1.0.1:
+remark-heading-id@1.0.1:
   version "1.0.1"
-  resolved "https://registry.npmjs.org/remark-heading-id/-/remark-heading-id-1.0.1.tgz"
+  resolved "https://registry.yarnpkg.com/remark-heading-id/-/remark-heading-id-1.0.1.tgz#5500b8cbc12ba6cc36fc5ccc2a3ff3d6e5cf981e"
   integrity sha512-GmJjuCeEkYvwFlvn/Skjc/1Qafj71412gbQnrwUmP/tKskmAf1cMRlZRNoovV+aIvsSRkTb2rCmGv2b9RdoJbQ==
   dependencies:
     lodash "^4.17.21"
@@ -3327,7 +3327,7 @@ sass-embedded-win32-x64@1.97.3:
   resolved "https://registry.yarnpkg.com/sass-embedded-win32-x64/-/sass-embedded-win32-x64-1.97.3.tgz#e4e200e1e5a62ef075f962eb2d11d85dc58b762e"
   integrity sha512-SFRa2lED9UEwV6vIGeBXeBOLKF+rowF3WmNfb/BzhxmdAsKofCXrJ8ePW7OcDVrvNEbTOGwhsReIsF5sH8fVaw==
 
-sass-embedded@^1.97.3:
+sass-embedded@1.97.3:
   version "1.97.3"
   resolved "https://registry.yarnpkg.com/sass-embedded/-/sass-embedded-1.97.3.tgz#1cab95995787d7e310f6272d58f80c67b5ead4ba"
   integrity sha512-eKzFy13Nk+IRHhlAwP3sfuv+PzOrvzUkwJK2hdoCKYcWGSdmwFpeGpWmyewdw8EgBnsKaSBtgf/0b2K635ecSA==
@@ -3387,7 +3387,7 @@ semver@^7.7.3:
   resolved "https://registry.npmjs.org/semver/-/semver-7.7.3.tgz"
   integrity sha512-SdsKMrI9TdgjdweUSR9MweHA4EJ8YxHn8DFaDisvhVlUOe4BF1tLD7GAj0lIqWVl+dPb/rExr0Btby5loQm20Q==
 
-sharp@^0.34.0, sharp@^0.34.5:
+sharp@0.34.5, sharp@^0.34.0:
   version "0.34.5"
   resolved "https://registry.npmjs.org/sharp/-/sharp-0.34.5.tgz"
   integrity sha512-Ou9I5Ft9WNcCbXrU9cMgPBcCK8LiwLqcbywW3t4oDV37n1pzpuNLsYiAV8eODnjbtQlSDwZ2cUEeQz4E54Hltg==
@@ -3475,9 +3475,9 @@ space-separated-tokens@^2.0.0:
   resolved "https://registry.npmjs.org/space-separated-tokens/-/space-separated-tokens-2.0.2.tgz"
   integrity sha512-PEGlAwrG8yXGXRjW32fGbg66JAlOAwbObuqVoJpv/mRgoWDQfgH1wDPvtzWyUSNAXBGSk8h755YDbbcEy3SH2Q==
 
-starlight-image-zoom@^0.13.2:
+starlight-image-zoom@0.13.2:
   version "0.13.2"
-  resolved "https://registry.npmjs.org/starlight-image-zoom/-/starlight-image-zoom-0.13.2.tgz"
+  resolved "https://registry.yarnpkg.com/starlight-image-zoom/-/starlight-image-zoom-0.13.2.tgz#a49ec550dc5243c1edbc08edce095019f84a535a"
   integrity sha512-fDJrx+UZXhkbhEeXKoRogTKAYtrYVJPw6wmSUI3nHUTA0vuRM6EI//2Z8bzv3Ecvz0pHKD1vAxtS01mLyessBA==
   dependencies:
     mdast-util-mdx-jsx "^3.1.3"
@@ -3485,9 +3485,9 @@ starlight-image-zoom@^0.13.2:
     unist-util-visit "^5.0.0"
     unist-util-visit-parents "^6.0.1"
 
-starlight-links-validator@^0.19.2:
+starlight-links-validator@0.19.2:
   version "0.19.2"
-  resolved "https://registry.npmjs.org/starlight-links-validator/-/starlight-links-validator-0.19.2.tgz"
+  resolved "https://registry.yarnpkg.com/starlight-links-validator/-/starlight-links-validator-0.19.2.tgz#aeaabb4cf8f2530c4d8ef22a98860d1e563ece02"
   integrity sha512-IHeK3R78fsmv53VfRkGbXkwK1CQEUBHM9QPzBEyoAxjZ/ssi5gjV+F4oNNUppTR48iPp+lEY0MTAmvkX7yNnkw==
   dependencies:
     "@types/picomatch" "^3.0.1"
@@ -3502,9 +3502,9 @@ starlight-links-validator@^0.19.2:
     terminal-link "^5.0.0"
     unist-util-visit "^5.0.0"
 
-starlight-sidebar-topics@^0.6.2:
+starlight-sidebar-topics@0.6.2:
   version "0.6.2"
-  resolved "https://registry.npmjs.org/starlight-sidebar-topics/-/starlight-sidebar-topics-0.6.2.tgz"
+  resolved "https://registry.yarnpkg.com/starlight-sidebar-topics/-/starlight-sidebar-topics-0.6.2.tgz#c4acaa2fd5d33f94df6a92203ab1ea6c74dbecc0"
   integrity sha512-SNCTUZS/hcVor0ZcaXbaSVU37+V+qtvzNirkvnOg3Mqu/awuGpthkH5+uKpiZqWxLffp6TrOlsv5E5QsxrndNg==
   dependencies:
     picomatch "^4.0.2"
