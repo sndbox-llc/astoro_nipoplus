@@ -3,7 +3,7 @@ slug: nipoplus/reference/outsideread
 title: 日報の外部共有
 description: NipoPlusのアカウントを持たない相手に対して日報データの一部を共有する機能について解説します。アカウントがない相手先にURLを渡すだけでデータの共有が可能な便利な機能です。
 sidebar:
-  label: 🌐外部の利用者に日報を共有する
+  label: 🌐外部関係者に日報を共有する
 ---
 
 日報をそのまま外部のユーザに共有したいときがあります。  

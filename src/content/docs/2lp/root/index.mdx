@@ -24,6 +24,7 @@ hero:
       variant: minimal
 ---
 
+import { Tabs, TabItem } from '@astrojs/starlight/components'
 import { Card, CardGrid, Steps, LinkCard, Icon } from '@astrojs/starlight/components'
 import { Image } from 'astro:assets'
 
@@ -33,8 +34,83 @@ import IMG_MobileSupport from './img/read-report_tablet.webp'
 import IMG_Teishutubno from './img/report-list_tablet.webp'
 import IMG_CSV from './img/make-charts_tablet.webp'
 import IMG_PDF from './img/pdf-yoko_tablet.webp'
-import IMG_Customer from './img/customer_tablet.webp'
-import IMG_Dinamic from './img/dinamic-selection_tablet.webp'
+import IMG_Customer from './img/customer.webp'
+import IMG_Dinamic from './img/dinamicSelection.webp'
+import IMG_AUTOCALC from './img/autoCalc.png'
+import IMG_Array from './img/array.webp'
+import IMG_Order from './img/input-order.png'
+import IMG_Required from './img/required.png'
+import IMG_Check from './img/checkSheet.webp'
+
+<Card title="豊富なテンプレートのカスタマイズ" icon="star">
+NipoPlusはテンプレートのカスタマイズ性が高い日報アプリです。ノーコードで自社の業務に最適な日報テンプレートを自由に作成できます。
+例えば次のようなカスタマイズが簡単に実装できます。
+
+<Tabs>
+
+<TabItem label="補足で迷わない" icon="approve-check">
+  ### 画像付き説明や色分けで迷わない日報作成
+  <ul>
+    <li>入力フィールドごとに補足説明を追加可能</li>
+    <li>補足画像も追加可能</li>
+    <li>重要なフィールドは色分けで強調可能</li>
+  </ul>
+  <Image src={IMG_EasyReport} alt="様々な補助機能を組み込んだ日報作成画面" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
+</TabItem>
+
+<TabItem label="記入漏れを阻止" icon="approve-check">
+  ### 必須入力フィールドで記載漏れを防止
+  <ul>
+    <li>必須入力フィールドを設定可能</li>
+    <li>未入力時は提出不可</li>
+    <li>記載漏れを防止</li>
+  </ul>
+  <Image src={IMG_Required} alt="様々な補助機能を組み込んだ日報作成画面" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
+</TabItem>
+
+<TabItem label="手順飛ばしを阻止" icon="approve-check">
+  ### 入力順序の固定化で手順飛ばしを防止
+  <ol>
+    <li>入力フィールドの順序を固定化</li>
+    <li>手順飛ばしを先回りブロック</li>
+    <li>手順通りに入力を促進</li>
+  </ol>
+  <Image src={IMG_Order} alt="様々な補助機能を組み込んだ日報作成画面" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
+</TabItem>
+
+<TabItem label="行数の変化" icon="approve-check">
+  ### 反復入力機能で行数の異なる日報も簡単作成
+  <ul>
+    <li>時間ごとに作業内容を書く日報にも最適</li>
+    <li>エクセルや紙の日報に近いデザイン</li>
+    <li>類似機能に綴り機能も活用可能</li>
+  </ul>
+  <Image src={IMG_Array} alt="反復入力を使うことで行数の異なる日報を作成可能" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
+</TabItem>
+
+<TabItem label="自動計算" icon="approve-check">
+  ### 数値入力の自動計算機能
+  <ul>
+    <li>数値入力フィールド同士で四則演算が可能</li>
+    <li>合計値や平均値などの自動計算が可能</li>
+    <li>例えば、売上高から経費を引いた利益を自動計算できます</li>
+  </ul>
+  <Image src={IMG_AUTOCALC} alt="自動計算機能の例" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
+</TabItem>
+
+<TabItem label="動的変化" icon="approve-check">
+  ### 選択肢入力の動的変化
+  <ul>
+    <li>特定のフォームで選ばれた値に応じて、別の選択肢リストを表示可能</li>
+    <li>プログラミングのような動きを簡単に実装可能</li>
+    <li>例えば、都道府県を選択したら、その都道府県に応じた市区町村の選択肢が表示される</li>
+  </ul>
+  <Image src={IMG_Dinamic} alt="様々な補助機能を組み込んだ日報作成画面" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
+</TabItem>
+
+</Tabs>
+
+</Card>
 
 {/* ▼ 年輩の方もOK */}
 
@@ -45,9 +121,10 @@ NipoPlusは誰でも使えることを前提に設計開発されました。IT�
 2. テンプレートに沿って記入
 3. 提出ボタンを押す
 
-色分けや補足説明、補足画像を組み込めばよりわかりやすい日報作成を実現できます。
+入力フォームを工夫するとキーボード入力もほぼ不要な日報ですら作れます。
+一見するとチェックシートですがチェックシートとしても活用できます
 
-<Image src={IMG_EasyReport} alt="様々な補助機能を組み込んだ日報作成画面" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
+<Image src={IMG_Check} alt="様々な補助機能を組み込んだ日報作成画面" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
 </Card>
 {/* ▲ 年輩の方もOK */}
 
@@ -64,18 +141,6 @@ NipoPlusは誰でも使えることを前提に設計開発されました。IT�
 <Image src={IMG_MakeTemplate} alt="テンプレートの作成画面イメージ"  width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
 </Card>
 {/* ▲ 自作できる */}
-
-{/* ▼ 動的変化 */}
-
-<Card title="ノーコードでも選択肢を動的に変化" icon="star">
-
-日報テンプレートカスタム機能が充実しています。
-面白い機能の１つに、選択肢入力の動的変化という機能があります。  
-例えば、都道府県を選択したら、その都道府県に応じた市区町村の選択肢が表示される、なんてことが可能です。
-
-<Image src={IMG_Dinamic} alt="様々な補助機能を組み込んだ日報作成画面" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
-</Card>
-{/* ▲ 動的変化 */}
 
 {/* ▼スマホ対応 */}
 

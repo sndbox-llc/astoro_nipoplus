@@ -3,7 +3,7 @@ slug: nipoplus/reference/outsidewrite
 title: ログイン不要で外部の人に日報を書いてもらう（アンケート等にも）
 description: アカウントを持たない外部ユーザー（社外の方、イベント参加者など）にもログイン不要で日報（アンケート、意見、登録フォームなど）を記入してもらえる機能です。URLを共有するだけで、Webアンケートの実施や簡易な顧客フィードバック収集が可能
 sidebar:
-  label: 🌐外部利用者に日報を書いてもらう
+  label: 🌐外部関係者に日報を書いてもらう
 ---
 
 :::caution[[この機能はGOLDPLAN限定です](/nipoplus/price/#fee)]
