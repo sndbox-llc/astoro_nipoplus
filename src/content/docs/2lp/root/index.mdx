@@ -27,7 +27,12 @@ hero:
 import { Tabs, TabItem } from '@astrojs/starlight/components'
 import { Card, CardGrid, Steps, LinkCard, Icon } from '@astrojs/starlight/components'
 import { Image } from 'astro:assets'
+import ExcelTable from '@components/ExcelTable.astro'
 
+import IMG_Cost from './img/lawprice.webp'
+import IMG_Event from './img/eventManage.webp'
+import IMG_Group from './img/switchGroup.png'
+import IMG_Timecard from './img/timecardStaffList.webp'
 import IMG_Touch from './img/touch.png'
 import IMG_TabletPhone from './img/tablet-phone.png'
 import IMG_Factory from './img/factory-usage.webp'
@@ -49,17 +54,21 @@ import IMG_Order from './img/input-order.png'
 import IMG_Required from './img/required.png'
 import IMG_Check from './img/checkSheet.webp'
 import IMG_Pen2 from './img/pen2.webp'
+import IMG_yojitu from './img/yojitu.png'
 
 <div class="toppage">
 
-<Card title="豊富なテンプレートのカスタマイズ" icon="star">
-NipoPlusはテンプレートのカスタマイズ性が高い日報アプリです。ノーコードで自社の業務に最適な日報テンプレートを自由に作成できます。
-例えば次のような特徴があります
+{/* ▼ テンプレート ▼ */}
+
+<Card title="豊富なテンプレートのカスタマイズ・日報・点検表・議事録何でも作れます" icon="star">
+10種類を越す豊富な入力パーツを組み合わせて、自由に日報テンプレートを作成できます。  
+組み合わせ次第で日報だけでなく、点検表や議事録、顧客対応メモなど様々な用途に活用可能。
+更に動的変化や自動計算、反復入力などの高度な機能も備えており、複雑な業務フローにも対応できます。
 
 <Tabs>
 
 <TabItem label="視認性" icon="approve-check">
-  <h3>画像付き説明や色分けで迷わない日報作成</h3>
+  <h3>🎨 画像説明や色分けで視認性アップ</h3>
   <ul>
     <li>入力フィールドごとに補足説明を追加可能</li>
     <li>補足画像も追加可能</li>
@@ -68,7 +77,7 @@ NipoPlusはテンプレートのカスタマイズ性が高い日報アプリで
   <Image src={IMG_EasyReport} alt="様々な補助機能を組み込んだ日報作成画面" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
 </TabItem>
 <TabItem label="自由設計" icon="approve-check">
-  <h3>多数の入力パーツで自由設計</h3>
+  <h3>🛠️ 多数の入力パーツで自由設計</h3>
   <ul>
     <li>様々な入力パーツを組み合わせるだけで簡単にテンプレートのカスタマイズ</li>
     <li>ノーコードで簡単にオリジナル日報テンプレート</li>
@@ -78,7 +87,7 @@ NipoPlusはテンプレートのカスタマイズ性が高い日報アプリで
 </TabItem>
 
 <TabItem label="未記入阻止" icon="approve-check">
-  <h3>必須入力フィールドで記載漏れを防止</h3>
+  <h3>📌 必須入力フィールドで記載漏れを防止</h3>
   <ul>
     <li>必須入力フィールドを設定可能</li>
     <li>未入力時は提出不可</li>
@@ -88,7 +97,7 @@ NipoPlusはテンプレートのカスタマイズ性が高い日報アプリで
 </TabItem>
 
 <TabItem label="入力順強制" icon="approve-check">
-  <h3>入力順序の固定化で手順飛ばしを防止</h3>
+  <h3>🔒 入力順序の固定化で手順飛ばしを防止</h3>
   <ol>
     <li>入力フィールドの順序を固定化</li>
     <li>手順飛ばしを先回りブロック</li>
@@ -98,7 +107,7 @@ NipoPlusはテンプレートのカスタマイズ性が高い日報アプリで
 </TabItem>
 
 <TabItem label="行数変化" icon="approve-check">
-  <h3>反復入力機能で行数の異なる日報も簡単作成</h3>
+  <h3>🔁 反復入力機能で行数の異なる日報も簡単作成</h3>
   <ul>
     <li>時間ごとに作業内容を書く日報にも最適</li>
     <li>エクセルや紙の日報に近いデザイン</li>
@@ -108,7 +117,7 @@ NipoPlusはテンプレートのカスタマイズ性が高い日報アプリで
 </TabItem>
 
 <TabItem label="自動計算" icon="approve-check">
-  <h3>数値入力の自動計算機能</h3>
+  <h3>🧮 数値入力の自動計算機能</h3>
   <ul>
     <li>数値入力フィールド同士で四則演算が可能</li>
     <li>合計値や平均値などの自動計算が可能</li>
@@ -118,7 +127,7 @@ NipoPlusはテンプレートのカスタマイズ性が高い日報アプリで
 </TabItem>
 
 <TabItem label="動的変化" icon="approve-check">
-  <h3>選択肢入力の動的変化</h3>
+  <h3>⚡ 選択肢入力の動的変化</h3>
   <ul>
     <li>特定のフォームで選ばれた値に応じて、別の選択肢リストを表示可能</li>
     <li>プログラミングのような動きを簡単に実装可能</li>
@@ -128,16 +137,18 @@ NipoPlusはテンプレートのカスタマイズ性が高い日報アプリで
 </TabItem>
 
 </Tabs>
-
 </Card>
 
+{/* ▲ テンプレート ▲ */}
+
+{/* ▼ 日報管理 ▼ */}
+
 <Card title="直感的でわかりやすい日報の管理" icon="star">
-どこに保存したかわからない日報、探すのに時間がかかる日報、そんな悩みはNipoPlusが解決します。
-未提出者の特定も一覧表から簡単に発見可能。
+どこに保存したかわからない日報、探すのに時間がかかる日報、そんな悩みはNipoPlusが解決します。時系列で確認できるカレンダー表示や、未提出者を早期発見できる提出状況表、高度な検索が可能な受信BOXなど、直感的でわかりやすい日報管理機能を備えています。
 <Tabs>
 
 <TabItem label="カレンダー" icon="approve-check">
-  <h3>直感的にいつの日報か分かるカレンダー表示</h3>
+  <h3>📅 日付で迷わない！直感カレンダー表示</h3>
   <ul>
     <li>月間・週間・日別の表示切替が可能</li>
     <li>カレンダーから直接日報を閲覧可能</li>
@@ -147,7 +158,7 @@ NipoPlusはテンプレートのカスタマイズ性が高い日報アプリで
 </TabItem>
 
 <TabItem label="提出状況" icon="approve-check">
-  <h3>未提出者も提出状況表から一目瞭然</h3>
+  <h3>🚨 提出忘れゼロへ！状況を一覧で確認</h3>
   <ul>
     <li>未提出者を容易に特定可能</li>
     <li>シフト管理と連動で休暇か未提出か判別可能</li>
@@ -157,7 +168,7 @@ NipoPlusはテンプレートのカスタマイズ性が高い日報アプリで
 </TabItem>
 
 <TabItem label="受信BOX" icon="approve-check">
-  <h3>すべての日報は受信BOXに集約</h3>
+  <h3>📥 すべての日報は「受信ボックス」に自動集約</h3>
   <ul>
     <li>一箇所にまとまるからシンプル明瞭</li>
     <li>保存場所の間違えなどのトラブル０</li>
@@ -167,7 +178,7 @@ NipoPlusはテンプレートのカスタマイズ性が高い日報アプリで
 </TabItem>
 
 <TabItem label="豊富な検索" icon="approve-check">
-  <h3>探したい日報・すぐ見つかる</h3>
+  <h3>🔍 探したい日報、すぐに発見！高速検索</h3>
   <ul>
     <li>タグによる絞り込み</li>
     <li>提出者による絞り込み</li>
@@ -179,32 +190,30 @@ NipoPlusはテンプレートのカスタマイズ性が高い日報アプリで
 </Tabs>
 </Card>
 
+{/* ▲ 日報管理 ▲ */}
+
 {/* ▼スマホ対応 */}
 
 <Card title="スマホ・PC・タブレット完全対応" icon="approve-check">
 NipoPlusはレスポンシブデザインに対応した日報アプリです。PCとスマホでそれぞれ見た目が最適に変わります。スマホで日報を書いて、PCで集計や印刷をする。そんな使い方もストレスフリーで実現できます。<br />
+モバイル機器はタッチパネルやカメラも標準搭載されています。これらの特徴は日報作成にもしっかり活用ができます。
   
-- カメラ
-- タッチパネル
-- スタイラスペン
-
-これらの特徴は日報作成にも最適。
 [Android](/nipoplus/system/mobile-install/#android_usage) / [iOS](/nipoplus/system/mobile-install/#ios_usage)アプリもご用意しております。
 
 <Tabs>
 
 <TabItem label="スタイラスペン" icon="approve-check">
-  <h3>タブレットとスタイラスペンがあれば直筆サインも簡単入力</h3>
+  <h3>✍️ タブレットとペンで直筆サインも楽々</h3>
   <ul>
     <li>直感的に署名を日報に組み込める</li>
     <li>手描きのイラストや地図も書き込み可能</li>
     <li>ペンがなくても指で入力可能</li>
   </ul>
-  <Image src={IMG_Pen2} alt="スタイラスペン" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
+  <Image src={IMG_Pen2} alt="スタイラスペンとタブレットを組み合わせて日報に直筆のサインや手描きのイラストを入力している様子" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
 </TabItem>
 
 <TabItem label="工場で" icon="approve-check">
-  <h3>作業台に据え置いたタブレットで検査の入力にも使える</h3>
+  <h3>🛠️ 据え置きタブレットで現場の検査効率をアップ</h3>
   <ul>
     <li>精密機器の検査台にタブレットを固定して入力</li>
     <li>日報だけではなくチェックシートとしても活用可能</li>
@@ -214,7 +223,7 @@ NipoPlusはレスポンシブデザインに対応した日報アプリです。
 </TabItem>
 
 <TabItem label="モバイル機器" icon="approve-check">
-  <h3>スマートフォンもタブレットも完全対応</h3>
+  <h3>📱 スマホ・タブレットのマルチデバイスに完全対応</h3>
   <ul>
     <li>画面サイズに応じて最適なレイアウトに自動変化</li>
     <li>PCももちろん利用可能</li>
@@ -224,7 +233,7 @@ NipoPlusはレスポンシブデザインに対応した日報アプリです。
 </TabItem>
 
 <TabItem label="タップ操作" icon="approve-check">
-  <h3>タップ・スワイプ操作に最適なフォームがたくさん</h3>
+  <h3>👆 直感的なタップ・スワイプ操作に最適化</h3>
   <ul>
     <li>キーボード無しで入力可能なフォーム</li>
     <li>スマートフォンと相性バツグン</li>
@@ -238,76 +247,127 @@ NipoPlusはレスポンシブデザインに対応した日報アプリです。
 </Card>
 {/* ▲スマホ対応 */}
 
-{/* ▼ 年輩の方もOK */}
+{/* ▼ データ活用 ▼ */}
 
-<Card title="現場スタッフに優しい設計！ITが苦手でも、迷わず使える超カンタン日報" icon="star">
-NipoPlusは誰でも使えることを前提に設計開発されました。ITに不慣れな方や新人でも迷わず直感的に使えます。日報作成はわずか3ステップ！
+<Card title="蓄積した日報データの活用・CSV・PDF出力・集計・グラフ化" icon="star">
+日報を読んでハイ終わり。それではもったいない。蓄積された日報データはNipoPlusの強力なデータ活用機能で有効活用しましょう。
+集計はもちろん、グラフ作成、PDF出力、CSV出力など、多彩なデータ活用機能を備えています。
+<Tabs>
 
-1. 使うテンプレートを選ぶ
-2. テンプレートに沿って記入
-3. 提出ボタンを押す
+<TabItem label="グラフ作成" icon="approve-check">
+  <h3>日報のデータをそのままグラフ化</h3>
+  <ul>
+    <li>円グラフ・棒グラフ・折れ線グラフなど多彩なグラフに対応</li>
+    <li>複数のグラフを作成しワンクリックで切替表示可能</li>
+    <li>常に最新のデータを反映</li>
+  </ul>
+  <Image src={IMG_CSV} alt="グラフ化" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
+</TabItem>
+<TabItem label="PDF出力" icon="approve-check">
+  <h3>作成された日報はPDF形式で出力可能</h3>
+  <ul>
+    <li>「取引先に体裁を保った状態で出力したい」なんてニーズにも対応</li>
+    <li>PDFだからもちろん印刷だってOK</li>
+    <li>PC不要！スマホ１台でPDF生成から送信まで完結</li>
+  </ul>
+  <Image src={IMG_PDF} alt="日報をPDFに変換して出力" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
+</TabItem>
 
-入力フォームを工夫するとキーボード入力もほぼ不要な日報ですら作れます。
-一見するとチェックシートですがチェックシートとしても活用できます
+<TabItem label="予実管理">
+  <h3>目標と実績の対比で進捗状況をリアルタイム把握</h3>
+  <ul>
+    <li>設定した目標値と実績値を自動で比較</li>
+    <li>予定は曜日指定や一括指定が可能</li>
+    <li>目標達成度をリアルタイムで把握し、迅速な意思決定をサポート</li>
+  </ul>
 
-<Image src={IMG_Check} alt="様々な補助機能を組み込んだ日報作成画面" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
+<Image src={IMG_yojitu} alt="予実管理" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
+
+</TabItem>
+
+<TabItem label="CSV出力" icon="approve-check">
+  <h3>日報データをCSV形式で出力可能</h3>
+  <ul>
+    <li>エクセルや他の集計ソフトでの二次利用が簡単</li>
+    <li>ソートやフィルターなどエクセルの豊富な機能で多角的に集計分析可能</li>
+    <li>バックアップや他システムのインポートに</li>
+  </ul>
+
+{/* prettier-ignore */}
+<ExcelTable>
+提出日, 【-2mm】線形ズレ, 【-1mm】線形ズレ, 【0】線形ズレ, 【+1mm】線形ズレ, 【+2mm】線形ズレ, 【-2mm】X軸ズレ, 【-1mm】X軸ズレ, 【0】X軸ズレ, 【+1mm】X軸ズレ, 【+2mm】X軸ズレ, 【-2mm】Y軸ズレ, 【-1mm】Y軸ズレ, 【0】Y軸ズレ, 【+1mm】Y軸ズレ, 【+2mm】Y軸ズレ, 【-2mm】Z軸ズレ, 【-1mm】Z軸ズレ, 【0】Z軸ズレ, 【+1mm】Z軸ズレ, 【+2mm】Z軸ズレ, 【合格】合否, 【不合格】合否, 備考
+2024/05/14 10:26, , , ⭕, , , , ⭕, , , , , , , , ⭕, , , ⭕, , , ⭕, ,
+2023/04/11 01:23, , , ⭕, , , , , ⭕, , , , , ⭕, , , , ⭕, , , , ⭕, ,
+2023/02/16 11:35, , , ⭕, , , , , ⭕, , , , , , ⭕, , , ⭕, , , , ⭕, , "サンプルです実在する部品とは無関係です"
+2023/02/14 11:35, , , ⭕, , , , ⭕, , , , ⭕, , , , , , , ⭕, , , , ⭕, Y軸ずれ
+2023/02/12 11:35, ⭕, , , , , ⭕, , , , , , , , , ⭕, ⭕, , , , , , ⭕, ジャストがない
+2023/02/11 11:35, , , ⭕, , , , , ⭕, , , , , ⭕, , , , , , ⭕, , ⭕, ,
+2023/02/09 11:51, , , ⭕, , , , , ⭕, , , , , , ⭕, , , ⭕, , , , ⭕, , "サンプルです実在する部品とは無関係です"
+</ExcelTable>
+
+</TabItem>
+
+</Tabs>
 </Card>
-{/* ▲ 年輩の方もOK */}
+{/* ▲ データ活用 ▲ */}
 
-{/* ▼ CSV ▼ */}
+{/* ▼ その他 ▼ */}
 
-<Card title="日報のデータ集計もグラフ作成もお任せ" icon="random">
+<Card title="その他の便利機能" icon="star">
 
-日報のデータを手動でエクセルシートに転記するって、実はものすごく非効率です。
+<Tabs>
 
-- 転記ミス
-- 転記漏れ
-- 時間と労力の無駄
+<TabItem label="顧客管理" icon="approve-check">
+  <h3>顧客管理と顧客対応履歴に日報をPlus</h3>
+  <ul>
+    <li>シンプルな顧客管理機能</li>
+    <li>顧客ごとの対応履歴は日報で作成可能</li>
+    <li>属人化を防ぎ、チームで顧客情報を共有</li>
+  </ul>
+  <Image src={IMG_Customer} alt="顧客管理" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
+</TabItem>
 
-NipoPlus（にぽぷらす）は、一瞬で数百枚の日報を1枚のエクセルシートに転記（正確にはCSV出力）できます。転記ミスも転記漏れも有りません。単純な作業は機械のほうが圧倒的に効率よくこなします。
-NipoPlusのグラフ作成機能を使えば、CSV出力すら不要。リアルタイムに日報のデータをグラフとして表示できます。
+<TabItem label="タイムカード" icon="approve-check">
+  <h3>出勤・退勤時間の記録もお任せ！タイムカード機能</h3>
+  <ul>
+    <li>日報と同時にタイムカードの入力が可能</li>
+    <li>日報と連携して一元管理</li>
+    <li>集計やCSV出力ももちろんOK</li>
+  </ul>
+  <Image src={IMG_Timecard} alt="タイムカード" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
+</TabItem>
 
-<Image src={IMG_CSV} alt="日報データをグラフ化した例" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
+<TabItem label="予定管理" icon="approve-check">
+  <h3> スケジュール管理にも対応！予定管理機能</h3>
+  <ul>
+    <li>個人・グループ・全体の予定を一元管理</li>
+    <li>日報と連携して業務効率化</li>
+    <li>カレンダー表示で視覚的に把握可能</li>
+  </ul>
+  <Image src={IMG_Event} alt="予定管理" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
 
+</TabItem>
+
+<TabItem label="グループ" icon="approve-check">
+  <h3>小規模から大規模まで対応可能なグループ管理機能</h3>
+  <ul>
+    <li>複数のグループを作成可能</li>
+    <li>グループごとに異なる日報テンプレートを設定可能</li>
+    <li>グループ単位での提出状況管理も可能</li>
+  </ul>
+  <Image src={IMG_Group} alt="グループ管理" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
+</TabItem>
+
+</Tabs>
 </Card>
-{/* ▲ CSV ▲ */}
 
-{/* ▼ PDF ▼ */}
-
-<Card title="日本のビジネス文化にフィット！作成した日報をPDF出力" icon="seti:pdf">
-
-作成された日報はPDF形式で出力可能。
-「取引先に体裁を保った状態で出力したい」なんてニーズにも対応しています。PDFだからもちろん印刷だってOK。  
-これらの作業をスマホ１台でも完結できます。
-
-<Image src={IMG_PDF} alt="日報をPDFに変換して出力" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
-
-</Card>
-
-{/* ▲ PDF ▲ */}
-
-{/* ▼ 顧客管理 ▼ */}
-
-<Card title="顧客管理＋日報！お客様の対応履歴をチーム内で共有" icon="star">
-
-実はNipoPlus、日報だけじゃないんです。  
-顧客管理機能や対応履歴の管理機能も備えています。
-
-名前や電話番号といった基本的な情報はもちろんのこと、顧客一人ひとりに対しての対応履歴を日報のように作成できます。  
-顧客の対応履歴を時系列で追えるので、過去にどのような対応をしたのか？これからどのような対応が必要なのか？を同一グループ内のメンバーと共有できます。  
-未来の対応は「予定」としても管理できます。カレンダー機能と連携するのでスケジュール管理もバッチリですね。
-
-顧客対応メモはシンプルなメモでもいいし、なんと日報テンプレートを使って書くことも出来ちゃいます。  
-顧客検索機能も豊富です。名前や電話番号など様々な方法で特定の顧客を瞬時に見つけ出せます。
-
-<Image src={IMG_Customer} alt="顧客管理の画面"  width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
-</Card>
-
-{/* ▲ 顧客管理 ▲ */}
+{/* ▲ その他 ▲ */}
 
 {/* ▼ コスト ▼ */}
 
 <Card title="リーズナブルな価格でご提供中。無料でも利用可能です" icon="starlight">
+
+<Image src={IMG_Cost} alt="" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
 
 やっぱり気になるのはお値段。特に継続して利用するサービスの場合、コストは重要なポイントです。
 NipoPlusは中小零細企業様でも無理なく継続できる低価格でご提供しております。
