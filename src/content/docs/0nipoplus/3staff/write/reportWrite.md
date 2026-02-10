@@ -70,7 +70,7 @@ sidebar:
 :::
 
 :::note[自動承認]
-1番目の提出先を自分にすると自動承認が選択できます。ONにすると[提出と同時に承認](/nipoplus/staff/readreport/#agree)が行われます。
+1番目の提出先を自分にすると自動承認が選択できます。ONにすると[提出と同時に承認](/nipoplus/staff/readreport/#agree)が行われます。ON/OFFの記録は次回にも引き継がれます
 :::
 
 ## 4. 提出ボタンをクリック {#post}

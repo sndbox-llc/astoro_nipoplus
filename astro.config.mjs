@@ -166,6 +166,7 @@ export default defineConfig({
 
                   // その他
                   { slug: 'nipoplus/reference/account' },
+                  { slug: 'nipoplus/reference/myaccount' },
                   { slug: 'nipoplus/reference/timecard' },
                   { slug: 'nipoplus/reference/shift' },
                   { slug: 'nipoplus/reference/log' },
