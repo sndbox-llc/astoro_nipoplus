@@ -1,6 +1,6 @@
 ---
 slug: nipoplus/price/free
-title: 本当に0円！無料で使える日報アプリ
+title: 本当に0円！4名まで無料で使える日報アプリ
 description: 少人数であれば無料でも使い続けることができる日報アプリです。個人用日報など、コストを掛けずに日報アプリを使いたい方にも最適
 sidebar:
   label: 🆓無料PLAN

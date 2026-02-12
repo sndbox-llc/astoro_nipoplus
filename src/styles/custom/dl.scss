@@ -45,3 +45,59 @@ dl.basic {
     }
   }
 }
+
+/* トップページ用の1:1レイアウトDL */
+dl.top {
+  width: 100%;
+  display: grid;
+  /* 1:1の比率に設定 */
+  grid-template-columns: 1fr 1.5fr;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  border-top: 1px solid #eee;
+
+  dt,
+  dd {
+    margin: 0;
+    padding: 24px 30px; /* 余白を広めにとってゆったりと */
+    border-bottom: 1px solid #eee;
+    box-sizing: border-box;
+  }
+
+  dt {
+    font-weight: bold;
+    /* テキスト色は継承（変えない） */
+    border-right: none;
+    display: flex;
+    align-items: flex-start;
+    line-height: 1.6;
+    &::before {
+      content: '✅️'; /* 棒の代わりに絵文字を入れる */
+      margin-right: 8px;
+      font-size: 1.1em;
+    }
+  }
+
+  dd {
+    display: block;
+    line-height: 1.6;
+    /* テキスト色は継承 */
+  }
+
+  /* モバイル対応 */
+  @media screen and (max-width: 750px) {
+    display: block;
+    border-top: none;
+
+    dt {
+      padding-top: 20px;
+      padding-bottom: 8px;
+      border-bottom: none;
+    }
+    dd {
+      padding-top: 0;
+      padding-bottom: 24px;
+      padding-left: 46px; /* dtの棒＋マージン分ずらして揃える */
+    }
+  }
+}

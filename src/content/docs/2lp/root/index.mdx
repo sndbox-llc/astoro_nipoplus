@@ -1,12 +1,12 @@
 ---
 slug: /
-title: カスタム可能なクラウド日報アプリ NipoPlus
-description: 簡単に使えて、自社業務に合わせた日報テンプレートを自由に作成。スマホやPCから簡単入力、データは自動で集計しCSV出力できます。10年探していたアプリとお褒め頂いたこともある、安価で最強の日報アプリです
+title: 【1名200円】低価格・カスタム自由なクラウド日報アプリ NipoPlus
+description: 1名月額200円から導入できるクラウド日報システム。スマホ・PCで現場から簡単に報告。工務店や製造業の点検表・チェックシートもノーコードで自由に作成・集計。Excel・CSV・PDF出力対応。
 template: splash
 
 head:
   - tag: title
-    content: カスタム可能なクラウド日報アプリ NipoPlus
+    content: 【1名200円】低価格・カスタム自由なクラウド日報アプリ NipoPlus
 hero:
   tagline: 「うちの会社に合う日報システムがない…」と諦めていませんか？自社の業務に合わせた日報テンプレートを自由に作成。スマホやPCから簡単入力、データは自動で集計しCSV出力できます。10年探していたアプリとお褒め頂いたこともある、安価で最強の日報アプリです
   image:
@@ -60,82 +60,101 @@ import IMG_yojitu from './img/yojitu.png'
 
 {/* ▼ テンプレート ▼ */}
 
-<Card title="豊富なテンプレートのカスタマイズ・日報・点検表・議事録何でも作れます" icon="star">
-10種類を越す豊富な入力パーツを組み合わせて、自由に日報テンプレートを作成できます。  
-組み合わせ次第で日報だけでなく、点検表や議事録、顧客対応メモなど様々な用途に活用可能。
-更に動的変化や自動計算、反復入力などの高度な機能も備えており、複雑な業務フローにも対応できます。
+<Card title="業務日報や点検表もノーコードで自由作成。現場にフィットする柔軟性" icon="star">
+NipoPlusは単なる日報アプリではありません。10種類以上の入力パーツを組み合わせ、点検表、議事録、顧客対応メモなど、あらゆる現場の「報告」をデジタル化します。<br />
+更に<a href="/nipoplus/template/selects/#dinamic_switch_select">動的変化</a>や<a href="/nipoplus/template/digital/#calc">自動計算</a>、<a href="/nipoplus/template/array/">反復入力</a>や<a href="/nipoplus/reference/tuduri/">綴り機能</a>など、日報業務をサポートする便利な機能も備えており、複雑な業務フローにも対応できます。
 
 <Tabs>
 
 <TabItem label="視認性" icon="approve-check">
-  <h3>🎨 画像説明や色分けで視認性アップ</h3>
-  <ul>
-    {/* prettier-ignore */}
-    <li>入力フィールドごとに<a href="/nipoplus/editor/template/#common_setting">補足説明</a>を追加可能</li>
-    <li>補足画像も追加可能</li>
-    <li>重要なフィールドは色分けで強調可能</li>
-  </ul>
+  <h3 class="topH3">🎨 画像説明や色分けで視認性アップ</h3>
+  <dl class="top">
+    <dt>
+      入力フィールドに<a href="/nipoplus/editor/template/#common_setting">補足説明</a>を追加できる
+    </dt>
+    <dd>日報作成者の「迷い」を減らせます</dd>
+    <dt>入力フォームに補足画像も追加可能</dt>
+    <dd>特に設備点検などで点検箇所を図や画像で明示することで点検者の迷いを減らせます</dd>
+    <dt>重要なフィールドは色分けで強調</dt>
+    <dd>日報入力者のケアレスミスを防ぎます</dd>
+  </dl>
   <Image src={IMG_EasyReport} alt="様々な補助機能を組み込んだ日報作成画面" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
 </TabItem>
 <TabItem label="自由設計" icon="approve-check">
-  <h3>🛠️ 多数の入力パーツで自由設計</h3>
-  <ul>
-    <li>様々な入力パーツを組み合わせるだけで簡単にテンプレートのカスタマイズ</li>
-    <li>ノーコードで簡単にオリジナル日報テンプレート</li>
-    <li>自由に作れるからどんな業種にもマッチ</li>
-  </ul>
+  <h3 class="topH3">🛠️ 多数の入力パーツで自由設計</h3>
+  <dl class="top">
+    <dt>入力パーツを組み合わせてテンプレート作成</dt>
+    <dd>ノーコードで会社にマッチした日報が誰でも簡単に作れます</dd>
+    <dt>レスポンシブ対応</dt>
+    <dd>PCでもスマホでも利用可能</dd>
+    <dt>複数テンプレートを使い分け</dt>
+    <dd>日報以外の用途にも対応可能</dd>
+  </dl>
   <Image src={IMG_MakeTemplate} alt="テンプレートの作成画面イメージ" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
 </TabItem>
 
 <TabItem label="未記入阻止" icon="approve-check">
-  <h3>📌 必須入力フィールドで記載漏れを防止</h3>
-  <ul>
-    <li>必須入力フィールドを設定可能</li>
-    <li>未入力時は提出不可</li>
-    <li>記載漏れを防止</li>
-  </ul>
+  <h3 class="topH3">📌 必須入力フィールドで記載漏れを防止</h3>
+  <dl class="top">
+    <dt>必須入力フィールドを設定可能</dt>
+    <dd>うっかり入力漏れを先回りブロック。記入漏れを完全に無くせます</dd>
+    <dt>下書きの保存にも対応</dt>
+    <dd>本番提出ではなく下書きの場合は入力必須があっても保存できます。一時保管と本番で賢く使い分け可能です</dd>
+    <dt>部分的な利用も可能</dt>
+    <dd>すべてを入力必須にする必要はありません。絶対に入力しないと行けない箇所だけを任意に選んで設定が可能です</dd>
+  </dl>
   <Image src={IMG_Required} alt="入力必須項目" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
 </TabItem>
 
 <TabItem label="入力順強制" icon="approve-check">
-  <h3>🔒 入力順序の固定化で手順飛ばしを防止</h3>
-  <ol>
-    <li>入力フィールドの順序を固定化</li>
-    <li>手順飛ばしを先回りブロック</li>
-    <li>手順通りに入力を促進</li>
-  </ol>
+  <h3 class="topH3">🔒 入力順序の固定化で手順飛ばしを防止</h3>
+  <dl class="top">
+    <dt>入力フィールドの順序を固定化可能</dt>
+    <dd>日報作成者が手順を飛ばして入力することを防止します</dd>
+    <dt>手順飛ばしを先回りブロック</dt>
+    <dd>前の項目が入力されないと次の項目が入力できないため、特に点検業務に置いて点検の手順を強制化することができます</dd>
+    <dt>色による視線誘導</dt>
+    <dd>次に入力すべき項目がハイライトされそれ以外がグレースケールになるため視線誘導しやすく、入力者の入力を視覚的にサポートします</dd>
+  </dl>
   <Image src={IMG_Order} alt="入力順序の固定化で手順飛ばしを防止" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
 </TabItem>
 
 <TabItem label="行数変化" icon="approve-check">
   {/* prettier-ignore */}
-  <h3>🔁 <a href="/nipoplus/template/array/">反復入力機能</a>で行数の異なる日報も簡単作成</h3>
-  <ul>
-    <li>時間ごとに作業内容を書く日報にも最適</li>
-    <li>エクセルや紙の日報に近いデザイン</li>
-    <li>類似機能に綴り機能も活用可能</li>
-  </ul>
+  <h3 class="topH3">🔁 <a href="/nipoplus/template/array/">反復入力機能</a>で行数の異なる日報も簡単作成</h3>
+  <dl class="top">
+    <dt>行数の異なる日報を簡単作成</dt>
+    <dd>時間ごとに作業内容を書く日報など、行数が毎回異なる日報も簡単に作成可能</dd>
+    <dt>エクセルや紙の日報に近いデザイン</dt>
+    <dd>馴染みのあるデザインで日報作成者の抵抗感を軽減します</dd>
+    <dt>綴り機能も活用可能</dt>
+    <dd>類似機能に綴り機能もおすすめです。１日の終りに数種類の大別された業務をこなした際の報告には綴りがおすすめです</dd>
+  </dl>
   <Image src={IMG_Array} alt="反復入力を使うことで行数の異なる日報を作成可能" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
 </TabItem>
 
 <TabItem label="自動計算" icon="approve-check">
-  <h3>🧮 数値入力の自動計算機能</h3>
-  <ul>
-    <li>数値入力フィールド同士で四則演算が可能</li>
-    <li>合計値や平均値などの自動計算が可能</li>
-    <li>例えば、売上高から経費を引いた利益を自動計算できます</li>
-  </ul>
+  <h3 class="topH3">🧮 数値入力の自動計算機能</h3>
+  <dl class="top">
+    <dt>数値入力フィールド同士で四則演算が可能</dt>
+    <dd>日報内での数値計算を自動化できます</dd>
+    <dt>合計値や平均値などの自動計算が可能</dt>
+    <dd>手動での計算ミスを防止します</dd>
+    <dt>経理業務の効率化にも貢献します</dt>
+    <dd>例えば、売上高から経費を引いた利益を自動計算できます</dd>
+  </dl>
   <Image src={IMG_AUTOCALC} alt="自動計算機能の例" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
 </TabItem>
 
 <TabItem label="動的変化" icon="approve-check">
   {/* prettier-ignore */}
-  <h3>⚡ <a href="/nipoplus/template/selects/#dinamic_switch_select">選択肢入力の動的変化</a></h3>
-  <ul>
-    <li>特定のフォームで選ばれた値に応じて、別の選択肢リストを表示可能</li>
-    <li>プログラミングのような動きを簡単に実装可能</li>
-    <li>例えば、都道府県を選択したら、その都道府県に応じた市区町村の選択肢が表示される</li>
-  </ul>
+  <h3 class="topH3">⚡ <a href="/nipoplus/template/selects/#dinamic_switch_select">選択肢入力の動的変化</a></h3>
+  <dl class="top">
+    <dt>プログラミングのような動きを簡単に実装可能</dt>
+    <dd>例えば特定のフォームで選ばれた値に応じて、別の選択肢リストを表示可能です</dd>
+    <dt>業務フローに応じた柔軟な日報作成が可能</dt>
+    <dd>例えば、都道府県を選択したら、その都道府県に応じた市区町村の選択肢が表示されるなど、動的な変化を日報に組み込めます</dd>
+  </dl>
   <Image src={IMG_Dinamic} alt="動的変化" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
 </TabItem>
 
@@ -151,7 +170,7 @@ import IMG_yojitu from './img/yojitu.png'
 <Tabs>
 
 <TabItem label="カレンダー" icon="approve-check">
-  <h3>📅 日付で迷わない！直感カレンダー表示</h3>
+  <h3 class="topH3">📅 日付で迷わない！直感カレンダー表示</h3>
   <ul>
     <li>月間・週間・日別の表示切替が可能</li>
     <li>カレンダーから直接日報を閲覧可能</li>
@@ -162,7 +181,7 @@ import IMG_yojitu from './img/yojitu.png'
 
 <TabItem label="提出状況" icon="approve-check">
   {/* prettier-ignore */}
-  <h3>🚨 提出忘れゼロへ！<a href="/nipoplus/gainen/reportStorage/#map">状況を一覧で確認</a></h3>
+  <h3 class="topH3">🚨 提出忘れゼロへ！<a href="/nipoplus/gainen/reportStorage/#map">状況を一覧で確認</a></h3>
   <ul>
     <li>未提出者を容易に特定可能</li>
     <li>シフト管理と連動で休暇か未提出か判別可能</li>
@@ -172,7 +191,7 @@ import IMG_yojitu from './img/yojitu.png'
 </TabItem>
 
 <TabItem label="受信BOX" icon="approve-check">
-  <h3>📥 すべての日報は「受信ボックス」に自動集約</h3>
+  <h3 class="topH3">📥 すべての日報は「受信ボックス」に自動集約</h3>
   <ul>
     <li>一箇所にまとまるからシンプル明瞭</li>
     <li>保存場所の間違えなどのトラブル０</li>
@@ -182,7 +201,7 @@ import IMG_yojitu from './img/yojitu.png'
 </TabItem>
 
 <TabItem label="豊富な検索" icon="approve-check">
-  <h3>🔍 探したい日報、すぐに発見！高速検索</h3>
+  <h3 class="topH3">🔍 探したい日報、すぐに発見！高速検索</h3>
   <ul>
     <li>タグによる絞り込み</li>
     <li>提出者による絞り込み</li>
@@ -207,7 +226,7 @@ NipoPlusはレスポンシブデザインに対応した日報アプリです。
 <Tabs>
 
 <TabItem label="スタイラスペン" icon="approve-check">
-  <h3>✍️ タブレットとペンで直筆サインも楽々</h3>
+  <h3 class="topH3">✍️ タブレットとペンで直筆サインも楽々</h3>
   <ul>
     <li>直感的に署名を日報に組み込める</li>
     <li>手描きのイラストや地図も書き込み可能</li>
@@ -217,7 +236,7 @@ NipoPlusはレスポンシブデザインに対応した日報アプリです。
 </TabItem>
 
 <TabItem label="工場で" icon="approve-check">
-  <h3>🛠️ 据え置きタブレットで現場の検査効率をアップ</h3>
+  <h3 class="topH3">🛠️ 据え置きタブレットで現場の検査効率をアップ</h3>
   <ul>
     <li>精密機器の検査台にタブレットを固定して入力</li>
     <li>日報だけではなくチェックシートとしても活用可能</li>
@@ -227,7 +246,7 @@ NipoPlusはレスポンシブデザインに対応した日報アプリです。
 </TabItem>
 
 <TabItem label="モバイル機器" icon="approve-check">
-  <h3>📱 スマホ・タブレットのマルチデバイスに完全対応</h3>
+  <h3 class="topH3">📱 スマホ・タブレットのマルチデバイスに完全対応</h3>
   <ul>
     <li>画面サイズに応じて最適なレイアウトに自動変化</li>
     <li>PCももちろん利用可能</li>
@@ -237,7 +256,7 @@ NipoPlusはレスポンシブデザインに対応した日報アプリです。
 </TabItem>
 
 <TabItem label="タップ操作" icon="approve-check">
-  <h3>👆 直感的なタップ・スワイプ操作に最適化</h3>
+  <h3 class="topH3">👆 直感的なタップ・スワイプ操作に最適化</h3>
   <ul>
     <li>キーボード無しで入力可能なフォーム</li>
     <li>スマートフォンと相性バツグン</li>
@@ -259,7 +278,7 @@ NipoPlusはレスポンシブデザインに対応した日報アプリです。
 <Tabs>
 
 <TabItem label="グラフ作成" icon="approve-check">
-  <h3>日報のデータをそのままグラフ化</h3>
+  <h3 class="topH3">日報のデータをそのままグラフ化</h3>
   <ul>
     <li>円グラフ・棒グラフ・折れ線グラフなど多彩なグラフに対応</li>
     <li>複数のグラフを作成しワンクリックで切替表示可能</li>
@@ -268,7 +287,7 @@ NipoPlusはレスポンシブデザインに対応した日報アプリです。
   <Image src={IMG_CSV} alt="グラフ化" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
 </TabItem>
 <TabItem label="PDF出力" icon="approve-check">
-  <h3>作成された日報はPDF形式で出力可能</h3>
+  <h3 class="topH3">作成された日報はPDF形式で出力可能</h3>
   <ul>
     <li>「取引先に体裁を保った状態で出力したい」なんてニーズにも対応</li>
     <li>PDFだからもちろん印刷だってOK</li>
@@ -278,7 +297,7 @@ NipoPlusはレスポンシブデザインに対応した日報アプリです。
 </TabItem>
 
 <TabItem label="予実管理">
-  <h3>目標と実績の対比で進捗状況をリアルタイム把握</h3>
+  <h3 class="topH3">目標と実績の対比で進捗状況をリアルタイム把握</h3>
   <ul>
     <li>設定した目標値と実績値を自動で比較</li>
     <li>予定は曜日指定や一括指定が可能</li>
@@ -290,7 +309,7 @@ NipoPlusはレスポンシブデザインに対応した日報アプリです。
 </TabItem>
 
 <TabItem label="CSV出力" icon="approve-check">
-  <h3>日報データをCSV形式で出力可能</h3>
+  <h3 class="topH3">日報データをCSV形式で出力可能</h3>
   <ul>
     <li>エクセルや他の集計ソフトでの二次利用が簡単</li>
     <li>ソートやフィルターなどエクセルの豊富な機能で多角的に集計分析可能</li>
@@ -325,7 +344,7 @@ NipoPlusは日報アプリとして開発されましたが、その他にも便
 <Tabs>
 
 <TabItem label="顧客管理" icon="approve-check">
-  <h3>顧客管理と顧客対応履歴に日報をPlus</h3>
+  <h3 class="topH3">顧客管理と顧客対応履歴に日報をPlus</h3>
   <ul>
     <li>シンプルな顧客管理機能</li>
     <li>顧客ごとの対応履歴は日報で作成可能</li>
@@ -335,7 +354,7 @@ NipoPlusは日報アプリとして開発されましたが、その他にも便
 </TabItem>
 
 <TabItem label="タイムカード" icon="approve-check">
-  <h3>出勤・退勤時間の記録もお任せ！タイムカード機能</h3>
+  <h3 class="topH3">出勤・退勤時間の記録もお任せ！タイムカード機能</h3>
   <ul>
     <li>日報と同時にタイムカードの入力が可能</li>
     <li>日報と連携して一元管理</li>
@@ -345,7 +364,7 @@ NipoPlusは日報アプリとして開発されましたが、その他にも便
 </TabItem>
 
 <TabItem label="予定管理" icon="approve-check">
-  <h3> スケジュール管理にも対応！予定管理機能</h3>
+  <h3 class="topH3"> スケジュール管理にも対応！予定管理機能</h3>
   <ul>
     <li>個人・グループ・全体の予定を一元管理</li>
     <li>日報と連携して業務効率化</li>
@@ -356,7 +375,7 @@ NipoPlusは日報アプリとして開発されましたが、その他にも便
 </TabItem>
 
 <TabItem label="グループ" icon="approve-check">
-  <h3>小規模から大規模まで対応可能なグループ管理機能</h3>
+  <h3 class="topH3">小規模から大規模まで対応可能なグループ管理機能</h3>
   <ul>
     <li>複数のグループを作成可能</li>
     <li>グループごとに異なる日報テンプレートを設定可能</li>

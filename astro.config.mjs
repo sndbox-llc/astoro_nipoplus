@@ -23,7 +23,7 @@ export default defineConfig({
   integrations: [
     starlight({
       title: 'NipoPlus',
-      favicon: '/images/favicon.svg',
+      favicon: '/images/icon-256x256.png',
       // head: [],
       head: [
         {
