@@ -54,13 +54,13 @@ dl.top {
   grid-template-columns: 1fr 1.5fr;
   margin-top: 2rem;
   margin-bottom: 3rem;
-  border-top: 1px solid #eee;
+  border-top: 0.5px solid #eee;
 
   dt,
   dd {
     margin: 0;
     padding: 24px 30px; /* 余白を広めにとってゆったりと */
-    border-bottom: 1px solid #eee;
+    border-bottom: 0.5px solid #eee;
     box-sizing: border-box;
   }
 

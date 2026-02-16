@@ -171,42 +171,52 @@ NipoPlusは単なる日報アプリではありません。10種類以上の入�
 
 <TabItem label="カレンダー" icon="approve-check">
   <h3 class="topH3">📅 日付で迷わない！直感カレンダー表示</h3>
-  <ul>
-    <li>月間・週間・日別の表示切替が可能</li>
-    <li>カレンダーから直接日報を閲覧可能</li>
-    <li>カレンダー上の日報をワンクリックでCSV出力可能</li>
-  </ul>
+  <dl class="top">
+    <dt>日報をカレンダー形式で表示</dt>
+    <dd>日付ごとに日報を一覧でき、過去の日報も簡単に遡れます</dd>
+    <dt>提出状況も一目瞭然</dt>
+    <dd>提出された日報はカレンダー上で色分けされるため、提出状況が一目でわかります</dd>
+    <dt>CSV出力もワンクリック</dt>
+    <dd>カレンダー上の日報をワンクリックでCSV出力可能。日報の集計や分析も簡単に行えます</dd>
+  </dl>
   <Image src={IMG_Calendar} alt="カレンダー" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
 </TabItem>
 
 <TabItem label="提出状況" icon="approve-check">
   {/* prettier-ignore */}
   <h3 class="topH3">🚨 提出忘れゼロへ！<a href="/nipoplus/gainen/reportStorage/#map">状況を一覧で確認</a></h3>
-  <ul>
-    <li>未提出者を容易に特定可能</li>
-    <li>シフト管理と連動で休暇か未提出か判別可能</li>
-    <li>規定枚数に満たない提出の管理にも</li>
-  </ul>
+  <dl class="top">
+    <dt>提出状況を一覧で確認</dt>
+    <dd>誰が提出していて、誰がまだ提出していないかを一目で把握できます</dd>
+    <dt>シフト管理と連動可能</dt>
+    <dd>休暇やシフトの情報と連動させることで、未提出者が休暇中なのか、それとも単に提出を忘れているのかを判別できます</dd>
+    <dt>規定枚数に満たない提出の管理も可能</dt>
+    <dd>例えば、毎日3枚の日報提出が必要な場合、3枚未満の提出者もこの画面で管理できます</dd>
+  </dl>
   <Image src={IMG_Board} alt="提出状況" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
 </TabItem>
 
 <TabItem label="受信BOX" icon="approve-check">
   <h3 class="topH3">📥 すべての日報は「受信ボックス」に自動集約</h3>
-  <ul>
-    <li>一箇所にまとまるからシンプル明瞭</li>
-    <li>保存場所の間違えなどのトラブル０</li>
-    <li>日付による絞り込みなどが可能</li>
-  </ul>
+  <dl class="top">
+    <dt>すべての日報は受信BOXに自動集約</dt>
+    <dd>日報がどこに保存されているかわからない…なんてことはありません。提出された日報はすべて受信BOXに集約されます</dd>
+    <dt>日付やタグで絞り込み可能</dt>
+    <dd>大量の日報も日付やタグで簡単に絞り込めます</dd>
+    <dt>日報の内容も受信BOX上で確認可能</dt>
+    <dd>日報の内容も受信BOX上で確認できるため、いちいち日報を開いて確認する手間も減ります</dd>
+  </dl>
   <Image src={IMG_Reportbox} alt="受信BOX" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
 </TabItem>
 
 <TabItem label="豊富な検索" icon="approve-check">
   <h3 class="topH3">🔍 探したい日報、すぐに発見！高速検索</h3>
-  <ul>
-    <li>タグによる絞り込み</li>
-    <li>提出者による絞り込み</li>
-    <li>フルテキストサーチもサポート</li>
-  </ul>
+  <dl class="top">
+    <dt>タグや提出者で絞り込み可能</dt>
+    <dd>大量の日報もタグや提出者で簡単に絞り込めます</dd>
+    <dt>フルテキストサーチもサポート</dt>
+    <dd>日報の内容もフルテキストで検索可能。探したい日報がすぐに見つかります</dd>
+  </dl>
   <Image src={IMG_Search} alt="日報の検索" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
 </TabItem>
 
@@ -227,41 +237,47 @@ NipoPlusはレスポンシブデザインに対応した日報アプリです。
 
 <TabItem label="スタイラスペン" icon="approve-check">
   <h3 class="topH3">✍️ タブレットとペンで直筆サインも楽々</h3>
-  <ul>
-    <li>直感的に署名を日報に組み込める</li>
-    <li>手描きのイラストや地図も書き込み可能</li>
-    <li>ペンがなくても指で入力可能</li>
-  </ul>
+  <dl class="top">
+    <dt>スタイラスペンで直筆サインも楽々</dt>
+    <dd>タブレットとスタイラスペンを組み合わせて、日報に直筆のサインや手描きのイラストを入力できます</dd>
+    <dt>手描きのイラストや地図も書き込み可能</dt>
+    <dd>設備点検などで、点検箇所を手描きのイラストや地図で明示することができます</dd>
+    <dt>ペンがなくても指で入力可能</dt>
+    <dd>スタイラスペンがなくても、指で直接タブレットに入力することもできます。これにより、どんな環境でも柔軟に日報作成が可能です</dd>
+  </dl>
   <Image src={IMG_Pen2} alt="スタイラスペンとタブレットを組み合わせて日報に直筆のサインや手描きのイラストを入力している様子" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
 </TabItem>
 
 <TabItem label="工場で" icon="approve-check">
   <h3 class="topH3">🛠️ 据え置きタブレットで現場の検査効率をアップ</h3>
-  <ul>
-    <li>精密機器の検査台にタブレットを固定して入力</li>
-    <li>日報だけではなくチェックシートとしても活用可能</li>
-    <li>実際に製造業の方にご提供いただいた写真です</li>
-  </ul>
+  <dl class="top">
+    <dt>精密機器の検査台にタブレットを固定して入力</dt>
+    <dd>日報だけではなくチェックシートとしても活用可能</dd>
+    <dt>実際に製造業の方にご提供いただいた写真です</dt>
+    <dd>現場での使用例を示す写真です</dd>
+  </dl>
   <Image src={IMG_Factory} alt="工場" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
 </TabItem>
 
 <TabItem label="モバイル機器" icon="approve-check">
   <h3 class="topH3">📱 スマホ・タブレットのマルチデバイスに完全対応</h3>
-  <ul>
-    <li>画面サイズに応じて最適なレイアウトに自動変化</li>
-    <li>PCももちろん利用可能</li>
-    <li>同時ログインで並列操作もOK</li>
-  </ul>
+  <dl class="top">
+    <dt>画面サイズに応じて最適なレイアウトに自動変化</dt>
+    <dd>PCももちろん利用可能</dd>
+    <dt>同時ログインで並列操作もOK</dt>
+    <dd>複数のデバイスで同時に操作可能</dd>
+  </dl>
   <Image src={IMG_TabletPhone} alt="タブレットとスマートフォン" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
 </TabItem>
 
 <TabItem label="タップ操作" icon="approve-check">
   <h3 class="topH3">👆 直感的なタップ・スワイプ操作に最適化</h3>
-  <ul>
-    <li>キーボード無しで入力可能なフォーム</li>
-    <li>スマートフォンと相性バツグン</li>
-    <li>もちろんカメラを使った写真も貼付可能</li>
-  </ul>
+  <dl class="top">
+    <dt>キーボード無しで入力可能なフォーム</dt>
+    <dd>スマートフォンと相性バツグン</dd>
+    <dt>もちろんカメラを使った写真も貼付可能</dt>
+    <dd>写真を簡単に日報に添付できます</dd>
+  </dl>
   <Image src={IMG_Touch} alt="タッチパネル" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
 </TabItem>
 
@@ -279,30 +295,33 @@ NipoPlusはレスポンシブデザインに対応した日報アプリです。
 
 <TabItem label="グラフ作成" icon="approve-check">
   <h3 class="topH3">日報のデータをそのままグラフ化</h3>
-  <ul>
-    <li>円グラフ・棒グラフ・折れ線グラフなど多彩なグラフに対応</li>
-    <li>複数のグラフを作成しワンクリックで切替表示可能</li>
-    <li>常に最新のデータを反映</li>
-  </ul>
+  <dl class="top">
+    <dt>円グラフ・棒グラフ・折れ線グラフなど多彩なグラフに対応</dt>
+    <dd>複数のグラフを作成しワンクリックで切替表示可能</dd>
+    <dt>常に最新のデータを反映</dt>
+    <dd>最新のデータを自動で反映し、常に正確な情報を提供</dd>
+  </dl>
   <Image src={IMG_CSV} alt="グラフ化" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
 </TabItem>
 <TabItem label="PDF出力" icon="approve-check">
   <h3 class="topH3">作成された日報はPDF形式で出力可能</h3>
-  <ul>
-    <li>「取引先に体裁を保った状態で出力したい」なんてニーズにも対応</li>
-    <li>PDFだからもちろん印刷だってOK</li>
-    <li>PC不要！スマホ１台でPDF生成から送信まで完結</li>
-  </ul>
+  <dl class="top">
+    <dt>「取引先に体裁を保った状態で出力したい」なんてニーズにも対応</dt>
+    <dd>PDFだからもちろん印刷だってOK</dd>
+    <dt>PC不要！スマホ１台でPDF生成から送信まで完結</dt>
+    <dd>スマホだけで簡単にPDFを生成し、送信まで完了</dd>
+  </dl>
   <Image src={IMG_PDF} alt="日報をPDFに変換して出力" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
 </TabItem>
 
 <TabItem label="予実管理">
   <h3 class="topH3">目標と実績の対比で進捗状況をリアルタイム把握</h3>
-  <ul>
-    <li>設定した目標値と実績値を自動で比較</li>
-    <li>予定は曜日指定や一括指定が可能</li>
-    <li>目標達成度をリアルタイムで把握し、迅速な意思決定をサポート</li>
-  </ul>
+  <dl class="top">
+    <dt>設定した目標値と実績値を自動で比較</dt>
+    <dd>予定は曜日指定や一括指定が可能</dd>
+    <dt>目標達成度をリアルタイムで把握し、迅速な意思決定をサポート</dt>
+    <dd>目標達成度をリアルタイムで把握し、迅速な意思決定をサポート</dd>
+  </dl>
 
 <Image src={IMG_yojitu} alt="予実管理" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
 
@@ -310,11 +329,12 @@ NipoPlusはレスポンシブデザインに対応した日報アプリです。
 
 <TabItem label="CSV出力" icon="approve-check">
   <h3 class="topH3">日報データをCSV形式で出力可能</h3>
-  <ul>
-    <li>エクセルや他の集計ソフトでの二次利用が簡単</li>
-    <li>ソートやフィルターなどエクセルの豊富な機能で多角的に集計分析可能</li>
-    <li>バックアップや他システムのインポートに</li>
-  </ul>
+  <dl class="top">
+    <dt>エクセルや他の集計ソフトでの二次利用が簡単</dt>
+    <dd>ソートやフィルターなどエクセルの豊富な機能で多角的に集計分析可能</dd>
+    <dt>バックアップや他システムのインポートに</dt>
+    <dd>データの安全な保管や他システムへの移行も簡単</dd>
+  </dl>
 
 {/* prettier-ignore */}
 <ExcelTable>
@@ -345,42 +365,50 @@ NipoPlusは日報アプリとして開発されましたが、その他にも便
 
 <TabItem label="顧客管理" icon="approve-check">
   <h3 class="topH3">顧客管理と顧客対応履歴に日報をPlus</h3>
-  <ul>
-    <li>シンプルな顧客管理機能</li>
-    <li>顧客ごとの対応履歴は日報で作成可能</li>
-    <li>属人化を防ぎ、チームで顧客情報を共有</li>
-  </ul>
+  <dl class="top">
+    <dt>シンプルな顧客管理機能</dt>
+    <dd>直感的に操作できるシンプルな顧客管理機能を提供</dd>
+    <dt>顧客ごとの対応履歴は日報で作成可能</dt>
+    <dd>日報を通じて顧客対応履歴を簡単に記録・管理</dd>
+    <dt>属人化を防ぎ、チームで顧客情報を共有</dt>
+    <dd>チーム全体で顧客情報を共有し、属人化を防止</dd>
+  </dl>
   <Image src={IMG_Customer} alt="顧客管理" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
 </TabItem>
 
 <TabItem label="タイムカード" icon="approve-check">
   <h3 class="topH3">出勤・退勤時間の記録もお任せ！タイムカード機能</h3>
-  <ul>
-    <li>日報と同時にタイムカードの入力が可能</li>
-    <li>日報と連携して一元管理</li>
-    <li>集計やCSV出力ももちろんOK</li>
-  </ul>
+  <dl class="top">
+    <dt>日報と同時にタイムカードの入力が可能</dt>
+    <dd>日報と連携して一元管理</dd>
+    <dt>集計やCSV出力ももちろんOK</dt>
+    <dd>集計やCSV出力ももちろんOK</dd>
+  </dl>
   <Image src={IMG_Timecard} alt="タイムカード" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
 </TabItem>
 
 <TabItem label="予定管理" icon="approve-check">
   <h3 class="topH3"> スケジュール管理にも対応！予定管理機能</h3>
-  <ul>
-    <li>個人・グループ・全体の予定を一元管理</li>
-    <li>日報と連携して業務効率化</li>
-    <li>カレンダー表示で視覚的に把握可能</li>
-  </ul>
+  <dl class="top">
+    <dt>個人・グループ・全体の予定を一元管理</dt>
+    <dd>日報と連携して業務効率化</dd>
+    <dt>カレンダー表示で視覚的に把握可能</dt>
+    <dd>カレンダー表示で視覚的に把握可能</dd>
+  </dl>
   <Image src={IMG_Event} alt="予定管理" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
 
 </TabItem>
 
 <TabItem label="グループ" icon="approve-check">
   <h3 class="topH3">小規模から大規模まで対応可能なグループ管理機能</h3>
-  <ul>
-    <li>複数のグループを作成可能</li>
-    <li>グループごとに異なる日報テンプレートを設定可能</li>
-    <li>グループ単位での提出状況管理も可能</li>
-  </ul>
+  <dl class="top">
+    <dt>複数のグループを作成可能</dt>
+    <dd>複数のグループを作成可能</dd>
+    <dt>グループごとに異なる日報テンプレートを設定可能</dt>
+    <dd>グループごとに異なる日報テンプレートを設定可能</dd>
+    <dt>グループ単位での提出状況管理も可能</dt>
+    <dd>グループ単位での提出状況管理も可能</dd>
+  </dl>
   <Image src={IMG_Group} alt="グループ管理" width={1000} widths={[500, 1000, 2000]} sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1000px" />
 </TabItem>
 
