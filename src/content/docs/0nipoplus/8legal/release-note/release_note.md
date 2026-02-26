@@ -28,6 +28,10 @@ NipoPlusは[Android版](/nipoplus/system/mobile-install/#android_usage)・[iOS�
 
 ### リリース詳細▼ {#more}
 
+#### 【NipoPlus】 2026/2/27 v1.78.1 {#vp1_78_1}
+
+- 日報復元処理の際に固定先の提出先情報がロードされないバグを修正しました
+
 #### 【NipoPlus】 2026/2/17 v1.78.0 {#vp1_78_0}
 
 - タイムカードに全スタッフ一括ダウンロード機能を追加しました
