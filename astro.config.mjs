@@ -286,6 +286,7 @@ export default defineConfig({
                 label: 'Excel活用術',
                 items: [
                   //
+                  { slug: 'excel' },
                   { slug: 'excel/ref' },
                   { slug: 'excel/countif' },
                   { slug: 'excel/sumif' },
