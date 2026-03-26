@@ -51,15 +51,10 @@ export default defineConfig({
         starlightImageZoom(), // 2. プラグインを追加
         starlightSidebarTopics([
           {
-            label: 'お問い合わせ',
-            icon: 'phone',
-            link: 'inquery',
-            items: [],
-          },
-          {
-            label: 'NipoPlus ドキュメント',
+            label: 'NipoPlus',
             link: 'nipoplus/admin/quickstart',
             icon: 'document',
+            badge: { text: '現行', variant: 'success' },
 
             items: [
               {
@@ -217,13 +212,16 @@ export default defineConfig({
                   { slug: 'nipoplus/system/credit' },
                 ],
               },
+              { slug: 'inquery' },
             ],
           },
 
           {
-            label: '旧Nipoドキュメント',
+            label: 'Nipo',
             link: 'legacy/about/diff',
             icon: 'document',
+            badge: { text: '旧バージョン', variant: 'caution' },
+
             items: [
               {
                 label: '旧バージョンについて',
@@ -276,44 +274,41 @@ export default defineConfig({
                   { slug: 'legacy/system/privacypolicy' },
                 ],
               },
+              { slug: 'inquery' },
             ],
           },
           {
-            label: 'エクセル活用術',
-            link: 'excel',
-            icon: 'seti:xls',
-            items: [
-              //
-              { slug: 'excel/ref' },
-              { slug: 'excel/countif' },
-              { slug: 'excel/sumif' },
-              { slug: 'excel/time' },
-              { slug: 'excel/sales_report' },
-            ],
-          },
-          {
-            label: 'コラム記事',
+            label: 'コラム',
             link: 'tips',
             icon: 'information',
             items: [
-              //
-              { slug: 'tips/templatemake' },
-
-              { slug: 'tips/templatesample' },
-              { slug: 'tips/usecase' },
-              { slug: 'tips/analytics' },
-              { slug: 'tips/csvsc' },
-            ],
-          },
-          {
-            label: '技術系ブログ',
-            link: 'tech',
-            icon: 'information',
-            items: [
               {
-                label: 'Firebase関係',
+                label: 'Excel活用術',
                 items: [
                   //
+                  { slug: 'excel/ref' },
+                  { slug: 'excel/countif' },
+                  { slug: 'excel/sumif' },
+                  { slug: 'excel/time' },
+                  { slug: 'excel/sales_report' },
+                ],
+              },
+              {
+                label: '日報Tips',
+                items: [
+                  //
+                  { slug: 'tips/templatemake' },
+                  { slug: 'tips/templatesample' },
+                  { slug: 'tips/usecase' },
+                  { slug: 'tips/analytics' },
+                  { slug: 'tips/csvsc' },
+                ],
+              },
+              {
+                label: '技術系ブログ',
+                items: [
+                  //
+                  // firebase関係
                   { slug: 'tech/firebase/coldstart' },
                   { slug: 'tech/firebase/cors-error' },
                   { slug: 'tech/firebase/elasticsearch' },
@@ -324,12 +319,7 @@ export default defineConfig({
                   { slug: 'tech/firebase/firestore-backup' },
                   { slug: 'tech/firebase/onauthstatechanged' },
                   { slug: 'tech/firebase/separate-files' },
-                ],
-              },
-              {
-                label: 'Javascript関係',
-                items: [
-                  //
+                  // javascript関係
                   { slug: 'tech/js/androidapp' },
                   { slug: 'tech/js/asyncawaiterror' },
                   { slug: 'tech/js/capacitor4' },
@@ -344,12 +334,7 @@ export default defineConfig({
                   { slug: 'tech/js/pwa' },
                   { slug: 'tech/js/scroll-modal' },
                   { slug: 'tech/js/vuefilter' },
-                ],
-              },
-              {
-                label: 'その他',
-                items: [
-                  //
+                  // その他
                   { slug: 'tech/other/mojibake' },
                   { slug: 'tech/other/hhkb' },
                   { slug: 'tech/other/m1macbook' },
