@@ -212,6 +212,7 @@ export default defineConfig({
                   { slug: 'nipoplus/system/credit' },
                 ],
               },
+              { slug: 'lp/checksheet' },
               { slug: 'inquery' },
             ],
           },
