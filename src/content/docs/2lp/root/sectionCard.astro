@@ -1,0 +1,74 @@
+
+<section class="not-prose relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen py-20 px-4 sm:px-6 lg:px-8 bg-slate-50 dark:bg-slate-900/50 my-12 border-y border-slate-100 dark:border-slate-800">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    
+    {/* メイン見出し */}
+    <div class="text-center mb-16">
+      <h2 class="text-3xl md:text-4xl font-black text-slate-900 dark:text-white mb-6 tracking-tight leading-tight">
+        なぜ、汎用の日報アプリでは<br /> <span class="text-blue-600 dark:text-blue-400">「続かない」</span>のか？
+      </h2>
+      <p class="text-lg md:text-xl text-slate-600 dark:text-slate-400 max-w-3xl mx-auto leading-relaxed">
+        多くの方が「日報アプリを導入したけれど、項目が固定されていて使いにくい」という壁にぶつかります。<br />
+        NipoPlusは、<span class="font-bold text-slate-800 dark:text-slate-200">「システムに業務を合わせる」のではなく「業務にシステムを合わせる」</span>ためのツールです。
+      </p>
+    </div>
+
+    {/* 3つの特徴カード：JSX内で改行による空白を作らないよう配置 */}
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
+      {/* 特徴1 */}
+      <div class="flex flex-col bg-white dark:bg-slate-800 p-8 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-700 hover:shadow-xl transition-shadow duration-300">
+        <div class="flex-grow">
+          <div class="w-12 h-12 bg-blue-100 dark:bg-blue-900/50 rounded-lg flex items-center justify-center mb-6 text-2xl">🎨</div>
+          <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-4 leading-snug">
+            1. 現場の「書きやすさ」を追求した自由なテンプレート
+          </h3>
+          <p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-6">
+            10種類以上の入力パーツ（選択肢、写真、GPS、バーコード等）をパズルのように組み合わせ可能。自社専用の報告フォームをノーコードで作成でき、現場の負担を最小限に抑えます。
+          </p>
+        </div>
+        <div class="pt-5 mt-auto border-t border-slate-100 dark:border-slate-700">
+          <a href="/nipoplus/editor/template/" class="text-blue-600 dark:text-blue-400 font-bold text-sm hover:underline inline-flex items-center group">
+            テンプレート作成の詳細 <span class="transform group-hover:translate-x-1 transition-transform">→</span>
+          </a>
+        </div>
+      </div>
+
+      {/* 特徴2 */}
+      <div class="flex flex-col bg-white dark:bg-slate-800 p-8 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-700 hover:shadow-xl transition-shadow duration-300">
+        <div class="flex-grow">
+          <div class="w-12 h-12 bg-green-100 dark:bg-green-900/50 rounded-lg flex items-center justify-center mb-6 text-2xl">📊</div>
+          <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-4 leading-snug">
+            2. 管理者の「集計・分析」をスマートに
+          </h3>
+          <p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-6">
+            提出と同時にリアルタイムで自動集計。Excelへの転記作業はもう不要です。CSV/PDF出力はもちろん、ダッシュボード機能で現場の推移を可視化。経営判断のスピードを上げます。
+          </p>
+        </div>
+        <div class="pt-5 mt-auto border-t border-slate-100 dark:border-slate-700">
+          <a href="/nipoplus/staff/charts/" class="text-green-600 dark:text-green-400 font-bold text-sm hover:underline inline-flex items-center group">
+            集計・可視化の詳細 <span class="transform group-hover:translate-x-1 transition-transform">→</span>
+          </a>
+        </div>
+      </div>
+
+      {/* 特徴3 */}
+      <div class="flex flex-col bg-white dark:bg-slate-800 p-8 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-700 hover:shadow-xl transition-shadow duration-300">
+        <div class="flex-grow">
+          <div class="w-12 h-12 bg-orange-100 dark:bg-orange-900/50 rounded-lg flex items-center justify-center mb-6 text-2xl">🚨</div>
+          <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-4 leading-snug">
+            3. 「誰が出していないか」が一目でわかる提出管理
+          </h3>
+          <p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-6">
+            カレンダー形式や提出状況表で、未提出者を早期発見。形骸化しがちな日報運用を確実に定着させます。「誰が出したっけ？」と探す時間はもう必要ありません。
+          </p>
+        </div>
+        <div class="pt-5 mt-auto border-t border-slate-100 dark:border-slate-700">
+          <a href="/nipoplus/gainen/reportStorage/#map" class="text-orange-600 dark:text-orange-400 font-bold text-sm hover:underline inline-flex items-center group">
+            提出管理の詳細 <span class="transform group-hover:translate-x-1 transition-transform">→</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>

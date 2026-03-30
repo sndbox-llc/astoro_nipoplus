@@ -1,0 +1,84 @@
+<section class="not-prose relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen py-24 px-4 bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    
+    {/* 見出し */}
+    <div class="text-center mb-16">
+      <h2 class="text-3xl md:text-5xl font-black text-slate-900 dark:text-white mb-6 tracking-tight">
+        リーズナブルな料金プラン
+      </h2>
+      <p class="text-lg text-slate-600 dark:text-slate-400 max-w-2xl mx-auto leading-relaxed text-center">
+        中小零細企業様でも無理なく継続できる低価格を実現。<br class="hidden md:inline" />
+        まずは無料プランから、NipoPlusの利便性を体感してください。
+      </p>
+    </div>
+
+    {/* 料金カードコンテナ */}
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
+
+      {/* 無料プラン */}
+      <div class="flex flex-col p-8 bg-slate-50 dark:bg-slate-800/50 rounded-3xl border border-slate-200 dark:border-slate-700 transition-transform hover:-translate-y-1">
+        <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-2">Free Plan</h3>
+        <p class="text-sm text-slate-500 dark:text-slate-400 mb-6 font-sans">まずは試してみたい方に</p>
+        <div class="mb-6 flex items-baseline gap-1">
+          <span class="text-4xl font-black text-slate-900 dark:text-white">¥0</span>
+          <span class="text-slate-500 text-sm font-sans">/ 月</span>
+        </div>
+        <ul class="space-y-4 mb-8 flex-grow text-sm text-slate-600 dark:text-slate-300 font-sans">
+          <li class="flex items-center gap-2 font-sans text-[12px] md:text-[14px]">✅ 基本的な日報作成・閲覧</li>
+          <li class="flex items-center gap-2 font-sans text-[12px] md:text-[14px]">✅ 一部機能の制限あり</li>
+          <li class="flex items-center gap-2 font-sans text-[12px] md:text-[14px]">✅ 期間制限なしで利用可能</li>
+        </ul>
+        <a href="/nipoplus/price/free/" class="block text-center py-3 px-6 rounded-xl border-2 border-slate-200 dark:border-slate-600 font-bold text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors">
+          無料で始める
+        </a>
+      </div>
+
+      {/* Goldプラン（サブスク） */}
+      <div class="relative flex flex-col p-8 bg-white dark:bg-slate-800 rounded-3xl border-2 border-blue-600 shadow-2xl shadow-blue-200 dark:shadow-none transition-transform hover:-translate-y-1 scale-105 z-10">
+        <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-blue-600 text-white text-xs font-bold py-1 px-4 rounded-full tracking-widest uppercase">Popular</div>
+        <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-2 font-sans">Gold Plan <span class="text-xs font-normal opacity-70">（サブスク）</span></h3>
+        <p class="text-sm text-blue-600 dark:text-blue-400 mb-6 font-bold font-sans">全ての機能を開放</p>
+        <div class="mb-6 flex items-baseline gap-1">
+          <span class="text-xs text-slate-500 font-sans">1名 </span>
+          <span class="text-4xl font-black text-slate-900 dark:text-white">¥200</span>
+          <span class="text-slate-500 text-sm font-sans">/ 月 (税込)</span>
+        </div>
+        <ul class="space-y-4 mb-8 flex-grow text-sm text-slate-600 dark:text-slate-300 font-sans">
+          <li class="flex items-center gap-2 font-sans text-[12px] md:text-[14px]">✅ 全てのテンプレート機能</li>
+          <li class="flex items-center gap-2 font-sans text-[12px] md:text-[14px]">✅ 高度な集計・グラフ作成</li>
+          <li class="flex items-center gap-2 font-sans text-[12px] md:text-[14px]">✅ 自動更新で手間いらず</li>
+        </ul>
+        <a href="/nipoplus/price/subscription/" class="block text-center py-4 px-6 rounded-xl bg-blue-600 text-white font-black hover:bg-blue-700 transition-all shadow-lg shadow-blue-200 dark:shadow-none">
+          Goldプランに申し込む
+        </a>
+      </div>
+
+      {/* Goldプラン（請求書払い） */}
+      <div class="flex flex-col p-8 bg-slate-50 dark:bg-slate-800/50 rounded-3xl border border-slate-200 dark:border-slate-700 transition-transform hover:-translate-y-1 font-sans">
+        <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-2">Gold Plan <span class="text-xs font-normal opacity-70">（単発）</span></h3>
+        <p class="text-sm text-slate-500 dark:text-slate-400 mb-6 font-sans">法人様・公的機関様に人気</p>
+        <div class="mb-6 flex items-baseline gap-1">
+          <span class="text-xs text-slate-500 font-sans">1名 </span>
+          <span class="text-4xl font-black text-slate-900 dark:text-white">¥200</span>
+          <span class="text-slate-500 text-sm font-sans">/ 月 (税込)</span>
+        </div>
+        <ul class="space-y-4 mb-8 flex-grow text-sm text-slate-600 dark:text-slate-300 font-sans">
+          <li class="flex items-center gap-2 font-sans text-[12px] md:text-[14px]">✅ 銀行振込・請求書発行対応</li>
+          <li class="flex items-center gap-2 font-sans text-[12px] md:text-[14px]">✅ 必要な期間分だけ事前払い</li>
+          <li class="flex items-center gap-2 font-sans text-[12px] md:text-[14px]">✅ 勝手な更新がない安心感</li>
+        </ul>
+        <a href="/nipoplus/price/invoice/" class="block text-center py-3 px-6 rounded-xl border-2 border-slate-900 dark:border-slate-400 font-bold text-slate-900 dark:text-white hover:bg-slate-900 hover:text-white dark:hover:bg-slate-400 dark:hover:text-slate-900 transition-all">
+          請求書払いの詳細
+        </a>
+      </div>
+
+    </div>
+
+    {/* 補足事項 */}
+    <div class="mt-16 p-8 bg-blue-50 dark:bg-blue-900/20 rounded-2xl text-sm text-slate-600 dark:text-slate-400 leading-relaxed font-sans">
+      <p class="mb-4 font-sans text-[12px] md:text-[14px]">※ GOLDPLANを解約したり、試用期間がすぎると自動的に無料プランへ切り替わります。データが勝手に削除されることはありませんのでご安心ください。</p>
+      <p class="font-sans text-[12px] md:text-[14px]">※ 必要な時期だけGOLDPLANにアップグレードするといった柔軟な使い方も可能です。短期プロジェクトでの利用にも最適です。</p>
+    </div>
+
+  </div>
+</section>

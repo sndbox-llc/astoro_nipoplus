@@ -1,0 +1,94 @@
+---
+import {  LinkCard } from '@astrojs/starlight/components'
+import { Image } from 'astro:assets'
+import ExcelTable from '@components/ExcelTable.astro'
+import IMG_Reportbox from './img/reportbox.png'
+import IMG_CSV from './img/make-charts_tablet.webp'
+---
+
+<section class="not-prose relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen py-24 px-4 bg-slate-100 dark:bg-slate-800/30">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* H2: 管理者の悩みセクション */}
+        <div class="text-center mb-20">
+        <h2 class="text-2xl md:text-4xl font-black text-slate-900 dark:text-white leading-tight mb-6">
+            日報をエクセルに転記する<br class="md:hidden" /><span class="text-blue-600 dark:text-blue-400">「二度手間」</span>や<span class="text-red-600 dark:text-red-400">「入力ミス」</span>に悩んでいませんか？
+        </h2>
+        <p class="text-lg text-slate-600 dark:text-slate-400 max-w-3xl mx-auto leading-relaxed">
+            現場から回ってくる紙やメールの日報を、毎日コツコツとエクセルに打ち直す……。<br />
+            そんな「書く側」も「まとめる側」も疲弊するアナログな運用は、NipoPlusが解決します。転記作業をなくし、データ活用のスピードを圧倒的に加速させます。
+        </p>
+        </div>
+
+    {/* アンサー1: デジタル化（画像左） */}
+    <div class="grid md:grid-cols-2 gap-16 items-center mb-28">
+      <div class="relative order-last md:order-first">
+        <div class="absolute -inset-4 bg-blue-500/10 rounded-full blur-3xl"></div>
+        <div class="relative bg-white dark:bg-slate-900 rounded-2xl overflow-hidden shadow-xl border border-slate-200 dark:border-slate-700">
+          <Image
+            src={IMG_Reportbox}
+            alt="日報受信BOXの一覧画面"
+            width={1000}
+            widths={[500, 1000]}
+            sizes="(max-width: 500px) 500px, 1000px"
+            class="w-full h-auto"
+          />
+        </div>
+      </div>
+      <div>
+        <div class="text-blue-600 dark:text-blue-400 font-black text-5xl mb-4 opacity-20 italic font-serif">03</div>
+        <h3 class="text-xl md:text-2xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
+          <span class="p-2 bg-blue-100 dark:bg-blue-900/50 rounded-lg text-2xl text-blue-600 dark:text-blue-300">📊</span>
+          提出と同時にデジタル化。<br />転記作業と入力ミスを「ゼロ」に
+        </h3>
+        <p class="text-slate-600 dark:text-slate-400 leading-relaxed mb-8 text-base">
+          現場がスマホで送信した瞬間、そのデータはすでにシステム内で集計可能な状態になっています。
+          紙を読み取ってエクセルに打ち直す時間はもう1秒も必要ありません。二度手間がなくなるだけでなく、書き間違いや読み間違いといった「転記ミス」も物理的に排除。正確なデータがリアルタイムに手に入ります。
+        </p>
+        <div class="flex flex-wrap gap-4">
+          <LinkCard title="日報の受信・管理方法" href="/nipoplus/gainen/reportStorage/" description="受信BOXの仕組みを詳しく" />
+        </div>
+      </div>
+    </div>
+
+    {/* アンサー2: グラフ・CSV（画像右） */}
+    <div class="grid md:grid-cols-2 gap-16 items-center">
+      <div>
+        <div class="text-blue-600 dark:text-blue-400 font-black text-5xl mb-4 opacity-20 italic font-serif">04</div>
+        <h3 class="text-xl md:text-2xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
+          <span class="p-2 bg-green-100 dark:bg-green-900/50 rounded-lg text-2xl text-green-600 dark:text-green-300">📈</span>
+          溜まったデータは自動集計。<br />グラフやPDF出力もワンクリック
+        </h3>
+        <p class="text-slate-600 dark:text-slate-400 leading-relaxed mb-6">
+          日報を「読むだけ」で終わらせていませんか？
+          NipoPlusなら、蓄積された数値を元に円グラフや棒グラフを自動生成。現場の推移を瞬時に可視化できます。
+        </p>
+        <p class="text-slate-600 dark:text-slate-400 leading-relaxed mb-8">
+          もちろん、使い慣れたエクセルでの詳細分析も可能です。CSV出力を使えば、転記なしでそのまま分析を開始。取引先への提出も、スマホ1台で綺麗なPDFを作成して送信するだけで完了します。
+        </p>
+        <div class="flex flex-wrap gap-4">
+          <a href="/nipoplus/reference/chart/" class="px-5 py-2 bg-slate-900 dark:bg-white text-white dark:text-slate-900 rounded-lg font-bold text-sm hover:opacity-80 transition-opacity">
+            グラフ作成機能を見る
+          </a>
+        </div>
+      </div>
+      <div class="space-y-6">
+        <div class="bg-white dark:bg-slate-900 rounded-xl overflow-hidden shadow-lg border border-slate-200 dark:border-slate-700">
+          <Image
+            src={IMG_CSV}
+            alt="自動生成されたグラフ画面"
+            width={1000}
+            class="w-full h-auto"
+          />
+        </div>
+        {/* ここに ExcelTable コンポーネントを配置 */}
+        <div class="bg-slate-50 dark:bg-slate-950 p-4 rounded-xl border border-slate-200 dark:border-slate-800 overflow-x-auto text-[10px]">
+          <ExcelTable>
+            提出日, 項目A, 項目B, 合否
+            2024/05/14, 10, 20, ⭕
+            2024/05/15, 12, 18, ⭕
+          </ExcelTable>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

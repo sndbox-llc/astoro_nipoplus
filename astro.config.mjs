@@ -8,18 +8,23 @@ import remarkHeadingId from 'remark-heading-id'
 import starlightSidebarTopics from 'starlight-sidebar-topics'
 import starlightLinksValidator from 'starlight-links-validator'
 
+import tailwindcss from '@tailwindcss/vite'
+
 const isProd = process.env.NODE_ENV === 'production'
 
 export default defineConfig({
   site: 'https://nipo-plus-doc.sndbox.jp',
+
   // プリフェッチ設定を有効化
   prefetch: {
     prefetchAll: true,
     defaultStrategy: 'viewport', // 画面内に入ったら読み込み開始
   },
+
   image: {
     breakpoints: [500, 1000, 2000],
   },
+
   integrations: [
     starlight({
       title: 'NipoPlus',
@@ -45,6 +50,7 @@ export default defineConfig({
       },
       customCss: [
         './src/styles/main.scss', // ここにSCSSファイルを指定
+        './src/styles/global.css',
       ],
       plugins: [
         starlightLinksValidator(),
@@ -357,9 +363,14 @@ export default defineConfig({
     }),
     sitemap(),
   ],
+
   markdown: {
     // ここに remarkPlugins を追加
     remarkPlugins: [remarkHeadingId],
     rehypePlugins: [[rehypeFigure, { className: 'custom-figure' }]],
+  },
+
+  vite: {
+    plugins: [tailwindcss()],
   },
 })
