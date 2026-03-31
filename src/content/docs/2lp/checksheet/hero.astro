@@ -1,0 +1,68 @@
+---
+import { Card, CardGrid, Steps, LinkCard, Icon } from '@astrojs/starlight/components'
+import { Image } from 'astro:assets'
+import ExcelTable from '@components/ExcelTable.astro'
+
+import dxImg from './img/checksheet_tablet.webp'
+import supportFunctionImg from './img/uservility_tablet.webp'
+import chartImg from './img/chart_tablet.webp'
+import multiDeviceImg from './img/factory-usage.webp'
+import improveImg from './img/seihin_tablet.webp'
+import costImg from './img/lawprice.webp'
+---
+
+<section class="not-prose relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen overflow-hidden bg-slate-900 py-20 lg:py-32">
+  {/* 背景の装飾（うっすらとしたグラデーション） */}
+  <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] from-blue-900/20 via-slate-900 to-slate-900"></div>
+
+  <div class="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
+    {/* 左側：テキストコンテンツ */}
+    <div>
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-sm font-bold mb-6">
+        <span class="relative flex h-2 w-2">
+          <span class="animate-ping absolute inline-flex h-full w-2 rounded-full bg-blue-400 opacity-75"></span>
+          <span class="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
+        </span>
+        製造業・保守点検のDX化を月額200円で
+      </div>
+
+      <h1 class="text-4xl md:text-6xl font-black text-white mb-6 leading-[1.1] tracking-tight">
+        設備点検・巡回点検の<span class="text-blue-500">「紙」</span>をゼロにする。
+      </h1>
+
+      <p class="text-lg md:text-xl text-slate-400 mb-10 leading-relaxed max-w-xl">
+        10年分の点検記録、保管場所に困っていませんか？<br class="hidden md:inline" />
+        NipoPlusは、年配の方でも迷わず使えるシンプルさと、現場に合わせた自由なカスタマイズを両立した、業界最安値の点検表アプリです。
+      </p>
+
+      <div class="flex flex-col sm:flex-row gap-4">
+        <a href="https://nipoplus.sndbox.jp/" class="flex items-center justify-center px-8 py-4 bg-blue-600 text-white rounded-xl font-bold text-lg hover:bg-blue-700 transition-all shadow-xl shadow-blue-900/40"> 今すぐ無料で試してみる </a>
+        <a href="/nipoplus/admin/quickstart/" class="flex items-center justify-center px-8 py-4 bg-slate-800 text-slate-300 rounded-xl font-bold text-lg border border-slate-700 hover:bg-slate-700 transition-all"> 操作ガイドを見る </a>
+      </div>
+
+      <p class="mt-6 text-sm text-slate-500 flex items-center gap-2">
+        <span>✅ 初期費用0円</span>
+        <span>✅ 14日間無料トライアル</span>
+        <span>✅ 解約縛りなし</span>
+      </p>
+    </div>
+
+    {/* 右側：ビジュアル */}
+    <div class="relative lg:mt-0 mt-12">
+      <div class="absolute -inset-4 bg-blue-500/20 rounded-full blur-3xl opacity-30"></div>
+      <div class="relative rounded-2xl border border-slate-700 bg-slate-800/50 p-2 shadow-2xl overflow-hidden group">
+        {/* ここにタブレットでの点検画面などの画像を配置 */}
+        <Image src={multiDeviceImg} alt="タブレットでの設備点検入力画面" class="rounded-xl w-full h-auto transform group-hover:scale-[1.02] transition-transform duration-500" />
+      </div>
+    </div>
+
+    <div class="mt-12 pt-8 border-t border-slate-800">
+      <p class="text-xs font-bold text-slate-500 uppercase tracking-widest mb-4 font-sans">対応している入力形式</p>
+      <div class="flex flex-wrap gap-6 opacity-50">
+        <span class="text-slate-300 text-sm flex items-center gap-2 font-sans">📸 写真撮影</span>
+        <span class="text-slate-300 text-sm flex items-center gap-2 font-sans">✍️ 手書きサイン</span>
+        <span class="text-slate-300 text-sm flex items-center gap-2 font-sans">🔢 数値入力</span>
+      </div>
+    </div>
+  </div>
+</section>
