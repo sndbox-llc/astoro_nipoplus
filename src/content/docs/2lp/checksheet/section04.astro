@@ -6,21 +6,18 @@ import IMG_RealtimeChart from './img/chart_tablet.webp' // 既存のグラフ画
 
 <section class="not-prose relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen py-24 bg-white dark:bg-slate-900 border-b border-slate-100 dark:border-slate-800">
   <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-600 dark:text-orange-400 text-sm font-bold mb-6 font-sans">📈 記録を「点」から「線」へ</div>
+
+    <h2 class="text-3xl md:text-4xl font-black text-slate-900 dark:text-white mb-8 leading-tight tracking-tight">数値の「わずかな異変」を、 グラフが教えてくれる。</h2>
+
+    <p class="text-lg text-slate-600 dark:text-slate-400 mb-8 leading-relaxed font-sans">
+      点検データは、ただ記録するだけでは不十分です。真の価値は「過去との比較」にあります。<br />
+      NipoPlusなら、現場でデータが送信された瞬間にグラフが自動更新。Excelへの転記や集計作業を待つことなく、異常の予兆をリアルタイムに察知できます。
+    </p>
+
     <div class="grid lg:grid-cols-2 gap-16 items-center">
       {/* 左側：テキスト（分析・予防保全の価値） */}
       <div>
-        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-600 dark:text-orange-400 text-sm font-bold mb-6 font-sans">📈 記録を「点」から「線」へ</div>
-
-        <h2 class="text-3xl md:text-4xl font-black text-slate-900 dark:text-white mb-8 leading-tight tracking-tight">
-          数値の「わずかな異変」を、<br class="hidden md:inline" />
-          グラフが教えてくれる。
-        </h2>
-
-        <p class="text-lg text-slate-600 dark:text-slate-400 mb-8 leading-relaxed font-sans">
-          点検データは、ただ記録するだけでは不十分です。真の価値は「過去との比較」にあります。<br />
-          NipoPlusなら、現場でデータが送信された瞬間にグラフが自動更新。Excelへの転記や集計作業を待つことなく、異常の予兆をリアルタイムに察知できます。
-        </p>
-
         <div class="grid gap-6">
           {/* メリット1: リアルタイム */}
           <div class="flex gap-4">

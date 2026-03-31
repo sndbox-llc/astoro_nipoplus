@@ -1,26 +1,11 @@
 ---
 slug: /
-title: 自社専用の日報をノーコードで。集計まで自動化する日報管理システム NipoPlus
+title: クラウド日報 NipoPlus
 description: Excelや紙の日報を卒業し、スマホで報告・PCで自動集計。現場に合わせてテンプレートを自由カスタマイズできるクラウド日報アプリです。1名月額200円の圧倒的低コスト。
 template: splash
 head:
   - tag: title
     content: クラウド日報 NipoPlus
-hero:
-  tagline: 「うちの業務に合うアプリがない」と諦めていませんか？ NipoPlusは、現場のフォーマットをそのままデジタル化できるクラウド日報システムです。1名月額200円の低コストで、集計・グラフ化まで自動化。10年探し続けた理想のツールが、ここにあります。
-  image:
-    file: '@assets/favicon.svg'
-    attrs:
-      fetchpriority: high
-      loading: eager
-  actions:
-    - text: 操作ガイド
-      link: /nipoplus/admin/quickstart/
-      icon: right-arrow
-    - text: アプリ起動
-      link: https://nipoplus.sndbox.jp/
-      icon: external
-      variant: minimal
 ---
 
 import { Tabs, TabItem } from '@astrojs/starlight/components'
@@ -55,6 +40,7 @@ import IMG_Check from './img/checkSheet.webp'
 import IMG_Pen2 from './img/pen2.webp'
 import IMG_yojitu from './img/yojitu.png'
 
+import Hero from './hero.astro'
 import PricingSection from './price.astro'
 import SectionCard from './sectionCard.astro'
 import Section01 from './section01.astro'
@@ -62,6 +48,7 @@ import Section02 from './section02.astro'
 import Section03 from './section03.astro'
 import Section04 from './section04.astro'
 
+<Hero />
 <Section01 />
 <Section02 />
 <Section03 />

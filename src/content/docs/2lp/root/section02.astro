@@ -59,18 +59,6 @@ import IMG_CSV from './img/make-charts_tablet.webp'
           <Image src={IMG_CSV} alt="自動生成されたグラフ画面" width={1000} class="w-full h-auto" />
         </div>
         {/* ここに ExcelTable コンポーネントを配置 */}
-        <div class="bg-slate-50 dark:bg-slate-950 p-4 rounded-xl border border-slate-200 dark:border-slate-800 overflow-x-auto text-[10px]">
-          <ExcelTable>
-            {
-              `
-
-            提出日, 項目A, 項目B, 合否
-            2024/05/14, 10, 20, ⭕
-            2024/05/15, 12, 18, ⭕
-            `
-            }
-          </ExcelTable>
-        </div>
       </div>
     </div>
   </div>
