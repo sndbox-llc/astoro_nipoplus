@@ -235,7 +235,6 @@ export default defineConfig({
                 items: [
                   //
                   { slug: 'legacy/about/diff' },
-                  { slug: 'legacy/about/warning' },
                   { slug: 'legacy/about/quick' },
                 ],
               },
@@ -278,6 +277,8 @@ export default defineConfig({
                   { slug: 'legacy/system/price' },
                   { slug: 'legacy/system/mobile-install' },
                   { slug: 'legacy/system/agree' },
+                  { slug: 'legacy/system/warning' },
+
                   { slug: 'legacy/system/privacypolicy' },
                 ],
               },

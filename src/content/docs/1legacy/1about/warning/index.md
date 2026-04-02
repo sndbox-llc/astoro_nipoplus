@@ -1,5 +1,5 @@
 ---
-slug: legacy/about/warning
+slug: legacy/system/warning
 title: Nipo【旧版】無料PLAN廃止のおしらせ
 description: Nipo【旧版】の無料PLANが2024年12月31日をもって廃止されます。引き続きNipoPlusでは無料PLANが利用可能です。サーバコスト増加などを背景に、Nipo【旧版】はGOLDPLAN専用のサービスとなります。
 sidebar:

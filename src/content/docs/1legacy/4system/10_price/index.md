@@ -19,8 +19,6 @@ sidebar:
 重要なお知らせです。Nipo【旧版】の無料PLANは2024年12月末をもって廃止となります。
 この日付以降、Nipo【旧版】は無料で利用することはできません。(旧バージョンのみ廃止！[NipoPlusの無料PLANは継続](/nipoplus/price/free)します)
 
-詳しくは[無料PLAN廃止](/legacy/about/warning)を御覧ください
-
 ## 請求書払い {#newInvoice}
 
 請求書払いは大きく仕様が変わりました。ご注意ください。
