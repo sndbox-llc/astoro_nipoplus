@@ -85,7 +85,7 @@ NipoPlusのWeb版で、左メニュー[組織設定](/nipoplus/reference/userRan
 
 ## GOLDPLAN終了後の自動降格とデータについて {#downgrade_and_data}
 
-契約満期日が15日以下になると画面上に警告が表示されます。
+契約満期日が10日未満になると画面上に警告が表示されます。
 
 ![契約満了が近づくと画面に警告が表示](./img/remaining_tablet.png)
 
