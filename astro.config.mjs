@@ -171,6 +171,7 @@ export default defineConfig({
                   { slug: 'nipoplus/reference/timecard' },
                   { slug: 'nipoplus/reference/shift' },
                   { slug: 'nipoplus/reference/log' },
+                  { slug: 'nipoplus/reference/qrtemplate' },
                   { slug: 'nipoplus/reference/staffshare' },
                   { slug: 'nipoplus/reference/api' },
                   { slug: 'nipoplus/reference/withdrawal' },
