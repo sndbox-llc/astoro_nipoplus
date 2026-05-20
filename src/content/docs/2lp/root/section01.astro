@@ -2,6 +2,7 @@
 import { Image } from 'astro:assets'
 import IMG_Touch from './img/touch.png'
 import IMG_Pen2 from './img/pen2.webp'
+import { Zoom } from 'starlight-image-zoom/components'
 ---
 
 {/* 全幅背景ハックを適用し、bg-slate-50で薄いグレーのエリアにします */}
@@ -28,7 +29,9 @@ import IMG_Pen2 from './img/pen2.webp'
       <div class="relative group">
         <div class="absolute -inset-1 bg-gradient-to-r from-blue-600 to-cyan-500 rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
         <div class="relative bg-white dark:bg-slate-900 rounded-2xl overflow-hidden shadow-2xl border border-slate-200 dark:border-slate-700">
-          <Image src={IMG_Touch} alt="様々な補助機能を組み込んだ日報作成画面" width={1000} widths={[500, 1000]} sizes="(max-width: 500px) 500px, 1000px" class="w-full h-auto" />
+          <Zoom label="様々な補助機能を組み込んだ日報作成画面">
+            <Image src={IMG_Touch} alt="様々な補助機能を組み込んだ日報作成画面" width={1000} widths={[500, 1000]} sizes="(max-width: 500px) 500px, 1000px" class="w-full h-auto" />
+          </Zoom>
         </div>
       </div>
     </div>
@@ -47,7 +50,9 @@ import IMG_Pen2 from './img/pen2.webp'
       <div class="relative group">
         <div class="absolute -inset-1 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
         <div class="relative bg-white dark:bg-slate-900 rounded-2xl overflow-hidden shadow-2xl border border-slate-200 dark:border-slate-700">
-          <Image src={IMG_Pen2} alt="タッチパネルによる写真添付やサイン操作" width={1000} widths={[500, 1000]} sizes="(max-width: 500px) 500px, 1000px" class="w-full h-auto" />
+          <Zoom label="タッチパネルによる写真添付やサイン操作">
+            <Image src={IMG_Pen2} alt="タッチパネルによる写真添付やサイン操作" width={1000} widths={[500, 1000]} sizes="(max-width: 500px) 500px, 1000px" class="w-full h-auto" />
+          </Zoom>
         </div>
       </div>
     </div>

@@ -3,6 +3,7 @@ import { LinkCard } from '@astrojs/starlight/components'
 import { Image } from 'astro:assets'
 import IMG_Reportbox from './img/reportbox.png'
 import IMG_CSV from './img/make-charts_tablet.webp'
+import { Zoom } from 'starlight-image-zoom/components'
 ---
 
 <section class="not-prose relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen py-24 px-4 bg-slate-100 dark:bg-slate-800/30">
@@ -23,7 +24,9 @@ import IMG_CSV from './img/make-charts_tablet.webp'
       <div class="relative order-last md:order-first">
         <div class="absolute -inset-4 bg-blue-500/10 rounded-full blur-3xl"></div>
         <div class="relative bg-white dark:bg-slate-900 rounded-2xl overflow-hidden shadow-xl border border-slate-200 dark:border-slate-700">
-          <Image src={IMG_Reportbox} alt="日報受信BOXの一覧画面" width={1000} widths={[500, 1000]} sizes="(max-width: 500px) 500px, 1000px" class="w-full h-auto" />
+          <Zoom label="日報受信BOXの一覧画面">
+            <Image src={IMG_Reportbox} alt="日報受信BOXの一覧画面" width={1000} widths={[500, 1000]} sizes="(max-width: 500px) 500px, 1000px" class="w-full h-auto" />
+          </Zoom>
         </div>
       </div>
       <div>
@@ -55,7 +58,9 @@ import IMG_CSV from './img/make-charts_tablet.webp'
       </div>
       <div class="space-y-6">
         <div class="bg-white dark:bg-slate-900 rounded-xl overflow-hidden shadow-lg border border-slate-200 dark:border-slate-700">
-          <Image src={IMG_CSV} alt="自動生成されたグラフ画面" width={1000} class="w-full h-auto" />
+          <Zoom label="自動生成されたグラフ画面">
+            <Image src={IMG_CSV} alt="自動生成されたグラフ画面" width={1000} class="w-full h-auto" />
+          </Zoom>
         </div>
         {/* ここに ExcelTable コンポーネントを配置 */}
       </div>

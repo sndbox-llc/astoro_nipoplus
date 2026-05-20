@@ -2,6 +2,7 @@
 import { Image } from 'astro:assets'
 import IMG_Board from './img/reportBoard.webp'
 import IMG_Calendar from './img/calendar.webp'
+import { Zoom } from 'starlight-image-zoom/components'
 ---
 
 <section class="not-prose relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen py-24 px-4 bg-slate-100 dark:bg-slate-800/40 border-t border-slate-200 dark:border-slate-800">
@@ -19,7 +20,9 @@ import IMG_Calendar from './img/calendar.webp'
     <div class="grid md:grid-cols-2 gap-16 items-center mb-28">
       <div class="relative order-last md:order-first">
         <div class="relative bg-white dark:bg-slate-900 rounded-2xl overflow-hidden shadow-2xl border border-slate-200 dark:border-slate-700">
-          <Image src={IMG_Board} alt="提出状況を一元管理するボード画面" width={1000} class="w-full h-auto" />
+          <Zoom label="提出状況を一元管理するボード画面">
+            <Image src={IMG_Board} alt="提出状況を一元管理するボード画面" width={1000} class="w-full h-auto" />
+          </Zoom>
         </div>
       </div>
       <div>
@@ -55,7 +58,9 @@ import IMG_Calendar from './img/calendar.webp'
       <div class="relative group">
         <div class="absolute -inset-1 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-2xl blur opacity-20 group-hover:opacity-40 transition duration-1000"></div>
         <div class="relative bg-white dark:bg-slate-900 rounded-2xl overflow-hidden shadow-2xl border border-slate-200 dark:border-slate-700">
-          <Image src={IMG_Calendar} alt="カレンダー表示画面" width={1000} class="w-full h-auto" />
+          <Zoom label="カレンダー表示画面">
+            <Image src={IMG_Calendar} alt="カレンダー表示画面" width={1000} class="w-full h-auto" />
+          </Zoom>
         </div>
       </div>
     </div>

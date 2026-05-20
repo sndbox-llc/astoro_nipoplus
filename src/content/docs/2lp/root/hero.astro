@@ -2,6 +2,7 @@
 import { Image } from 'astro:assets'
 import mainVisualBk from './img/nipoplus.png'
 import mainVisual from './img/pen2.webp'
+import { Zoom } from 'starlight-image-zoom/components'
 ---
 
 <section class="not-prose relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen overflow-hidden bg-slate-900 py-20 lg:py-32">
@@ -53,7 +54,9 @@ import mainVisual from './img/pen2.webp'
     <div class="relative lg:mt-0 mt-12">
       <div class="absolute -inset-4 bg-indigo-500/20 rounded-full blur-3xl opacity-30"></div>
       <div class="relative rounded-2xl border border-slate-700 bg-slate-800/50 p-2 shadow-2xl overflow-hidden group">
-        <Image src={mainVisual} alt="NipoPlusの日報・集計画面イメージ" class="rounded-xl w-full h-auto transform group-hover:scale-[1.02] transition-transform duration-500" />
+        <Zoom label="NipoPlusをタブレットから操作している画面イメージ">
+          <Image src={mainVisual} alt="NipoPlusの日報・集計画面イメージ" class="rounded-xl w-full h-auto transform group-hover:scale-[1.02] transition-transform duration-500" />
+        </Zoom>
       </div>
     </div>
   </div>
