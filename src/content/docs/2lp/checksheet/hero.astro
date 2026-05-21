@@ -5,24 +5,25 @@ import { LinkButton } from '@astrojs/starlight/components'
 import { Zoom } from 'starlight-image-zoom/components'
 ---
 
-<section class="not-prose relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen overflow-hidden py-20 lg:py-28">
+<section class="not-prose relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen overflow-hidden bg-slate-900 py-20 lg:py-32">
   <!-- max-w-5xl に絞ることで、中央寄せのテキストが横に広がりすぎず読みやすくなります -->
   <div class="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center">
     {/* 1. メインキャッチコピー */}
-    <h2 class="text-4xl md:text-6xl font-black text-slate-900 dark:text-white mb-6 leading-[1.2] tracking-tight">
+    <h2 class="text-4xl md:text-6xl font-black text-white mb-6 leading-[1.1] tracking-tight">
       今のエクセル点検表を、<br />そのままスマホ・タブレットへ。
     </h2>
 
     {/* 2. サブリード文 */}
-    <p class="text-lg md:text-xl text-slate-600 dark:text-slate-400 mb-10 leading-relaxed max-w-2xl">
+
+    <p class="text-lg md:text-xl text-slate-400 mb-10 leading-relaxed max-w-xl font-sans">
       点検シートを選んだら、フォーマットに沿ってタップするだけの簡単入力。写真添付や手書きサインにも対応し、送信されたデータは自動で集計・PDF出力も簡単です<br />
       NipoPlusは、年配の方でも迷わず使えるシンプルさと、現場に合わせた自由なカスタマイズを両立した、業界最安値クラスの点検表アプリです。
     </p>
 
     {/* 3. アクションボタン（CTA） */}
     <div class="flex flex-col sm:flex-row gap-4 mb-16 w-full sm:w-auto justify-center">
-      <LinkButton href="https://nipoplus.sndbox.jp/" target="_blank">今すぐ無料で体験する</LinkButton>
-      <LinkButton href="/nipoplus/admin/quickstart/" variant="secondary" icon="external" iconPlacement="start"> 操作ガイドを見る </LinkButton>
+      <a href="https://nipoplus.sndbox.jp/" class="flex items-center justify-center px-8 py-4 bg-indigo-600 text-white rounded-xl font-bold text-lg hover:bg-indigo-700 transition-all shadow-xl shadow-indigo-900/40"> 今すぐ無料で試してみる </a>
+      <a href="/nipoplus/admin/quickstart/" class="flex items-center justify-center px-8 py-4 bg-slate-800 text-slate-300 rounded-xl font-bold text-lg border border-slate-700 hover:bg-slate-700 transition-all"> 操作ガイド </a>
     </div>
 
     {/* 4. ビジュアル（特大サイズのタブレット画面） */}
