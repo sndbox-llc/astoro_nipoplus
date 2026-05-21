@@ -1,22 +1,13 @@
 ---
-import { Card, CardGrid, Steps, LinkCard, Icon } from '@astrojs/starlight/components'
 import { Image } from 'astro:assets'
-import ExcelTable from '@components/ExcelTable.astro'
-
-import dxImg from './img/checksheet_tablet.webp'
 import supportFunctionImg from './img/uservility_tablet.webp'
 import { Zoom } from 'starlight-image-zoom/components'
-
-import chartImg from './img/chart_tablet.webp'
-import multiDeviceImg from './img/factory-usage.webp'
-import improveImg from './img/seihin_tablet.webp'
-import costImg from './img/lawprice.webp'
 ---
 
 <section class="not-prose relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen py-24 bg-white dark:bg-slate-900 border-b border-slate-100 dark:border-slate-800">
   <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
     <h2 class="text-3xl md:text-4xl font-black text-slate-900 dark:text-white mb-8 leading-tight tracking-tight">「現場が迷わない」ことが、 最強のミス防止策になる。</h2>
-    <p class="text-lg text-slate-600 dark:text-slate-400 mb-10 leading-relaxed font-sans">「うっかり記入漏れ」や「手順飛ばし」は、個人の意識の問題ではなく、システムの設計で解決すべき課題です。NipoPlusは、現場のストレスをなくし、同時に報告の精度を底上げします。</p>
+    <p class="text-lg text-slate-600 dark:text-slate-400 mb-10 leading-relaxed font-sans">「うっかり記入漏れ」や「手順飛ばし」は、個人の意識の問題ではなく、システムの設計で解決すべき課題です。NipoPlusは、現場のストレスをなくし、同時に報告の精度を底上げします。重要な項目には色分けをすることで視認性も向上。カラフルなチェックシートは視覚的なストレスも軽減します。</p>
 
     <div class="grid lg:grid-cols-2 gap-16 items-center">
       {/* 左側：ビジュアル（スマホ・タブレットの操作感） */}
