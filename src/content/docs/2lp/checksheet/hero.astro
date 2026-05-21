@@ -9,6 +9,7 @@ import chartImg from './img/chart_tablet.webp'
 import multiDeviceImg from './img/factory-usage.webp'
 import improveImg from './img/seihin_tablet.webp'
 import costImg from './img/lawprice.webp'
+import { Zoom } from 'starlight-image-zoom/components'
 ---
 
 <section class="not-prose relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen overflow-hidden bg-slate-900 py-20 lg:py-32">
@@ -61,8 +62,9 @@ import costImg from './img/lawprice.webp'
     <div class="relative lg:mt-0 mt-12">
       <div class="absolute -inset-4 bg-blue-500/20 rounded-full blur-3xl opacity-30"></div>
       <div class="relative rounded-2xl border border-slate-700 bg-slate-800/50 p-2 shadow-2xl overflow-hidden group">
-        {/* ここにタブレットでの点検画面などの画像を配置 */}
-        <Image src={multiDeviceImg} alt="タブレットでの設備点検入力画面" class="rounded-xl w-full h-auto transform group-hover:scale-[1.02] transition-transform duration-500" />
+        <Zoom label="タブレットでの設備点検入力画面イメージ">
+          <Image src={multiDeviceImg} alt="タブレットでの設備点検入力画面" class="rounded-xl w-full h-auto transform group-hover:scale-[1.02] transition-transform duration-500" />
+        </Zoom>
       </div>
     </div>
 

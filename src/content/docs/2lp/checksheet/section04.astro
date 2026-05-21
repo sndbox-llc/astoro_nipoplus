@@ -2,6 +2,7 @@
 // src/components/lp/CheckAnalysis.astro
 import { Image } from 'astro:assets'
 import IMG_RealtimeChart from './img/chart_tablet.webp' // 既存のグラフ画像
+import { Zoom } from 'starlight-image-zoom/components'
 ---
 
 <section class="not-prose relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen py-24 bg-white dark:bg-slate-900 border-b border-slate-100 dark:border-slate-800">
@@ -47,7 +48,9 @@ import IMG_RealtimeChart from './img/chart_tablet.webp' // 既存のグラフ画
       <div class="relative group">
         <div class="absolute -inset-4 bg-orange-500/10 rounded-full blur-3xl opacity-50 group-hover:opacity-80 transition duration-700"></div>
         <div class="relative rounded-3xl border border-slate-200 dark:border-slate-700 shadow-2xl overflow-hidden bg-white dark:bg-slate-800">
-          <Image src={IMG_RealtimeChart} alt="設備点検の推移をリアルタイムでグラフ化する画面" class="w-full h-auto transition-transform duration-500 group-hover:scale-[1.01]" />
+          <Zoom label="設備点検の推移をリアルタイムでグラフ化する画面">
+            <Image src={IMG_RealtimeChart} alt="設備点検の推移をリアルタイムでグラフ化する画面" class="w-full h-auto transition-transform duration-500 group-hover:scale-[1.01]" />
+          </Zoom>
 
           {/* オーバーレイ：リアルタイム更新中の演出 */}
           <div class="absolute bottom-6 left-6 right-6 p-4 bg-slate-900/90 backdrop-blur rounded-2xl border border-white/10 shadow-2xl">

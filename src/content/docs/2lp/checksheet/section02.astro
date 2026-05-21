@@ -5,6 +5,8 @@ import ExcelTable from '@components/ExcelTable.astro'
 
 import dxImg from './img/checksheet_tablet.webp'
 import supportFunctionImg from './img/uservility_tablet.webp'
+import { Zoom } from 'starlight-image-zoom/components'
+
 import chartImg from './img/chart_tablet.webp'
 import multiDeviceImg from './img/factory-usage.webp'
 import improveImg from './img/seihin_tablet.webp'
@@ -21,7 +23,9 @@ import costImg from './img/lawprice.webp'
       <div class="relative order-last lg:order-first">
         <div class="absolute -inset-10 bg-blue-400/10 rounded-full blur-3xl opacity-50"></div>
         <div class="relative rounded-3xl border border-slate-200 dark:border-slate-700 shadow-2xl overflow-hidden bg-slate-50 dark:bg-slate-800 p-4">
-          <Image src={supportFunctionImg} alt="年配の方でも見やすい大きな文字の入力画面" class="rounded-xl w-full h-auto" />
+          <Zoom label="年配の方でも見やすい大きな文字の入力画面">
+            <Image src={supportFunctionImg} alt="年配の方でも見やすい大きな文字の入力画面" class="rounded-xl w-full h-auto" />
+          </Zoom>
           {/* 画像の上に「入力必須エラー」などのチップを合成して見せるとより伝わる */}
           <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-red-600 text-white px-4 py-2 rounded-lg font-bold shadow-xl animate-bounce">⚠️ 入力漏れがあります！</div>
         </div>
