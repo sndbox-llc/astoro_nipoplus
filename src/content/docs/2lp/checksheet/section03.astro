@@ -1,63 +1,89 @@
 ---
 import { Image } from 'astro:assets'
-import dxImg from './img/checksheet_tablet.webp'
+import { Badge } from '@astrojs/starlight/components'
 import { Zoom } from 'starlight-image-zoom/components'
+
+import dxImg from './img/checksheet_tablet.webp'
 ---
 
-<section class="not-prose relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen py-24 bg-slate-50 dark:bg-slate-900/40 border-y border-slate-200 dark:border-slate-800">
-  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="text-center mb-16">
-      <h2 class="text-3xl md:text-4xl font-black text-slate-900 dark:text-white mb-6 leading-tight tracking-tight">「うちの点検には合わない……」と デジタル化を諦めていませんか？</h2>
-      <p class="text-lg text-slate-600 dark:text-slate-400 max-w-3xl mx-auto leading-relaxed font-sans">機器ごとに点検項目が異なるのは当たり前。NipoPlusは、プログラミング不要の「ノーコード」設計。 現場監督がその場でマウス操作だけで、理想の点検シートを何種類でも作成できます。</p>
-    </div>
+{
+  /*
 
-    <div class="grid lg:grid-cols-2 gap-12 items-center">
-      {/* 左側：特徴のグリッド */}
-      <div class="grid sm:grid-cols-2 gap-6">
-        <div class="p-6 bg-white dark:bg-slate-800 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-700 font-sans">
-          <div class="text-2xl mb-3 font-sans">🧱</div>
-          <h3 class="font-bold text-slate-900 dark:text-white mb-2 font-sans text-sm">パズル感覚で項目配置</h3>
-          <p class="text-xs text-slate-600 dark:text-slate-400 leading-relaxed font-sans">数値入力、写真、チェックボックス、バーコード。必要なパーツを並べるだけで、独自の点検シートが完成。</p>
+このセクションコンポーネントをベースとして、コピーで使い回す
+
+▼背景が白のセクション
+<section class="not-prose relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen py-24 bg-white dark:bg-slate-900">
+
+
+▼背景がグレーのレクション
+<section class="not-prose relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen py-24 bg-slate-50 dark:bg-slate-950/40">
+
+*/
+}
+
+<section class="not-prose relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen py-24 bg-slate-50 dark:bg-slate-950/40">
+  <div class="max-w-7xl mx-auto px-5">
+    {/* バッジ */}
+    <Badge text="点検用テンプレートをセルフビルド" variant="tip" />
+
+    {/* 見出しとリード文 */}
+    <h2 class="text-4xl md:text-5xl font-black text-slate-900 dark:text-white mb-6 leading-tight tracking-tight">どんな点検機器のテンプレートも自分たちで自由に作成できます。</h2>
+    <p class="text-lg text-slate-600 dark:text-slate-400 mb-12 leading-relaxed">機器ごとに点検項目が異なるのは当たり前。NipoPlusは、プログラミング不要の「ノーコード」設計。 現場監督がその場でマウス操作だけで、理想の点検シートを何種類でも作成できます。</p>
+
+    {/* メインの2カラムエリア */}
+    <div class="grid lg:grid-cols-2 gap-5 items-center">
+      {/* テキスト */}
+      <div class="space-y-6 text-slate-600 dark:text-slate-400">
+        {/* メリット1 */}
+        <div class="flex gap-4">
+          <div class="w-10 h-10 bg-orange-100 dark:bg-orange-900/40 rounded-full flex items-center justify-center text-orange-600 dark:text-orange-300 font-black text-lg shrink-0">1</div>
+
+          <div>
+            <h3 class="font-bold text-slate-900 dark:text-white">パズル感覚で項目配置</h3>
+            <p>数値入力、写真、チェックボックス、バーコード。必要なパーツを並べるだけで、独自の点検シートが完成。</p>
+          </div>
         </div>
 
-        <div class="p-6 bg-white dark:bg-slate-800 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-700 font-sans">
-          <div class="text-2xl mb-3 font-sans">⚡</div>
-          <h3 class="font-bold text-slate-900 dark:text-white mb-2 font-sans text-sm">修正コストは「ゼロ」</h3>
-          <p class="text-xs text-slate-600 dark:text-slate-400 leading-relaxed font-sans">機材の更新や法改正による項目変更も、自分たちで即座に反映。業者への外注費も待ち時間も発生しません。</p>
+        {/* メリット2 */}
+        <div class="flex gap-4">
+          <div class="w-10 h-10 bg-red-100 dark:bg-red-900/40 rounded-full flex items-center justify-center text-red-600 dark:text-red-300 font-black text-lg shrink-0">2</div>
+
+          <div>
+            <h3 class="font-bold text-slate-900 dark:text-white">Excel資産を活かす</h3>
+            <p>今のExcel点検表の項目をそのまま移植。運用の流れを変えずに、入力手段だけをデジタル化できます。</p>
+          </div>
         </div>
 
-        <div class="p-6 bg-white dark:bg-slate-800 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-700 font-sans">
-          <div class="text-2xl mb-3 font-sans">📋</div>
-          <h3 class="font-bold text-slate-900 dark:text-white mb-2 font-sans text-sm">テンプレート無制限</h3>
-          <p class="text-xs text-slate-600 dark:text-slate-400 leading-relaxed font-sans">機材ごと、ラインごと、施設ごと。必要な数だけテンプレートを作成可能。点検員は選んで打つだけです。</p>
-        </div>
+        {/* メリット3 */}
+        <div class="flex gap-4">
+          <div class="w-10 h-10 bg-red-100 dark:bg-red-900/40 rounded-full flex items-center justify-center text-red-600 dark:text-red-300 font-black text-lg shrink-0">3</div>
 
-        <div class="p-6 bg-white dark:bg-slate-800 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-700 font-sans">
-          <div class="text-2xl mb-3 font-sans">🔄</div>
-          <h3 class="font-bold text-slate-900 dark:text-white mb-2 font-sans text-sm">Excel資産を活かす</h3>
-          <p class="text-xs text-slate-600 dark:text-slate-400 leading-relaxed font-sans">今のExcel点検表の項目をそのまま移植。運用の流れを変えずに、入力手段だけをデジタル化できます。</p>
+          <div>
+            <h3 class="font-bold text-slate-900 dark:text-white">テンプレートを複数種類作成可能</h3>
+            <p>機材ごと、ラインごと、施設ごと。必要な数だけテンプレートを作成可能。点検員は選んで打つだけです。QRコードを使えばテンプレートを探すのも一瞬です</p>
+          </div>
         </div>
       </div>
 
-      {/* 右側：ビジュアル */}
-      <div class="relative group">
-        <div class="absolute -inset-2 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-3xl blur opacity-20 group-hover:opacity-30 transition"></div>
-        <div class="relative rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-700 shadow-2xl">
-          <Zoom label="ノーコードでテンプレートを編集する画面">
-            <Image src={dxImg} alt="ノーコードでテンプレートを編集する画面" class="w-full h-auto" />
+      {/* ビジュアルセクション 画像とテキストを反転させるにはこのクラスを直下のDivに追加  lg:order-first  */}
+      <div class="lg:order-first">
+        <div class="relative rounded-2xl border border-slate-200 dark:border-slate-700 shadow-2xl overflow-hidden bg-white dark:bg-slate-800">
+          <Zoom label="設備点検の推移をリアルタイムでグラフ化する画面">
+            <Image src={dxImg} alt="設備点検の推移をリアルタイムでグラフ化する画面" />
           </Zoom>
-          <div class="absolute bottom-4 left-4 right-4 bg-slate-900/80 backdrop-blur text-white p-4 rounded-xl text-xs border border-white/10 font-sans">
-            <span class="text-blue-400 font-black">💡 POINT:</span> 専門知識は一切不要。マウス操作で誰でもシステム管理者になれます。
+
+          {/* オーバーレイ */}
+          <div class="absolute bottom-4 left-4 right-4 bg-slate-900/80 text-white p-4 rounded-xl text-xs">
+            <span>💡 専門知識は一切不要。マウス操作で誰でもシステム管理者になれます。 </span>
           </div>
         </div>
       </div>
     </div>
-
-    {/* 誘導リンク */}
-    <div class="mt-16 text-center">
-      <a href="/nipoplus/editor/template/" class="inline-flex items-center px-8 py-3 bg-slate-900 dark:bg-white text-white dark:text-slate-900 rounded-full font-bold hover:opacity-80 transition-opacity font-sans">
+    {/* リンク導線 */}
+    <div class="mt-16 flex justify-center lg:justify-end">
+      <a href="/nipoplus/editor/template/" class="group flex items-center gap-2 font-bold text-orange-600 dark:text-orange-400">
         テンプレートの作り方を見る
-        <svg class="w-4 h-4 ml-2" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"></path></svg>
+        <span class="transition-transform group-hover:translate-x-1">→</span>
       </a>
     </div>
   </div>

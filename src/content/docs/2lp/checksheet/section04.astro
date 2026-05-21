@@ -1,9 +1,9 @@
 ---
-// src/components/lp/CheckAnalysis.astro
 import { Image } from 'astro:assets'
-import IMG_RealtimeChart from './img/chart_tablet.webp'
 import { Badge } from '@astrojs/starlight/components'
 import { Zoom } from 'starlight-image-zoom/components'
+
+import IMG_RealtimeChart from './img/chart_tablet.webp'
 ---
 
 {
@@ -39,9 +39,7 @@ import { Zoom } from 'starlight-image-zoom/components'
       <div class="space-y-6 text-slate-600 dark:text-slate-400">
         {/* メリット1 */}
         <div class="flex gap-4">
-          <div class="w-10 h-10 bg-orange-100 dark:bg-orange-900/40 rounded-full flex items-center justify-center text-orange-600 dark:text-orange-300 shrink-0">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
-          </div>
+          <div class="w-10 h-10 bg-orange-100 dark:bg-orange-900/40 rounded-full flex items-center justify-center text-orange-600 dark:text-orange-300 font-black text-lg shrink-0">1</div>
           <div>
             <h3 class="font-bold text-slate-900 dark:text-white">集計・グラフ化は「自動」</h3>
             <p>点検員が報告を送信したその瞬間にグラフが反映。管理者がデータをまとめる時間は「ゼロ」になります。</p>
@@ -50,9 +48,7 @@ import { Zoom } from 'starlight-image-zoom/components'
 
         {/* メリット2 */}
         <div class="flex gap-4">
-          <div class="w-10 h-10 bg-red-100 dark:bg-red-900/40 rounded-full flex items-center justify-center text-red-600 dark:text-red-300 shrink-0">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
-          </div>
+          <div class="w-10 h-10 bg-red-100 dark:bg-red-900/40 rounded-full flex items-center justify-center text-red-600 dark:text-red-300 font-black text-lg shrink-0">2</div>
           <div>
             <h3 class="font-bold text-slate-900 dark:text-white">数値に埋もれる「乖離」を可視化</h3>
             <p>単発の数値では見落としがちな「徐々に上がっている値」や「突発的な乖離」も、折れ線グラフなら一目で把握。重大な故障を防ぐ「予防保全」を実現します。</p>

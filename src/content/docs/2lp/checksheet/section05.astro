@@ -1,9 +1,9 @@
 ---
 import { Image } from 'astro:assets'
-import supportFunctionImg from './img/uservility_tablet.webp'
-import { Zoom } from 'starlight-image-zoom/components'
-import qrImg from './img/qrcode.webp'
 import { Badge } from '@astrojs/starlight/components'
+import { Zoom } from 'starlight-image-zoom/components'
+
+import qrImg from './img/qrcode.webp'
 ---
 
 {
@@ -39,9 +39,8 @@ import { Badge } from '@astrojs/starlight/components'
       <div class="space-y-6 text-slate-600 dark:text-slate-400">
         {/* メリット1 */}
         <div class="flex gap-4">
-          <div class="w-10 h-10 bg-orange-100 dark:bg-orange-900/40 rounded-full flex items-center justify-center text-orange-600 dark:text-orange-300 shrink-0">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
-          </div>
+          <div class="w-10 h-10 bg-orange-100 dark:bg-orange-900/40 rounded-full flex items-center justify-center text-orange-600 dark:text-orange-300 font-black text-lg shrink-0">1</div>
+
           <div>
             <h3 class="font-bold text-slate-900 dark:text-white">印刷して機器に貼るだけ：</h3>
             <p>NipoPlusで発行した専用QRコードを印刷し、対象の設備や機器にペタッと貼り付けるだけ。事前の難しい設定は一切不要です。</p>
@@ -50,9 +49,8 @@ import { Badge } from '@astrojs/starlight/components'
 
         {/* メリット2 */}
         <div class="flex gap-4">
-          <div class="w-10 h-10 bg-red-100 dark:bg-red-900/40 rounded-full flex items-center justify-center text-red-600 dark:text-red-300 shrink-0">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
-          </div>
+          <div class="w-10 h-10 bg-red-100 dark:bg-red-900/40 rounded-full flex items-center justify-center text-red-600 dark:text-red-300 font-black text-lg shrink-0">2</div>
+
           <div>
             <h3 class="font-bold text-slate-900 dark:text-white">その場で点検が即スタート：</h3>
             <p>点検員がスマホやタブレットのカメラでスキャンすれば、その機器専用のチェックシートが1秒で起動。探す迷いや誤入力を物理的に防ぎます。</p>
