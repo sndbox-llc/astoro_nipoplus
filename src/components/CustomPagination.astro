@@ -1,7 +1,9 @@
 ---
-import type { Props } from '@astrojs/starlight/props';
-import Default from '@astrojs/starlight/components/Pagination.astro';
-import FooterCTA from './FooterCTA.astro';
+import type { ComponentProps } from 'astro/types'
+import Default from '@astrojs/starlight/components/Pagination.astro'
+import FooterCTA from './FooterCTA.astro'
+
+type Props = ComponentProps<typeof Default>
 ---
 
 <FooterCTA />

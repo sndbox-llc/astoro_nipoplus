@@ -1,24 +1,28 @@
 ---
-import type { Props } from '@astrojs/starlight/props';
-import Default from '@astrojs/starlight/components/SiteTitle.astro';
-const isLegacy = Astro.url.pathname.includes('/legacy/');
+import type { ComponentProps } from 'astro/types'
+import Default from '@astrojs/starlight/components/SiteTitle.astro'
+
+type Props = ComponentProps<typeof Default>
+
+const isLegacy = Astro.url.pathname.includes('/legacy/')
 ---
 
 <div class="site-title-wrapper">
   <Default {...Astro.props}><slot /></Default>
 
-
-  {isLegacy ? (
-    /* --- Legacy用のボタン --- */
-    <a href="https://nipoapp.sndbox.jp/" target="_blank" class="app-launch-button" style="background-color: green;">
-      旧版アプリ起動
-    </a>
-  ) : (
-    /* --- 通常版のボタン --- */
-    <a href="https://nipoplus.sndbox.jp/" target="_blank"  class="app-launch-button" style="background-color: skyblue;">
-      アプリ起動
-    </a>
-  )}
+  {
+    isLegacy ? (
+      /* --- Legacy用のボタン --- */
+      <a href="https://nipoapp.sndbox.jp/" target="_blank" class="app-launch-button" style="background-color: green;">
+        旧版アプリ起動
+      </a>
+    ) : (
+      /* --- 通常版のボタン --- */
+      <a href="https://nipoplus.sndbox.jp/" target="_blank" class="app-launch-button" style="background-color: skyblue;">
+        アプリ起動
+      </a>
+    )
+  }
 </div>
 
 <style>
@@ -42,5 +46,4 @@ const isLegacy = Astro.url.pathname.includes('/legacy/');
   .app-launch-button:hover {
     filter: brightness(1.1);
   }
-
 </style>

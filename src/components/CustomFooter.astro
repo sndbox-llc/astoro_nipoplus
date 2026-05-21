@@ -1,6 +1,9 @@
 ---
-import type { Props } from '@astrojs/starlight/props';
-import Default from '@astrojs/starlight/components/Footer.astro';
+import type { ComponentProps } from 'astro/types'
+import Default from '@astrojs/starlight/components/Footer.astro'
+
+// Defaultコンポーネントから直接型を抽出してPropsを定義する
+type Props = ComponentProps<typeof Default>
 ---
 
 <Default {...Astro.props}>
