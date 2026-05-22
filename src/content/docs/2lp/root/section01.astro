@@ -7,7 +7,20 @@ import IMG_Touch from './img/touch.png'
 import IMG_Pen2 from './img/pen2.webp'
 ---
 
-{/* 全幅背景ハックを適用し、bg-slate-50で薄いグレーのエリアにします */}
+{
+  /*
+
+このセクションコンポーネントをベースとして、コピーで使い回す
+
+▼背景が白のセクション
+<section class="not-prose relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen py-24 bg-white dark:bg-slate-900">
+
+
+▼背景がグレーのレクション
+<section class="not-prose relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen py-24 bg-slate-50 dark:bg-slate-950/40">
+
+*/
+}
 
 <section class="not-prose relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen py-24 bg-slate-50 dark:bg-slate-950/40">
   <div class="max-w-7xl mx-auto px-5">
@@ -26,7 +39,10 @@ import IMG_Pen2 from './img/pen2.webp'
       <div>
         <div class="text-blue-600 dark:text-blue-400 font-black text-5xl mb-4 opacity-20 italic font-serif">01</div>
         <h3 class="text-xl md:text-2xl font-bold text-slate-900 dark:text-white mb-6">📱 スマホ・タブレットで隙間時間に報告完了。現場から「直帰」を当たり前に。</h3>
-        <p class="text-slate-600 dark:text-slate-400 leading-relaxed mb-6">専用のアプリ（<a href="https://apps.apple.com/jp/app/%E6%97%A5%E5%A0%B1%E3%82%A2%E3%83%97%E3%83%AA-nipoplus/id1625797169">iOS</a> / <a href="https://play.google.com/store/apps/details?id=jp.sndbox.nipoplus">Android</a>）や<a href="https://nipoplus.sndbox.jp/">ブラウザ</a>から、いつでもどこでも日報を作成できます。 キーボード入力が苦手な方でも大丈夫。タップ中心の選択肢形式や、音声入力を活用すれば、わずか数分で報告が完了。現場からそのまま直帰できる環境を整えます。</p>
+        <p class="text-slate-600 dark:text-slate-400 leading-relaxed mb-6">
+          専用のアプリ（<a href="https://apps.apple.com/jp/app/%E6%97%A5%E5%A0%B1%E3%82%A2%E3%83%97%E3%83%AA-nipoplus/id1625797169">iOS</a> / <a href="https://play.google.com/store/apps/details?id=jp.sndbox.nipoplus">Android</a>）や<a href="https://nipoplus.sndbox.jp/">ブラウザ</a>から、いつでもどこでも日報を作成できます。<br />
+          キーボード入力が苦手な方でも大丈夫。タップ中心の選択肢形式や、音声入力を活用すれば、わずか数分で報告が完了。現場からそのまま直帰できる環境を整えます。
+        </p>
 
         {/* リンク導線 */}
         <div class="mt-16 flex justify-center lg:justify-end">
