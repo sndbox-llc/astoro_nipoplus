@@ -1,13 +1,11 @@
 ---
 import { Image } from 'astro:assets'
 import multiDeviceImg from './img/factory-usage.webp'
-import { LinkButton } from '@astrojs/starlight/components'
 import { Zoom } from 'starlight-image-zoom/components'
 ---
 
 <section class="not-prose relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen overflow-hidden bg-slate-900 py-20 lg:py-32">
-  <!-- max-w-5xl に絞ることで、中央寄せのテキストが横に広がりすぎず読みやすくなります -->
-  <div class="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center">
     {/* 1. メインキャッチコピー */}
     <h2 class="text-4xl md:text-6xl font-black text-white mb-6 leading-[1.1] tracking-tight">
       今のエクセル点検表を、<br />そのままスマホ・タブレットへ。
@@ -15,7 +13,7 @@ import { Zoom } from 'starlight-image-zoom/components'
 
     {/* 2. サブリード文 */}
 
-    <p class="text-lg md:text-xl text-slate-400 mb-10 leading-relaxed max-w-xl font-sans">
+    <p class="text-lg md:text-xl text-slate-400 mb-10 leading-relaxed max-w-xl">
       点検シートを選んだら、フォーマットに沿ってタップするだけの簡単入力。写真添付や手書きサインにも対応し、送信されたデータは自動で集計・PDF出力も簡単です<br />
       NipoPlusは、年配の方でも迷わず使えるシンプルさと、現場に合わせた自由なカスタマイズを両立した、業界最安値クラスの点検表アプリです。
     </p>
@@ -27,9 +25,8 @@ import { Zoom } from 'starlight-image-zoom/components'
     </div>
 
     {/* 4. ビジュアル（特大サイズのタブレット画面） */}
-    <div class="relative w-full mb-16 group">
-      <div class="absolute -inset-4 bg-blue-500/10 rounded-full blur-3xl opacity-0 dark:opacity-30"></div>
-      <div class="relative rounded-2xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/50 p-3 shadow-2xl overflow-hidden">
+    <div class="w-full mb-16">
+      <div class="rounded-2xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/50 p-3 shadow-2xl overflow-hidden">
         <Zoom label="作業台で製品の検品点検にNipoPlusを使用している実際の様子です。自動車部品メーカ様よりご提供いただきました。画面は意図的に若干のボカシを入れています。">
           {/* w-full で横幅いっぱいに広げ、操作画面のディテールをくっきり見せます */}
           <Image src={multiDeviceImg} alt="作業台で製品の検品点検にNipoPlusを使用している実際の様子です。自動車部品メーカ様よりご提供いただきました。画面は意図的に若干のボカシを入れています。" class="rounded-xl w-full h-auto transform group-hover:scale-[1.01] transition-transform duration-500" />
