@@ -1,63 +1,93 @@
 ---
 import { Image } from 'astro:assets'
+import { Badge } from '@astrojs/starlight/components'
+import { Zoom } from 'starlight-image-zoom/components'
+
 import IMG_MakeTemplate from './img/make-template_tablet.webp'
 import IMG_Dinamic from './img/dinamicSelection.webp'
-import { Zoom } from 'starlight-image-zoom/components'
 ---
 
-<section class="not-prose relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen py-24 px-4 bg-white dark:bg-slate-900 border-b border-slate-100 dark:border-slate-800">
-  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-    {/* H2: テンプレートの悩みセクション */}
-    <div class="mb-20 text-center md:text-left">
-      <h2 class="text-2xl md:text-4xl font-black text-slate-900 dark:text-white leading-tight mb-6">
-        「特殊な日報だから……」と電子化を諦めるのはちょっと待った！<br />
-        自社の業務に100%フィットする日報を<span class="text-blue-600 dark:text-blue-400">ノーコード</span>で作れます
-      </h2>
-      <p class="text-lg text-slate-600 dark:text-slate-400 max-w-3xl leading-relaxed">日報は会社ごとに形が違って当たり前です。システムに業務を合わせるのではなく、業務にシステムを合わせる。NipoPlusなら、そんな理想の運用がプログラミングなしで叶います。</p>
-    </div>
+{
+  /*
 
-    {/* アンサー1: パーツの組み合わせ（画像右） */}
-    <div class="grid md:grid-cols-2 gap-16 items-center mb-28">
+このセクションコンポーネントをベースとして、コピーで使い回す
+
+▼背景が白のセクション
+<section class="not-prose relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen py-24 bg-white dark:bg-slate-900">
+
+
+▼背景がグレーのレクション
+<section class="not-prose relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen py-24 bg-slate-50 dark:bg-slate-950/40">
+
+*/
+}
+
+<section class="not-prose relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen py-24 bg-white dark:bg-slate-900">
+  <div class="max-w-7xl mx-auto px-5">
+    {/* バッジ */}
+    <Badge text="二度手間からの解放" variant="tip" />
+
+    {/* 見出しとリード文 */}
+    <h2 class="text-4xl md:text-5xl font-black text-slate-900 dark:text-white mb-6 leading-tight tracking-tight">
+      「特殊な日報だから……」と電子化を諦めるのはちょっと待った！ 自社の業務に100%フィットする日報を<span class="text-blue-600 dark:text-blue-400">ノーコード</span>で作れます
+    </h2>
+    <p class="text-lg text-slate-600 dark:text-slate-400 mb-12 leading-relaxed">日報は会社ごとに形が違って当たり前です。システムに業務を合わせるのではなく、業務にシステムを合わせる。NipoPlusなら、そんな理想の運用がプログラミングなしで叶います。</p>
+
+    {/* メリット1 説明 */}
+    <div class="grid md:grid-cols-2 gap-6 items-center mb-16">
       <div>
         <div class="text-blue-600 dark:text-blue-400 font-black text-5xl mb-4 opacity-20 italic font-serif">05</div>
-        <h3 class="text-xl md:text-2xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3 font-sans">
-          <span class="p-2 bg-purple-100 dark:bg-purple-900/50 rounded-lg text-2xl">🛠️</span>
-          10種類以上のパーツを組み合わせて、<br />自社専用の報告書をノーコードで作る
-        </h3>
-        <p class="text-slate-600 dark:text-slate-400 leading-relaxed mb-8">記述、選択肢、数値、写真、GPS、バーコード……。多彩なパーツを直感的に配置するだけで、自社専用のテンプレートが完成。これまで紙やエクセルで運用してきた「秘伝のフォーマット」も、その日のうちにデジタル化できます。</p>
-        <div class="bg-slate-50 dark:bg-slate-800 p-6 rounded-2xl border-l-4 border-purple-500 shadow-sm">
-          <p class="text-sm font-bold text-slate-800 dark:text-slate-200 mb-2 font-sans">💡 同業他社でも「書き方」は違うもの</p>
-          <p class="text-sm text-slate-600 dark:text-slate-400">業界標準のアプリでは対応できない「自社独自のルール」をそのままシステム化できるのが、NipoPlus最大の強みです。</p>
+        <h3 class="text-xl md:text-2xl font-bold text-slate-900 dark:text-white mb-6">10種類以上のパーツを組み合わせて、自社専用の報告書をノーコードで作る</h3>
+        <p class="text-slate-600 dark:text-slate-400 leading-relaxed mb-6">記述、選択肢、数値、写真、GPS、バーコード……。多彩なパーツを直感的に配置するだけで、自社専用のテンプレートが完成。これまで紙やエクセルで運用してきた「秘伝のフォーマット」も、その日のうちにデジタル化できます。</p>
+
+        {/* リンク導線 */}
+        <div class="mt-16 flex justify-center lg:justify-end">
+          <a href="/nipoplus/reference/inputmethod/" class="group flex items-center gap-2 font-bold text-orange-600 dark:text-orange-400">
+            様々な入力方式のサンプルを見る
+            <span class="transition-transform group-hover:translate-x-1">→</span>
+          </a>
+        </div>
+      </div>
+      {/* メリット1 画像 */}
+      <div>
+        <div class="relative bg-white dark:bg-slate-900 rounded-2xl overflow-hidden shadow-2xl border border-slate-200 dark:border-slate-700">
+          <Zoom label="テンプレート作成画面">
+            <Image src={IMG_MakeTemplate} alt="テンプレート作成画面" width={1000} widths={[500, 1000]} sizes="(max-width: 500px) 500px, 1000px" class="w-full h-auto" />
+          </Zoom>
+
+          {/* オーバーレイ */}
+          <div class="absolute bottom-4 left-4 right-4 bg-slate-900/80 text-white p-4 rounded-xl text-xs">
+            <span>💡 テンプレート作成画面 </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {/* メリット2 */}
+    <div class="grid md:grid-cols-2 gap-6 items-center bg-16">
+      <div class="md:order-last">
+        <div class="text-blue-600 dark:text-blue-400 font-black text-5xl mb-4 opacity-20 italic font-serif">06</div>
+        <h3 class="text-xl md:text-2xl font-bold text-slate-900 dark:text-white mb-6">「動的変化」や「自動計算」で、報告のミスと手間を先回りして防ぐ</h3>
+        <p class="text-slate-600 dark:text-slate-400 leading-relaxed mb-6">単なるデジタル化で終わりません。特定の回答に応じて次の設問が現れる「動的変化」や、数値を打つだけで不良率を算出する「自動計算」など、ITならではの機能を標準装備。 入力者のケアレスミスをシステムが防いでくれるので、報告内容のチェックにかかる管理者のストレスを劇的に軽減します。</p>
+
+        {/* リンク導線 */}
+        <div class="mt-16 flex justify-center lg:justify-end">
+          <a href="/nipoplus/template/selects/#dinamic_switch_select" class="group flex items-center gap-2 font-bold text-orange-600 dark:text-orange-400">
+            動的変化の設定を見る
+            <span class="transition-transform group-hover:translate-x-1">→</span>
+          </a>
         </div>
       </div>
       <div class="relative group">
-        <div class="absolute -inset-1 bg-gradient-to-r from-purple-600 to-blue-500 rounded-2xl blur opacity-20 group-hover:opacity-40 transition duration-1000"></div>
-        <div class="relative bg-white dark:bg-slate-900 rounded-2xl overflow-hidden shadow-2xl border border-slate-200 dark:border-slate-700">
-          <Zoom label="テンプレート作成画面">
-            <Image src={IMG_MakeTemplate} alt="テンプレート作成画面" width={1000} class="w-full h-auto" />
-          </Zoom>
-        </div>
-      </div>
-    </div>
-
-    {/* アンサー2: 動的変化・自動計算（画像左） */}
-    <div class="grid md:grid-cols-2 gap-16 items-center">
-      <div class="relative order-last md:order-first">
         <div class="relative bg-white dark:bg-slate-900 rounded-2xl overflow-hidden shadow-2xl border border-slate-200 dark:border-slate-700">
           <Zoom label="動的変化のイメージ">
-            <Image src={IMG_Dinamic} alt="動的変化のイメージ" width={1000} class="w-full h-auto shadow-inner" />
+            <Image src={IMG_Dinamic} alt="動的変化のイメージ" width={1000} widths={[500, 1000]} sizes="(max-width: 500px) 500px, 1000px" class="w-full h-auto" />
           </Zoom>
+          {/* オーバーレイ */}
+          <div class="absolute bottom-4 left-4 right-4 bg-slate-900/80 text-white p-4 rounded-xl text-xs">
+            <span>💡 動的変化のイメージ。１つ目の回答に応じて２つ目移行の選択肢が「動的」に変化します </span>
+          </div>
         </div>
-      </div>
-      <div>
-        <div class="text-blue-600 dark:text-blue-400 font-black text-5xl mb-4 opacity-20 italic font-serif">06</div>
-        <h3 class="text-xl md:text-2xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
-          <span class="p-2 bg-yellow-100 dark:bg-yellow-900/50 rounded-lg text-2xl font-sans text-yellow-600 dark:text-yellow-300">✨</span>
-          「動的変化」や「自動計算」で、<br />報告のミスと手間を先回りして防ぐ
-        </h3>
-        <p class="text-slate-600 dark:text-slate-400 leading-relaxed mb-6 font-sans">単なるデジタル化で終わりません。特定の回答に応じて次の設問が現れる「動的変化」や、数値を打つだけで不良率を算出する「自動計算」など、ITならではの機能を標準装備。</p>
-        <p class="text-slate-600 dark:text-slate-400 leading-relaxed mb-8 font-sans">入力者のケアレスミスをシステムが防いでくれるので、報告内容のチェックにかかる管理者のストレスを劇的に軽減します。</p>
-        <a href="/nipoplus/template/digital/" class="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-full font-bold hover:bg-blue-700 transition-colors shadow-lg shadow-blue-200 dark:shadow-none"> 便利な入力機能を詳しく見る </a>
       </div>
     </div>
   </div>

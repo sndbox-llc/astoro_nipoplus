@@ -3,15 +3,29 @@ import { Image } from 'astro:assets'
 import { Badge } from '@astrojs/starlight/components'
 import { Zoom } from 'starlight-image-zoom/components'
 
-import { LinkCard } from '@astrojs/starlight/components'
 import IMG_Reportbox from './img/reportbox.png'
 import IMG_CSV from './img/make-charts_tablet.webp'
 ---
 
+{
+  /*
+
+このセクションコンポーネントをベースとして、コピーで使い回す
+
+▼背景が白のセクション
+<section class="not-prose relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen py-24 bg-white dark:bg-slate-900">
+
+
+▼背景がグレーのレクション
+<section class="not-prose relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen py-24 bg-slate-50 dark:bg-slate-950/40">
+
+*/
+}
+
 <section class="not-prose relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen py-24 bg-white dark:bg-slate-900">
   <div class="max-w-7xl mx-auto px-5">
     {/* バッジ */}
-    <Badge text="時間・場所からの解放" variant="tip" />
+    <Badge text="二度手間からの解放" variant="tip" />
 
     {/* 見出しとリード文 */}
     <h2 class="text-4xl md:text-5xl font-black text-slate-900 dark:text-white mb-6 leading-tight tracking-tight">日報をエクセルに転記する<br class="md:hidden" /><span class="text-blue-600 dark:text-blue-400">「二度手間」</span>や<span class="text-red-600 dark:text-red-400">「入力ミス」</span>に悩んでいませんか？</h2>
