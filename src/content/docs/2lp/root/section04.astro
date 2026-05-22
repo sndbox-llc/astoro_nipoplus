@@ -1,66 +1,90 @@
 ---
 import { Image } from 'astro:assets'
+import { Badge } from '@astrojs/starlight/components'
+import { Zoom } from 'starlight-image-zoom/components'
+
 import IMG_Board from './img/reportBoard.webp'
 import IMG_Calendar from './img/calendar.webp'
-import { Zoom } from 'starlight-image-zoom/components'
 ---
 
-<section class="not-prose relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen py-24 px-4 bg-slate-100 dark:bg-slate-800/40 border-t border-slate-200 dark:border-slate-800">
-  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-    {/* H2: 管理・運用の悩みセクション */}
-    <div class="text-center mb-20">
-      <h2 class="text-2xl md:text-4xl font-black text-slate-900 dark:text-white leading-tight mb-6 tracking-tight">
-        「誰が未提出か」の確認に、もう時間を奪われない。<br />
-        日報を「送りっぱなし」の記録から、価値ある<span class="text-blue-600 dark:text-blue-400">「資産」</span>へ。
-      </h2>
-      <p class="text-lg text-slate-600 dark:text-slate-400 max-w-3xl mx-auto leading-relaxed">チャットやメールでの日報運用は「誰が出していないか分からない」「過去の履歴を探せない」といったストレスが溜まりがちです。NipoPlusは、管理者のチェック業務を徹底的に効率化します。</p>
-    </div>
+{
+  /*
 
-    {/* アンサー1: 提出状況表（画像左） */}
-    <div class="grid md:grid-cols-2 gap-16 items-center mb-28">
-      <div class="relative order-last md:order-first">
-        <div class="relative bg-white dark:bg-slate-900 rounded-2xl overflow-hidden shadow-2xl border border-slate-200 dark:border-slate-700">
-          <Zoom label="提出状況を一元管理するボード画面">
-            <Image src={IMG_Board} alt="提出状況を一元管理するボード画面" width={1000} class="w-full h-auto" />
-          </Zoom>
-        </div>
-      </div>
+このセクションコンポーネントをベースとして、コピーで使い回す
+
+▼背景が白のセクション
+<section class="not-prose relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen py-24 bg-white dark:bg-slate-900">
+
+
+▼背景がグレーのレクション
+<section class="not-prose relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen py-24 bg-slate-50 dark:bg-slate-950/40">
+
+*/
+}
+
+<section class="not-prose relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen py-24 bg-white dark:bg-slate-900">
+  <div class="max-w-7xl mx-auto px-5">
+    {/* バッジ */}
+    <Badge text="二度手間からの解放" variant="tip" />
+
+    {/* 見出しとリード文 */}
+    <h2 class="text-4xl md:text-5xl font-black text-slate-900 dark:text-white mb-6 leading-tight tracking-tight">「誰が未提出か」の確認に、もう時間を奪われない。 日報を「送りっぱなし」の記録から、価値ある「資産」へ。</h2>
+    <p class="text-lg text-slate-600 dark:text-slate-400 mb-12 leading-relaxed">チャットやメールでの日報運用は「誰が出していないか分からない」「過去の履歴を探せない」といったストレスが溜まりがちです。NipoPlusは、管理者のチェック業務を徹底的に効率化します。</p>
+
+    {/* メリット1 説明 */}
+    <div class="grid md:grid-cols-2 gap-6 items-center mb-16">
       <div>
-        <div class="text-blue-600 dark:text-blue-400 font-black text-5xl mb-4 opacity-20 italic font-serif leading-none">07</div>
-        <h3 class="text-xl md:text-2xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
-          <span class="p-2 bg-orange-100 dark:bg-orange-900/50 rounded-lg text-2xl text-orange-600 dark:text-orange-300">🚨</span>
-          提出状況を一覧で確認。<br />「出し忘れ」のチェックに時間を使いません
-        </h3>
+        <div class="text-blue-600 dark:text-blue-400 font-black text-5xl mb-4 opacity-20 italic font-serif">07</div>
+        <h3 class="text-xl md:text-2xl font-bold text-slate-900 dark:text-white mb-6">提出状況を一覧で確認。「出し忘れ」のチェックに時間を使いません</h3>
         <p class="text-slate-600 dark:text-slate-400 leading-relaxed mb-6">提出状況表を見れば、スタッフ全員の状況がひと目で把握できます。チャットの履歴を遡って「Aさんは出したっけ？」と確認する手間はもうありません。</p>
-        <div class="p-4 bg-white/50 dark:bg-slate-900/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-8">
-          <p class="text-slate-700 dark:text-slate-200 leading-relaxed text-sm font-bold italic">"テンプレート形式なので、書き手による報告内容のムラもなくなり、読む側の負担も大幅に軽減されます。"</p>
+
+        {/* リンク導線 */}
+        <div class="mt-16 flex justify-center lg:justify-end">
+          <a href="/nipoplus/gainen/reportStorage/#map" class="group flex items-center gap-2 font-bold text-orange-600 dark:text-orange-400">
+            提出状況の詳細を見る
+            <span class="transition-transform group-hover:translate-x-1">→</span>
+          </a>
         </div>
-        <div class="flex flex-wrap gap-4">
-          <a href="/nipoplus/gainen/reportStorage/#map" class="inline-flex items-center font-bold text-blue-600 dark:text-blue-400 hover:underline transition-colors"> 提出管理の仕組みを詳しく → </a>
+      </div>
+      {/* メリット1 画像 */}
+      <div>
+        <div class="relative bg-white dark:bg-slate-900 rounded-2xl overflow-hidden shadow-2xl border border-slate-200 dark:border-slate-700">
+          <Zoom label="ボード表示画面">
+            <Image src={IMG_Board} alt="ボード表示画面" width={1000} widths={[500, 1000]} sizes="(max-width: 500px) 500px, 1000px" class="w-full h-auto" />
+          </Zoom>
+
+          {/* オーバーレイ */}
+          <div class="absolute bottom-4 left-4 right-4 bg-slate-900/80 text-white p-4 rounded-xl text-xs">
+            <span>💡 ボード表示画面 </span>
+          </div>
         </div>
       </div>
     </div>
 
-    {/* アンサー2: カレンダー・検索（画像右） */}
-    <div class="grid md:grid-cols-2 gap-16 items-center">
-      <div>
-        <div class="text-blue-600 dark:text-blue-400 font-black text-5xl mb-4 opacity-20 italic font-serif leading-none">08</div>
-        <h3 class="text-xl md:text-2xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
-          <span class="p-2 bg-indigo-100 dark:bg-indigo-900/50 rounded-lg text-2xl text-indigo-600 dark:text-indigo-300">🔍</span>
-          過去の報告も「秒」で発見。<br />カレンダーと高速検索で日報を活用
-        </h3>
-        <p class="text-slate-600 dark:text-slate-400 leading-relaxed mb-6">数ヶ月前の報告が必要になったとき、膨大なチャット履歴やメールを検索するのは至難の業です。</p>
-        <p class="text-slate-600 dark:text-slate-400 leading-relaxed mb-8">NipoPlusなら、カレンダー表示や強力な全文検索機能で、目的の日報へ一瞬でアクセス。日報１つ１つにアクセス権限も設定できるため、機密情報の管理も安心です。</p>
-        <div class="flex flex-wrap gap-4">
-          <a href="/nipoplus/reference/calendar/" class="px-6 py-3 bg-indigo-600 text-white rounded-xl font-bold hover:bg-indigo-700 transition-all shadow-lg shadow-indigo-200 dark:shadow-none hover:-translate-y-0.5"> カレンダー・検索機能を試す </a>
+    {/* メリット2 */}
+    <div class="grid md:grid-cols-2 gap-6 items-center bg-16">
+      <div class="md:order-last">
+        <div class="text-blue-600 dark:text-blue-400 font-black text-5xl mb-4 opacity-20 italic font-serif">08</div>
+        <h3 class="text-xl md:text-2xl font-bold text-slate-900 dark:text-white mb-6">過去の報告も「秒」で発見。カレンダーと高速検索で日報を活用</h3>
+        <p class="text-slate-600 dark:text-slate-400 leading-relaxed mb-6">数ヶ月前の報告が必要になったとき、膨大なチャット履歴やメールを検索するのは至難の業です。 NipoPlusなら、カレンダー表示や強力な全文検索機能で、目的の日報へ一瞬でアクセス。日報１つ１つにアクセス権限も設定できるため、機密情報の管理も安心です。</p>
+
+        {/* リンク導線 */}
+        <div class="mt-16 flex justify-center lg:justify-end">
+          <a href="/nipoplus/reference/calendar/" class="group flex items-center gap-2 font-bold text-orange-600 dark:text-orange-400">
+            カレンダー表示の詳細を見る
+            <span class="transition-transform group-hover:translate-x-1">→</span>
+          </a>
         </div>
       </div>
       <div class="relative group">
-        <div class="absolute -inset-1 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-2xl blur opacity-20 group-hover:opacity-40 transition duration-1000"></div>
         <div class="relative bg-white dark:bg-slate-900 rounded-2xl overflow-hidden shadow-2xl border border-slate-200 dark:border-slate-700">
           <Zoom label="カレンダー表示画面">
-            <Image src={IMG_Calendar} alt="カレンダー表示画面" width={1000} class="w-full h-auto" />
+            <Image src={IMG_Calendar} alt="カレンダー表示画面" width={1000} widths={[500, 1000]} sizes="(max-width: 500px) 500px, 1000px" class="w-full h-auto" />
           </Zoom>
+          {/* オーバーレイ */}
+          <div class="absolute bottom-4 left-4 right-4 bg-slate-900/80 text-white p-4 rounded-xl text-xs">
+            <span>💡 カレンダー表示画面。日報の提出状況を一目で確認できます </span>
+          </div>
         </div>
       </div>
     </div>
