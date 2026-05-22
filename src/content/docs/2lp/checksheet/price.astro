@@ -3,23 +3,22 @@
 ---
 
 <section class="not-prose relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen overflow-hidden bg-slate-900 py-20 lg:py-32">
-  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center">
+  <div class="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center">
     {/* 1. メインキャッチコピー */}
     <h2 class="text-4xl md:text-6xl font-black text-white mb-6 leading-[1.1] tracking-tight">
       高額な「点検専用アプリ」は、<br />もう必要ありません。
     </h2>
 
     {/* 2. サブリード文 */}
-
     <p class="text-lg md:text-xl text-slate-400 mb-10 leading-relaxed max-w-4xl">
       業界最安値水準の1アカウント200円。従業員数と使用端末のいづれか少ない値でお申し込みいただけます。<br />
       また機能制限はありますが、無料プランもご用意しております。
     </p>
 
-    {/* 料金カード：ここは以前の構造をベースにしつつ、文言を「点検」に特化 */}
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch font-sans">
+    {/* 💡 Gridに items-stretch を追加！これで子要素（カード）の高さを強制的に揃えます */}
+    <div class="grid md:grid-cols-3 gap-8 w-full items-stretch">
       {/* Free Plan */}
-      <div class="flex flex-col p-8 bg-slate-50 dark:bg-slate-800/50 rounded-3xl border border-slate-200 dark:border-slate-700 transition-transform hover:-translate-y-1">
+      <div class="flex flex-col p-8 bg-slate-50 dark:bg-slate-800/50 rounded-3xl border border-slate-200 dark:border-slate-700 hover:-translate-y-1">
         <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-2">無料Plan</h3>
         <p class="text-sm text-slate-500 dark:text-slate-400 mb-6">ずっと無料で利用可能</p>
         <div class="mb-6 flex items-baseline gap-1 justify-center">
@@ -27,15 +26,17 @@
           <span class="text-4xl font-black text-slate-900 dark:text-white">¥0</span>
           <span class="text-slate-500 text-sm">/ 月</span>
         </div>
-        <ul class="space-y-4 mb-8 flex-grow text-sm text-slate-600 dark:text-slate-300">
+        {/* mb-grow を mb-auto に変更し、下のボタンを綺麗に押し下げる */}
+        <ul class="space-y-4 mb-auto text-sm text-slate-600 dark:text-slate-300 pb-8">
           <li class="flex items-center gap-2">✅ 基本的な点検・記録</li>
+          <li class="flex items-center gap-2 text-slate-400">✅ 更新不要</li>
           <li class="flex items-center gap-2 text-slate-400">❌ 一部機能制限あり</li>
         </ul>
-        <a href="/nipoplus/price/free/" class="block text-center py-4 px-6 rounded-xl bg-blue-600 text-white font-black hover:bg-blue-700 transition-all shadow-lg shadow-blue-200 dark:shadow-none"> 詳細 </a>
+        <a href="/nipoplus/price/free/" class="block text-center py-4 px-6 rounded-xl bg-blue-600 text-white font-black hover:bg-blue-700 transition-all shadow-lg shadow-blue-200 dark:shadow-none shrink-0"> 詳細 </a>
       </div>
 
       {/* Gold Plan (Sub) */}
-      <div class="flex flex-col p-8 bg-slate-50 dark:bg-slate-800/50 rounded-3xl border border-slate-200 dark:border-slate-700 transition-transform hover:-translate-y-1">
+      <div class="flex flex-col p-8 bg-slate-50 dark:bg-slate-800/50 rounded-3xl border border-slate-200 dark:border-slate-700 hover:-translate-y-1">
         <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-2">Gold Plan <span class="text-xs font-normal opacity-70">（自動更新）</span></h3>
         <p class="text-sm text-slate-500 dark:text-slate-400 mb-6">クレカで楽々更新</p>
         <div class="mb-6 flex items-baseline gap-1 justify-center">
@@ -43,42 +44,44 @@
           <span class="text-4xl font-black text-slate-900 dark:text-white">¥200</span>
           <span class="text-slate-500 text-sm">/ 月 (税込)</span>
         </div>
-        <ul class="space-y-4 mb-8 flex-grow text-sm text-slate-600 dark:text-slate-300">
+        <ul class="space-y-4 mb-auto text-sm text-slate-600 dark:text-slate-300 pb-8">
           <li class="flex items-center gap-2">✅ 基本的な点検・記録</li>
-          <li class="flex items-center gap-2">✅ すべての機能が利用可</li>
           <li class="flex items-center gap-2">✅ 毎月自動で更新</li>
+          <li class="flex items-center gap-2">✅ すべての機能が利用可</li>
         </ul>
-        <a href="/nipoplus/price/subscription/" class="block text-center py-4 px-6 rounded-xl bg-blue-600 text-white font-black hover:bg-blue-700 transition-all shadow-lg shadow-blue-200 dark:shadow-none"> 詳細 </a>
+        <a href="/nipoplus/price/subscription/" class="block text-center py-4 px-6 rounded-xl bg-blue-600 text-white font-black hover:bg-blue-700 transition-all shadow-lg shadow-blue-200 dark:shadow-none shrink-0"> 詳細 </a>
       </div>
 
       {/* Gold Plan (Inv) */}
-      <div class="flex flex-col p-8 bg-slate-50 dark:bg-slate-800/50 rounded-3xl border border-slate-200 dark:border-slate-700 transition-transform hover:-translate-y-1">
-        <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-2 text-sm">Gold Plan <span class="text-xs font-normal opacity-70">（請求書払い）</span></h3>
+      <div class="flex flex-col p-8 bg-slate-50 dark:bg-slate-800/50 rounded-3xl border border-slate-200 dark:border-slate-700 hover:-translate-y-1">
+        {/* 💡 末尾の text-sm をストイックに排除して text-xl に統一 */}
+        <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-2">Gold Plan <span class="text-xs font-normal opacity-70">（請求書払い）</span></h3>
         <p class="text-sm text-slate-500 dark:text-slate-400 mb-6">銀行振込をご希望の方へ</p>
         <div class="mb-6 flex items-baseline gap-1 justify-center">
           <span class="text-xs text-slate-500">1名 </span>
           <span class="text-4xl font-black text-slate-900 dark:text-white">¥200</span>
           <span class="text-slate-500 text-sm">/ 月 (税込)</span>
         </div>
-        <ul class="space-y-4 mb-8 flex-grow text-sm text-slate-600 dark:text-slate-300">
+        <ul class="space-y-4 mb-auto text-sm text-slate-600 dark:text-slate-300 pb-8">
           <li class="flex items-center gap-2">✅ 基本的な点検・記録</li>
-          <li class="flex items-center gap-2">✅ すべての機能が利用可</li>
           <li class="flex items-center gap-2">✅ 手動による更新</li>
+          <li class="flex items-center gap-2">✅ すべての機能が利用可</li>
         </ul>
-        <a href="/nipoplus/price/invoice/" class="block text-center py-4 px-6 rounded-xl bg-blue-600 text-white font-black hover:bg-blue-700 transition-all shadow-lg shadow-blue-200 dark:shadow-none"> 詳細 </a>
+        <a href="/nipoplus/price/invoice/" class="block text-center py-4 px-6 rounded-xl bg-blue-600 text-white font-black hover:bg-blue-700 transition-all shadow-lg shadow-blue-200 dark:shadow-none shrink-0"> 詳細 </a>
       </div>
     </div>
 
     {/* 注意書き */}
-    <div class="mt-12 text-center text-xs text-slate-500 font-sans leading-relaxed">
-      <p class="font-sans">※ 初期費用、基本料金、端末制限は一切ありません。点検する機材数が増えても、料金は「利用人数」のみの明快な設計です。</p>
+    <div class="mt-12 text-center text-xs text-slate-500 leading-relaxed">
+      <p>※ 初期費用、基本料金、端末制限は一切ありません。点検する機材数が増えても、料金は「利用人数」のみの明快な設計です。</p>
     </div>
 
-    <div class="inline-block p-4 bg-blue-50 dark:bg-blue-900/30 rounded-2xl border border-blue-100 dark:border-blue-800 text-left max-w-3xl">
-      <p class="text-blue-700 dark:text-blue-300 font-bold mb-2 flex items-center gap-2 font-sans">
-        <span class="text-xl">💡</span> なぜこれほど安く提供できるのか？
+    {/* なぜ安いのか解説（フォント指定の重複をクリーンアップ） */}
+    <div class="inline-block p-4 bg-blue-50 dark:bg-blue-900/30 rounded-2xl border border-blue-100 dark:border-blue-800 text-left max-w-3xl mt-6">
+      <p class="text-blue-700 dark:text-blue-300 font-bold mb-2 flex items-center gap-2">
+        <span>💡</span> なぜこれほど安く提供できるのか？
       </p>
-      <p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed font-sans">NipoPlusはもともと、多くの実績を持つ「日報アプリ」として開発されました。その高度なカスタマイズ機能と強固な集計基盤をそのまま点検業務に転用できるため、専門の点検ソフトのような「高額な開発コスト」を価格に乗せる必要がないのです。</p>
+      <p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">NipoPlusはもともと、多くの実績を持つ「日報アプリ」として開発されました。その高度なカスタマイズ機能と強固な集計基盤をそのまま点検業務に転用できるため、専門の点検ソフトのような「高額な開発コスト」を価格に乗せる必要がないのです。</p>
     </div>
   </div>
 </section>
