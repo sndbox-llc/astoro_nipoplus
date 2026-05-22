@@ -1,58 +1,83 @@
 ---
 import { Image } from 'astro:assets'
+import { Badge } from '@astrojs/starlight/components'
+import { Zoom } from 'starlight-image-zoom/components'
+
 import IMG_Touch from './img/touch.png'
 import IMG_Pen2 from './img/pen2.webp'
-import { Zoom } from 'starlight-image-zoom/components'
 ---
 
 {/* 全幅背景ハックを適用し、bg-slate-50で薄いグレーのエリアにします */}
 
-<section class="not-prose py-20 px-4 sm:px-6 lg:px-8 border-slate-100 dark:border-slate-800">
-  <div class="max-w-6xl mx-auto">
-    {/* H2: 問いかけセクション */}
-    <div class="mb-16">
-      <h2 class="text-2xl md:text-4xl font-black text-slate-900 dark:text-white leading-tight mb-6">業務終了後に、日報のためだけに事務所へ戻る必要はありません。時間・場所にとらわれない日報ライフを始めよう</h2>
-      <p class="text-lg text-slate-600 dark:text-slate-400 max-w-2xl leading-relaxed">
-        「現場仕事は終わったのに、日報を書くために30分かけて事務所に戻る……」<br />
-        そんな非効率な働き方は、もう終わりにしましょう。NipoPlusは、現場の「今」をその場で報告できるクラウドシステムです。
-      </p>
-    </div>
+<section class="not-prose relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen py-24 bg-slate-50 dark:bg-slate-950/40">
+  <div class="max-w-7xl mx-auto px-5">
+    {/* バッジ */}
+    <Badge text="時間・場所からの解放" variant="tip" />
 
-    {/* アンサー1: スマホ報告（画像右） */}
-    <div class="grid md:grid-cols-2 gap-12 items-center mb-24">
+    {/* 見出しとリード文 */}
+    <h2 class="text-4xl md:text-5xl font-black text-slate-900 dark:text-white mb-6 leading-tight tracking-tight">業務終了後に、日報のためだけに事務所へ戻る必要はありません。時間・場所にとらわれない日報ライフを始めよう</h2>
+    <p class="text-lg text-slate-600 dark:text-slate-400 mb-12 leading-relaxed">
+      「現場仕事は終わったのに、日報を書くために30分かけて事務所に戻る……」<br />
+      そんな非効率な働き方は、もう終わりにしましょう。NipoPlusは、現場の「今」をその場で報告できるクラウドシステムです。
+    </p>
+
+    {/* メリット1 説明 */}
+    <div class="grid md:grid-cols-2 gap-6 items-center mb-16">
       <div>
-        <div class="inline-flex items-center justify-center w-12 h-12 bg-blue-600 text-white rounded-xl mb-6 text-xl font-bold shadow-lg shadow-blue-200 dark:shadow-none">01</div>
+        <div class="text-blue-600 dark:text-blue-400 font-black text-5xl mb-4 opacity-20 italic font-serif">01</div>
         <h3 class="text-xl md:text-2xl font-bold text-slate-900 dark:text-white mb-6">📱 スマホ・タブレットで隙間時間に報告完了。現場から「直帰」を当たり前に。</h3>
         <p class="text-slate-600 dark:text-slate-400 leading-relaxed mb-6">専用のアプリ（<a href="https://apps.apple.com/jp/app/%E6%97%A5%E5%A0%B1%E3%82%A2%E3%83%97%E3%83%AA-nipoplus/id1625797169">iOS</a> / <a href="https://play.google.com/store/apps/details?id=jp.sndbox.nipoplus">Android</a>）や<a href="https://nipoplus.sndbox.jp/">ブラウザ</a>から、いつでもどこでも日報を作成できます。 キーボード入力が苦手な方でも大丈夫。タップ中心の選択肢形式や、音声入力を活用すれば、わずか数分で報告が完了。現場からそのまま直帰できる環境を整えます。</p>
-        <a href="/nipoplus/system/mobile-install/" class="inline-flex items-center font-bold text-blue-600 dark:text-blue-400 hover:text-blue-700 transition-colors"> モバイルアプリの導入ガイドを読む → </a>
+
+        {/* リンク導線 */}
+        <div class="mt-16 flex justify-center lg:justify-end">
+          <a href="/nipoplus/system/mobile-install/" class="group flex items-center gap-2 font-bold text-orange-600 dark:text-orange-400">
+            モバイルアプリの導入ガイドを読む
+            <span class="transition-transform group-hover:translate-x-1">→</span>
+          </a>
+        </div>
       </div>
-      <div class="relative group">
-        <div class="absolute -inset-1 bg-gradient-to-r from-blue-600 to-cyan-500 rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
+      {/* メリット1 画像 */}
+      <div>
         <div class="relative bg-white dark:bg-slate-900 rounded-2xl overflow-hidden shadow-2xl border border-slate-200 dark:border-slate-700">
           <Zoom label="様々な補助機能を組み込んだ日報作成画面">
             <Image src={IMG_Touch} alt="様々な補助機能を組み込んだ日報作成画面" width={1000} widths={[500, 1000]} sizes="(max-width: 500px) 500px, 1000px" class="w-full h-auto" />
           </Zoom>
+
+          {/* オーバーレイ */}
+          <div class="absolute bottom-4 left-4 right-4 bg-slate-900/80 text-white p-4 rounded-xl text-xs">
+            <span>💡 スマホやタブレットからも操作しやすいパーツで日報作成がスムーズ </span>
+          </div>
         </div>
       </div>
     </div>
 
-    {/* アンサー2: 写真・サイン（画像左） */}
-    <div class="grid md:grid-cols-2 gap-12 items-center flex-row-reverse">
+    {/* メリット2 */}
+    <div class="grid md:grid-cols-2 gap-6 items-center bg-16">
       <div class="md:order-last">
-        <div class="inline-flex items-center justify-center w-12 h-12 bg-blue-600 text-white rounded-xl mb-6 text-xl font-bold shadow-lg shadow-blue-200 dark:shadow-none">02</div>
-        <h3 class="text-xl md:text-2xl font-bold text-slate-900 dark:text-white mb-6">
-          📸 現場写真をその場で一発添付。<br class="hidden md:inline" />手書きサインもデジタルで完結。
-        </h3>
-        <p class="text-slate-600 dark:text-slate-400 leading-relaxed mb-6">「百聞は一見にしかず」。現場の状況を文章で説明するのは時間がかかります。 カメラで撮った写真をその場で添付すれば、異常箇所の報告やエビデンスも、写真1枚で説得力が格段にアップします。</p>
-        <p class="text-slate-600 dark:text-slate-400 leading-relaxed mb-6 border-l-4 border-blue-600 pl-4 italic">指やスタイラスペンで画面に直接サインも可能。紙の報告書のような「署名」の手間もデジタル化できます。</p>
-        <a href="/nipoplus/template/binarys/" class="inline-flex items-center font-bold text-blue-600 dark:text-blue-400 hover:text-blue-700 transition-colors"> 写真・サイン機能の詳細を見る → </a>
+        <div class="text-blue-600 dark:text-blue-400 font-black text-5xl mb-4 opacity-20 italic font-serif">02</div>
+        <h3 class="text-xl md:text-2xl font-bold text-slate-900 dark:text-white mb-6">📸 現場写真をその場で一発添付。手書きサインもデジタルで完結。</h3>
+        <p class="text-slate-600 dark:text-slate-400 leading-relaxed mb-6">
+          「百聞は一見にしかず」。現場の状況を文章で説明するのは時間がかかります。 カメラで撮った写真をその場で添付すれば、異常箇所の報告やエビデンスも、写真1枚で説得力が格段にアップします。<br />
+          指やスタイラスペンで画面に直接サインも可能。紙の報告書のような「署名」の手間もデジタル化できます。
+        </p>
+
+        {/* リンク導線 */}
+        <div class="mt-16 flex justify-center lg:justify-end">
+          <a href="/nipoplus/template/binarys/" class="group flex items-center gap-2 font-bold text-orange-600 dark:text-orange-400">
+            写真・サイン機能の詳細を見る
+            <span class="transition-transform group-hover:translate-x-1">→</span>
+          </a>
+        </div>
       </div>
       <div class="relative group">
-        <div class="absolute -inset-1 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
         <div class="relative bg-white dark:bg-slate-900 rounded-2xl overflow-hidden shadow-2xl border border-slate-200 dark:border-slate-700">
           <Zoom label="タッチパネルによる写真添付やサイン操作">
             <Image src={IMG_Pen2} alt="タッチパネルによる写真添付やサイン操作" width={1000} widths={[500, 1000]} sizes="(max-width: 500px) 500px, 1000px" class="w-full h-auto" />
           </Zoom>
+          {/* オーバーレイ */}
+          <div class="absolute bottom-4 left-4 right-4 bg-slate-900/80 text-white p-4 rounded-xl text-xs">
+            <span>💡 スタイラスペンを使って直筆サインを日報に書き込んだ例 </span>
+          </div>
         </div>
       </div>
     </div>
