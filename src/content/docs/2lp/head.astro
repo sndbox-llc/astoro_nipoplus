@@ -1,0 +1,19 @@
+<style is:global>
+  /* Starlightのハック 各セクションの上下マージンを強制ゼロにする */
+  .sl-markdown-content > .not-prose {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  /* 1. 基本はすべてのセクションを「メイン背景色」にする */
+  .sl-markdown-content > .not-prose {
+    /* Starlightが定義している、ダークモード対応の背景色変数 */
+    background-color: var(--sl-color-bg) !important;
+  }
+
+  /* 2. 偶数番目のセクションだけ「ちょっとズラした背景色」にする */
+  .sl-markdown-content > .not-prose:nth-of-type(even) {
+    /* Starlightが定義している、少し薄い/濃い背景色変数 */
+    background-color: var(--sl-color-bg-nav) !important;
+  }
+</style>
