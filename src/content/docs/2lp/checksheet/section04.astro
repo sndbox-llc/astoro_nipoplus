@@ -6,29 +6,14 @@ import { Zoom } from 'starlight-image-zoom/components'
 import IMG_RealtimeChart from './img/chart_tablet.webp'
 ---
 
-{
-  /*
-
-このセクションコンポーネントをベースとして、コピーで使い回す
-
-▼背景が白のセクション
-<section class="not-prose relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen py-24 bg-white dark:bg-slate-900">
-
-
-▼背景がグレーのレクション
-<section class="not-prose relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen py-24 bg-slate-50 dark:bg-slate-950/40">
-
-*/
-}
-
 <section class="not-prose relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen py-24">
   <div class="max-w-7xl mx-auto px-5">
     {/* バッジ */}
     <Badge text="記録を「点」から「線」へ" variant="tip" />
 
     {/* 見出しとリード文 */}
-    <h2 class="text-4xl md:text-5xl font-black text-slate-900 dark:text-white mb-6 leading-tight tracking-tight">数値の「わずかな異変」を、グラフが教えてくれる。</h2>
-    <p class="text-lg text-slate-600 dark:text-slate-400 mb-12 leading-relaxed">
+    <h2 class="text-4xl md:text-5xl mb-6 leading-tight tracking-tight">数値の「わずかな異変」を、グラフが教えてくれる。</h2>
+    <p class="text-lg mb-12 leading-relaxed">
       点検データは、ただ記録するだけでは不十分です。真の価値は「過去との比較」にあります。<br />
       NipoPlusなら、現場でデータが送信された瞬間にグラフが自動更新。Excelへの転記や集計作業を待つことなく、異常の予兆をリアルタイムに察知できます。
     </p>
@@ -36,12 +21,12 @@ import IMG_RealtimeChart from './img/chart_tablet.webp'
     {/* メインの2カラムエリア */}
     <div class="grid lg:grid-cols-2 gap-5 items-center">
       {/* テキスト */}
-      <div class="space-y-6 text-slate-600 dark:text-slate-400">
+      <div class="space-y-6">
         {/* メリット1 */}
         <div class="flex gap-4">
           <div class="w-10 h-10 bg-orange-100 dark:bg-orange-900/40 rounded-full flex items-center justify-center text-orange-600 dark:text-orange-300 font-black text-lg shrink-0">1</div>
           <div>
-            <h3 class="font-bold text-slate-900 dark:text-white">集計・グラフ化は「自動」</h3>
+            <h3 class="font-bold">集計・グラフ化は「自動」</h3>
             <p>点検員が報告を送信したその瞬間にグラフが反映。管理者がデータをまとめる時間は「ゼロ」になります。</p>
           </div>
         </div>
@@ -50,7 +35,7 @@ import IMG_RealtimeChart from './img/chart_tablet.webp'
         <div class="flex gap-4">
           <div class="w-10 h-10 bg-red-100 dark:bg-red-900/40 rounded-full flex items-center justify-center text-red-600 dark:text-red-300 font-black text-lg shrink-0">2</div>
           <div>
-            <h3 class="font-bold text-slate-900 dark:text-white">数値に埋もれる「乖離」を可視化</h3>
+            <h3 class="font-bold">数値に埋もれる「乖離」を可視化</h3>
             <p>単発の数値では見落としがちな「徐々に上がっている値」や「突発的な乖離」も、折れ線グラフなら一目で把握。重大な故障を防ぐ「予防保全」を実現します。</p>
           </div>
         </div>

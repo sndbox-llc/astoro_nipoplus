@@ -6,29 +6,14 @@ import { Zoom } from 'starlight-image-zoom/components'
 import supportFunctionImg from './img/uservility_tablet.webp'
 ---
 
-{
-  /*
-
-このセクションコンポーネントをベースとして、コピーで使い回す
-
-▼背景が白のセクション
-<section class="not-prose relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen py-24 bg-white dark:bg-slate-900">
-
-
-▼背景がグレーのレクション
-<section class="not-prose relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen py-24 bg-slate-50 dark:bg-slate-950/40">
-
-*/
-}
-
 <section class="not-prose relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen py-24">
   <div class="max-w-7xl mx-auto px-5">
     {/* バッジ */}
     <Badge text="点検者のための機能" variant="tip" />
 
     {/* 見出しとリード文 */}
-    <h2 class="text-4xl md:text-5xl font-black text-slate-900 dark:text-white mb-6 leading-tight tracking-tight">「現場が迷わない」ことが、最強のミス防止策になる。</h2>
-    <p class="text-lg text-slate-600 dark:text-slate-400 mb-12 leading-relaxed">
+    <h2 class="text-4xl md:text-5xl mb-6 leading-tight tracking-tight">「現場が迷わない」ことが、最強のミス防止策になる。</h2>
+    <p class="text-lg mb-12 leading-relaxed">
       「うっかり記入漏れ」や「手順飛ばし」は、個人の意識の問題ではなく、システムの設計で解決すべき課題です。<br />
       NipoPlusは、現場のストレスをなくし、同時に報告の精度を底上げします。重要な項目には色分けをすることで視認性も向上。
     </p>
@@ -36,13 +21,13 @@ import supportFunctionImg from './img/uservility_tablet.webp'
     {/* メインの2カラムエリア */}
     <div class="grid lg:grid-cols-2 gap-5 items-center">
       {/* テキスト */}
-      <div class="space-y-6 text-slate-600 dark:text-slate-400">
+      <div class="space-y-6">
         {/* メリット1 */}
         <div class="flex gap-4">
           <div class="w-10 h-10 bg-orange-100 dark:bg-orange-900/40 rounded-full flex items-center justify-center text-orange-600 dark:text-orange-300 font-black text-lg shrink-0">1</div>
 
           <div>
-            <h3 class="font-bold text-slate-900 dark:text-white">年配の方にも優しい「見える」UI</h3>
+            <h3 class="font-bold">年配の方にも優しい「見える」UI</h3>
             <p>キーボード入力は最小限。大きな選択ボタン、自由に変えられるフォントサイズ。スマホが苦手なベテラン点検員から「これなら楽だ」と喜ばれています。</p>
           </div>
         </div>
@@ -52,7 +37,7 @@ import supportFunctionImg from './img/uservility_tablet.webp'
           <div class="w-10 h-10 bg-red-100 dark:bg-red-900/40 rounded-full flex items-center justify-center text-red-600 dark:text-red-300 font-black text-lg shrink-0">2</div>
 
           <div>
-            <h3 class="font-bold text-slate-900 dark:text-white">未記入」なら送信させない強制力</h3>
+            <h3 class="font-bold">未記入」なら送信させない強制力</h3>
             <p>必須項目が空欄だとエラーを表示し、送信をブロック。紙では防げなかった「空欄」や「写真の撮り忘れ」を物理的にゼロにします。</p>
           </div>
         </div>
@@ -61,7 +46,7 @@ import supportFunctionImg from './img/uservility_tablet.webp'
           <div class="w-10 h-10 bg-red-100 dark:bg-red-900/40 rounded-full flex items-center justify-center text-red-600 dark:text-pink-300 font-black text-lg shrink-0">3</div>
 
           <div>
-            <h3 class="font-bold text-slate-900 dark:text-white">点検手順を迷わせない「動的制御」</h3>
+            <h3 class="font-bold">点検手順を迷わせない「動的制御」</h3>
             <p>「異常あり」と答えた時だけ詳細項目が現れるなど、状況に応じた最適な設問を提示。不慣れな点検員でも、迷わず正しい手順を遵守できます。</p>
           </div>
         </div>

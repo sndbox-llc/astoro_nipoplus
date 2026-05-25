@@ -6,40 +6,25 @@ import { Zoom } from 'starlight-image-zoom/components'
 import ExcelTable from '@components/ExcelTable.astro'
 ---
 
-{
-  /*
-
-このセクションコンポーネントをベースとして、コピーで使い回す
-
-▼背景が白のセクション
-<section class="not-prose relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen py-24 bg-white dark:bg-slate-900">
-
-
-▼背景がグレーのレクション
-<section class="not-prose relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen py-24 bg-slate-50 dark:bg-slate-950/40">
-
-*/
-}
-
 <section class="not-prose relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen py-24">
   <div class="max-w-7xl mx-auto px-5">
     {/* バッジ */}
     <Badge text="ペーパーレスの恩恵" variant="tip" />
 
     {/* 見出しとリード文 */}
-    <h2 class="text-4xl md:text-5xl font-black text-slate-900 dark:text-white mb-6 leading-tight tracking-tight">10年分の点検記録の「保管場所」にも困りません。紙の管理に比べて多くの利点があります</h2>
-    <p class="text-lg text-slate-600 dark:text-slate-400 mb-12 leading-relaxed">設備点検のデータは「資産」ですが、紙のままだと場所を取るだけの「負債」になりかねません。 物理的なスペースを解放し、必要な時に1秒で見つかるデジタル管理へ移行しましょう。蓄積されたデータはいつでもCSV出力可能。10年後のシステム環境を心配する必要はありません。</p>
+    <h2 class="text-4xl md:text-5xl mb-6 leading-tight tracking-tight">10年分の点検記録の「保管場所」にも困りません。紙の管理に比べて多くの利点があります</h2>
+    <p class="text-lg mb-12 leading-relaxed">設備点検のデータは「資産」ですが、紙のままだと場所を取るだけの「負債」になりかねません。 物理的なスペースを解放し、必要な時に1秒で見つかるデジタル管理へ移行しましょう。蓄積されたデータはいつでもCSV出力可能。10年後のシステム環境を心配する必要はありません。</p>
 
     {/* メインの2カラムエリア */}
     <div class="grid lg:grid-cols-2 gap-5 items-center">
       {/* テキスト */}
-      <div class="space-y-6 text-slate-600 dark:text-slate-400">
+      <div class="space-y-6">
         {/* メリット1 */}
         <div class="flex gap-4">
           <div class="w-10 h-10 bg-orange-100 dark:bg-orange-900/40 rounded-full flex items-center justify-center text-orange-600 dark:text-orange-300 font-black text-lg shrink-0">1</div>
 
           <div>
-            <h3 class="font-bold text-slate-900 dark:text-white">保管コストを「ゼロ」へ</h3>
+            <h3 class="font-bold">保管コストを「ゼロ」へ</h3>
             <p>段ボール箱で埋まっていた一部屋が、丸ごと別の用途に。ファイル代や倉庫代を劇的に削減します。</p>
           </div>
         </div>
@@ -49,7 +34,7 @@ import ExcelTable from '@components/ExcelTable.astro'
           <div class="w-10 h-10 bg-red-100 dark:bg-red-900/40 rounded-full flex items-center justify-center text-red-600 dark:text-red-300 font-black text-lg shrink-0">2</div>
 
           <div>
-            <h3 class="font-bold text-slate-900 dark:text-white">「あの時の記録」を即検索</h3>
+            <h3 class="font-bold">「あの時の記録」を即検索</h3>
             <p>監査時に慌てる必要はありません。日付や機器名で検索すれば、目的のデータが瞬時に現れます。</p>
           </div>
         </div>
@@ -58,7 +43,7 @@ import ExcelTable from '@components/ExcelTable.astro'
           <div class="w-10 h-10 bg-red-100 dark:bg-red-900/40 rounded-full flex items-center justify-center text-pink-600 dark:text-red-300 font-black text-lg shrink-0">3</div>
 
           <div>
-            <h3 class="font-bold text-slate-900 dark:text-white">劣化・紛失リスクに強い</h3>
+            <h3 class="font-bold">劣化・紛失リスクに強い</h3>
             <p>紙のような劣化や、紛失・災害リスクに無防備ではありません。クラウドが大切な証跡を守り抜きます。</p>
           </div>
         </div>
