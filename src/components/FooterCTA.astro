@@ -1,3 +1,26 @@
+{/* 🐧 キャラクター＆吹き出し（横並びインライン版） */}
+<div class="flex items-center justify-center gap-3 mb-6 w-full animate-bounce [animation-duration:4s]">
+  {/* 💬 吹き出し（左側） */}
+  <div class="relative px-4 py-2 rounded-2xl text-xs font-black shadow-sm border text-center max-w-[220px]
+              /* ☀️ ライトモード */
+              bg-amber-100 text-amber-800 border-amber-200
+              /* 🌙 ダークモード */
+              dark:bg-amber-950 dark:text-amber-300 dark:border-amber-900/50">
+    使ってみてね
+
+    {/* 吹き出しのトゲ（右側のキャラクターの口元を向くように調整） */}
+    <div class="absolute top-1/2 right-[-5px] -translate-y-1/2 w-2.5 h-2.5 rotate-45
+                bg-amber-100 border-t border-r border-amber-200
+                dark:bg-amber-950 dark:border-amber-900/50"></div>
+  </div>
+
+  {/* 👩‍🦰 キャラクター画像（右側） */}
+  {/* rounded-full と overflow-hidden を追加 */}
+  <div class="w-16 h-16 md:w-20 md:h-20 shrink-0 rounded-full overflow-hidden">
+    <img src="/images/ok.png" alt="マスコットキャラクター" class="w-full h-auto object-contain" />
+  </div>
+</div>
+
 <div class="cta-card my-16 mx-auto max-w-[650px] p-8 md:p-12 text-center rounded-3xl border transition-colors duration-300
             /* ☀️ ライトモード */
             bg-gradient-to-br from-white to-slate-50 border-slate-200 shadow-xl shadow-slate-200/50
