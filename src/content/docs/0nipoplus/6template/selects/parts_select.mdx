@@ -25,16 +25,14 @@ import ExcelTable from '@components/ExcelTable.astro'
   <dd>YESかNO、またはON/OFFの2択で回答します。見た目はチェックボックスかスイッチから選べます。</dd>
 </dl>
 
-<hr id="plain" />
-
-## 選択入力（単体）
+## 選択入力（単体） [#id=plain]
 
 :::note[[入力イメージはこちらから確認できます](/nipoplus/reference/inputmethod/#select)]
 :::
 
 予め用意した回答リスト（選択肢）の中から1つを選んで入力します。
 
-### 選択入力（単体）の主な用途
+### 選択入力（単体）の主な用途 [#id=plainUsecase]
 
 - 製造業における機器の稼働状態（例：「稼働中」「停止中」「点検中」）
 - 本日の業務区分
@@ -54,7 +52,7 @@ import ExcelTable from '@components/ExcelTable.astro'
   <dd>❌ 非対応</dd>
 </dl>
 
-### 選択入力（単体）の設定
+### 選択入力（単体）の設定 [#id=plainSetting]
 
 <dl class="basic">
   <dt>選択肢</dt>
@@ -86,7 +84,7 @@ import ExcelTable from '@components/ExcelTable.astro'
 
 [単語の色分けについて](#color)はこちらをご覧ください。
 
-### 選択入力（単体）の集計について
+### 選択入力（単体）の集計について [#id=plainAggregate]
 
 [集計・グラフ化](/nipoplus/staff/charts)が可能です。
 
@@ -96,7 +94,7 @@ import ExcelTable from '@components/ExcelTable.astro'
 
 ![選択肢は単語だが数値に置き換えてグラフ化することも可能](./img/num-select_tablet.png)
 
-#### CSV出力オプションにて列展開がONの場合のCSV出力
+#### CSV出力オプションにて列展開がONの場合のCSV出力 [#id=plainCsv1]
 
 各選択肢が個別の列に展開されます
 
@@ -112,7 +110,7 @@ import ExcelTable from '@components/ExcelTable.astro'
 
 例えば使用車両という１つの項目に対して４列（B〜E列）展開していることがわかります。
 
-#### CSV出力オプションにて列展開がOFFの場合のCSV出力
+#### CSV出力オプションにて列展開がOFFの場合のCSV出力 [#id=plainCsv2]
 
 1つの列にまとめて出力されます
 
@@ -128,9 +126,7 @@ import ExcelTable from '@components/ExcelTable.astro'
 
 選択肢の数に関係なく、1つの列にまとめて出力されます。データ分析の用途に合わせて選択してください。
 
-<hr id="multiple" />
-
-## 選択入力（複数）
+## 選択入力（複数） [#id=multiple]
 
 :::note[[入力イメージはこちらから確認できます](/nipoplus/reference/inputmethod/#select2)]
 :::
@@ -138,7 +134,7 @@ import ExcelTable from '@components/ExcelTable.astro'
 回答から複数個を選択することができる入力フォームです。
 見た目はチェックボックスが並んだような表示形式になります。
 
-### 選択入力（複数）の主な用途
+### 選択入力（複数）の主な用途 [#id=multipleUsecase]
 
 - 使用機材の複数選択（例：「溶接機」「グラインダー」「ドリル」）
 - 品質チェック項目の中で該当する不具合を複数選択する場合
@@ -156,13 +152,13 @@ import ExcelTable from '@components/ExcelTable.astro'
   <dd>❌ 非対応</dd>
 </dl>
 
-### 選択入力（複数）の設定
+### 選択入力（複数）の設定 [#id=multipleSetting]
 
 選択入力（単体）と同じです。そちらを参照して下さい。
 
 [単語の色分けについて](#color)はこちらをご覧ください。
 
-#### CSV出力オプションにて列展開がONの場合のCSV出力
+#### CSV出力オプションにて列展開がONの場合のCSV出力 [#id=multipleCsv1]
 
 各選択肢が個別の列に展開されます
 
@@ -177,7 +173,7 @@ import ExcelTable from '@components/ExcelTable.astro'
 2023/06/08 11:37, ⭕, ⭕, ⭕, -, ⭕,
 </ExcelTable>
 
-#### CSV出力オプションにて列展開がOFFの場合のCSV出力
+#### CSV出力オプションにて列展開がOFFの場合のCSV出力 [#id=multipleCsv2]
 
 1つのセルに複数の回答がまとめられます
 
@@ -192,9 +188,7 @@ import ExcelTable from '@components/ExcelTable.astro'
 2023/06/08 11:37, "かんな 金槌 のこぎり 墨つぼ", トラックB, "遅延あり 機材不足 工具不足", 作業報告内容を書く
 </ExcelTable>
 
-<hr id="checkbox" />
-
-## チェックボックス入力
+## チェックボックス入力 [#id=checkbox]
 
 :::note[[入力イメージはこちらから確認できます](/nipoplus/reference/inputmethod/#checkbox)]
 :::
@@ -203,7 +197,7 @@ ON/OFFの2択で回答する際に利用するフォームです。
 
 - 見た目はチェックボックスまたはスイッチから選択できます
 
-### チェックボックスの主な用途
+### チェックボックスの主な用途 [#id=checkboxUsecase]
 
 - 設備が「稼働中」か「停止中」か
 - 作業が「完了」したか「未完了」か
@@ -221,7 +215,7 @@ ON/OFFの2択で回答する際に利用するフォームです。
   <dd>❌ 非対応</dd>
 </dl>
 
-### チェックボックスの設定
+### チェックボックスの設定 [#id=checkboxSetting]
 
 <dl class="basic">
   <dt>メモ</dt>
@@ -246,7 +240,7 @@ ON/OFFの2択で回答する際に利用するフォームです。
 
 </dl>
 
-### チェックボックスの集計
+### チェックボックスの集計 [#id=checkboxAggregate]
 
 チェックボックスのデータは[集計対象](/nipoplus/staff/charts)です。
 
@@ -255,7 +249,7 @@ ON/OFFの2択で回答する際に利用するフォームです。
 - [日報をグラフ化する方法はこちら](/nipoplus/reference/chart)
 - [CSV出力オプションについてはこちら](/nipoplus/reference/csvsettings)
 
-#### CSV出力オプションにて列展開がONの場合のCSV出力
+#### CSV出力オプションにて列展開がONの場合のCSV出力 [#id=checkboxCsv1]
 
 ON/OFFの状態が個別の列に展開されます
 
@@ -269,7 +263,7 @@ ON/OFFの状態が個別の列に展開されます
 2023/06/06, ⭕, -, ⭕, -, これはサンプルです
 </ExcelTable>
 
-#### CSV出力オプションにて列展開がOFFの場合のCSV出力
+#### CSV出力オプションにて列展開がOFFの場合のCSV出力 [#id=checkboxCsv2]
 
 ON/OFFの状態が1つの列にまとめられます
 
@@ -283,9 +277,7 @@ ON/OFFの状態が1つの列にまとめられます
 2023/06/01 11:15, ON, ON, これはサンプルです
 </ExcelTable>
 
-<hr id="layerd" />
-
-## ２層式選択
+## ２層式選択 [#id=layerd]
 
 :::caution[２層式は非推奨となりました。動的変化をご利用ください]
 より柔軟で高機能な[動的変化](#dinamic_switch_select)機能をご利用下さい。
@@ -299,7 +291,7 @@ ON/OFFの状態が1つの列にまとめられます
 1. 選択肢のリストを作る
 2. 各選択肢に対して、連動する選択肢リストを作る
 
-### ２層式選択の設定
+### ２層式選択の設定 [#id=layerdSetting]
 
 <dl class="basic">
   <dt>入力必須</dt>
@@ -317,7 +309,7 @@ ON/OFFの状態が1つの列にまとめられます
 
 [単語の色分けについて](#color)も可能です。
 
-### ２層式選択のCSV出力例
+### ２層式選択のCSV出力例 [#id=layerdCsv]
 
 選択肢(2層式)をCSVに出力すると、答1・答2の2列に展開されてCSVに出力されます。
 
@@ -327,9 +319,7 @@ ON/OFFの状態が1つの列にまとめられます
 進行, u4PIRvw, 管理者A, くだもの, バナナ, デスクトップ, Mac Mini, ウィスキー, ラフロイグ
 </ExcelTable>
 
-<hr id="color" />
-
-## 選択肢の色分けについて
+## 選択肢の色分けについて [#id=color]
 
 [選択入力（単体）](#plain)、[選択入力（複数）](#multiple)、[２層式選択](#layerd)の3種類のフォームは、各選択肢に色分けが可能です。
 
@@ -370,9 +360,7 @@ ON/OFFの状態が1つの列にまとめられます
   <dd style="color:gray">■これはサンプルです</dd>
 </dl>
 
-<hr id="dinamic_switch_select" />
-
-## 選択肢のリストを動的に変化させる
+## 選択肢のリストを動的に変化させる [#id=dinamic_switch_select]
 
 :::caution[[この機能はGOLDPLAN限定です](/nipoplus/price/#fee)]
 :::
@@ -386,7 +374,7 @@ ON/OFFの状態が1つの列にまとめられます
 
 ![プログラミングの知識がなくてもプログラミングっぽいテンプレートが作れる](./img/dinamic-selection_tablet.webp)
 
-### 動的変化の設定方法
+### 動的変化の設定方法 [#id=dinamicSetting]
 
 動的変化を使うにはテンプレートの設定画面から行います。
 参照先・参照先の値・変化後のリストでワンセットです。
@@ -411,7 +399,7 @@ ON/OFFの状態が1つの列にまとめられます
 参照先の値は複数選択することになりますが、すべての選択肢にマッチしたときに条件が成立となります
 :::
 
-#### 複数条件がある場合の優先度
+#### 複数条件がある場合の優先度 [#id=dinamicPriority]
 
 動的変化の条件は複数指定することができます。先の例であれば、
 
@@ -425,7 +413,7 @@ ON/OFFの状態が1つの列にまとめられます
 :::note[複数条件を満たしたときはより上のリストに変化します]
 :::
 
-### 動的変化が使えないケース
+### 動的変化が使えないケース [#id=dinamicUnavailable]
 
 - 動的変化させるにはトリガーとなるための参照先フォームが必要です
 - テンプレート内にフォームが1個しかない場合参照する対象が無いため利用できません
@@ -440,7 +428,7 @@ ON/OFFの状態が1つの列にまとめられます
 
 上記条件を満たすことで動的変化設定が可能になります。
 
-### 動的変化を反復入力と組み合わせて使う
+### 動的変化を反復入力と組み合わせて使う [#id=dinamic_array]
 
 - 動的変化を[反復入力](/nipoplus/template/array)と組み合わせて使用できます
 - 反復入力内で動的変化を使う際は変化の監視対象が同じ反復入力フォーム内の同じ行のデータに依存します

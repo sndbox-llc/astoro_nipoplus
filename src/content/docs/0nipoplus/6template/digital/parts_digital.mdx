@@ -35,9 +35,7 @@ import ExcelTable from '@components/ExcelTable.astro'
 
 数値系の入力フォームはテンプレート編集画面の左パネルから追加できます。
 
-<hr id="commonNumber" />
-
-## 通常の数値入力
+## 通常の数値入力 [#id=commonNumber]
 
 :::note[[入力イメージはこちらから確認できます](/nipoplus/reference/inputmethod/#number)]
 :::
@@ -45,7 +43,7 @@ import ExcelTable from '@components/ExcelTable.astro'
 最も一般的な数値の入力フォームを日報に追加できます。
 様々な数値を記録するのに適しています。小数点や負数も入力可能です。「円」「個」「キロ」などの単位も任意に設定できます。電卓ボタンをクリックすると大きなテンキーが表示されるため入力もストレスフリーです。
 
-### 通常の数値入力の主な用途
+### 通常の数値入力の主な用途 [#id=numberUsecase]
 
 - 売上高
 - 訪問件数
@@ -63,7 +61,7 @@ import ExcelTable from '@components/ExcelTable.astro'
   <dd>✅ 対応</dd>
 </dl>
 
-### 数値入力フォーム詳細設定
+### 数値入力フォーム詳細設定 [#id=numberSetting]
 
 <dl class="basic">
   <dt>入力必須</dt>
@@ -79,7 +77,7 @@ import ExcelTable from '@components/ExcelTable.astro'
 
 </dl>
 
-### 数値入力フォーム集計について
+### 数値入力フォーム集計について [#id=numberChart]
 
 - 数値データは[集計やグラフ化](/nipoplus/reference/chart)に適しています
 - NipoPlusのグラフ化機能を使えばアプリ内の日報データをほぼリアルタイムに推移グラフや内訳グラフとして表示できます
@@ -100,16 +98,14 @@ import ExcelTable from '@components/ExcelTable.astro'
 2023/06/08, 11, 23, 33, 4, 16, 22
 </ExcelTable>
 
-<hr id="rate" />
-
-## レート入力
+## レート入力 [#id=rate]
 
 :::note[[入力イメージはこちらから確認できます](/nipoplus/reference/inputmethod/#rate)]
 :::
 
 ネットショップやレビューサイトでおなじみの★を使った評価入力フォームです。星の上限は変更可能です。
 
-### レート入力の主な用途
+### レート入力の主な用途 [#id=rateUsecase]
 
 - 製品やサービスの満足度
 - 従業員の作業評価
@@ -126,7 +122,7 @@ import ExcelTable from '@components/ExcelTable.astro'
   <dd>✅ 対応</dd>
 </dl>
 
-### レートフォーム詳細設定
+### レートフォーム詳細設定 [#id=rateSetting]
 
 <dl class="basic">
   <dt>入力必須</dt>
@@ -148,7 +144,7 @@ import ExcelTable from '@components/ExcelTable.astro'
 アイコンを変更してもPDF出力時は●と◯で代用されます
 :::
 
-### レートフォームの集計について
+### レートフォームの集計について [#id=rateChart]
 
 レートフォームのデータは[集計・グラフ化](/nipoplus/reference/chart)が可能です。レート入力は2つの集計方式があります。
 
@@ -163,7 +159,7 @@ import ExcelTable from '@components/ExcelTable.astro'
 
 レートのデータは[CSV出力オプション](/nipoplus/reference/csvsettings)で列展開の形式を変更可能です。
 
-#### 列展開がONの場合のCSV出力例
+#### 列展開がONの場合のCSV出力例 [#id=rateCsvSplead]
 
 {/* prettier-ignore */}
 <ExcelTable>
@@ -174,7 +170,7 @@ import ExcelTable from '@components/ExcelTable.astro'
 2023/06/08 09:35, 栃木県宇都宮市XXXX, -, -, -, -, ⭕, -
 </ExcelTable>
 
-#### 列展開がOFFの場合のCSV出力例
+#### 列展開がOFFの場合のCSV出力例 [#id=rateCsvNoSplead]
 
 {/* prettier-ignore */}
 <ExcelTable>
@@ -187,9 +183,7 @@ import ExcelTable from '@components/ExcelTable.astro'
 
 列展開がONだと列数が多くなります
 
-<hr id="slider" />
-
-## スライダ入力
+## スライダ入力 [#id=slider]
 
 :::note[[入力イメージはこちらから確認できます](/nipoplus/reference/inputmethod/#slider)]
 :::
@@ -198,7 +192,7 @@ import ExcelTable from '@components/ExcelTable.astro'
 - 特にスマートフォンやタブレットなどのタッチパネルからの入力に適しています
 - 上限、下限があるため、特定の範囲内に収まる数値入力に限定されます。
 
-### スライダ入力の主な用途
+### スライダ入力の主な用途 [#id=sliderUsecase]
 
 - 室温、湿度、圧力、騒音レベルなど、上限下限がある程度決まっている環境データの記録
 - パーセンテージで表現する進捗度や達成率の入力
@@ -218,7 +212,7 @@ import ExcelTable from '@components/ExcelTable.astro'
 :::caution[「本日の来客者」のように、上限が予測できないデータには不向きです]
 :::
 
-### スライダフォームの初期設定
+### スライダフォームの初期設定 [#id=sliderSetting]
 
 <dl class="basic">
 <dt>入力必須</dt>
@@ -246,7 +240,7 @@ import ExcelTable from '@components/ExcelTable.astro'
 レートの上限下限が極端に広い、または刻みの単位が極端に小さいと、スライダの密度が高くなり操作性が低下する可能性があります
 :::
 
-### スライダフォームの集計
+### スライダフォームの集計について [#id=sliderChart]
 
 データ分析とCSV出力:
 スライダで入力された値は数値データとして[集計・グラフ化](/nipoplus/reference/chart)に対応しています。
@@ -254,7 +248,7 @@ import ExcelTable from '@components/ExcelTable.astro'
 
 ![スライダフォームのデータをグラフ化した例](./img/slider_charts_tablet.png)
 
-### スライダフォームのCSV出力
+### スライダフォームのCSV出力 [#id=sliderCsv]
 
 スライダで入力された値は数値データとしてCSVに出力できます。単位は【】内に記載されます。
 
@@ -267,16 +261,14 @@ import ExcelTable from '@components/ExcelTable.astro'
 2023/06/08 11:04, -7, 0, 9, 重量誤差過大
 </ExcelTable>
 
-<hr id="range" />
-
-## 範囲入力 - 数値の変動範囲を記録
+## 範囲入力 - 数値の変動範囲を記録 [#id=range]
 
 :::note[[入力イメージはこちらから確認できます](/nipoplus/reference/inputmethod/#range)]
 :::
 
 スライダにつまみが2つあり、これらを操作して最小値から最大値までの「範囲」を入力できるフォームです。
 
-### 範囲入力の主な用途
+### 範囲入力の主な用途 [#id=rangeUsecase]
 
 - 日報における活動時間の目安
 - 製造工程での温度・圧力の許容範囲、
@@ -295,7 +287,7 @@ import ExcelTable from '@components/ExcelTable.astro'
   <dd>✅ 対応</dd>
 </dl>
 
-### 範囲入力の設定項目詳細
+### 範囲入力の設定項目詳細 [#id=rangeSetting]
 
 <dl class="basic">
   <dt>入力必須</dt>
@@ -323,7 +315,7 @@ import ExcelTable from '@components/ExcelTable.astro'
 レートの上限下限が極端に広い、または刻みの単位が極端に小さいと、スライダの密度が高くなり操作性が低下する可能性があります。適切な範囲と刻み幅を設定してください。
 :::
 
-### 範囲入力フォームのCSV出力について
+### 範囲入力フォームのCSV出力について [#id=rangeCsv]
 
 最小値と最大値がそれぞれ独立した列に展開されてCSVに出力されます。
 
@@ -336,15 +328,13 @@ import ExcelTable from '@components/ExcelTable.astro'
 2023/06/08 01:28, 22, 28, 14, 19, 水温異常なし
 </ExcelTable>
 
-<hr id="calc" />
-
-## 算術フォーム
+## 算術フォーム [#id=calc]
 
 算術フォームは他のフォームと異なり、ユーザーが直接データを入力することはできません。他の数値入力フォームの値を参照し、自動で計算後の結果を表示する特殊なフォームです。
 
 ![例えば税込み金額を出すといった決まった計算に便利](./img/calc-icatch_tablet.png)
 
-### 算術フォームの主な用途
+### 算術フォームの主な用途 [#id=calcUsecase]
 
 - 製品の製造数と不良数から不良率を自動計算する
 - 複数の費用項目から合計金額を自動計算する
@@ -362,7 +352,7 @@ import ExcelTable from '@components/ExcelTable.astro'
   <dd>❌ 非対応</dd>
 </dl>
 
-### 算術フォームの設定項目詳細
+### 算術フォームの設定項目詳細 [#id=calcSetting]
 
 最も重要なのは、正しい計算式を作成することです。計算式に使えるエレメントは以下の通りです。
 
@@ -374,7 +364,7 @@ import ExcelTable from '@components/ExcelTable.astro'
 電卓の要領で式を入力し、「保存して終了」ボタンをクリックして式を保存します。
 式が正しく機能するかはプレビューで確認してください。
 
-### 算術で利用可能な入力フォーム
+### 算術で利用可能な入力フォーム [#id=calcForm]
 
 計算式として利用できる入力フォームは以下のとおりです。これらのフォームに数値が入力されると、算術フォームが自動で計算を行います。
 
@@ -396,7 +386,7 @@ import ExcelTable from '@components/ExcelTable.astro'
 各種フォームの設定で「集計する」の機能をOFFにすると、算術の参照元として使用できません
 :::
 
-### 反復入力フォームの中で算術を使う
+### 反復入力フォームの中で算術を使う [#id=calcLoop]
 
 反復入力の中で使う場合、その反復の中で計算を完結させる必要があります（反復の外のデータは参照できません）。
 これにより、複数行にわたる作業の合計時間やコスト、生産数などを、行ごとに自動計算できるようになります。
