@@ -12,11 +12,11 @@
     "format:check": "prettier --check ."
   },
   "dependencies": {
-    "@astrojs/sitemap": "3.7.2",
+    "@astrojs/sitemap": "3.7.3",
     "@astrojs/starlight": "0.39.2",
     "@astrojs/starlight-tailwind": "5.0.0",
     "@tailwindcss/vite": "4.3.0",
-    "astro": "6.3.5",
+    "astro": "6.3.8",
     "rehype-figure": "1.0.1",
     "sharp": "0.34.5",
     "starlight-image-zoom": "0.14.2",
@@ -27,6 +27,6 @@
   "devDependencies": {
     "prettier": "3.7.4",
     "prettier-plugin-astro": "0.14.1",
-    "sass-embedded": "1.99.0"
+    "sass-embedded": "1.100.0"
   }
 }
