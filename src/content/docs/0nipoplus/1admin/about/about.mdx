@@ -6,17 +6,25 @@ sidebar:
   label: 👔グループとスタッフの作成
 ---
 
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoLinkCard from '@components/AutoLinkCard.astro' // パスは環境に合わせて調整してください
+
+<CardGrid>
+  <AutoLinkCard title="組織のスタッフ管理" href="/nipoplus/admin/about" />
+  <AutoLinkCard title="スタッフアカウント管理" href="/nipoplus/reference/makestaff" />
+</CardGrid>
+
 ようこそ。管理者様。
 管理者はNipoPlusにおける最高権限です。
 このページではNipoPlusの管理者アカウントが持つ役割についてまとめています。
 
-## 管理者専用画面にアクセス {#adminPage}
+## 管理者専用画面にアクセス [#id=adminPage]
 
 メニュー左上にある「組織設定」をクリックし、管理者専用ページに移動します。
 
 ![組織設定は管理者権限のユーザにのみ表示](./img/admin-btn.webp)
 
-## スタッフアカウントを作成する {#createStaff}
+## スタッフアカウントを作成する [#id=createStaff]
 
 NipoPlusを使用する従業員のためにアカウントを作成します。
 
@@ -36,7 +44,7 @@ NipoPlusを使用する従業員のためにアカウントを作成します。
 もしアカウントの作成が多い場合は[スタッフの一括作成](/nipoplus/reference/makestaff)をご利用下さい
 :::
 
-## グループを作成する {#createGroup}
+## グループを作成する [#id=createGroup]
 
 :::note[小規模なケースでは不要]
 もし１グループで運用する場合、このステップはスキップして下さい。
@@ -51,7 +59,7 @@ NipoPlusを使用する従業員のためにアカウントを作成します。
 
 ![組織設定をクリックすると管理者専用ページに切り替わる](./img/make-group.webp)
 
-## グループにスタッフを割り当てる {#join_staff}
+## グループにスタッフを割り当てる [#id=join_staff]
 
 スタッフをどのグループに所属させるかは管理者が指定します。
 
@@ -63,6 +71,6 @@ NipoPlusを使用する従業員のためにアカウントを作成します。
 グループ内の設定は「編集者権限以上」のスタッフが行えます。そのため、各グループに１名以上、編集者権限のスタッフを配置して下さい
 :::
 
-## 管理者としての役割はここまで {#finish}
+## 管理者としての役割はここまで [#id=finish]
 
 以上で管理者としての基本的な役割は完了です。次のセクションでは各グループ内の細かい設定を行っていきます。次のページへ進んで下さい。

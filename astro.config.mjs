@@ -8,9 +8,46 @@ import remarkHeadingId from 'remark-heading-id'
 import starlightSidebarTopics from 'starlight-sidebar-topics'
 import starlightLinksValidator from 'starlight-links-validator'
 
+import { visit } from 'unist-util-visit' // Astroに標準で入っているはずです
+import { toString } from 'mdast-util-to-string'
+
 import tailwindcss from '@tailwindcss/vite'
 
 const isProd = process.env.NODE_ENV === 'production'
+
+function remarkCustomHeadingId() {
+  return (tree, file) => {
+    // ファイルが .mdx かどうかを判定
+    const isMdx = file.history[0]?.endsWith('.mdx')
+
+    visit(tree, 'heading', (node) => {
+      const lastChild = node.children[node.children.length - 1]
+      if (lastChild && lastChild.type === 'text') {
+        let match = null
+        let id = null
+
+        if (isMdx) {
+          // 【MDX用】気難しいので [#id=xxx] だけを許可
+          match = lastChild.value.match(/\s*\[#id=([\w-]+)\]$/)
+          if (match) id = match[1]
+        } else {
+          // 【MD用】従来の {#xxx} と 新しい [#id=xxx] の両方を許可
+          const mdMatch = lastChild.value.match(/\s*\{#([\w-]+)\}$|\s*\[#id=([\w-]+)\]$/)
+          if (mdMatch) id = mdMatch[1] || mdMatch[2]
+        }
+
+        if (id) {
+          node.data = node.data || {}
+          node.data.hProperties = node.data.hProperties || {}
+          node.data.hProperties.id = id
+
+          // マッチした部分（{#xxx} または [#id=xxx]）を本文から消去
+          lastChild.value = lastChild.value.replace(/\s*\{#[\w-]+\}$|\s*\[#id=[\w-]+\]$/, '')
+        }
+      }
+    })
+  }
+}
 
 export default defineConfig({
   site: 'https://nipo-plus-doc.sndbox.jp',
@@ -368,7 +405,8 @@ export default defineConfig({
 
   markdown: {
     // ここに remarkPlugins を追加
-    remarkPlugins: [remarkHeadingId],
+    remarkPlugins: [remarkCustomHeadingId],
+    // remarkPlugins: [remarkHeadingId],
     rehypePlugins: [[rehypeFigure, { className: 'custom-figure' }]],
   },
 
