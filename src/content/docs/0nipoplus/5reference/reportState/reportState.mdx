@@ -13,19 +13,31 @@ sidebar:
 各段階の状態は以下のとおりです。
 
 <dl class="basic">
-<dt>新規</dt>
-<dd>日報が作成され、まだ承認や棄却が行われていない初期状態です</dd>
-<dt><a href="/nipoplus/reference/reportstate/#relay">進行</a></dt>
-<dd>（提出先が2名以上の場合に限る）1名以上が承認をし、かつ最後の承認がされていない状態です。この状態になると日報はロックされ、直接修正はできません</dd>
-<dt><a href="/nipoplus/reference/reportstate/#reject">棄却</a></dt>
-<dd>日報が提出先のスタッフによって棄却された状態です。<a href="/nipoplus/reference/redacted">修正が必要</a>です。棄却された理由はコメント欄で確認できます</dd>
-<dt><a href="/nipoplus/reference/reportstate/#state">修正</a></dt>
-<dd><a href="/nipoplus/reference/redacted">日報を修正</a>した直後で、まだ承認や棄却が行われていない状態です。新規と違い、この状態の日報は削除できません</dd>
-<dt><a href="/nipoplus/reference/reportstate/#agree">承認</a></dt>
-<dd>全ての提出先スタッフによって承認された最終状態です。日報はロックされ、内容の変更はできません。正式な記録として確定したことを意味します</dd>
+  <dt>新規</dt>
+  <dd>日報が作成され、まだ承認や棄却が行われていない初期状態です</dd>
+  <dt>
+    <a href="/nipoplus/reference/reportstate/#relay">進行</a>
+  </dt>
+  <dd>（提出先が2名以上の場合に限る）1名以上が承認をし、かつ最後の承認がされていない状態です。この状態になると日報はロックされ、直接修正はできません</dd>
+  <dt>
+    <a href="/nipoplus/reference/reportstate/#reject">棄却</a>
+  </dt>
+  <dd>
+    日報が提出先のスタッフによって棄却された状態です。<a href="/nipoplus/reference/redacted">修正が必要</a>です。棄却された理由はコメント欄で確認できます
+  </dd>
+  <dt>
+    <a href="/nipoplus/reference/reportstate/#state">修正</a>
+  </dt>
+  <dd>
+    <a href="/nipoplus/reference/redacted">日報を修正</a>した直後で、まだ承認や棄却が行われていない状態です。新規と違い、この状態の日報は削除できません
+  </dd>
+  <dt>
+    <a href="/nipoplus/reference/reportstate/#agree">承認</a>
+  </dt>
+  <dd>全ての提出先スタッフによって承認された最終状態です。日報はロックされ、内容の変更はできません。正式な記録として確定したことを意味します</dd>
 </dl>
 
-## 日報の状態を変える {#action}
+## 日報の状態を変える [#id=action]
 
 - [日報の詳細画面](/nipoplus/staff/readreport/)から日報の状態を変化させることができます。
 - 提出先に指定されたスタッフには[承認・棄却](/nipoplus/staff/readreport/#agree)ボタンが表示されます
@@ -33,7 +45,7 @@ sidebar:
 
 [提出先と共有先について](/nipoplus/gainen/destination/)もご覧下さい
 
-### 日報の状態-承認 {#agree}
+### 日報の状態-承認 [#id=agree]
 
 ![日報を承認するとロックされ、修正や削除ができなくなる](./img/doneState.webp)
 
@@ -43,7 +55,7 @@ sidebar:
 - 検印欄の数は[提出先の設定](/nipoplus/gainen/destination)により変動します
 - 右端の検印欄に押印された時点で、日報は最終的な「承認」の状態に変わります
 
-### 日報の状態-進行 {#relay}
+### 日報の状態-進行 [#id=relay]
 
 ![承認リレー](./img/progressState.webp)
 
@@ -54,7 +66,7 @@ sidebar:
 :::note[検印欄が1つしか無い場合はリレーにならず直接承認になります]
 :::
 
-### 日報の状態-棄却 {#reject}
+### 日報の状態-棄却 [#id=reject]
 
 ![日報の棄却](./img/report-rejected_tablet.png)
 
@@ -65,14 +77,14 @@ sidebar:
 - 状態が「進行」の日報が棄却されると検印欄の最初からやり直しになります
 - 棄却された事実は日報の作成者に[通知](/nipoplus/reference/notify)されます
 
-### 日報の状態-修正 {#state}
+### 日報の状態-修正 [#id=state]
 
 ![日報が修正されると承認リレーも最初からやり直しになる](./img/report-fixed_tablet.png)
 
 - 棄却された日報を修正すると修正状態になります
 - 棄却前の日報を修正しても同様に修正の状態になります
 
-## 日報の既読について {#readed}
+## 日報の既読について [#id=readed]
 
 ![既読ボタンを押下して既読フラグを立てる](./img/readed_tablet.png)
 
