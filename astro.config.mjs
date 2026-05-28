@@ -4,12 +4,10 @@ import starlight from '@astrojs/starlight'
 import sitemap from '@astrojs/sitemap'
 import rehypeFigure from 'rehype-figure'
 import starlightImageZoom from 'starlight-image-zoom'
-import remarkHeadingId from 'remark-heading-id'
 import starlightSidebarTopics from 'starlight-sidebar-topics'
 import starlightLinksValidator from 'starlight-links-validator'
 
 import { visit } from 'unist-util-visit' // Astroに標準で入っているはずです
-import { toString } from 'mdast-util-to-string'
 
 import tailwindcss from '@tailwindcss/vite'
 
@@ -65,6 +63,7 @@ export default defineConfig({
   integrations: [
     starlight({
       title: 'NipoPlus',
+      lastUpdated: true,
       favicon: '/images/icon-256x256.png',
       // head: [],
       head: [
