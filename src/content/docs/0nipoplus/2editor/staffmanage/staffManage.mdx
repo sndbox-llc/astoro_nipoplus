@@ -7,14 +7,13 @@ sidebar:
 ---
 
 import { Badge, CardGrid } from '@astrojs/starlight/components'
-import AutoLinkCard from '@components/AutoLinkCard.astro' // パスは環境に合わせて調整してください
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
 
-関連：
-
-<CardGrid>
-  <AutoLinkCard title="組織のスタッフ管理" href="/nipoplus/admin/about" />
-  <AutoLinkCard title="スタッフアカウント管理" href="/nipoplus/reference/makestaff" />
-</CardGrid>
+<TopicGrid>
+  <AutoTopicCard title="組織のスタッフ管理" href="/nipoplus/admin/about" />
+  <AutoTopicCard title="スタッフアカウント管理" href="/nipoplus/reference/makestaff" />
+</TopicGrid>
 
 グループに所属しているスタッフの各種設定を行います。  
 グループにスタッフを追加するには[組織のスタッフ管理](/nipoplus/admin/about)から行います。

@@ -7,12 +7,12 @@ sidebar:
 ---
 
 import { Badge, CardGrid } from '@astrojs/starlight/components'
-import AutoLinkCard from '@components/AutoLinkCard.astro' // パスは環境に合わせて調整してください
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
 
-<CardGrid>
-  <AutoLinkCard title="組織のスタッフ管理" href="/nipoplus/admin/about" />
-  <AutoLinkCard title="スタッフアカウント管理" href="/nipoplus/reference/makestaff" />
-</CardGrid>
+<TopicGrid>
+  <AutoTopicCard title="スタッフアカウント管理" href="/nipoplus/reference/makestaff" />
+</TopicGrid>
 
 ようこそ。管理者様。
 管理者はNipoPlusにおける最高権限です。

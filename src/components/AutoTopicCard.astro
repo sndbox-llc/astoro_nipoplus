@@ -1,0 +1,52 @@
+---
+// src/components/AutoTopicCard.astro
+interface Props {
+  title: string
+  href: string
+}
+
+const { title, href } = Astro.props
+
+const cleanHref = href
+  .replace(/^\/+|\/+$/g, '')
+  .split('#')[0]
+  .split('?')[0]
+
+const categoryMap: Record<string, string> = {
+  'nipoplus/admin': '管理者のやるべきこと',
+  'nipoplus/editor': '編集者ガイド',
+  'nipoplus/staff': '日常ガイド',
+  'nipoplus/template': 'テンプレートパーツ',
+  'nipoplus/other': '日報以外のデータ管理',
+  'nipoplus/reference': '詳細リファレンス',
+  'nipoplus/gainen': '概念説明',
+  'nipoplus/price': '料金',
+  'nipoplus/system': '規約等',
+  'legacy/about': '旧バージョンについて',
+  'legacy/manual': '旧Nipo操作ガイド',
+  'legacy/parts': '各種入力フォーム',
+  'legacy/system': 'Nipoシステム概要',
+  excel: 'Excel活用術',
+  tips: '日報Tips',
+  tech: '技術系ブログ',
+  lp: 'チェックシート',
+  inquery: 'お問い合わせ',
+}
+
+const segments = cleanHref.split('/')
+const category = categoryMap[`${segments[0]}/${segments[1]}`] || categoryMap[segments[0]] || '関連ガイド'
+---
+
+<a href={href} class="group flex flex-col px-4 py-3 border rounded-md transition-all duration-200 no-underline shadow-sm flex-1 min-w-[200px] max-w-sm
+         border-sky-500/40 bg-sky-500/[0.03] hover:bg-sky-500/[0.08] hover:border-sky-500/70 hover:-translate-y-0.5
+         dark:border-sky-400/20 dark:bg-sky-400/[0.03] dark:hover:bg-sky-400/[0.1] dark:hover:border-sky-400/50">
+  <span class="text-[10px] uppercase tracking-wider font-medium text-slate-500 dark:text-slate-400 group-hover:text-sky-600 dark:group-hover:text-sky-300">
+    {category}
+  </span>
+  <span class="mt-1 text-sm font-bold flex justify-between items-center text-sky-800 dark:text-sky-200">
+    {title}
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 opacity-40 group-hover:opacity-100 transition-opacity ml-2 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+    </svg>
+  </span>
+</a>
