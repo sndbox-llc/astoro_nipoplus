@@ -18,7 +18,7 @@ import ExcelTable from '@components/ExcelTable.astro'
 
 「作成者」や「天候」といった項目は固定ですが、その下にある「時刻、分類、生産数」といった表は日報作成の都度、行数が変わります。このような「行が可変する表形式」のフォームを反復入力フォームで実装できます。
 
-## 反復入力の初期設定
+## 反復入力の初期設定 [#id=initial_setting]
 
 :::note[[入力イメージはこちらから確認できます](/nipoplus/reference/inputmethod/#array)]
 :::
@@ -38,7 +38,7 @@ import ExcelTable from '@components/ExcelTable.astro'
   </dd>
 </dl>
 
-## 反復の日報をCSVに出力する
+## 反復の日報をCSVに出力する [#id=csv_output]
 
 - 反復入力の中で使用されている入力フォームがCSV出力に対応していればそのデータもCSV出力が可能です
 - CSVは通常1行に1件のデータを表す形式ですが反復入力は1件の日報の中に複数行のデータが格納されるため変則的な形式で出力されます
@@ -55,7 +55,7 @@ import ExcelTable from '@components/ExcelTable.astro'
 
 １件の日報が３行で出力されているイメージ。
 
-## 反復の日報をPDFに出力する
+## 反復の日報をPDFに出力する [#id=pdf_output]
 
 - 反復入力で作成された日報はPDF出力にも対応しています
 - 反復の列数が多すぎるとPDFに出力する際にレイアウトが崩れる可能性があります

@@ -402,7 +402,7 @@ NipoPlusでは最大999名まで対応しております。それ以上でのご
 Nipo【旧版】/NipoPlusを合わせて500社ほどGOLDPLANをご利用頂いています（無料PLANはカウント対象外）
 お客様個別に関する情報は公開できませんが、NipoPlusでは特に製造業の方が多いです。
 サイト上に公開してくださっているお客様に関してはここでご紹介させていただいても問題ないのでリンクをさせていただきます
-<a href="https://www.sogareinetsu.com/worklog/nipo">曽我冷熱株式会社様</a><br>
+<a href="https://www.sogareinetsu.com/worklog/nipo">曽我冷熱株式会社様</a><br />
 <a href="https://ameblo.jp/dukeblog-life/entry-12452375114.html">有限会社デューク様</a>
 
 </details>
