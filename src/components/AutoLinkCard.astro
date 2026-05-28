@@ -1,0 +1,55 @@
+---
+// src/components/AutoLinkCard.astro
+import { LinkCard } from '@astrojs/starlight/components'
+
+interface Props {
+  title: string
+  href: string
+}
+
+const { title, href } = Astro.props
+
+// URLのクレンジング（先頭・末尾のスラッシュ、#、? を除去）
+const cleanHref = href
+  .replace(/^\/+|\/+$/g, '')
+  .split('#')[0]
+  .split('?')[0]
+
+// カテゴリのマッピングオブジェクト（辞書）
+const categoryMap: Record<string, string> = {
+  // NipoPlus 系
+  'nipoplus/admin': '管理者のやるべきこと',
+  'nipoplus/editor': '編集者ガイド',
+  'nipoplus/staff': '日常ガイド',
+  'nipoplus/template': 'テンプレートパーツ',
+  'nipoplus/other': '日報以外のデータ管理',
+  'nipoplus/reference': '詳細リファレンス',
+  'nipoplus/gainen': '概念説明',
+  'nipoplus/price': '料金',
+  'nipoplus/system': '規約等',
+
+  // 旧バージョン（Legacy）系
+  'legacy/about': '旧バージョンについて',
+  'legacy/manual': '旧Nipo操作ガイド',
+  'legacy/parts': '各種入力フォーム',
+  'legacy/system': 'Nipoシステム概要',
+
+  // コラム・その他
+  excel: 'Excel活用術',
+  tips: '日報Tips',
+  tech: '技術系ブログ',
+  lp: 'チェックシート',
+  inquery: 'お問い合わせ',
+}
+
+// ルックアップ処理
+// 1. まずは長いパス（例: "nipoplus/admin"）で探す
+// 2. なければ最初の1セグメント（例: "excel"）で探す
+const segments = cleanHref.split('/')
+const twoSegmentKey = `${segments[0]}/${segments[1]}`
+const oneSegmentKey = segments[0]
+
+const description = categoryMap[twoSegmentKey] || categoryMap[oneSegmentKey] || '関連ガイド'
+---
+
+<LinkCard title={title} description={description} href={href} />

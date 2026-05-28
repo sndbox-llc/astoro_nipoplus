@@ -6,10 +6,15 @@ sidebar:
   label: 👤グループ内のスタッフ管理
 ---
 
-import { Badge } from '@astrojs/starlight/components'
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoLinkCard from '@components/AutoLinkCard.astro' // パスは環境に合わせて調整してください
 
-:::note[[組織のスタッフ管理についてはこちら](/nipoplus/admin/about)]
-:::
+関連：
+
+<CardGrid>
+  <AutoLinkCard title="組織のスタッフ管理" href="/nipoplus/admin/about" />
+  <AutoLinkCard title="スタッフアカウント管理" href="/nipoplus/reference/makestaff" />
+</CardGrid>
 
 グループに所属しているスタッフの各種設定を行います。  
 グループにスタッフを追加するには[組織のスタッフ管理](/nipoplus/admin/about)から行います。
