@@ -6,14 +6,17 @@ sidebar:
   label: 🗂️CSV出力
 ---
 
-:::note[[CSV出力設定も合わせてご覧下さい](/nipoplus/reference/csvsettings)]
-:::
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<TopicGrid>
+  <AutoTopicCard title="CSV出力設定" href="/nipoplus/reference/csvsettings" />
+  <AutoTopicCard title="グループ設定から機能を有効にする" href="/nipoplus/editor/groupmanage/#optionalFunction" />
+</TopicGrid>
 
 :::caution[Web版のみ対応]
 スマホアプリ版（<a href="/nipoplus/system/mobile-install/#android_usage">Android</a> / <a href="/nipoplus/system/mobile-install/#ios_usage">iOS</a>版）では利用できません。<a href="/nipoplus/system/mobile-install/#pc_usage">Web版NipoPlus</a>をご利用ください
-:::
-
-:::note[[メニューに無いときはグループ設定から機能を有効にしてください](/nipoplus/editor/groupmanage/#optionalFunction)]
 :::
 
 ## 複数の日報を1枚のCSVに出力するメリット [#id=monthly]

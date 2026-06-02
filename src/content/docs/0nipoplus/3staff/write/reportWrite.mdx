@@ -9,6 +9,19 @@ sidebar:
     variant: note
 ---
 
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<TopicGrid>
+  <AutoTopicCard title="日報のコピー" href="/nipoplus/reference/copymake/" />
+  <AutoTopicCard title="下書き" href="/nipoplus/reference/draft/" />
+  <AutoTopicCard title="綴り日報" href="/nipoplus/reference/tuduri/" />
+  <AutoTopicCard title="複数人で日報を書き上げる" href="/nipoplus/reference/relation/" />
+  <AutoTopicCard title="部外者の日報作成" href="/nipoplus/reference/outsidewrite/" />
+  <AutoTopicCard title="入力フォーム" href="/nipoplus/reference/inputmethod/" />
+</TopicGrid>
+
 日常使う際に最も多く使う機能が本ページで解説している「日報の作成」でしょう。
 簡単な手順で日報を作成できます。
 

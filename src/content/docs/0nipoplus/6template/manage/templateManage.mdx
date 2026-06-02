@@ -6,8 +6,13 @@ sidebar:
   label: ⚙テンプレートの複製、削除
 ---
 
-:::note[[編集者権限以上が必要です](/nipoplus/reference/userRank/#editor)]
-:::
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<a href="/nipoplus/reference/userRank/#editor" class="card">
+  <Badge text="編集者権限以上が必要" variant="caution" />
+</a>
 
 ## テンプレートの複製とインポート [#id=copyImport]
 

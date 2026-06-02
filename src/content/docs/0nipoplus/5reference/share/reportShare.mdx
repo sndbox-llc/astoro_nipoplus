@@ -9,8 +9,13 @@ sidebar:
     variant: caution
 ---
 
-:::note[[編集者権限以上が必要です](/nipoplus/reference/userRank/#editor)]
-:::
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<a href="/nipoplus/reference/userRank/#editor" class="card">
+  <Badge text="編集者権限以上が必要" variant="caution" />
+</a>
 
 :::note[この機能は、通常の日報運用では不要です]
 以下のすべての条件に該当する場合にのみ、読み進めてください。

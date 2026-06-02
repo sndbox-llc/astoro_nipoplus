@@ -6,6 +6,14 @@ sidebar:
   label: 📑日報のコピー新規作成
 ---
 
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<TopicGrid>
+  <AutoTopicCard title="日報の新規作成" href="/nipoplus/staff/writereport/" />
+</TopicGrid>
+
 過去に書いた日報をコピーして、新たに日報を作成できる機能です。ただし、署名や写真、ファイルなどのバイナリデータは、セキュリティとデータの信頼性確保のため複製されません。
 
 ## 日報をコピーして新規作成する手順 [#id=copyNew]

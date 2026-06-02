@@ -6,11 +6,19 @@ sidebar:
   label: 📂フォルダによる管理
 ---
 
-:::note[[編集者権限以上が必要です](/nipoplus/reference/userRank/#editor)]
-:::
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
 
-:::caution[[この機能はGOLDPLAN限定です](/nipoplus/price/#fee)]
-:::
+<a href="/nipoplus/reference/userRank/#editor">
+  <Badge text="編集者権限以上が必要" variant="caution" />
+</a>
+
+<a href="/nipoplus/price/#fee">
+  <Badge text="GOLDPLAN限定" variant="caution" />
+</a>
+
+---
 
 :::tip[[利用可能なテンプレートの制限も有効です](/nipoplus/editor/limitedTemplate/)]
 :::

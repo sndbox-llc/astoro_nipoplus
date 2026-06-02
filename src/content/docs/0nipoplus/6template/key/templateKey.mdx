@@ -9,8 +9,15 @@ sidebar:
     variant: caution
 ---
 
-:::note[[編集者権限以上が必要です](/nipoplus/reference/userRank/#editor)]
-:::
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<a href="/nipoplus/reference/userRank/#editor" class="card">
+  <Badge text="編集者権限以上が必要" variant="caution" />
+</a>
+
+---
 
 :::danger[重要：過去の日報データが正しく表示されなくなるリスクについて]
 このページで解説する「キー」の操作は、NipoPlusのデータの根幹に関わる重要な設定です。誤った操作を行うと、過去に作成された大切な日報データ（日報、点検記録など）の項目が表示されなくなるなどの問題が発生する可能性があります。

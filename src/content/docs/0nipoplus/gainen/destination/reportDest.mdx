@@ -6,6 +6,15 @@ sidebar:
   label: 📤提出先と共有先
 ---
 
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<TopicGrid>
+  <AutoTopicCard title="日報を書く" href="/nipoplus/staff/writereport" />
+  <AutoTopicCard title="日報を読む" href="/nipoplus/staff/readreport" />
+</TopicGrid>
+
 誰が日報を読めるのか？これは提出先と共有先によって決まります。
 
 ## 提出先と共有先の意味 [#id=whatisDist]
