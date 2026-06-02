@@ -6,6 +6,17 @@ sidebar:
   label: 💳GOLDPLAN（自動更新無）
 ---
 
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<Badge text="管理者限定" variant="caution" />
+
+<TopicGrid>
+  <AutoTopicCard title="自動更新あり" href="/nipoplus/price/subscription/" />
+  <AutoTopicCard title="無料プラン" href="/nipoplus/price/free" />
+</TopicGrid>
+
 :::caution[Android/iOS版からはお申し込みできません]
 必ずWeb版のNipoPlusからお申し込みください。（Web版でお申し込み後はAndroid/iOS版でもGOLDPLANが適用されます）
 :::

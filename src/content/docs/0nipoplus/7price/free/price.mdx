@@ -6,6 +6,15 @@ sidebar:
   label: 🆓無料PLAN
 ---
 
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<TopicGrid>
+  <AutoTopicCard title="自動更新あり" href="/nipoplus/price/subscription/" />
+  <AutoTopicCard title="自動更新なし" href="/nipoplus/price/invoice/" />
+</TopicGrid>
+
 ## 無料で日報アプリが使えるって本当？ [#id=free_is_true]
 
 はい、本当です。  

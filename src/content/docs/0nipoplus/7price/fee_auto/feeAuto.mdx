@@ -1,13 +1,21 @@
 ---
 slug: nipoplus/price/subscription
-title: 【月額200円/名】GOLDPLAN（自動更新あり）
+title: 自動更新有りのGOLDPLAN(1名200円)
 description: NipoPlusのGOLDPLANは、月額200円/名（5名〜）で全機能が利用できるサブスクリプションです。自動更新で継続利用もスムーズ。お申し込み方法から詳細までご案内します。
 sidebar:
   label: 💳GOLDPLAN（自動更新有）
 ---
 
-:::caution[この操作には管理者権限が必要です]
-:::
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<Badge text="管理者限定" variant="caution" />
+
+<TopicGrid>
+  <AutoTopicCard title="自動更新なし" href="/nipoplus/price/invoice/" />
+  <AutoTopicCard title="無料プラン" href="/nipoplus/price/free" />
+</TopicGrid>
 
 :::caution[Android/iOS版からはお申し込みできません]
 必ずWeb版のNipoPlusからお申し込みください。（Web版でお申し込み後はAndroid/iOS版でもGOLDPLANが適用されます）
@@ -15,7 +23,7 @@ sidebar:
 
 :::note[料金改定しました]
 2026年2月に1名200円（請求書払いと同額）に価格改定されました。
-改定前のお申し込みのお客様は現在の180円のままご提供させていただきます
+改定前のお申し込みのお客様は改定前の価格のままご提供させていただきます
 :::
 
 ## 自動更新有りのGOLDPLANとは [#id=jouken]

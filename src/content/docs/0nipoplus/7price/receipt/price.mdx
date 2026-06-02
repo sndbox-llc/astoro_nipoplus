@@ -6,7 +6,18 @@ sidebar:
   label: 🧾領収証の発行
 ---
 
-:::note[【重要】NipoPlus（現行版）の領収証について]
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<Badge text="管理者限定" variant="caution" />
+
+<TopicGrid>
+  <AutoTopicCard title="自動更新あり" href="/nipoplus/price/subscription/" />
+  <AutoTopicCard title="自動更新なし" href="/nipoplus/price/invoice/" />
+</TopicGrid>
+
+:::caution[【重要】NipoPlus（現行版）の領収証について]
 このガイドはNipoPlus（現行版）でのお支払いに対する領収証発行手順です。
 Nipo【旧版】をご利用の方は、[Nipo【旧版】の料金ページ](/legacy/system/price)をご確認ください。
 :::
