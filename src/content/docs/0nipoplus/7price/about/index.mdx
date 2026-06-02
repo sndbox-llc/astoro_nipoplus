@@ -7,6 +7,18 @@ sidebar:
   label: ご利用料金概要
 ---
 
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<Badge text="管理者限定" variant="caution" />
+
+<TopicGrid>
+  <AutoTopicCard title="自動更新あり" href="/nipoplus/price/subscription/" />
+  <AutoTopicCard title="自動更新なし" href="/nipoplus/price/invoice/" />
+  <AutoTopicCard title="無料プラン" href="/nipoplus/price/free" />
+</TopicGrid>
+
 :::caution[こちらはNipoPlusの料金ページです]
 [旧Nipoの料金](/legacy/system/price)と混同されないように注意してください
 :::

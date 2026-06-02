@@ -6,6 +6,7 @@ import rehypeFigure from '@microflash/rehype-figure' // こっちに変える
 import starlightImageZoom from 'starlight-image-zoom'
 import starlightSidebarTopics from 'starlight-sidebar-topics'
 import starlightLinksValidator from 'starlight-links-validator'
+import remarkGfm from 'remark-gfm'
 
 import { visit } from 'unist-util-visit' // Astroに標準で入っているはずです
 
@@ -404,7 +405,8 @@ export default defineConfig({
 
   markdown: {
     // ここに remarkPlugins を追加
-    remarkPlugins: [remarkCustomHeadingId],
+    remarkPlugins: [remarkGfm, remarkCustomHeadingId],
+    // remarkPlugins: [remarkCustomHeadingId],
     // remarkPlugins: [remarkHeadingId],
     rehypePlugins: [[rehypeFigure, { className: 'custom-figure' }]],
   },
