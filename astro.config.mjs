@@ -2,7 +2,6 @@
 import { defineConfig } from 'astro/config'
 import starlight from '@astrojs/starlight'
 import sitemap from '@astrojs/sitemap'
-// import rehypeFigure from 'rehype-figure'
 import rehypeFigure from '@microflash/rehype-figure' // こっちに変える
 import starlightImageZoom from 'starlight-image-zoom'
 import starlightSidebarTopics from 'starlight-sidebar-topics'
