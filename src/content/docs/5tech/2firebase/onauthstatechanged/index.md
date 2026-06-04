@@ -38,7 +38,7 @@ export default defineComponent({
       }
     })
     function loginStart() {
-      console.log('ログインしました！')
+      console.log('ログインしました‼️')
     }
     return {
       //
@@ -78,7 +78,7 @@ export default defineComponent({
       }
     })
     function loginStart () {
-      console.log('ログインしました！');
+      console.log('ログインしました‼️');
     }
     // ログインコンポーネントが破壊されるときにonAuthStateChangedをunsubscribeする
     onBeforeUnmount(() => {
