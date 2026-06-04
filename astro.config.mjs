@@ -251,7 +251,7 @@ export default defineConfig({
                   //
                   { slug: 'nipoplus/system/mobile-install' },
                   { slug: 'nipoplus/system/release-note' },
-                  { slug: 'nipoplus/system/load-map' },
+                  { slug: 'nipoplus/system/roadmap' },
                   { slug: 'nipoplus/system/security' },
                   { slug: 'nipoplus/system/fix' },
                   { slug: 'nipoplus/system/business-deal' },
