@@ -3,7 +3,7 @@ slug: tech/js/infixtopostfix
 title: 電卓風の見た目で逆ポーランド記法の式を作成する（vue & Typescript)
 description: 通常の数式を逆ポーランドに変換するサンプル（Typescript）と、逆ポーランドを計算するサンプルプログラムです。入力は電卓風のUIで実装
 sidebar:
-  label: 電卓作成：逆ポーランド記法
+  label: 電卓作成:逆ポーランド記法
 ---
 
 NipoPlusに演算機能を実装する必要があり、色々調べたところ「逆ポーランド記法」という方法が電卓の実装として最も良さそうだったので作ってみました。
@@ -35,7 +35,7 @@ NipoPlusに演算機能を実装する必要があり、色々調べたところ
   <div style="border:1px solid #ccc; background: #ccc">
     {{ localTemplateIni || '数式を入力してください' }}
     <hr />
-    逆ポーランド：{{ formula }}
+    逆ポーランド:{{ formula }}
   </div>
   <div class="row justify-end">
     <div v-for="(row) in ['(', ')','ac', '変換']" :key="row" class="col-xs-3 col-md-2 q-px-sm q-mb-xs">
