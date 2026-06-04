@@ -9,7 +9,6 @@ sidebar:
 ## ポイントインタイム リカバリによりFirebaseのデータをバックアップできるようになります [#id=firestore_backup]
 
 いやぁ、ついに来ましたね。2023年夏、Firestoreはこれまでまともなバックアップ機能が有りませんでしたが、ついに公式からバックアップ機能が実装されました。
-本記事執筆時点でこの機能はまだ「プレビュー版」ですが、非常に期待しています。
 
 詳しくは[本家記事](https://firebase.google.com/docs/firestore/pitr?hl=ja)を御覧ください。
 
@@ -86,7 +85,7 @@ gcloud alpha firestore export gs://nipoplus_tmp --snapshot-time=2023-10-31T10:20
 さてバックアップデータを開いてみてもよくわからない連続した数字ファイルの集まりであり、そのままでは使用できません。
 せめてJSON形式だったら・・・と思いますが残念ながらバイナリファイルのため何もできません。
 このバックアップファイルをFirestoreに取り込めば復元は完了しますが、今回は「特定のドキュメントとその配下の全サブコレクション」を復元したいので、少し回りくどいですが復旧用にもう1つのFirestoreを作りそこに復元します。
-Firestoreは本記事執筆時点ではコマンドから作る必要があります。
+Firestoreはコマンドから作る必要があります。
 以下のコマンドでFirestoreを作れます。
 
 ```bash {frame="none"}
@@ -109,7 +108,7 @@ DB名は一度使うと数週間使用できなくなるとのことですので
 - ファイル名： nipoplus_tmp/2023011-01T〜 のような形式
 - データベース名: nipoplus_recover
 
-この情報をターミナルに入力します
+この情報をターミナルに入力します。
 
 ```bash {frame="none"}
 gcloud firestore import gs://[ファイル名] --database=[データベース名]
@@ -146,7 +145,7 @@ let opsCount = 0
 
 /**
  * @param src Firebaseの復元したいドキュメントパス。例: /company/4DeCz6E5MxzlczFeAgfv/customer/4akxxQ6chqzu1jqJdHBx
- * @param dist 書き込み先のパス。srcと同じパスを指定すれば、復旧用DBー＞本番用DBへ同じパス上に書き込みされます。異なるパスを指定することもできます
+ * @param dist 書き込み先のパス。srcと同じパスを指定すれば、復旧用DBー＞本番用DBへ同じパス上に書き込みされます。異なるパスを指定できます
  */
 export async function recovery(src: string, dist: string) {
   /** 復元用DBのパス */
@@ -215,4 +214,4 @@ async function fetchRecursive(sourceDocRef: FirebaseFirestore.DocumentReference,
 いやしかし、全体を復元させるってのは楽でしょうが、あれはほんとうの意味での最終手段ですね。
 影響範囲が大きすぎるので、そう手軽には使えないなぁと改めて実感しました。
 
-Firestoreは非常に優れた製品ですが、バックアップと復元はまだちょっと不便なところが多くあるなと感じた騒動でした。
+Firestoreは非常に優れた製品です。しかしバックアップと復元はまだちょっと不便なところが少しあると感じました。
