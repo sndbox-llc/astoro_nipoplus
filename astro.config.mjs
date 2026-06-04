@@ -7,6 +7,7 @@ import starlightImageZoom from 'starlight-image-zoom'
 import starlightSidebarTopics from 'starlight-sidebar-topics'
 import starlightLinksValidator from 'starlight-links-validator'
 import remarkGfm from 'remark-gfm'
+import indexnow from 'astro-indexnow'
 
 import { visit } from 'unist-util-visit' // Astroに標準で入っているはずです
 
@@ -62,6 +63,9 @@ export default defineConfig({
   },
 
   integrations: [
+    indexnow({
+      key: process.env.INDEXNOW_KEY,
+    }),
     starlight({
       title: 'NipoPlus',
       lastUpdated: true,
