@@ -63,7 +63,7 @@ export default functions.https.onCall(async(data: CFPdfReqParam, context):Promis
 :::note[上記コードは未検証で記憶を頼りに記述してます]
 :::
 
-## Storageの書き込みが完了するまで処理を待つように処理を止める方法がわからず混乱 {#confusion_about_waiting}
+## Storageの書き込みが完了するまで処理を待つように処理を止める方法がわからず混乱 [#id=confusion_about_waiting]
 
 上記コードの問題は色々あるけど何よりも問題となるのが
 
@@ -89,7 +89,7 @@ await pdfDoc.pipe(myPDFFile.createWriteStream())
 :::note[筆者の環境ではStreamをほぼ使わないため馴染みがなかったのも要因です]
 :::
 
-## Streamの書き込みが完了するまで待ってからダウンロードURLをフロントに返却するようにプログラムを修正する {#fixedPendingMethod}
+## Streamの書き込みが完了するまで待ってからダウンロードURLをフロントに返却するようにプログラムを修正する [#id=fixedPendingMethod]
 
 pdfDoc.pipeは結局の所Internal.WriteStreamなのでこのStreamが完了するまで処理を止めればよいわけです。cloud Functionsはreturnで関数自体が終了してしまうので、Streamの書き込みが終わるまではreturnを実行してはいけません。
 処理を止めるにはPromiseを使えば簡単です。やり方はいくつかあると思います。
@@ -151,7 +151,7 @@ await 止まれ()
 
 のおかげでStreamの書き込みが完了後に、ダウンロードURLの取得処理が走るようになりました。よって本ページトップで書いたようなnoSuchKeyエラーは発生しなくなります。
 
-## SigningErrorが発生する場合 {#signing_error_occurs}
+## SigningErrorが発生する場合 [#id=signing_error_occurs]
 
 上記コードを書いて実行すると、Cloud Functionsのログに
 
