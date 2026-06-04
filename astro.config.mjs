@@ -64,7 +64,7 @@ export default defineConfig({
 
   integrations: [
     indexnow({
-      key: process.env.INDEXNOW_KEY,
+      key: 'f05feb10c4b64784a3108a9c0202b654',
     }),
     starlight({
       title: 'NipoPlus',
