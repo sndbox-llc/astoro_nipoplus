@@ -205,7 +205,7 @@ export default functions.https.onCall(async(data, context) => {
   const elasticFilter:QueryDslQueryContainer[] = []
   // Elastic のクエリでFilterをセットします。例えばアクセス可能なユーザで絞り込むなど。
   // context.auth.uidは正しいIDであることが保証されるためFilterに使うことで安全性が高まります。
-  // セキュリティルールが使えないので特に念入りに‼️
+  // セキュリティルールが使えないので特に念入りに！
   elasticFilter.push({ term: { owner: context.auth?.uid } });
   // mustやshouldなど様々なクエリが使えます。今回は簡略のため空欄のままです。
   const must:QueryDslQueryContainer[] = [];

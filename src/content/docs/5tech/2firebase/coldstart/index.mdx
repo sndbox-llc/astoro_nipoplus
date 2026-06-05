@@ -115,7 +115,7 @@ export default functions.https.onCall(async (data, context) => {
   const codeHead = 'someFunctionName'
   if ('wakeup' in data) {
     // dataに wakeupというパラメータがあったら定期的な実行と判断して関数を即終了
-    functions.logger.log(`朝だぞ‼️起きろ ${codeHead}`)
+    functions.logger.log(`朝だぞ！起きろ ${codeHead}`)
     return { msg: `${codeHead} wakeup`, result: true }
   }
   // 以下、本来の処理が続く...
