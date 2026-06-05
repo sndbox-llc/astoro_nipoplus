@@ -92,7 +92,7 @@ async function makeElastic() {
   })
 
   try {
-    await esClient.indices.create(先程作ったスキーマJSON)
+    await esClient.indices.create(先ほど作ったスキーマJSON)
     console.info('○○○○ 成功 ○○○○')
   } catch (e) {
     console.error('XXXXXX 失敗 XXXXXX')
@@ -131,7 +131,7 @@ export const esPushReport = functions.firestore.document('group/{groupId}/docume
   const groupId = <string>context.params.groupId;
   const documentId = <string>context.params.documentId;
 
-  const index = '先程作ったElasticのインデックス名';
+  const index = '先ほど作ったElasticのインデックス名';
   if (!change.after.exists) {
     // Firestoreからデータが削除された場合は、ElasticSearchからも削除しないといけません。
     await client.delete({ index: index, id: documentId });

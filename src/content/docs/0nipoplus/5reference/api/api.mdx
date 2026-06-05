@@ -423,7 +423,7 @@ JSON形式は key: value の形で表現されたデータ構造です。
 | start         | String          | 出勤時刻。\"08:00\" のような文字列                                                     |
 | end           | String          | 退勤時刻。\"17:00\" のような文字列                                                     |
 | breaks        | `Array<Object>` | 休憩時間の配列。各要素は `{ start: string, end: string }` 形式                         |
-| redacted      | Boolean         | 編集済みフラグ。ユーザーが編集した場合 true                                            |
+| redacted      | Boolean         | 編集済みフラグ。ユーザが編集した場合 true                                              |
 | isHolydayWork | Boolean         | 休日出勤フラグ。休日に勤務した場合 true                                                |
 | memo          | String          | 備考欄の文字列。自由記述                                                               |
 | generator     | String          | このタイムカードを作成したスタッフID                                                   |
@@ -452,7 +452,7 @@ JSON形式は key: value の形で表現されたデータ構造です。
 - `calcData` はサーバ側で勤務情報から自動算出される集計値
 - `breaks` に複数の休憩時間がある場合も、`calcBreakTimeDay` や `calcBreakTimeNight` に反映されます
 - `isHolydayWork` が true のとき、`dayWorkHolyDay` や `nightWorkHolyDay` に値が入る場合があります
-- `memo` や `redacted` はユーザー操作により変更される要素です
+- `memo` や `redacted` はユーザ操作により変更される要素です
 
 #### タイムカードのAPIレスポンス例 [#id=timecard_result]
 
