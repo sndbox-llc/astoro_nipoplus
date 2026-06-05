@@ -105,7 +105,7 @@ export function makeBigram (dutyVal: string): string {
 [Qiita【文字列を1文字ずつ配列化（サロゲートペアを考慮）】](https://qiita.com/sounisi5011/items/aa2d747322aad4850fe7)が参考になります。
 
 こんな関数を用意してあげて、FireStoreのデータ変更を検知したらBigram化させ、Typesenseに書き込みします。
-Typesenseへの書き込みなんかは、公式サイトの[データ書き込み](https://typesense.org/docs/0.21.0/api/documents.html#index-a-document)を御覧ください。
+Typesenseへの書き込みなんかは、公式サイトの[データ書き込み](https://typesense.org/docs/0.21.0/api/documents.html#index-a-document)をご覧ください。
 
 ![Typesenseのコンソールから保存されたデータをGUIで確認できます。](./img/typesense_price.png)
 
@@ -131,7 +131,7 @@ const limitedKey = client.keys().generateScopedSearchKey(
 )
 ```
 
-制限付きキーの作り方について詳しくは[Typesense公式ガイド-API Key](https://typesense.org/docs/0.21.0/api/api-keys.html#generate-scoped-search-key)を御覧ください。
+制限付きキーの作り方について詳しくは[Typesense公式ガイド-API Key](https://typesense.org/docs/0.21.0/api/api-keys.html#generate-scoped-search-key)をご覧ください。
 
 ざっくばらんに説明するとfilter_by: フィルターするグループIDをセットすることで、そのグループのデータだけがフィルターされたサブセットから検索されるということです。この鍵はもうフィルターが絶対条件としてついており、利用者側でこの鍵のフィルターを外すことはできません。
 制限付きKeyを使ってフィルターする。実装の考え方自体はAlgoliaとほとんど同じです。
