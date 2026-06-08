@@ -83,7 +83,7 @@ export default defineConfig({
       ],
 
       components: {
-        Head: './src/components/CustomHeader.astro',
+        Head: './src/components/CustomHead.astro',
         Footer: './src/components/CustomFooter.astro',
         Banner: './src/components/LegacyNotice.astro',
         Pagination: './src/components/CustomPagination.astro',
