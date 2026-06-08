@@ -6,6 +6,15 @@ sidebar:
   label: 🚫利用可能テンプレートの制限
 ---
 
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<TopicGrid>
+  <AutoTopicCard title="スタッフ管理" href="/nipoplus/editor/staffmanage" />
+  <AutoTopicCard title="テンプレート管理" href="/nipoplus/editor/template" />
+</TopicGrid>
+
 スタッフごとに特定のテンプレートを使用できなくさせることが可能です。
 
 :::tip[[制限ではなくフォルダ分けによる管理も有効です](/nipoplus/template/directory)]

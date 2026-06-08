@@ -6,6 +6,16 @@ sidebar:
   label: 🏷タグの管理
 ---
 
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<TopicGrid>
+  <AutoTopicCard title="タグによる検索" href="/nipoplus/reference/searchreport#filterd" />
+  <AutoTopicCard title="日報を書く" href="/nipoplus/staff/writereport" />
+  <AutoTopicCard title="テンプレート管理" href="/nipoplus/editor/template" />
+</TopicGrid>
+
 タグは[日報作成時](/nipoplus/staff/writereport)や[顧客管理](/nipoplus/other/customer)などに付与できるラベルのようなものです。
 タグを使うことで[日報を絞り込み検索](/nipoplus/reference/searchreport/#filterd)したり、目印として活用することができます。
 

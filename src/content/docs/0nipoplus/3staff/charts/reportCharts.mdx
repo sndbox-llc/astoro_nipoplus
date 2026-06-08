@@ -6,6 +6,16 @@ sidebar:
   label: 📊データの集計分析
 ---
 
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<TopicGrid>
+  <AutoTopicCard title="データの累積" href="/nipoplus/reference/accumn" />
+  <AutoTopicCard title="データの推移" href="/nipoplus/reference/transition" />
+  <AutoTopicCard title="データをグラフ化する" href="/nipoplus/reference/chart" />
+</TopicGrid>
+
 ![グラフ化の例](./img/chart_tablet.webp)
 
 蓄積した日報データをもとに集計したり、グラフを作成することができます。

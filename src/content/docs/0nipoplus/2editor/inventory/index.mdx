@@ -9,6 +9,15 @@ sidebar:
     variant: caution
 ---
 
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<TopicGrid>
+  <AutoTopicCard title="商品入力フォーム" href="/nipoplus/template/mod" />
+  <AutoTopicCard title="入力方法の参考" href="/nipoplus/reference/inputmethod#item" />
+</TopicGrid>
+
 :::caution[簡易機能]
 厳格な在庫管理には適しません。簡易版であることを御理解の上ご利用ください
 :::

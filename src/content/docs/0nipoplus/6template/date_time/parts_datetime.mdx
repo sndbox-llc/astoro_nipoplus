@@ -7,9 +7,16 @@ sidebar:
 ---
 
 import ExcelTable from '@components/ExcelTable.astro'
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
 
-日付や時刻の入力に特化した入力フォームです。
-日報を書く際に[提出日があらかじめ組み込まれています](/nipoplus/staff/writereport/#dist)が、それ以外で日付や時刻の入力が必要な場合はご利用ください。
+<TopicGrid>
+  <AutoTopicCard title="テンプレートの作成" href="/nipoplus/editor/template" />
+  <AutoTopicCard title="入力の方法" href="/nipoplus/reference/inputmethod#datetime" />
+</TopicGrid>
+
+日付や時刻の入力に特化した入力フォームです。 日報を書く際に[提出日があらかじめ組み込まれています](/nipoplus/staff/writereport/#dist)が、それ以外で日付や時刻の入力が必要な場合はご利用ください。
 
 <dl class="basic">
   <dt>

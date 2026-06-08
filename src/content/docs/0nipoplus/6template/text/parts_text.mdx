@@ -6,6 +6,16 @@ sidebar:
   label: 🧩文字入力
 ---
 
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<TopicGrid>
+  <AutoTopicCard title="テンプレートの作成" href="/nipoplus/editor/template" />
+  <AutoTopicCard title="入力の方法" href="/nipoplus/reference/inputmethod#text" />
+  <AutoTopicCard title="文字検索" href="/nipoplus/reference/searchreport#fulltext_search" />
+</TopicGrid>
+
 :::note[[入力イメージはこちらから確認できます](/nipoplus/reference/inputmethod/#text)]
 :::
 

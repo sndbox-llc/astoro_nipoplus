@@ -12,6 +12,15 @@ import w4 from './img/w4.webp'
 import w8 from './img/w8.webp'
 import w12 from './img/w12.webp'
 
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<TopicGrid>
+  <AutoTopicCard title="テンプレートの作成" href="/nipoplus/editor/template" />
+  <AutoTopicCard title="入力の方法" href="/nipoplus/reference/inputmethod#binary" />
+</TopicGrid>
+
 写真や直筆サイン、各種ファイルといった非テキストデータ（バイナリファイル）を日報に添付して提出できる入力フォームです。現場の状況を視覚的に記録したり、作業の承認を得たり、関連資料を紐付けたりする際に非常に役立ちます。
 
 バイナリを扱うフォームは以下の種類があります。

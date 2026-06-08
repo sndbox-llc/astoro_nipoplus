@@ -8,6 +8,15 @@ sidebar:
 
 import ExcelTable from '@components/ExcelTable.astro'
 
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<TopicGrid>
+  <AutoTopicCard title="テンプレートの作成" href="/nipoplus/editor/template" />
+  <AutoTopicCard title="入力の方法" href="/nipoplus/reference/inputmethod#number" />
+</TopicGrid>
+
 集計やグラフ化が可能な数値データの入力フォームです。見た目や入力方式の違いはありますが記録されるデータは同じ「数値データ」です。
 
 <dl class="basic">
@@ -377,7 +386,8 @@ import ExcelTable from '@components/ExcelTable.astro'
 例えば次のように設計してください
 
 <select class="form-select" id="platformSelect" name="platformSelect">
-      <option value="">選択肢に数値を含める例（ここをクリック）</option>    <option value="windows">1.りんご</option>    <option value="mac">2.ばなな</option>    <option value="ios">3.みかん</option>    <option value="android">4.メロン</option> {' '}
+      <option value="">選択肢に数値を含める例（ここをクリック）</option>    <option value="windows">1.りんご</option>    <option value="mac">2.ばなな</option>    <option value="ios">3.みかん</option> 
+    <option value="android">4.メロン</option> {' '}
 </select>
 
 ※この例でいうと「3.みかん」が選ばれると、算術上は「3」として計算されます。

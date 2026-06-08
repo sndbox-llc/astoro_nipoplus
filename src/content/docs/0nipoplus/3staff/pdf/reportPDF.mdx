@@ -6,6 +6,15 @@ sidebar:
   label: 🖨️日報をPDFに変換する
 ---
 
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<TopicGrid>
+  <AutoTopicCard title="日報の表示" href="/nipoplus/staff/readreport" />
+  <AutoTopicCard title="テンプレート編集" href="/nipoplus/editor/template#pdf" />
+</TopicGrid>
+
 :::note[[無料PLANでは背景に透かしが入ります](/legacy/system/price)]
 :::
 

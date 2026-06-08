@@ -8,6 +8,16 @@ sidebar:
 
 import ExcelTable from '@components/ExcelTable.astro'
 
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<TopicGrid>
+  <AutoTopicCard title="テンプレートの作成" href="/nipoplus/editor/template" />
+  <AutoTopicCard title="入力の方法" href="/nipoplus/reference/inputmethod#select" />
+  <AutoTopicCard title="選択肢の管理" href="/nipoplus/editor/wordBookManagement" />
+</TopicGrid>
+
 キーボード不要で入力できる便利なフォームです。主に次の酒類があります。
 
 <dl class="basic">

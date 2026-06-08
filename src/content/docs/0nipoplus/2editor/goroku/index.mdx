@@ -9,6 +9,16 @@ sidebar:
     variant: caution
 ---
 
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<TopicGrid>
+  <AutoTopicCard title="選択式入力フォーム" href="/nipoplus/template/selects" />
+  <AutoTopicCard title="テンプレート管理" href="/nipoplus/editor/template" />
+  <AutoTopicCard title="選択肢の入力方法" href="/nipoplus/reference/inputmethod/#selectCategory" />
+</TopicGrid>
+
 語録は単語のマスターデータです。[選択式入力フォーム](/nipoplus/template/selects)と組み合わせて使用します。
 選択式入力フォームの中でも単語リストを個別に作成できますが、語録はその「単語リスト」だけを切り出したものです。
 

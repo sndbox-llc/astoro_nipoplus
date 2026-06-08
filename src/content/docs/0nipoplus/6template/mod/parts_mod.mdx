@@ -9,6 +9,16 @@ sidebar:
     variant: caution
 ---
 
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<TopicGrid>
+  <AutoTopicCard title="テンプレートの作成" href="/nipoplus/editor/template" />
+  <AutoTopicCard title="入力の方法" href="/nipoplus/reference/inputmethod#item" />
+  <AutoTopicCard title="商品管理" href="/nipoplus/editor/inventory" />
+</TopicGrid>
+
 予め[登録しておいた商品](/nipoplus/editor/inventory/#add)を対象に、日報内で入出庫の入力を行うことで、数量の増減管理ができます。また、「状態」（例:仕掛中、完成、点検中）の管理も可能です。
 
 ## 主な用途 [#id=usecase]

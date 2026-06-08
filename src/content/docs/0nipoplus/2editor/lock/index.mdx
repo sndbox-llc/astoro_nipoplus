@@ -9,6 +9,16 @@ sidebar:
     variant: success
 ---
 
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<TopicGrid>
+  <AutoTopicCard title="提出先と共有先の概念" href="/nipoplus/gainen/destination" />
+  <AutoTopicCard title="テンプレート管理" href="/nipoplus/editor/template" />
+  <AutoTopicCard title="スタッフ管理" href="/nipoplus/editor/staffmanage" />
+</TopicGrid>
+
 提出先の固定をすることで、スタッフは日報作成時に提出先を指定する必要がなくなります。  
 スタッフの操作が簡略化され、現場の混乱も軽減できるため設定を**強く推奨**します。  
 この設定で頻出する「提出先」や「共有先」については[提出先と共有先の概念](/nipoplus/gainen/destination)をご覧ください。

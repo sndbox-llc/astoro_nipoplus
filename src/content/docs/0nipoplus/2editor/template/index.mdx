@@ -6,6 +6,16 @@ sidebar:
   label: 📐テンプレートの作成
 ---
 
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<TopicGrid>
+  <AutoTopicCard title="テンプレート管理" href="/nipoplus/template/manage" />
+  <AutoTopicCard title="利用可能なテンプレートの制限" href="/nipoplus/editor/limitedTemplate" />
+  <AutoTopicCard title="提出先の固定" href="/nipoplus/editor/destinationlock" />
+</TopicGrid>
+
 日報作成に使用するテンプレートの作り方について解説します。どんなふうに作ったらいいか迷ったら、[テンプレートの概念](/tips/templatemake)もご覧ください。
 
 ## テンプレートの作成 [#id=makeTemplate]
