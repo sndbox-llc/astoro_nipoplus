@@ -6,6 +6,16 @@ sidebar:
   label: 📔日報の綴り機能
 ---
 
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<TopicGrid>
+  <AutoTopicCard title="日報を書く" href="/nipoplus/staff/writereport" />
+  <AutoTopicCard title="日報を読む" href="/nipoplus/staff/readreport" />
+  <AutoTopicCard title="日報の状態" href="/nipoplus/reference/reportstate" />
+</TopicGrid>
+
 複数枚の日報を1つに綴ることで、データ上は個々の日報ですが、表示上は1つの日報としてまとめて読むことができます。
 
 ## ユースケース [#id=usecase]

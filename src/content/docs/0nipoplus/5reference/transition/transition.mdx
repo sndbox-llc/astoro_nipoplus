@@ -8,6 +8,15 @@ sidebar:
 
 import ExcelTable from '@components/ExcelTable.astro'
 
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<TopicGrid>
+  <AutoTopicCard title="累積表" href="/nipoplus/reference/accumn" />
+  <AutoTopicCard title="グラフ作成" href="/nipoplus/reference/chart" />
+</TopicGrid>
+
 :::note[[メニューに無いときはグループ設定から機能を有効にしてください](/nipoplus/editor/groupmanage/#optionalFunction)]
 :::
 

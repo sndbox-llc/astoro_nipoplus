@@ -6,6 +6,16 @@ sidebar:
   label: 🚦日報の状態
 ---
 
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<TopicGrid>
+  <AutoTopicCard title="日報の検索" href="/nipoplus/reference/searchreport" />
+  <AutoTopicCard title="日報保存箱" href="/nipoplus/gainen/reportStorage" />
+  <AutoTopicCard title="日報を読む" href="/nipoplus/staff/readreport" />
+</TopicGrid>
+
 日報の状態は「新規」から始まり、最終的に「承認済み」へ向けて進みます。
 
 ![日報の状態に応じて取れるアクションも変わる](./img/report-status_tablet.png)

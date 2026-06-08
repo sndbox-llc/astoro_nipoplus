@@ -6,6 +6,15 @@ sidebar:
   label: 👤従業員アカウントの作成・管理
 ---
 
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<TopicGrid>
+  <AutoTopicCard title="組織のスタッフ管理" href="/nipoplus/admin/about" />
+  <AutoTopicCard title="グループのスタッフ管理" href="/nipoplus/editor/staffmanage" />
+</TopicGrid>
+
 :::note[管理者権限]
 アカウントの作成・管理は、[管理者権限](/nipoplus/reference/userRank)が必要です
 :::
@@ -134,7 +143,8 @@ sidebar:
 <dl class="basic">
   <dt>名前・ふりがな</dt>
   <dd>
-    スタッフの名前です。「名前」をクリックして編集します。日報作成時の提出者名や<a href="/nipoplus/reference/reportstate/#agree">承認ボタンクリック時の名前</a>は、その時点で設定されている名前が使用されます。
+    スタッフの名前です。「名前」をクリックして編集します。日報作成時の提出者名や<a href="/nipoplus/reference/reportstate/#agree">承認ボタンクリック時の名前</a>
+    は、その時点で設定されている名前が使用されます。
   </dd>
   <dt>権限</dt>
   <dd>
@@ -154,7 +164,8 @@ sidebar:
   </dd>
   <dt>パスワード</dt>
   <dd>
-    ログインパスワードを変更できます。変更されたスタッフは、次回NipoPlusを起動する際に再ログインが必要になります。【補足:<a href="/nipoplus/reference/account/#password">ログインパスワードを忘れた方】</a>
+    ログインパスワードを変更できます。変更されたスタッフは、次回NipoPlusを起動する際に再ログインが必要になります。【補足:
+    <a href="/nipoplus/reference/account/#password">ログインパスワードを忘れた方】</a>
   </dd>
 </dl>
 

@@ -6,6 +6,14 @@ sidebar:
   label: 🔔アプリ内通知・📩メール通知
 ---
 
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<TopicGrid>
+  <AutoTopicCard title="アカウント設定" href="/nipoplus/reference/account" />
+</TopicGrid>
+
 自分の書いた日報が承認されたり、自分宛ての日報が提出されたとき、メールやアプリ内通知でお知らせする機能です。
 
 ## 通知の種類 [#id=notifyTypes]

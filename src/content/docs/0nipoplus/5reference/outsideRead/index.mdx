@@ -6,6 +6,16 @@ sidebar:
   label: 🌐外部関係者に日報を共有する
 ---
 
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<TopicGrid>
+  <AutoTopicCard title="日報を読む" href="/nipoplus/staff/readreport" />
+  <AutoTopicCard title="日報の検索" href="/nipoplus/reference/searchreport" />
+  <AutoTopicCard title="PDF出力" href="/nipoplus/staff/pdf" />
+</TopicGrid>
+
 日報をそのまま外部のユーザに共有したいときがあります。
 外部のユーザのためにアカウントを作りたく無い場合、2つの方法があります。
 

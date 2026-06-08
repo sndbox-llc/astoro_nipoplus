@@ -6,6 +6,15 @@ sidebar:
   label: QRコード（テンプレート）
 ---
 
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<TopicGrid>
+  <AutoTopicCard title="日報テンプレート" href="/nipoplus/editor/template" />
+  <AutoTopicCard title="日報作成" href="/nipoplus/staff/writereport" />
+</TopicGrid>
+
 ## QRコードで何ができる？簡単に点検用テンプレートの呼び出しが可能です [#id=qrtemplate]
 
 通常は点検機器ごとに日報テンプレートを作成し、点検のたびにテンプレート一覧から選択して入力を開始します。  

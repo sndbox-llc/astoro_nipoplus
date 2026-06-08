@@ -6,6 +6,16 @@ sidebar:
   label: 🔍日報を探す
 ---
 
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<TopicGrid>
+  <AutoTopicCard title="日報保存箱" href="/nipoplus/gainen/reportStorage" />
+  <AutoTopicCard title="カレンダー" href="/nipoplus/reference/calendar" />
+  <AutoTopicCard title="日報の状態" href="/nipoplus/reference/reportstate" />
+</TopicGrid>
+
 本ページでは日々蓄積されていく日報を効率よく検索する様々な方法についてまとめています。
 
 ## 日報へのアクセス方法 [#id=findReportMethod]

@@ -6,6 +6,16 @@ sidebar:
   label: 👤匿名アカウント
 ---
 
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<TopicGrid>
+  <AutoTopicCard title="クイックスタート" href="/nipoplus/admin/quickstart" />
+  <AutoTopicCard title="サインイン" href="/nipoplus/reference/signin" />
+  <AutoTopicCard title="アカウント設定" href="/nipoplus/reference/account" />
+</TopicGrid>
+
 ワンクリックで仮のアカウントを発行し、手軽にアプリを体験することができます。  
 E-mailやパスワードの登録がありません。
 

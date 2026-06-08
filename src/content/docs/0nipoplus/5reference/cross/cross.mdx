@@ -6,6 +6,14 @@ sidebar:
   label: 📊クロス集計
 ---
 
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<TopicGrid>
+  <AutoTopicCard title="目標と実績の管理" href="/nipoplus/reference/progress/" />
+</TopicGrid>
+
 :::note[[メニューに無いときはグループ設定から機能を有効にしてください](/nipoplus/editor/groupmanage/#optionalFunction)]
 :::
 

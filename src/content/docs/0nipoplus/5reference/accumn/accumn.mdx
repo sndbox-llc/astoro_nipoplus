@@ -8,8 +8,15 @@ sidebar:
 
 import ExcelTable from '@components/ExcelTable.astro'
 
-:::note[[メニューに無いときはグループ設定から機能を有効にしてください](/nipoplus/editor/groupmanage/#optionalFunction)]
-:::
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<TopicGrid>
+  <AutoTopicCard title="推移表" href="/nipoplus/reference/transition" />
+  <AutoTopicCard title="グラフ作成" href="/nipoplus/reference/chart" />
+</TopicGrid>
+:::note[[メニューに無いときはグループ設定から機能を有効にしてください](/nipoplus/editor/groupmanage/#optionalFunction)] :::
 
 日報に記録された数値データを、スタッフごと、または特定の項目ごとに分けて集計した表を「累積表」といいます。
 これは、ある一定期間の合計値や総量を把握するのに最適で、スタッフやチームの成績比較、全体の生産性やリソース消費量を評価する際に非常に役立ちます。

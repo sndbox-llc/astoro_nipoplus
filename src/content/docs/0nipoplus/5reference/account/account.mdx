@@ -6,6 +6,15 @@ sidebar:
   label: 📨Email・🔑パスワードの変更
 ---
 
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<TopicGrid>
+  <AutoTopicCard title="ログイン" href="/nipoplus/reference/signin" />
+  <AutoTopicCard title="自身のアカウント管理" href="/nipoplus/reference/myaccount" />
+</TopicGrid>
+
 ## 📨ログインEmailの変更 [#id=change]
 
 ログインに使用するメールアドレスを変更できますが、この手続きには確認のためログインパスワードの入力が必要です。

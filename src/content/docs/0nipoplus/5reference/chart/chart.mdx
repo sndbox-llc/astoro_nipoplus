@@ -6,6 +6,15 @@ sidebar:
   label: 📈グラフの作成
 ---
 
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<TopicGrid>
+  <AutoTopicCard title="推移表" href="/nipoplus/reference/transition" />
+  <AutoTopicCard title="累積表" href="/nipoplus/reference/accumn" />
+</TopicGrid>
+
 :::note[[メニューに無いときはグループ設定から機能を有効にしてください](/nipoplus/editor/groupmanage/#optionalFunction)]
 :::
 

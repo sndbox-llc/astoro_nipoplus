@@ -6,6 +6,15 @@ sidebar:
   label: 組織とグループ
 ---
 
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<TopicGrid>
+  <AutoTopicCard title="組織について" href="/nipoplus/admin/about" />
+  <AutoTopicCard title="スタッフ管理" href="/nipoplus/reference/makestaff" />
+</TopicGrid>
+
 NipoPlusでは会社全体を「組織」と表現します。
 組織の中に「スタッフ」アカウントを作成したり、グループを作って業務を管理します。これらの設定は管理者権限が必要です。
 
@@ -14,7 +23,8 @@ NipoPlusでは会社全体を「組織」と表現します。
 <dl class="basic">
   <dt>組織</dt>
   <dd>
-    最も大きな枠組みで、お客様の会社そのものを表します。1つの会社につき1つの「組織」を作成し、その中に「グループ」や「スタッフ」を登録していきます。NipoPlusの<a href="/nipoplus/price">料金プラン</a>は、この「組織」単位で適用されます
+    最も大きな枠組みで、お客様の会社そのものを表します。1つの会社につき1つの「組織」を作成し、その中に「グループ」や「スタッフ」を登録していきます。NipoPlusの<a href="/nipoplus/price">料金プラン</a>
+    は、この「組織」単位で適用されます
   </dd>
   <dt>
     <a href="/nipoplus/admin/about">グループ</a>
@@ -26,7 +36,8 @@ NipoPlusでは会社全体を「組織」と表現します。
   </dd>
   <dt>スタッフ</dt>
   <dd>
-    NipoPlusの利用者アカウントのことです。<a href="/nipoplus/reference/makestaff">組織内にアカウントを作成</a>した後、管理者がそのスタッフを任意の<a href="/nipoplus/reference/makestaff/#join_staff">グループに所属</a>させます。
+    NipoPlusの利用者アカウントのことです。<a href="/nipoplus/reference/makestaff">組織内にアカウントを作成</a>した後、管理者がそのスタッフを任意の
+    <a href="/nipoplus/reference/makestaff/#join_staff">グループに所属</a>させます。
     <br />
     1人のスタッフが複数のグループに所属できます
   </dd>

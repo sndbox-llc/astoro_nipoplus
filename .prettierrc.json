@@ -3,5 +3,5 @@
   "singleQuote": true,
   "semi": false,
   "arrowParens": "always",
-  "printWidth": 1500
+  "printWidth": 200
 }

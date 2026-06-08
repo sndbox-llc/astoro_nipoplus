@@ -6,6 +6,16 @@ sidebar:
   label: 個別設定について
 ---
 
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<TopicGrid>
+  <AutoTopicCard title="アカウント設定" href="/nipoplus/reference/account" />
+  <AutoTopicCard title="通知設定" href="/nipoplus/reference/notify" />
+  <AutoTopicCard title="ログイン・ログアウト" href="/nipoplus/reference/signin" />
+</TopicGrid>
+
 ## ログイン中のアカウント情報を確認する [#id=myAccount]
 
 現在ログインしているアカウント名や権限など、個別の情報を知るには左パネルメニューから「アカウント」をクリックします。

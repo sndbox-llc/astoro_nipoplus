@@ -9,6 +9,15 @@ sidebar:
     variant: caution
 ---
 
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<TopicGrid>
+  <AutoTopicCard title="ユーザー権限" href="/nipoplus/reference/userRank" />
+  <AutoTopicCard title="アカウント管理" href="/nipoplus/reference/account" />
+</TopicGrid>
+
 ## 🔑APIキーの取得
 
 APIを使うとアプリを使わず直接日報のデータを取得することができます。

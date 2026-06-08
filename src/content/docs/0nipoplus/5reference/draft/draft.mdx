@@ -6,6 +6,15 @@ sidebar:
   label: 📝下書き機能
 ---
 
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<TopicGrid>
+  <AutoTopicCard title="日報を書く" href="/nipoplus/staff/writereport" />
+  <AutoTopicCard title="下書きBOX" href="/nipoplus/gainen/reportStorage" />
+</TopicGrid>
+
 書きかけの日報を途中で保存し、後から編集・提出できます。
 この機能は、以下のような様々なシーンで、日報を確実に完成させるために役立ちます。
 

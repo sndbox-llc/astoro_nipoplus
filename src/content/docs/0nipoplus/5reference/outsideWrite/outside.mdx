@@ -6,6 +6,14 @@ sidebar:
   label: 🌐外部関係者に日報を書いてもらう
 ---
 
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<TopicGrid>
+  <AutoTopicCard title="日報の提出先" href="/nipoplus/gainen/destination" />
+</TopicGrid>
+
 :::caution[[この機能はGOLDPLAN限定です](/nipoplus/price/#fee)]
 :::
 

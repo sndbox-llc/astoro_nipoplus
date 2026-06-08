@@ -6,6 +6,16 @@ sidebar:
   label: 受信BOXの表示モードは3種類
 ---
 
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<TopicGrid>
+  <AutoTopicCard title="日報検索" href="/nipoplus/reference/searchreport" />
+  <AutoTopicCard title="カレンダー" href="/nipoplus/reference/calendar" />
+  <AutoTopicCard title="日報の日付" href="/nipoplus/gainen/reportdate" />
+</TopicGrid>
+
 受信BOXは3種類の表示モードが用意されており、簡単に切り替えが可能です
 
 ![保存BOXの外観](./img/view.webp)
@@ -50,7 +60,7 @@ sidebar:
 ![下書きBOX外観](./img/draftBox.webp)
 
 - 下書き保存した日報の一覧が表示されます
-- 検索や絞り込みと行った機能は一切使えまえん
+- 検索や絞り込みといった機能は一切使えません
 - ここにある日報はあなた以外アクセスできない隔離された状態で保管されます
 
 ## 表示モードについて [#id=view_mode]
@@ -67,7 +77,7 @@ sidebar:
   <dt>
     <a href="#map">提出状況</a>
   </dt>
-  <dd>日報の提出漏れを書くにする際に便利</dd>
+  <dd>日報の提出漏れを確認する際に便利</dd>
 </dl>
 
 :::tip[見え方が変わるだけ]
@@ -80,7 +90,7 @@ sidebar:
 
 - 1件の日報につき1枚のカードで表示されます
 - 日報の状態によって色が変わります
-- 日報の概要分もカードから確認できます
+- 日報の概要文もカードから確認できます
 
 カードの色は以下の通りです
 

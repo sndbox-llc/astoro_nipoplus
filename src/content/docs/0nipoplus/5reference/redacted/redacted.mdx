@@ -6,6 +6,16 @@ sidebar:
   label: 🛠️日報の修正
 ---
 
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<TopicGrid>
+  <AutoTopicCard title="日報の状態" href="/nipoplus/reference/reportstate" />
+  <AutoTopicCard title="日報を書く" href="/nipoplus/staff/writereport" />
+  <AutoTopicCard title="日報のログ" href="/nipoplus/reference/log" />
+</TopicGrid>
+
 日報は以下のケースでロックされ、修正できなくなります。
 
 - 日報が[承認](/nipoplus/reference/reportstate/#agree)されたとき

@@ -6,6 +6,14 @@ sidebar:
   label: ⛓️複数人で日報を書き上げる
 ---
 
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<TopicGrid>
+  <AutoTopicCard title="日報を書く" href="/nipoplus/staff/writereport" />
+</TopicGrid>
+
 :::note[[メニューに無いときはグループ設定から機能を有効にしてください](/nipoplus/editor/groupmanage/#optionalFunction)]
 :::
 

@@ -6,6 +6,14 @@ sidebar:
   label: 📈目標と実績の管理
 ---
 
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
+
+<TopicGrid>
+  <AutoTopicCard title="クロス集計" href="/nipoplus/reference/cross/" />
+</TopicGrid>
+
 :::note[[メニューに無いときはグループ設定から機能を有効にしてください](/nipoplus/editor/groupmanage/#optionalFunction)]
 :::
 
@@ -97,7 +105,9 @@ sidebar:
   <dt>実績累積 (4行目)</dt>
   <dd>1行目の日報実データを累積した数値です。調整値を入れると調整の値が0日目に追加されたとしてカウントされます。月間総生産数や累計売上など、実際の進捗状況です</dd>
   <dt>進捗 (5行目)</dt>
-  <dd>実績累積から目標累積を引いた値です。つまり、その日までに「何個必要で、何個作ったのか」、その差（残りの生産数、目標までのギャップ）を知ることができます。負数の場合は赤字で表示され、遅れを視覚的に示します</dd>
+  <dd>
+    実績累積から目標累積を引いた値です。つまり、その日までに「何個必要で、何個作ったのか」、その差（残りの生産数、目標までのギャップ）を知ることができます。負数の場合は赤字で表示され、遅れを視覚的に示します
+  </dd>
   <dt>日別結果 (6行目)</dt>
   <dd>日単位で目標に対して実績が上回っていれば緑、下回っていれば赤のアイコンが表示されます。目標が設定されていない日は黄アイコンが表示されます。日ごとの目標達成状況を素早く視覚的に判断できます</dd>
 </dl>

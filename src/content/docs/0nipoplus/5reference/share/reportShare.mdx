@@ -13,6 +13,12 @@ import { Badge, CardGrid } from '@astrojs/starlight/components'
 import AutoTopicCard from '@components/AutoTopicCard.astro'
 import TopicGrid from '@components/TopicGrid.astro'
 
+<TopicGrid>
+  <AutoTopicCard title="ダミーアカウントの作成" href="/nipoplus/reference/makestaff#dummy_account" />
+  <AutoTopicCard title="編集者権限" href="/nipoplus/reference/userRank#editor" />
+  <AutoTopicCard title="日報作成" href="/nipoplus/staff/writereport" />
+</TopicGrid>
+
 <a href="/nipoplus/reference/userRank/#editor" class="card">
   <Badge text="編集者権限以上が必要" variant="caution" />
 </a>
