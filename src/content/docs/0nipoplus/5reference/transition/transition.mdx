@@ -11,6 +11,7 @@ import ExcelTable from '@components/ExcelTable.astro'
 import { Badge, CardGrid } from '@astrojs/starlight/components'
 import AutoTopicCard from '@components/AutoTopicCard.astro'
 import TopicGrid from '@components/TopicGrid.astro'
+import { Steps } from '@astrojs/starlight/components'
 
 <TopicGrid>
   <AutoTopicCard title="累積表" href="/nipoplus/reference/accumn" />
@@ -25,11 +26,15 @@ import TopicGrid from '@components/TopicGrid.astro'
 
 ## 推移表を表示する [#id=show_transition]
 
+<Steps>
+
 1.  左メニュー「集計・CSV出力」をクリック
 2.  表示したいデータ期間を選択（初期値は今月）
 3.  「推移・累積・グラフ」を選択
 4.  データ集計するテンプレートを選択
 5.  「推移」を選択
+
+</Steps>
 
 ![推移表は、生産数の日々の変動や傾向などを知るうえで便利](./img/flow_tablet.webp)
 

@@ -9,6 +9,7 @@ sidebar:
 import { Badge, CardGrid } from '@astrojs/starlight/components'
 import AutoTopicCard from '@components/AutoTopicCard.astro'
 import TopicGrid from '@components/TopicGrid.astro'
+import { Steps } from '@astrojs/starlight/components'
 
 <TopicGrid>
   <AutoTopicCard title="推移表" href="/nipoplus/reference/transition" />
@@ -42,11 +43,15 @@ NipoPlus上で数回クリックするだけで、リアルタイムの最新デ
 
 NipoPlusでのグラフ作成は、以下のシンプルなステップで行えます。
 
+<Steps>
+
 1. 左メニュー「集計・CSV出力」をクリック
 1. [グラフ作成ボタン](#step1)をクリック
 1. [グラフの種類を選択](#step2)
 1. [グラフに使用する入力フォームを選択](#step3)
 1. [プレビューで確認](#step4)し、「保存」をクリック
+
+</Steps>
 
 「スタッフ同士の成績比較用のグラフ」を例に作成手順を解説します。
 

@@ -9,6 +9,7 @@ sidebar:
 import { Badge, CardGrid } from '@astrojs/starlight/components'
 import AutoTopicCard from '@components/AutoTopicCard.astro'
 import TopicGrid from '@components/TopicGrid.astro'
+import { Steps } from '@astrojs/starlight/components'
 
 <TopicGrid>
   <AutoTopicCard title="日報の状態" href="/nipoplus/reference/reportstate" />
@@ -28,10 +29,14 @@ import TopicGrid from '@components/TopicGrid.astro'
 
 日報が提出先から[棄却](/nipoplus/reference/reportstate/#reject)された場合、日報を書いた本人が内容を修正して再提出できます
 
+<Steps>
+
 1.  修正したい日報を表示する
 2.  右側にある「修正」ボタンをクリック
 3.  日報編集画面に遷移
 4.  内容を修正して「修正」ボタンをクリックして再提出
+
+</Steps>
 
 ![日報を開いて「修正」ボタンをクリック](./img/edit_tablet.png)
 
@@ -49,10 +54,14 @@ import TopicGrid from '@components/TopicGrid.astro'
 
 手順は本人による修正と同じです。
 
+<Steps>
+
 1.  修正したい日報を表示する
 2.  右側にある「修正」ボタンをクリック
 3.  日報編集画面に遷移
 4.  内容を修正して「修正」ボタンをクリックして再提出
+
+</Steps>
 
 他人の日報を修正するという行為になりますので修正は慎重に行ってください。
 代理修正は改ざん防止の観点から[ログ](/nipoplus/reference/log)に残ります。

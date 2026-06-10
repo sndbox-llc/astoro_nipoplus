@@ -9,6 +9,7 @@ sidebar:
 import { Badge, CardGrid } from '@astrojs/starlight/components'
 import AutoTopicCard from '@components/AutoTopicCard.astro'
 import TopicGrid from '@components/TopicGrid.astro'
+import { Steps } from '@astrojs/starlight/components'
 
 <TopicGrid>
   <AutoTopicCard title="テンプレートの作成" href="/nipoplus/editor/template" />
@@ -32,9 +33,13 @@ import TopicGrid from '@components/TopicGrid.astro'
 
 フォルダ機能はデフォルトでOFFになっていますので、以下の手順でフォルダ機能をONにします。
 
+<Steps>
+
 1.  左メニュー「グループ設定」をクリック
 2.  上部メニュー「テンプレート管理」をクリック
 3.  「フォルダ分けを行う」をONにする
+
+</Steps>
 
 ![フォルダ分け機能をONにする](./img/use-directory_tablet.png)
 
@@ -44,9 +49,13 @@ import TopicGrid from '@components/TopicGrid.astro'
 
 テンプレートを分類するためのフォルダを作ります
 
+<Steps>
+
 1.  「フォルダ作成」をクリック
 2.  フォルダ名とフォルダの色を指定する
 3.  「作成」をクリックすると現在のフォルダ内に新しいフォルダが追加される
+
+</Steps>
 
 ![テンプレートを分類するためのフォルダを作る。現在の作業フォルダ内に追加される](./img/make-directory_tablet.png)
 
@@ -65,16 +74,24 @@ import TopicGrid from '@components/TopicGrid.astro'
 
 ドラッグによる操作では移動できないので注意してください。
 
+<Steps>
+
 1.  移動したいテンプレートにある「移動」ボタンをクリック
 2.  移動先のフォルダを選択（選択できるのは親子関係にあるフォルダのみ）
+
+</Steps>
 
 ![作成したフォルダへテンプレートを移動する](./img/move_tablet.png)
 
 ### テンプレートを一括でフォルダに移動する [#id=batch_move_template]
 
+<Steps>
+
 1.  移動させたいテンプレートにチェックを入れる
 1.  「選択したファイルを一括移動」をクリック
 1.  移動先のフォルダを選択（選択できるのは親子関係にあるフォルダのみ）
+
+</Steps>
 
 ![テンプレートを一括でフォルダに移動する](./img/move-batch_tablet.png)
 

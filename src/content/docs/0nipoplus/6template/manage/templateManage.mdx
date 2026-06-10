@@ -9,6 +9,7 @@ sidebar:
 import { Badge, CardGrid } from '@astrojs/starlight/components'
 import AutoTopicCard from '@components/AutoTopicCard.astro'
 import TopicGrid from '@components/TopicGrid.astro'
+import { Steps } from '@astrojs/starlight/components'
 
 <TopicGrid>
   <AutoTopicCard title="テンプレートの作成" href="/nipoplus/editor/template" />
@@ -38,8 +39,12 @@ import TopicGrid from '@components/TopicGrid.astro'
 
 ワンクリックでテンプレートをコピーできます。
 
+<Steps>
+
 1.  コピーしたいテンプレートの行で「コピー」ボタンをクリック
-1.  元のテンプレート名＋「【コピー】」という名称でテンプレートの複製が作成される
+2.  元のテンプレート名＋「【コピー】」という名称でテンプレートの複製が作成される
+
+</Steps>
 
 ![コピーしたいテンプレートの行で「コピー」ボタンをクリック](./img/copy_tablet.png)
 
@@ -49,10 +54,14 @@ import TopicGrid from '@components/TopicGrid.astro'
 
 ### 他グループのテンプレートを取り込む（インポート） [#id=import]
 
+<Steps>
+
 1.  「他グループ取込」ボタンをクリック
-1.  取り込み先グループ一覧が表示されるのでグループを選択する
-1.  取り込み先グループに存在するテンプレートが一覧で表示される
-1.  取り込みたいテンプレートをクリック
+2.  取り込み先グループ一覧が表示されるのでグループを選択する
+3.  取り込み先グループに存在するテンプレートが一覧で表示される
+4.  取り込みたいテンプレートをクリック
+
+</Steps>
 
 ![テンプレートの取込](./img/import_tablet.png)
 
@@ -90,9 +99,13 @@ import TopicGrid from '@components/TopicGrid.astro'
 
 以下の手順でテンプレートを完全に削除します。
 
+<Steps>
+
 1.  削除したいテンプレートを無効化する
 2.  「無効化されたテンプレート」一覧から削除をクリックする
 3.  確認メッセージを確認の上「OK」ボタンをクリック
+
+</Steps>
 
 ![テンプレートを削除するには、まず無効化し、削除という2段階の処理を行う](./img/disable-template_tablet.png)
 

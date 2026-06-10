@@ -6,6 +6,8 @@ sidebar:
   label: 📅予定管理機能の使い方
 ---
 
+import { Steps } from '@astrojs/starlight/components'
+
 :::note[[メニューに無いときはグループ設定から機能を有効にしてください](/nipoplus/editor/groupmanage/#optionalFunction)]
 :::
 
@@ -13,9 +15,13 @@ sidebar:
 
 予定は[カレンダー](/nipoplus/reference/calendar)や予定管理画面から追加可能です。予定を追加する方法として、以下の3種類が用意されています。
 
+<Steps>
+
 1. 時間軸からドラッグして追加する
 2. 画面右下の+ボタンをクリックし追加する
 3. 時間軸一番上の+ボタンをクリックし追加する
+
+</Steps>
 
 ![予定の追加は右下の+アイコンをクリック](./img/add-event_tablet.webp)
 
@@ -141,9 +147,13 @@ NipoPlusでは1日に占める予定が20時間を超えると「終日予定」
 日報と予定を紐付けすることで日報を受け取るスタッフから見ると、「予定（予定）」と「日報（実績）」の対比をしながら確認できます。
 紐付けするには、予定を表示してから[日報を書く](/nipoplus/staff/writereport)という手順を踏みます。
 
+<Steps>
+
 1. 予定を詳細表示する
 2. 右パネルからテンプレートを選択する
 3. 日報を通常通りに作成する
+
+</Steps>
 
 ![予定詳細画面から報告する日報のテンプレートを選択する](./img/select.png)
 

@@ -9,6 +9,7 @@ sidebar:
 import { Badge, CardGrid } from '@astrojs/starlight/components'
 import AutoTopicCard from '@components/AutoTopicCard.astro'
 import TopicGrid from '@components/TopicGrid.astro'
+import { Steps } from '@astrojs/starlight/components'
 
 <TopicGrid>
   <AutoTopicCard title="CSV出力設定" href="/nipoplus/reference/csvsettings" />
@@ -30,9 +31,13 @@ import TopicGrid from '@components/TopicGrid.astro'
 
 ## 1ヶ月分の日報を一括CSV出力する手順 [#id=csv_export_steps]
 
+<Steps>
+
 1.  左メニューの「集計・CSV出力」をクリック
 2.  「期間」を選択（初期値は今月）
 3.  画面右側にある「CSV出力」ボタンをクリック
+
+</Steps>
 
 ![複数の日報を1枚のCSVにまとめて出力可能](./img/report-csv-export1_tablet.png)
 
@@ -45,10 +50,14 @@ import TopicGrid from '@components/TopicGrid.astro'
 
 ## スタッフ別や日別に分けてCSV出力する [#id=split_download]
 
+<Steps>
+
 1.  左メニューの「集計・CSV出力」をクリック
 2.  「期間」を選択（初期値は今月）
 3.  「テンプレート」を1種類選択（複数選択不可）
 4.  画面右側にある「スタッフ別ダウンロード」または「日別ダウンロード」ボタンをクリック
+
+</Steps>
 
 ![日付またはスタッフで分けて出力可能](./img/selectable-csv-download_tablet.png)
 

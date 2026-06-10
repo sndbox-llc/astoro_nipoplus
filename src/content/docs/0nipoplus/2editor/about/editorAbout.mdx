@@ -6,6 +6,8 @@ sidebar:
   label: 編集者のやるべきこと
 ---
 
+import { Steps } from '@astrojs/starlight/components'
+
 :::caution[[編集者権限が必要](/nipoplus/reference/userRank/#editor)]
 :::
 
@@ -62,8 +64,12 @@ sidebar:
 :::note[所属グループが1つの場合は表示されません]
 :::
 
+<Steps>
+
 1.  画面左上の「切替」をクリック
 2.  所属しているグループの一覧が表示
 3.  作業したいグループ名をクリック
+
+</Steps>
 
 ![グループの切り替えは画面左上のスイッチから行う](./img/switch_tablet.png)

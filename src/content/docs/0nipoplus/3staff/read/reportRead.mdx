@@ -9,6 +9,7 @@ sidebar:
 import { Badge, CardGrid } from '@astrojs/starlight/components'
 import AutoTopicCard from '@components/AutoTopicCard.astro'
 import TopicGrid from '@components/TopicGrid.astro'
+import { Steps } from '@astrojs/starlight/components'
 
 <TopicGrid>
   <AutoTopicCard title="カレンダーから日報を読む" href="/nipoplus/reference/calendar/" />
@@ -20,9 +21,13 @@ import TopicGrid from '@components/TopicGrid.astro'
 
 ## 閲覧する日報を受信BOXから開く [#id=openReport]
 
+<Steps>
+
 1. 左メニュー[受信BOX](/nipoplus/gainen/reportStorage/#inbox)をクリック
 2. 日報一覧から閲覧したい日報をクリック
 3. 日報の内容が表示される
+
+</Steps>
 
 ![受信BOXから日報を開く](./img/report-box1_tablet.webp)
 
@@ -34,9 +39,13 @@ import TopicGrid from '@components/TopicGrid.astro'
 
 ## 日報を開いて承認してみよう [#id=agree]
 
+<Steps>
+
 1. 日報を開く
 2. 内容を読む
 3. 「承認」ボタンをクリック
+
+</Steps>
 
 ![日報の詳細表示画面](./img/done_tablet.png)
 
@@ -142,8 +151,12 @@ import TopicGrid from '@components/TopicGrid.astro'
 
 出力する手順は次の通りです。
 
+<Steps>
+
 1.  CSV出力したい日報を表示
 2.  メニューから「CSV出力」をクリック
+
+</Steps>
 
 詳しくは[CSV出力](/nipoplus/staff/csv)をご覧ください。
 
@@ -161,9 +174,15 @@ import TopicGrid from '@components/TopicGrid.astro'
 
 PDFに変換する手順は次のとおりです。
 
+<Steps>
+
 1.  PDFに変換したい日報を表示する
 2.  「PDF出力」ボタンをクリック
 3.  作成処理が完了後にダウンロード通知が発行される
+
+</Steps>
+
+なお、以下の点に留意が必要です。
 
 - PDFの作成には少し時間がかかる場合がある
 - 生成されたPDFファイルは安全性の観点から2時間でダウンロード不可になる

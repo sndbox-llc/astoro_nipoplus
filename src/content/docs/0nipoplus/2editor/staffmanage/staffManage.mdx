@@ -9,6 +9,7 @@ sidebar:
 import { Badge, CardGrid } from '@astrojs/starlight/components'
 import AutoTopicCard from '@components/AutoTopicCard.astro'
 import TopicGrid from '@components/TopicGrid.astro'
+import { Steps } from '@astrojs/starlight/components'
 
 :::caution[[編集者権限が必要](/nipoplus/reference/userRank/#editor)]
 :::
@@ -89,9 +90,13 @@ import TopicGrid from '@components/TopicGrid.astro'
 
 グループ内で各スタッフがどれくらい活動しているか、その実績を月ごとに確認できます。
 
+<Steps>
+
 1.  左メニュー「グループ設定」をクリック
 2.  上部メニュー「スタッフ管理」をクリック
 3.  画面下部にある活動実績の表を確認
+
+</Steps>
 
 ![グループ内で行ったアクティビティを集計表示](./img/staff-activity_tablet.png)
 

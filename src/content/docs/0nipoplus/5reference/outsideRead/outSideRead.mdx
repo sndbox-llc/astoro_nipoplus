@@ -9,6 +9,7 @@ sidebar:
 import { Badge, CardGrid } from '@astrojs/starlight/components'
 import AutoTopicCard from '@components/AutoTopicCard.astro'
 import TopicGrid from '@components/TopicGrid.astro'
+import { Steps } from '@astrojs/starlight/components'
 
 <TopicGrid>
   <AutoTopicCard title="日報を読む" href="/nipoplus/staff/readreport" />
@@ -32,9 +33,13 @@ import TopicGrid from '@components/TopicGrid.astro'
 
 共有リンクの作成自体は簡単です。
 
+<Steps>
+
 1.  共有したい日報を[保存箱](/nipoplus/reference/searchreport/#listbox)などから表示する
 2.  日報の詳細画面の右メニューにある「部外者用リンク作成」をクリック
 3.  表示されるURLをコピーして、共有したい相手に伝える
+
+</Steps>
 
 ![日報や点検記録の共有リンク作成ボタンを押すと、ログイン不要で閲覧できるURLが生成](./img/linkmake_tablet.webp)
 

@@ -9,6 +9,7 @@ sidebar:
 import { Badge, CardGrid } from '@astrojs/starlight/components'
 import AutoTopicCard from '@components/AutoTopicCard.astro'
 import TopicGrid from '@components/TopicGrid.astro'
+import { Steps } from '@astrojs/starlight/components'
 
 <TopicGrid>
   <AutoTopicCard title="日報を書く" href="/nipoplus/staff/writereport" />
@@ -25,7 +26,8 @@ import TopicGrid from '@components/TopicGrid.astro'
 <dl class="basic">
   <dt>提出先</dt>
   <dd>
-    日報を<a href="/nipoplus/reference/reportstate/#agree">承認</a>・<a href="/nipoplus/reference/reportstate/#reject">棄却</a>できるスタッフです。1名以上指定必須です。提出先には通知が送られます。{' '}
+    日報を<a href="/nipoplus/reference/reportstate/#agree">承認</a>・<a href="/nipoplus/reference/reportstate/#reject">棄却</a>
+    できるスタッフです。1名以上指定必須です。提出先には通知が送られます。{' '}
   </dd>
   <dt>共有先</dt>
   <dd>
@@ -55,10 +57,14 @@ import TopicGrid from '@components/TopicGrid.astro'
 
 承認リレーの流れは次のように進みます
 
+<Steps>
+
 1.  日報を受けて管理者が[日報を承認](/nipoplus/reference/reportstate/#agree)した
 2.  この時点で[承認リレー](/nipoplus/reference/reportstate/#relay)が開始され、当該日報は編集がロックされる🔐
 3.  管理者はすでに承認したため承認の権限は次の提出先へ移行する
 4.  同様の処理が繰り返され、全ての検印欄が埋まると日報が最終的に「承認済み」の状態になる
+
+</Steps>
 
 ### グループのモードが共有の場合は承認リレーの運用に留意 [#id=hint]
 
@@ -82,7 +88,8 @@ import TopicGrid from '@components/TopicGrid.astro'
 
 ### 提出先の権限をバイパスする [#id=other_force]
 
-<a href="/nipoplus/editor/staffmanage">グループ内のスタッフ設定</a>で「重役」をONにするとそのアカウントは提出先、共有先の権限をバイパスし、すべての日報にアクセスが可能です。 ただし提出先に指定されていない場合、承認はできません。
+<a href="/nipoplus/editor/staffmanage">グループ内のスタッフ設定</a>で「重役」をONにするとそのアカウントは提出先、共有先の権限をバイパスし、すべての日報にアクセスが可能です。
+ただし提出先に指定されていない場合、承認はできません。
 
 ### 読めない日報はそもそも存在を検知できません [#id=hidden_report]
 

@@ -9,6 +9,7 @@ sidebar:
 import { Badge, CardGrid } from '@astrojs/starlight/components'
 import AutoTopicCard from '@components/AutoTopicCard.astro'
 import TopicGrid from '@components/TopicGrid.astro'
+import { Steps } from '@astrojs/starlight/components'
 
 <TopicGrid>
   <AutoTopicCard title="組織のスタッフ管理" href="/nipoplus/admin/about" />
@@ -32,9 +33,13 @@ import TopicGrid from '@components/TopicGrid.astro'
 
 クイックガイドでも紹介している方法です。
 
+<Steps>
+
 1.  左メニュー[組織設定](/nipoplus/reference/userRank/#rootSettingBtn)をクリック
 2.  スタッフ管理セクションの中にある「新規作成」ボタンをクリック
 3.  表示されたフォームに必要事項を入力し、「作成」ボタンをクリック
+
+</Steps>
 
 ![組織内に新しいスタッフのアカウントを追加](./img/create-new-staff_tablet.png)
 
@@ -96,7 +101,7 @@ import TopicGrid from '@components/TopicGrid.astro'
 :::
 
 <details>
-  <summary>詳しく見る</summary>
+ <summary>詳しく見る</summary>
 
 ### ログインできない「共用スタッフアカウント」を作成する [#id=dummy_account]
 
@@ -136,9 +141,13 @@ import TopicGrid from '@components/TopicGrid.astro'
 
 スタッフの名前、権限、メモなど、アカウントの基本情報は、組織設定画面で直接クリックして簡単に変更できます。
 
+<Steps>
+
 1.  左メニュー[組織設定](/nipoplus/reference/userRank/#rootSettingBtn)をクリック
 2.  「スタッフ管理」セクションで、編集したいスタッフの該当項目（名前、権限など）をクリック
 3.  表示される編集ウィンドウで、新しい値を入力・選択し、「保存」をクリック
+
+</Steps>
 
 <dl class="basic">
   <dt>名前・ふりがな</dt>
@@ -195,9 +204,13 @@ import TopicGrid from '@components/TopicGrid.astro'
 
 アカウントを無効にすると当該アカウントはログインを含む一切の権限を失います。通常は無効で十分です。
 
+<Steps>
+
 1.  左メニュー[組織設定](/nipoplus/reference/userRank/#rootSettingBtn)をクリック
 2.  無効化したいスタッフの「状態」列にあるボタンをクリック
 3.  ボタンが赤色（または「無効」を示す表示）になれば無効化完了
+
+</Steps>
 
 ![状態を1回クリックすると無効化、もう1回クリックすると有効](./img/disable-account_tablet.png)
 
@@ -209,8 +222,12 @@ import TopicGrid from '@components/TopicGrid.astro'
 
 アカウントの削除は、無効化よりもさらに強力な操作です。過去の日報との紐付けに影響が出る可能性があるため、削除は慎重に行う必要があります。
 
+<Steps>
+
 1.  無効化ボタンの隣にある下向き三角ボタンをクリック
 2.  表示されるメニューから「削除する」ボタンをクリック
+
+</Steps>
 
 ![削除する](./img/remove-account_tablet.png)
 
@@ -259,10 +276,14 @@ NipoPlusでは同じメールアドレスを登録することができないた
 
 アカウント削除よりもメールアドレス変更のほうが簡単です。
 
+<Steps>
+
 1. 当該メールアドレスとパスワードを使ってログイン
 2. 左メニュー「アカウント」をクリック
 3. E-mailの行にある「メールアドレス変更」ボタンをクリック
 4. 適当なメールアドレスと、ログインパスワードを入力し「変更」ボタンをクリック
+
+</Steps>
 
 これで使用したいメールアドレスが「空席」の状態になります。
 
@@ -282,9 +303,13 @@ NipoPlusでは同じメールアドレスを登録することができないた
 NipoPlusではログインパスワードの変更を自分自身で行う他に、管理者の権限で強制的に書き換えることができます。
 退職したスタッフのアカウントを他のスタッフに譲渡する際に便利です。また、単純に利用しているスタッフがパスワードを忘れたときの救済措置としても利用できます。
 
+<Steps>
+
 1. 左メニュー[組織設定](/nipoplus/reference/userRank/#rootSettingBtn)をクリック
 2. パスワードを変更したいスタッフを探す
 3. パスワードの列にあるボタンをクリックし、ダイアログに沿ってパスワードを変更する
+
+</Steps>
 
 ![パスワードを変更するとログイン中のアカウントは自動でログアウトされる](./img/editpass_tablet.webp)
 
@@ -300,9 +325,13 @@ NipoPlusではログインパスワードの変更を自分自身で行う他に
 退職や休職のスタッフアカウントを無効にしてください。使用しなくなったスタッフのアカウントは「無効化」することでアクセス権を喪失させることができます。
 無効のアカウントは利用人数に含まれません。通常、アカウントは削除する必要はなく、この「無効化」で十分です。
 
+<Steps>
+
 1. 左メニュー[組織設定](/nipoplus/reference/userRank/#rootSettingBtn)をクリック
 2. 無効にしたいスタッフを探す
 3. 状態の列にあるボタンをクリックし、赤色に切り替える（赤は無効化の意味）
+
+</Steps>
 
 ![無効化することで人数にもカウントされず、アクセスも一切できなくなる](./img/disable_tablet.webp)
 
@@ -321,9 +350,13 @@ NipoPlusではログインパスワードの変更を自分自身で行う他に
 
 自分の名前は組織設定画面から変更できます。自分やその他のスタッフの名前は組織設定画面から変更することができます。変更には管理者権限が必要になるので注意してください。
 
+<Steps>
+
 1. 左メニューにある組織設定をクリック
 2. スタッフ管理セクションに移動
 3. 変更したいスタッフの名前をクリック
+
+</Steps>
 
 ![名前変更には管理者権限が必要](./img/rename_tablet.webp)
 

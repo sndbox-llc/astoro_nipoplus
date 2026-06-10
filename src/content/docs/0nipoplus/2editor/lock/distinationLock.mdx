@@ -12,6 +12,7 @@ sidebar:
 import { Badge, CardGrid } from '@astrojs/starlight/components'
 import AutoTopicCard from '@components/AutoTopicCard.astro'
 import TopicGrid from '@components/TopicGrid.astro'
+import { Steps } from '@astrojs/starlight/components'
 
 :::caution[[編集者権限が必要](/nipoplus/reference/userRank/#editor)]
 :::
@@ -49,11 +50,17 @@ import TopicGrid from '@components/TopicGrid.astro'
 
 実務に沿っているためこちらの方法をおすすめします。例えば「不具合報告日報はAさんに出す」といった運用に最適です。
 
+<Steps>
+
 1.  左メニュー「グループ設定」をクリック
 2.  上部メニューの「テンプレート管理」をクリック
-3.  提出先を指定したいテンプレートの行にある「提出先の指定」ボタンをクリック
+3.  「提出先の指定」ボタンをクリック
+
+    提出先を指定したいテンプレートの行にある「提出先の指定」ボタンをクリックしてください
+
 4.  表示される画面で、提出先や共有先を指定し、設定を保存
 
+</Steps>
 ![テンプレート単位でスタッフの提出先を固定する](./img/template-dist-lock_tablet.webp)
 
 ## スタッフごとに個別に提出先を指定する [#id=fixed_staff]
@@ -67,10 +74,14 @@ Aさんが「業務日報」というテンプレートを使った場合は「X
 
 設定手順:
 
+<Steps>
+
 1.  左メニュー「グループ設定」をクリック
 2.  上部メニューの「スタッフ管理」をクリック
 3.  提出先を指定するスタッフの行にある「提出先の固定」ボタンをクリック
 4.  ポップアップで設定画面が表示される
+
+</Steps>
 
 ![テンプレート単位の設定があったとしてもこっちが優先される](./img/dist-setting2_tablet.webp)
 

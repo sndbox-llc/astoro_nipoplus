@@ -9,6 +9,7 @@ sidebar:
 import { Badge, CardGrid } from '@astrojs/starlight/components'
 import AutoTopicCard from '@components/AutoTopicCard.astro'
 import TopicGrid from '@components/TopicGrid.astro'
+import { Steps } from '@astrojs/starlight/components'
 
 <Badge text="管理者限定" variant="caution" />
 
@@ -31,8 +32,12 @@ import TopicGrid from '@components/TopicGrid.astro'
 
 まずは管理者専用画面への移動方法についてです。管理者専用画面ではスタッフのアカウント管理やグループの作成など、管理者にしかできない操作を行うことができます。
 
+<Steps>
+
 1. メニュー左上にある「組織設定」をクリック
 2. 管理者専用ページに移動
+
+</Steps>
 
 ![組織設定は管理者権限のユーザにのみ表示されます](./img/admin-btn.webp)
 
@@ -42,9 +47,13 @@ NipoPlusを使用する従業員のためにアカウントを作成します。
 
 ![新規作成をクリックし従業員用アカウントを作成](./img/make-account.webp)
 
+<Steps>
+
 1. スタッフ管理内の新規作成ボタンをクリック
 2. 必要事項を入力
 3. 作成ボタンをクリック
+
+</Steps>
 
 参考資料:
 
@@ -65,9 +74,13 @@ NipoPlusを使用する従業員のためにアカウントを作成します。
 グループは日報のやり取りが行われる「場所」です。部署ごとに分けたり、「新人研修会」のように一時的な利用目的で作ることも可能です。
 グループごとに日報のテンプレートを作成したり、所属するスタッフを振り分けることができます。
 
+<Steps>
+
 1. グループ管理内の新規作成ボタンをクリック
 2. グループ名を入力
 3. 作成ボタンをクリック
+
+</Steps>
 
 ![組織設定をクリックすると管理者専用ページに切り替わる](./img/make-group.webp)
 
@@ -75,9 +88,13 @@ NipoPlusを使用する従業員のためにアカウントを作成します。
 
 スタッフをどのグループに所属させるかは管理者が指定します。
 
+<Steps>
+
 1. グループ設定内の設定したいグループ内にある「メンバー変更」をクリック
 2. 所属させたいスタッフを選択
 3. 保存 💾をクリック
+
+</Steps>
 
 :::caution[編集者権限のスタッフを最低1名以上配置]
 グループ内の設定は「編集者権限以上」のスタッフが行えます。そのため、各グループに1名以上、編集者権限のスタッフを配置してください

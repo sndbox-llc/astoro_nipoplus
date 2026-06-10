@@ -9,6 +9,7 @@ sidebar:
 import { Badge, CardGrid } from '@astrojs/starlight/components'
 import AutoTopicCard from '@components/AutoTopicCard.astro'
 import TopicGrid from '@components/TopicGrid.astro'
+import { Steps } from '@astrojs/starlight/components'
 
 :::caution[[編集者権限が必要](/nipoplus/reference/userRank/#editor)]
 :::
@@ -24,10 +25,14 @@ import TopicGrid from '@components/TopicGrid.astro'
 
 ## タグを作成する [#id=makeTag]
 
+<Steps>
+
 1.  グループ設定をクリック
-1.  タグ管理をクリック
-1.  新規作成をクリック
-1.  タグ名・タグカラーなどの設定を行う
+2.  タグ管理をクリック
+3.  新規作成をクリック
+4.  タグ名・タグカラーなどの設定を行う
+
+</Steps>
 
 ![タグを使えば様々なシーンで活用できて便利](./img/tag-add1_tablet.png)
 
@@ -83,17 +88,25 @@ import TopicGrid from '@components/TopicGrid.astro'
 :::note[新規登録時とやり方はほとんど同じです]
 :::
 
+<Steps>
+
 1.  修正したいタグをクリック
 1.  修正する
 1.  保存ボタンをクリック
+
+</Steps>
 
 ## タグを無効化する [#id=disable]
 
 使わなくなったタグは無効化します。無効化することでタグを使用する箇所で表示されなくなります。無効化の手順は以下の通りです。
 
+<Steps>
+
 1.  無効化するタグをクリック
 1.  「このタグを利用する」のチェックを外す
 1.  保存をクリック
+
+</Steps>
 
 ## タグを削除する [#id=remove]
 
@@ -102,5 +115,9 @@ import TopicGrid from '@components/TopicGrid.astro'
 
 タグの削除は慎重に行ってください。過去にタグをセットした日報や点検記録などに対してもまとめて当該タグが削除されます。
 
+<Steps>
+
 1.  削除するタグをクリック
 1.  「削除」をクリック
+
+</Steps>

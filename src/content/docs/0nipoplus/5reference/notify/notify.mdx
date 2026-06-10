@@ -9,6 +9,7 @@ sidebar:
 import { Badge, CardGrid } from '@astrojs/starlight/components'
 import AutoTopicCard from '@components/AutoTopicCard.astro'
 import TopicGrid from '@components/TopicGrid.astro'
+import { Steps } from '@astrojs/starlight/components'
 
 <TopicGrid>
   <AutoTopicCard title="アカウント設定" href="/nipoplus/reference/account" />
@@ -75,10 +76,14 @@ import TopicGrid from '@components/TopicGrid.astro'
 
 ### メール通知を有効にする [#id=enable]
 
+<Steps>
+
 1. 「アカウント」をクリック
 1. 「メール通知を使う」にチェックを入れる
 1. 通知先のメールアドレスを指定
 1. 通知を受け取る項目を取捨選択
+
+</Steps>
 
 ![通知のON.OFFは利用者ごとに個別に変更可](./img/email-notice_tablet.png)
 
@@ -86,9 +91,13 @@ import TopicGrid from '@components/TopicGrid.astro'
 
 毎月50通のメール通知を1度のお支払いで毎月10,000通にまで拡張することができます。
 
+<Steps>
+
 1. 左メニュー[組織設定](/nipoplus/reference/userRank/#rootSettingBtn)をクリック
 1. 「組織全般」までスクロール
 1. 「今月のメール送信」の列にある鉛筆アイコンをクリック
+
+</Steps>
 
 ![メール通知の上限を緩和するにはオプション費用が必要](./img/unlock_tablet.png)
 

@@ -12,6 +12,7 @@ sidebar:
 import { Badge, CardGrid } from '@astrojs/starlight/components'
 import AutoTopicCard from '@components/AutoTopicCard.astro'
 import TopicGrid from '@components/TopicGrid.astro'
+import { Steps } from '@astrojs/starlight/components'
 
 :::caution[[編集者権限が必要](/nipoplus/reference/userRank/#editor)]
 :::
@@ -43,11 +44,15 @@ import TopicGrid from '@components/TopicGrid.astro'
 
 ## 語録を作成する [#id=make]
 
+<Steps>
+
 1.  グループ設定をクリック
 1.  語録管理をクリック
 1.  新規作成をクリック
 1.  語録のタイトル及び単語リストを入力（単語リストは1行に1単語）
 1.  保存をクリック
+
+</Steps>
 
 ![語録は、日報の入力項目を効率化する「定型入力リスト」](./img/make-word-list_tablet.png)
 
@@ -65,8 +70,12 @@ import TopicGrid from '@components/TopicGrid.astro'
 
 作成した語録は、[選択式入力フォーム](/nipoplus/template/selects/#plain)（単体または複数選択）と組み合わせて利用します。
 
+<Steps>
+
 1. テンプレートの編集画面から「語録を使用する」にチェックを入れる
 2. 作成した語録を選ぶ
+
+</Steps>
 
 ![テンプレートの編集画面から選択式入力フォームに語録を連携させる](./img/goroku_tablet.webp)
 

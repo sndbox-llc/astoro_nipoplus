@@ -12,6 +12,7 @@ sidebar:
 import { Badge, CardGrid } from '@astrojs/starlight/components'
 import AutoTopicCard from '@components/AutoTopicCard.astro'
 import TopicGrid from '@components/TopicGrid.astro'
+import { Steps } from '@astrojs/starlight/components'
 
 <TopicGrid>
   <AutoTopicCard title="日報のコピー" href="/nipoplus/reference/copymake/" />
@@ -27,11 +28,15 @@ import TopicGrid from '@components/TopicGrid.astro'
 
 ## 日報を書くまでの手順
 
+<Steps>
+
 1.  日報作成ボタンをクリック
 2.  [使用するテンプレートの選択](#select_template)（※テンプレートが1種類しかない場合は省略されます）
 3.  [テンプレートに沿って内容を記入](#write)
 4.  [提出先や提出日などの情報をセット](#dist)
 5.  [提出ボタンをクリック](#post)
+
+</Steps>
 
 ### 使用する日報テンプレートの選択 [#id=select_template]
 

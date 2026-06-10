@@ -9,6 +9,7 @@ sidebar:
 import { Badge, CardGrid } from '@astrojs/starlight/components'
 import AutoTopicCard from '@components/AutoTopicCard.astro'
 import TopicGrid from '@components/TopicGrid.astro'
+import { Steps } from '@astrojs/starlight/components'
 
 <TopicGrid>
   <AutoTopicCard title="日報保存箱" href="/nipoplus/gainen/reportStorage" />
@@ -45,9 +46,13 @@ import TopicGrid from '@components/TopicGrid.astro'
 カレンダーは絞り込みしかできません。検索には[受信BOX](/nipoplus/gainen/reportStorage/#inbox)を使ってください。
 :::
 
+<Steps>
+
 1.  メニュー「カレンダー」を開く
 2.  右パネルの「受信日報」を選択（デフォルトで選択済み）
 3.  右パネルの「日報を表示」をON（デフォルトでチェック済み）
+
+</Steps>
 
 ![カレンダー画面では日報や点検記録、予定が1枚のカレンダー上にまとめて表示される](./img/calendarSetting.webp)
 
@@ -79,8 +84,12 @@ import TopicGrid from '@components/TopicGrid.astro'
 
 受信BOXにはあなたが閲覧可能な日報のみ表示されます。様々な絞り込みや検索が可能です。
 
+<Steps>
+
 1. 左メニュー「日報保存箱」をクリック
 2. 上メニュー「受信BOX」をクリック（デフォルトで選択済み）
+
+</Steps>
 
 ![受信BOX画面イメージ](./img/inbox.webp)
 
@@ -92,8 +101,12 @@ import TopicGrid from '@components/TopicGrid.astro'
 
 右パネルのカレンダーで指定した範囲の日報が表示されます
 
+<Steps>
+
 1.  右パネルのカレンダーから表示したい期間を選択する
 2.  表示された一覧から任意の日報をクリック
+
+</Steps>
 
 ### タグ・提出者・テンプレート・状態・で絞り込み [#id=filterd]
 
@@ -136,9 +149,13 @@ import TopicGrid from '@components/TopicGrid.astro'
 
 日報内に記述された文章のフレーズから、ダイレクトにキーワード検索することができます。
 
+<Steps>
+
 1. 検索ボックスに文字を入力
 2. 虫眼鏡のボタンをクリック
 3. 検索にマッチしたデータが表示（カード表示はマッチ箇所がハイライトされる）
+
+</Steps>
 
 ![自由に単語で検索可能](./img/fulltextSearch_tablet.webp)
 
@@ -165,10 +182,14 @@ import TopicGrid from '@components/TopicGrid.astro'
 
 検索に指定した条件をそのまま保存できます。次回以降はワンクリックで同じ検索が行えます。
 
+<Steps>
+
 1. 何かしらの検索を行う
 2. 「検索モード」バナー内にある「検索条件保存」をクリック
 3. 検索名を入力し保存をクリック
 4. [受信BOX](/nipoplus/gainen/reportStorage/#inbox)上部に追加されていれば成功
+
+</Steps>
 
 ![検索条件の保存](./img/save-query_tablet.webp)
 
@@ -181,13 +202,21 @@ import TopicGrid from '@components/TopicGrid.astro'
 
 保存した検索を削除するには以下の手順で行います。
 
+<Steps>
+
 1. 保存された検索の下向き三角ボタンをクリック
 2. 削除をクリック
+
+</Steps>
 
 ### 検索モードの解除 [#id=clearQuery]
 
 検索や並べ替えを行うと検索や並べ替えを行うと「検索モード」、検索がされていない状態では「高速モード」のバナーがそれぞれ表示されます。
 検索モードから高速モードに切り替えるには以下の手順で操作します
 
+<Steps>
+
 1. 検索モードバナー内にあるクリアをクリック
 2. バナーが「高速モード」に戻ることを確認する
+
+</Steps>

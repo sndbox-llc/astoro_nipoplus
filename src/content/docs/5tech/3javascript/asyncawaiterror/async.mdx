@@ -6,6 +6,8 @@ sidebar:
   label: async関数の落とし穴
 ---
 
+import { Steps } from '@astrojs/starlight/components'
+
 ## async/awaitの見落としがちな落とし穴。try/catchしても呼び出し元でcatch出来ません [#id=tryAndCatch]
 
 async/awaitはJavascriptにおける非同期処理のthenという構文をよりわかりやすく記述できる素晴らしい書き方です。
@@ -38,12 +40,16 @@ async function sub () {
 }
 ```
 
+<Steps>
+
 1. 画面にあるボタンをクリックすると、func1関数が実行されます(心の目で見るのです)
-1. func1の中でsub関数を呼び出します。sub関数は非同期処理をします
-1. sub関数のtry内でエラーが発生します
-1. sub関数のcatchに処理が移ります
-1. sub関数の処理が終わり、func1へ戻ります
-1. func1関数はsub関数のエラーを知覚せずに処理を実行します
+2. func1の中でsub関数を呼び出します。sub関数は非同期処理をします
+3. sub関数のtry内でエラーが発生します
+4. sub関数のcatchに処理が移ります
+5. sub関数の処理が終わり、func1へ戻ります
+6. func1関数はsub関数のエラーを知覚せずに処理を実行します
+
+</Steps>
 
 func1: 「止まるんじゃねぇぞ。俺は止まらねぇからよ」と。
 

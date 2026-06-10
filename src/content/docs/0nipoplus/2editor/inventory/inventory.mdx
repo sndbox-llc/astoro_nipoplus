@@ -13,6 +13,8 @@ import { Badge, CardGrid } from '@astrojs/starlight/components'
 import AutoTopicCard from '@components/AutoTopicCard.astro'
 import TopicGrid from '@components/TopicGrid.astro'
 
+import { Steps } from '@astrojs/starlight/components'
+
 :::caution[[編集者権限が必要](/nipoplus/reference/userRank/#editor)]
 :::
 
@@ -30,9 +32,13 @@ import TopicGrid from '@components/TopicGrid.astro'
 
 ## 商品の登録 [#id=add]
 
+<Steps>
+
 1.  グループ設定をクリック
 1.  商品管理をクリック
 1.  商品追加をクリック
+
+</Steps>
 
 ![商品の新規追加](./img/addItem_tablet.webp)
 

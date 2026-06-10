@@ -9,6 +9,7 @@ sidebar:
 import { Badge, CardGrid } from '@astrojs/starlight/components'
 import AutoTopicCard from '@components/AutoTopicCard.astro'
 import TopicGrid from '@components/TopicGrid.astro'
+import { Steps } from '@astrojs/starlight/components'
 
 <TopicGrid>
   <AutoTopicCard title="テンプレートの作成" href="/nipoplus/editor/template" />
@@ -46,9 +47,13 @@ import TopicGrid from '@components/TopicGrid.astro'
 
 ## 追加の手順 [#id=addForm]
 
+<Steps>
+
 1.  テンプレート編集画面を開く
 2.  フォームリストから文字入力をクリックして追加
 3.  設定を行う
+
+</Steps>
 
 ![テキスト入力フォームを追加した例](./img/template-edit-text_tablet.png)
 

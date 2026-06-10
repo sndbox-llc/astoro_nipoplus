@@ -9,6 +9,7 @@ sidebar:
 import { Badge, CardGrid } from '@astrojs/starlight/components'
 import AutoTopicCard from '@components/AutoTopicCard.astro'
 import TopicGrid from '@components/TopicGrid.astro'
+import { Steps } from '@astrojs/starlight/components'
 
 <TopicGrid>
   <AutoTopicCard title="日報を書く" href="/nipoplus/staff/writereport" />
@@ -29,9 +30,13 @@ import TopicGrid from '@components/TopicGrid.astro'
 
 日報作成画面で、現在の入力内容を一時的に保存する手順です。
 
+<Steps>
+
 1.  [入力画面のヘッダーエリア](/nipoplus/staff/writereport/#dist)にある「下書き」にチェックを入れる
 2.  提出ボタンが「下書き保存」ボタンに替わる
 3.  「下書き保存」ボタンをクリック
+
+</Steps>
 
 :::tip[下書き保存の場合は、入力必須項目が空欄であっても保存が可能です]
 :::
@@ -42,12 +47,16 @@ import TopicGrid from '@components/TopicGrid.astro'
 
 下書きとして保存した日報は下書きBOXに保管されています。以下の手順で清書します。
 
+<Steps>
+
 1.  左メニュー「保存箱」をクリック
 2.  画面上部の「下書きBOX」をクリック
 3.  下書きデータをクリック
 4.  日報入力画面へ切り替わり、保存した内容が復元される
 5.  内容の修正・追記を行う
 6.  入力画面のヘッダーエリアにある「下書き」のチェックを外して提出ボタンをクリック
+
+</Steps>
 
 :::tip[日付の調整は開いたタイミングで確認メッセージが表示されます]
 :::

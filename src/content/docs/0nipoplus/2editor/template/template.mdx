@@ -9,6 +9,7 @@ sidebar:
 import { Badge, CardGrid } from '@astrojs/starlight/components'
 import AutoTopicCard from '@components/AutoTopicCard.astro'
 import TopicGrid from '@components/TopicGrid.astro'
+import { Steps } from '@astrojs/starlight/components'
 
 :::caution[[編集者権限が必要](/nipoplus/reference/userRank/#editor)]
 :::
@@ -23,18 +24,26 @@ import TopicGrid from '@components/TopicGrid.astro'
 
 ## テンプレートの作成 [#id=makeTemplate]
 
+<Steps>
+
 1. グループ設定をクリック
-1. テンプレート管理をクリック
-1. 新規作成をクリック
-1. テンプレート名を入力（暫定でもOK）
+2. テンプレート管理をクリック
+3. 新規作成をクリック
+4. テンプレート名を入力（暫定でもOK）
+
+</Steps>
 
 ![テンプレート作成](./img/make-template_tablet.png)
 
 ## テンプレート内に入力フォームを並べていく [#id=addForm]
 
+<Steps>
+
 1. 左側の入力フォームから必要なフォームをクリック
 2. 編集エリアに入力フォームが追加される
 3. 幅やタイトル、その他の設定を変更する
+
+</Steps>
 
 ![左の入力フォームリストから選んで編集エリアに追加していく](./img/edittemplate_tablet.webp)
 
@@ -166,6 +175,8 @@ import TopicGrid from '@components/TopicGrid.astro'
 
 決まった順に入力を強制したい場合はフォームの入力順序を指定できます。入力順序はすべて制御することも、一部だけを制御することも可能です。
 
+<Steps>
+
 1.  「入力順序を指示する」にチェックを入れる
 1.  「入力順の設定」をクリック
 1.  順序指定ウィンドウがポップアップで表示される
@@ -173,6 +184,7 @@ import TopicGrid from '@components/TopicGrid.astro'
 1.  右列に追加される（右列は順序指定されたフォーム）
 1.  プレビューを使い動きを確認する
 
+</Steps>
 ![入力順を指定することで作業手順や点検フローのスキップを物理的に防ぐ](./img/order1_tablet.png)
 
 設定画面がポップアップで表示されます。

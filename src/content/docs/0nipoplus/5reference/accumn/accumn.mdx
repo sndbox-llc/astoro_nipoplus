@@ -11,6 +11,7 @@ import ExcelTable from '@components/ExcelTable.astro'
 import { Badge, CardGrid } from '@astrojs/starlight/components'
 import AutoTopicCard from '@components/AutoTopicCard.astro'
 import TopicGrid from '@components/TopicGrid.astro'
+import { Steps } from '@astrojs/starlight/components'
 
 <TopicGrid>
   <AutoTopicCard title="推移表" href="/nipoplus/reference/transition" />
@@ -27,11 +28,15 @@ import TopicGrid from '@components/TopicGrid.astro'
 
 累積表は、特定の期間におけるデータ項目の合計値を、スタッフ別などに集計して表示する機能です。
 
+<Steps>
+
 1.  左メニュー「集計・CSV出力」をクリック
 2.  表示したいデータの「集計期間」を選択（初期値は今月）
 3.  集計タイプとして「推移・累積・グラフ」を選択（初期状態）
 4.  データを集計したい「テンプレート」（例:営業日報、製造日報、特定の設備点検シート）を選択
 5.  集計方式として「累積」を選択し、「表示」ボタンをクリック
+
+</Steps>
 
 ![スタッフごとの成績確認に便利](./img/sumstack_tablet.webp)
 

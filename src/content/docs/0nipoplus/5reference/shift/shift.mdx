@@ -9,6 +9,7 @@ sidebar:
 import { Badge, CardGrid } from '@astrojs/starlight/components'
 import AutoTopicCard from '@components/AutoTopicCard.astro'
 import TopicGrid from '@components/TopicGrid.astro'
+import { Steps } from '@astrojs/starlight/components'
 
 <TopicGrid>
   <AutoTopicCard title="日報保存箱" href="/nipoplus/gainen/reportStorage" />
@@ -31,9 +32,13 @@ import TopicGrid from '@components/TopicGrid.astro'
 
 シフト表はメニュー「シフト管理」からアクセスできます。
 
+<Steps>
+
 1. 左メニュー「シフト管理」をクリック
 2. シフト表の編集したいセルを選択
 3. 「シフト入力」をクリックし、出勤時間やメモなどを記入する
+
+</Steps>
 
 1行目または1列目のチェックボックスをクリックすれば列・行単位での選択も可能です
 
