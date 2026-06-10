@@ -225,7 +225,6 @@ export default defineConfig({
                   //
                   { slug: 'nipoplus/gainen/destination' },
                   { slug: 'nipoplus/gainen/reportStorage' },
-                  { slug: 'nipoplus/gainen/tuduri' },
                   { slug: 'nipoplus/gainen/reportdate' },
                   { slug: 'nipoplus/gainen/sosiki' },
                   { slug: 'nipoplus/gainen/faq' },
