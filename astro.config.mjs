@@ -402,7 +402,6 @@ export default defineConfig({
           lang: 'ja',
         },
       },
-      // social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/sndbox-llc/astoro_nipoplus' }],
     }),
     sitemap(),
   ],
@@ -410,8 +409,6 @@ export default defineConfig({
   markdown: {
     // ここに remarkPlugins を追加
     remarkPlugins: [remarkGfm, remarkCustomHeadingId],
-    // remarkPlugins: [remarkCustomHeadingId],
-    // remarkPlugins: [remarkHeadingId],
     rehypePlugins: [[rehypeFigure, { className: 'custom-figure' }]],
   },
 
