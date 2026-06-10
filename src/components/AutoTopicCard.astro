@@ -37,9 +37,12 @@ const segments = cleanHref.split('/')
 const category = categoryMap[`${segments[0]}/${segments[1]}`] || categoryMap[segments[0]] || '関連ガイド'
 ---
 
-<a href={href} class="group flex flex-col px-4 py-3 border rounded-md transition-all duration-200 no-underline shadow-sm flex-1 min-w-[200px] max-w-sm
+<a
+  href={href}
+  class="group flex flex-col px-4 py-3 border rounded-md transition-all duration-200 no-underline shadow-sm flex-1 min-w-[200px] max-w-sm
          border-sky-500/40 bg-sky-500/[0.03] hover:bg-sky-500/[0.08] hover:border-sky-500/70 hover:-translate-y-0.5
-         dark:border-sky-400/20 dark:bg-sky-400/[0.03] dark:hover:bg-sky-400/[0.1] dark:hover:border-sky-400/50">
+         dark:border-sky-400/20 dark:bg-sky-400/[0.03] dark:hover:bg-sky-400/[0.1] dark:hover:border-sky-400/50"
+>
   <span class="text-[10px] uppercase tracking-wider font-medium text-slate-500 dark:text-slate-400 group-hover:text-sky-600 dark:group-hover:text-sky-300">
     {category}
   </span>

@@ -8,7 +8,7 @@ import starlightSidebarTopics from 'starlight-sidebar-topics'
 import starlightLinksValidator from 'starlight-links-validator'
 import remarkGfm from 'remark-gfm'
 import indexnow from 'astro-indexnow'
-
+import { unified } from '@astrojs/markdown-remark' // 1. これを新しくインポート
 import { visit } from 'unist-util-visit' // Astroに標準で入っているはずです
 
 import tailwindcss from '@tailwindcss/vite'
@@ -225,6 +225,7 @@ export default defineConfig({
                   //
                   { slug: 'nipoplus/gainen/destination' },
                   { slug: 'nipoplus/gainen/reportStorage' },
+                  { slug: 'nipoplus/gainen/tuduri' },
                   { slug: 'nipoplus/gainen/reportdate' },
                   { slug: 'nipoplus/gainen/sosiki' },
                   { slug: 'nipoplus/gainen/faq' },
@@ -408,8 +409,10 @@ export default defineConfig({
 
   markdown: {
     // ここに remarkPlugins を追加
-    remarkPlugins: [remarkGfm, remarkCustomHeadingId],
-    rehypePlugins: [[rehypeFigure, { className: 'custom-figure' }]],
+    processor: unified({
+      remarkPlugins: [remarkGfm, remarkCustomHeadingId],
+      rehypePlugins: [[rehypeFigure, { className: 'custom-figure' }]],
+    }),
   },
 
   vite: {
