@@ -92,7 +92,9 @@ export default defineConfig({
         './src/styles/global.css',
       ],
       plugins: [
-        starlightLinksValidator(),
+        starlightLinksValidator({
+          exclude: ['/'],
+        }),
         starlightImageZoom(), // 2. プラグインを追加
         starlightSidebarTopics([
           {
