@@ -2,15 +2,14 @@
 import { defineConfig } from 'astro/config'
 import starlight from '@astrojs/starlight'
 import sitemap from '@astrojs/sitemap'
-import rehypeFigure from '@microflash/rehype-figure' // こっちに変える
+import rehypeFigure from '@microflash/rehype-figure'
 import starlightImageZoom from 'starlight-image-zoom'
 import starlightSidebarTopics from 'starlight-sidebar-topics'
 import starlightLinksValidator from 'starlight-links-validator'
 import remarkGfm from 'remark-gfm'
 import indexnow from 'astro-indexnow'
-import { unified } from '@astrojs/markdown-remark' // 1. これを新しくインポート
-import { visit } from 'unist-util-visit' // Astroに標準で入っているはずです
-
+import { unified } from '@astrojs/markdown-remark'
+import { visit } from 'unist-util-visit'
 import tailwindcss from '@tailwindcss/vite'
 
 const isProd = process.env.NODE_ENV === 'production'
@@ -70,7 +69,6 @@ export default defineConfig({
       title: 'NipoPlus',
       lastUpdated: true,
       favicon: '/images/icon-256x256.png',
-      // head: [],
       head: [
         {
           tag: 'meta',
@@ -407,7 +405,6 @@ export default defineConfig({
   ],
 
   markdown: {
-    // ここに remarkPlugins を追加
     processor: unified({
       remarkPlugins: [remarkGfm, remarkCustomHeadingId],
       rehypePlugins: [[rehypeFigure, { className: 'custom-figure' }]],
