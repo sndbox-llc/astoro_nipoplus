@@ -87,10 +87,7 @@ export default defineConfig({
         Pagination: './src/components/CustomPagination.astro',
         SiteTitle: './src/components/CustomSiteTitle.astro',
       },
-      customCss: [
-        './src/styles/main.scss', // ここにSCSSファイルを指定
-        './src/styles/global.css',
-      ],
+      customCss: ['./src/styles/main.scss', './src/styles/global.css'],
       plugins: [
         starlightLinksValidator({
           exclude: ['/'],
