@@ -259,6 +259,7 @@ export default defineConfig({
               },
               { slug: 'lp/checksheet' },
               { slug: 'inquery' },
+              { slug: 'nipoplus/news/20260617' },
             ],
           },
 
