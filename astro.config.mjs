@@ -86,6 +86,7 @@ export default defineConfig({
         Banner: './src/components/LegacyNotice.astro',
         Pagination: './src/components/CustomPagination.astro',
         SiteTitle: './src/components/CustomSiteTitle.astro',
+        PageTitle: './src/components/CustomPageTitle.astro',
       },
       customCss: ['./src/styles/main.scss', './src/styles/global.css'],
       plugins: [

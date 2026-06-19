@@ -1,0 +1,69 @@
+---
+// src/components/CustomPageTitle.astro
+import Default from '@astrojs/starlight/components/PageTitle.astro'
+
+// Starlightのグローバルデータから現在のページの情報を取得
+const { entry } = Astro.locals.starlightRoute
+const pageTitle = entry.data.title // 現在のページのタイトル
+
+// 1. メタ情報（Frontmatter）から非表示フラグを取得（設定がなければ false）
+const isHiddenByFrontmatter = entry.data.hide_breadcrumbs ?? false
+
+// 2. Starlightのテンプレートが 'splash' (トップページ用) かどうかの判定
+const isSplashPage = entry.data.template === 'splash'
+
+// 3. URLパスの取得とクリーンアップ
+const { pathname } = Astro.url
+const cleanHref = pathname
+  .replace(/^\/+|\/+$/g, '')
+  .split('#')[0]
+  .split('?')[0]
+
+const segments = cleanHref.split('/')
+
+// 4. URLパスによる自動非表示判定 (トップページ、または第一階層が 'lp' の場合)
+const isTopOrLp = cleanHref === '' || segments[0] === 'lp'
+
+// いずれかの非表示条件にマッチしたらパンくずを隠す
+const shouldHideBreadcrumbs = isHiddenByFrontmatter || isSplashPage || isTopOrLp
+
+// 各記事の関連を表示するマッピングルール（完全版）
+const categoryMap: Record<string, string> = {
+  'nipoplus/admin': '管理者のやるべきこと',
+  'nipoplus/editor': '編集者ガイド',
+  'nipoplus/staff': '日常ガイド',
+  'nipoplus/template': 'テンプレートパーツ',
+  'nipoplus/other': '日報以外のデータ管理',
+  'nipoplus/reference': '詳細リファレンス',
+  'nipoplus/gainen': '概念説明',
+  'nipoplus/price': '料金',
+  'nipoplus/system': '規約等',
+  'legacy/about': '旧バージョンについて',
+  'legacy/manual': '旧Nipo操作ガイド',
+  'legacy/parts': '各種入力フォーム',
+  'legacy/system': 'Nipoシステム概要',
+  excel: 'Excel活用術',
+  tips: '日報Tips',
+  tech: '技術系ブログ',
+  lp: 'チェックシート',
+  inquery: 'お問い合わせ',
+}
+
+// 「第一階層/第二階層」または「第一階層単体」でマッチング、なければデフォルト値
+const category = categoryMap[`${segments[0]}/${segments[1]}`] || categoryMap[segments[0]] || '関連ガイド'
+
+// カテゴリーのリンク先URLを動的に生成 (例: /nipoplus/admin/ )
+const categoryHref = segments[1] ? `/${segments[0]}/${segments[1]}/` : `/${segments[0]}/`
+---
+
+{
+  !shouldHideBreadcrumbs && (
+    <nav class="breadcrumbs-nav flex items-center gap-2 text-xs text-slate-500 dark:text-slate-400 mb-2 font-medium">
+      <span class="text-slate-400 dark:text-slate-500 truncate max-w-[200px]">{category}</span>
+      <span class="opacity-50">/</span>
+      <span class="text-slate-400 dark:text-slate-500 truncate max-w-[200px]">{pageTitle}</span>
+    </nav>
+  )
+}
+
+<Default><slot /></Default>
