@@ -68,8 +68,13 @@ export default defineConfig({
     starlight({
       title: 'NipoPlus',
       lastUpdated: true,
-      favicon: '/images/icon-256x256.png',
+      favicon: '/images/icon-384x384.png',
       head: [
+        // 💡 念のための rel="icon" を追加
+        {
+          tag: 'link',
+          attrs: { rel: 'icon', href: '/images/icon-384x384.png', type: 'image/png', sizes: '384x384' },
+        },
         {
           tag: 'meta',
           attrs: { property: 'og:image', content: 'images/nipoplus.png' },
