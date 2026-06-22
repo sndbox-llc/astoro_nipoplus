@@ -2,6 +2,8 @@
 // src/components/CustomPageTitle.astro
 import Default from '@astrojs/starlight/components/PageTitle.astro'
 
+import { Aside } from '@astrojs/starlight/components'
+
 // Starlightのグローバルデータから現在のページの情報を取得
 const { entry } = Astro.locals.starlightRoute
 const pageTitle = entry.data.title // 現在のページのタイトル
@@ -63,6 +65,10 @@ const categoryHref = segments[1] ? `/${segments[0]}/${segments[1]}/` : `/${segme
       <span class="opacity-50">/</span>
       <span class="text-slate-400 dark:text-slate-500 truncate max-w-[200px]">{pageTitle}</span>
     </nav>
+    <Aside type="danger" title="不具合:iOSでの起動遅延">
+      現在、iOS/Mac環境において<a href="/nipoplus/news/20260617/">起動に時間がかかる不具合が発生</a>しております。
+    </Aside>
+
   )
 }
 
