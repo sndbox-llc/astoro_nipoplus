@@ -77,11 +77,11 @@ export default defineConfig({
         },
         {
           tag: 'meta',
-          attrs: { property: 'og:image', content: 'images/nipoplus.png' },
+          attrs: { property: 'og:image', content: 'images/icon-512x512.png' },
         },
         {
           tag: 'meta',
-          attrs: { name: 'twitter:image', content: 'images/nipoplus.png' },
+          attrs: { name: 'twitter:image', content: 'images/icon-512x512.png' },
         },
       ],
 
