@@ -101,6 +101,7 @@ export default defineConfig({
       customCss: ['./src/styles/main.scss', './src/styles/global.css'],
       plugins: [
         starlightScrollToTop({
+          showOnHomepage: true,
           showProgressRing: true,
           showTooltip: true,
           tooltipText: {
