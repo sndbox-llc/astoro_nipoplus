@@ -117,6 +117,7 @@ export default defineConfig({
                   //
                   { slug: 'nipoplus/admin/quickstart' },
                   { slug: 'nipoplus/admin/about' },
+                  { slug: 'nipoplus/admin/test' },
                 ],
               },
               {
