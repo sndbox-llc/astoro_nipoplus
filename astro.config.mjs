@@ -11,6 +11,7 @@ import indexnow from 'astro-indexnow'
 import { unified } from '@astrojs/markdown-remark'
 import { visit } from 'unist-util-visit'
 import tailwindcss from '@tailwindcss/vite'
+import starlightScrollToTop from 'starlight-scroll-to-top'
 
 const isProd = process.env.NODE_ENV === 'production'
 
@@ -99,6 +100,14 @@ export default defineConfig({
       },
       customCss: ['./src/styles/main.scss', './src/styles/global.css'],
       plugins: [
+        starlightScrollToTop({
+          showProgressRing: true,
+          showTooltip: true,
+          tooltipText: {
+            en: 'Scroll to top',
+            ja: 'トップへ戻る',
+          },
+        }), // 1. プラグインを追加
         starlightLinksValidator({
           exclude: ['/'],
         }),
