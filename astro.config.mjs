@@ -50,6 +50,10 @@ function remarkCustomHeadingId() {
 
 export default defineConfig({
   site: 'https://nipo-plus-doc.sndbox.jp',
+  redirects: {
+    '/nipoplus/system/load-map': '/nipoplus/system/roadmap',
+    '/nipoplus/system/load-map/': '/nipoplus/system/roadmap/',
+  },
 
   // プリフェッチ設定を有効化
   prefetch: {
