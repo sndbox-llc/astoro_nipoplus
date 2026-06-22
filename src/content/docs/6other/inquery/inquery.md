@@ -1,6 +1,6 @@
 ---
 slug: inquery
-title: 📩NipoPlusへのお問い合わせ・ご要望・フィードバック窓口
+title: 📩Nipo / NipoPlusへのお問い合わせ
 description: NipoPlusに関するご質問、ご要望、お問い合わせはこちらからお送りください。1営業日以内に返信いたします。自動返信メールにて受け付け完了のお知らせを送信しています
 sidebar:
   label: 📩お問い合わせ
@@ -8,12 +8,12 @@ sidebar:
 
 <div id="contactForm">
 
-利用者の皆様に高い満足度を得ていただくことを目指しています！フィードバックは私達にとって非常に重要です。
+利用者の皆様に高い満足度を得ていただくことを目指しています。フィードバックは私達にとって非常に重要です。
 使いにくい点・わかりにくい点・改善してほしい点があれば遠慮なく次のフォームからメッセージを送ってください。
 
-- 1営業日以内に担当者より返信いたします（土日祝日は対応が遅れる場合があります）
+- 1営業日以内に担当者より返信いたします（土日祝日は定休日）
 - トラブルが発生した際は、お問い合わせの前に[トラブルシューティング](/nipoplus/system/fix)をお試しください
-- 自動返信メールをお送りします。（届かない場合はメールアドレスに誤りがある可能性あり）
+- 自動返信メールをお送りします（届かない場合はメールアドレスに誤りがある可能性あり）
 - Nipo【旧版】の解約手順がわからない方はお問い合わせ前に[解約ガイド](/legacy/manual/leave-account)をご覧ください
 - Nipo【旧版】からNipoPlusへ乗り換えを検討の方はお問い合わせ前に[NipoPlusへの移行ガイド](/legacy/about/diff)をご覧ください
 
@@ -27,7 +27,7 @@ sidebar:
 </div>
 
 <div class="mb-4">
-<label class="form-label custom-label">対象製品を選択してください</label>
+<label class="form-label custom-label">対象製品を選択してください<span>必須</span></label>
 <div class="radio-group">
 <input type="radio" name="targetRadio" value="Nipo" id="nipo">
 <label for="nipo" class="radio-card">Nipo<span>旧版</span></label>
@@ -38,7 +38,7 @@ sidebar:
 </div>
 
 <div class="mb-4">
-<label for="content" class="form-label custom-label">お問い合わせ内容</label>
+<label for="content" class="form-label custom-label">お問い合わせ内容<span>必須</span></label>
 <textarea id="content" class="form-control custom-input" rows="8" placeholder="こちらにご記入ください"></textarea>
 </div>
 
@@ -56,32 +56,7 @@ sidebar:
   迷惑メールの徹底排除に力を入れています。ご不便をおかけしますが以下の単語がメッセージ内に含まれている場合、送信に失敗します。あらかじめご了承ください
 
   <hr />
-
-"ウェビナー",
-"オンライン商談",
-"お得な情報",
-"コスト削減",
-"ご案内です",
-"ご検討",
-"ご提案",
-"ソリューション",
-"パートナーシップ",
-"メール広告",
-"リスク0",
-"求職",
-"求人",
-"経営・営業責任者様",
-"広告費用",
-"最新技術",
-"資料ダウンロード",
-"実績",
-"受注率",
-"掲載",
-"人材派遣",
-"成果保証型",
-"成功事例",
-"特別オファー",
-"特別なキャンペーン",
+  <div id="keywordContainer" class="flex flex-wrap gap-2 mt-2"></div>
 
 </details>
 
@@ -120,6 +95,19 @@ const filterKeywords = [
   "特別オファー",
   "特別なキャンペーン",
 ];
+
+// 画面読み込み時に、JSの配列からNGワードのバッジを自動生成してHTMLに挿入
+document.addEventListener("DOMContentLoaded", () => {
+  const container = document.getElementById("keywordContainer");
+  if (container) {
+    filterKeywords.forEach(word => {
+      const badge = document.createElement("span");
+      badge.className = "bg-white border border-gray-200 text-gray-600 text-xs px-2.5 py-1 rounded-md shadow-sm";
+      badge.textContent = word;
+      container.appendChild(badge);
+    });
+  }
+});
 
 // メッセージにキーワードが含まれているかチェックする関数
 function containsKeyword(message) {

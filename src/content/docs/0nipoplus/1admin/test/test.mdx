@@ -6,10 +6,17 @@ sidebar:
   label: '🛡️安全にテストする'
 ---
 
-import { Badge } from '@astrojs/starlight/components'
+import { Badge, CardGrid } from '@astrojs/starlight/components'
+import AutoTopicCard from '@components/AutoTopicCard.astro'
+import TopicGrid from '@components/TopicGrid.astro'
 import { Steps } from '@astrojs/starlight/components'
 
 <Badge text="管理者向け" variant="caution" />
+
+<TopicGrid>
+  <AutoTopicCard title="グループの作成" href="/nipoplus/admin/about/#createGroup" />
+  <AutoTopicCard title="テンプレートの管理" href="/nipoplus/editor/template/" />
+</TopicGrid>
 
 「これを変更したらどうなりますか？」という不安は、とても自然です。
 NipoPlusでは、本番のグループとは分けてテスト用グループを作ることで、実運用への影響を抑えながら安全に検証できます。
