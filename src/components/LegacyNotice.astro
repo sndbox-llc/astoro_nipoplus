@@ -5,7 +5,7 @@ import { Aside } from '@astrojs/starlight/components'
 
 type Props = ComponentProps<typeof Default>
 
-const { entry } = Astro.props
+// const { entry } = Astro.props
 // URLに /legacy/ が含まれる場合に表示
 const showLegacyNotice = Astro.url.pathname.includes('/legacy/')
 ---
@@ -18,5 +18,9 @@ const showLegacyNotice = Astro.url.pathname.includes('/legacy/')
     </Aside>
   )
 }
+
+<Aside type="danger" title="不具合:iOSでの起動遅延">
+  現在、iOS/Mac環境において<a href="/nipoplus/news/20260617/">起動に時間がかかる不具合が発生</a>しております。
+</Aside>
 
 <Default {...Astro.props}><slot /></Default>
