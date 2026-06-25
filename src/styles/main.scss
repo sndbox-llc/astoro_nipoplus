@@ -16,3 +16,34 @@
   margin-bottom: 3rem;
   margin-top: 2rem;
 }
+
+// rehype-figureが付与するクラスをターゲットにする
+.custom-figure {
+  border: 1px solid var(--sl-color-gray-5); // Starlight公式のグレー線（自動で明暗が変わる）
+  border-radius: 8px;
+  overflow: hidden; // 角丸を画像や背景にも適用させる
+  margin: 2rem 0;
+  background-color: var(--sl-color-gray-6); // ほんのり薄い背景色
+
+  // ズームコンテナと画像の隙間をなくす
+  starlight-image-zoom-zoomable,
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  figcaption {
+    background-color: var(--sl-color-bg-nav);
+    color: var(--sl-color-gray-3);
+    font-size: 0.85rem;
+    padding: 0.8rem 1rem; // 上下のパディングを均等に広げる
+    border-top: 1px solid var(--sl-color-gray-5);
+
+    // 💡 縦横を完全に中央寄せする設定
+    display: flex;
+    align-items: center; // 縦方向の中央寄せ
+    justify-content: center; // 横方向の中央寄せ
+    line-height: 1.2; // 行高を少しタイトにして上下のブレを無くす
+    margin: 0; // ブラウザ標準の余計なマージンを完全にリセット
+  }
+}

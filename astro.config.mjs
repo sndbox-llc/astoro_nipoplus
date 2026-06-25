@@ -209,6 +209,7 @@ export default defineConfig({
                   { slug: 'nipoplus/reference/outsideread' },
                   // 集計
 
+                  { slug: 'nipoplus/reference/ranking' },
                   { slug: 'nipoplus/reference/csvsettings' },
                   { slug: 'nipoplus/reference/chart' },
                   { slug: 'nipoplus/reference/transition' },
