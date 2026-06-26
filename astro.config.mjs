@@ -281,7 +281,6 @@ export default defineConfig({
               },
               { slug: 'lp/checksheet' },
               { slug: 'inquery' },
-              { slug: 'nipoplus/news/20260617' },
             ],
           },
 
@@ -412,6 +411,16 @@ export default defineConfig({
                   { slug: 'tech/other/momentjs' },
                 ],
               },
+            ],
+          },
+          {
+            label: 'News',
+            link: 'news',
+            icon: 'comment',
+            items: [
+              { slug: 'news/20260617' },
+
+              //
             ],
           },
         ]),

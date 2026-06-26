@@ -1,0 +1,28 @@
+---
+// src/components/NewsList.astro
+import { getCollection } from 'astro:content'
+import { CardGrid, LinkCard } from '@astrojs/starlight/components'
+
+// 1. 'docs' コレクションから 'news/' で始まる記事を自動取得
+const newsArticles = await getCollection('docs', (entry) => {
+  // news/ から始まり、自分自身（index）は除外する
+  return entry.id.startsWith('news/') && !entry.id.endsWith('index')
+})
+
+// 2. 必要に応じて記事を並び替える（例：最新順など）
+// ※もしフロントマターに date などを入れている場合はここでソートできます
+// newsArticles.sort((a, b) => b.data.date - a.data.date);
+---
+
+<CardGrid>
+  {
+    newsArticles.map((article) => {
+      // 拡張子（.md / .mdx）を除去してURLパスを作る
+      const slug = article.id.replace(/\.(md|mdx)$/, '')
+      // サイトのベースURLや言語設定に合わせてパスを調整（プレフィックスが必要なら適宜追加）
+      const href = `/${slug}`
+
+      return <LinkCard title={article.data.title} description={article.data.description || '記事の概要はここに入ります。'} href={href} />
+    })
+  }
+</CardGrid>
