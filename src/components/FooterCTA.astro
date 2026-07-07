@@ -1,17 +1,22 @@
 {/* 🐧 キャラクター＆吹き出し（横並びインライン版） */}
 <div class="flex items-center justify-center gap-3 mb-6 w-full animate-bounce [animation-duration:4s]">
   {/* 💬 吹き出し（左側） */}
-  <div class="relative px-4 py-2 rounded-2xl text-xs font-black shadow-sm border text-center max-w-[220px]
+  <div
+    class="relative px-4 py-2 rounded-2xl text-xs font-black shadow-sm border text-center max-w-[220px]
               /* ☀️ ライトモード */
               bg-amber-100 text-amber-800 border-amber-200
               /* 🌙 ダークモード */
-              dark:bg-amber-950 dark:text-amber-300 dark:border-amber-900/50">
+              dark:bg-amber-950 dark:text-amber-300 dark:border-amber-900/50"
+  >
     使ってみてね
 
     {/* 吹き出しのトゲ（右側のキャラクターの口元を向くように調整） */}
-    <div class="absolute top-1/2 right-[-5px] -translate-y-1/2 w-2.5 h-2.5 rotate-45
+    <div
+      class="absolute top-1/2 right-[-5px] -translate-y-1/2 w-2.5 h-2.5 rotate-45
                 bg-amber-100 border-t border-r border-amber-200
-                dark:bg-amber-950 dark:border-amber-900/50"></div>
+                dark:bg-amber-950 dark:border-amber-900/50"
+    >
+    </div>
   </div>
 
   {/* 👩‍🦰 キャラクター画像（右側） */}
@@ -21,11 +26,13 @@
   </div>
 </div>
 
-<div class="cta-card my-16 mx-auto max-w-[650px] p-8 md:p-12 text-center rounded-3xl border transition-colors duration-300
+<div
+  class="cta-card my-16 mx-auto max-w-[650px] p-8 md:p-12 text-center rounded-3xl border transition-colors duration-300
             /* ☀️ ライトモード */
             bg-gradient-to-br from-white to-slate-50 border-slate-200 shadow-xl shadow-slate-200/50
             /* 🌙 ダークモード */
-            dark:from-slate-900 dark:to-slate-950 dark:border-slate-800 dark:shadow-none">
+            dark:from-slate-900 dark:to-slate-950 dark:border-slate-800 dark:shadow-none"
+>
   <div class="flex flex-col items-center">
     {/* ロゴ */}
     <div class="mb-6">
@@ -46,14 +53,25 @@
       {/* ボタン2つ */}
       <div class="flex flex-col sm:flex-row gap-4 w-full sm:w-auto justify-center">
         {/* メインボタン（紫） */}
-        <a href="https://nipoplus.sndbox.jp/" target="_blank" class="inline-block px-10 py-3.5 rounded-full font-bold text-base text-white transition-all transform hover:-translate-y-0.5 no-underline hover:no-underline shadow-lg
+        <a
+          href="https://nipoplus.sndbox.jp/"
+          target="_blank"
+          class="inline-block px-10 py-3.5 rounded-full font-bold text-base text-white transition-all transform hover:-translate-y-0.5 no-underline hover:no-underline shadow-lg
                   bg-purple-600 hover:bg-purple-700 shadow-purple-600/20
-                  dark:bg-purple-500 dark:hover:bg-purple-400 dark:shadow-none"> Webで無料で始める </a>
+                  dark:bg-purple-500 dark:hover:bg-purple-400 dark:shadow-none"
+        >
+          Webで無料で始める
+        </a>
 
         {/* サブボタン（グレー） */}
-        <a href="/nipoplus/admin/quickstart/" target="_blank" class="inline-block px-10 py-3.5 rounded-full font-bold text-base border transition-all transform hover:-translate-y-0.5 no-underline hover:no-underline
+        <a
+          href="/nipoplus/admin/quickstart/"
+          class="inline-block px-10 py-3.5 rounded-full font-bold text-base border transition-all transform hover:-translate-y-0.5 no-underline hover:no-underline
                   bg-slate-100 text-slate-700 border-slate-300 hover:bg-slate-200
-                  dark:bg-slate-800 dark:text-slate-200 dark:border-slate-700 dark:hover:bg-slate-700"> 操作ガイド </a>
+                  dark:bg-slate-800 dark:text-slate-200 dark:border-slate-700 dark:hover:bg-slate-700"
+        >
+          操作ガイド
+        </a>
       </div>
 
       {/* ストアバナー */}
