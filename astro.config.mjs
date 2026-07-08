@@ -419,6 +419,7 @@ export default defineConfig({
             icon: 'comment',
             items: [
               { slug: 'news/20260617' },
+              { slug: 'news/20260708' },
 
               //
             ],

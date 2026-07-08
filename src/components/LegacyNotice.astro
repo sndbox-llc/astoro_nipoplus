@@ -19,8 +19,8 @@ const showLegacyNotice = Astro.url.pathname.includes('/legacy/')
   )
 }
 
-<Aside type="danger" title="不具合:iOSでの起動遅延">
-  現在、iOS/Mac環境において<a href="/news/20260617/">起動に時間がかかる不具合が発生</a>しております。
+<Aside type="tip" title="PDF出力が変わりました🎉">
+  <a href="/news/20260708/">より見やすく使いやすいPDF出力をお試し下さい。旧デザインは2026年末に廃止されます</a>
 </Aside>
 
 <Default {...Astro.props}><slot /></Default>
