@@ -1,0 +1,228 @@
+---
+// src/components/ModalLink.astro
+import type { ImageMetadata } from 'astro'
+import { Image } from 'astro:assets'
+
+interface Props {
+  text: string
+  imgSrc: string | ImageMetadata
+  imgAlt?: string
+  description?: string // ←【追加】1行でテキストを渡せるようにする
+}
+
+const { text, imgSrc, imgAlt = '' } = Astro.props
+---
+
+<modal-link>
+  <button class="modal-trigger" type="button">{text}</button>
+
+  <dialog class="info-modal">
+    <div class="modal-content">
+      <button class="modal-close" type="button" aria-label="閉じる">&times;</button>
+      <div class="modal-body">
+        {typeof imgSrc === 'string' ? <img src={imgSrc} alt={imgAlt} class="modal-image" /> : <Image src={imgSrc} alt={imgAlt} class="modal-image" />}
+        <div class="modal-description">
+          {Astro.props.description}
+          {/* ← Propsがあれば表示 */}
+          <slot />
+          {/* ← 従来のスロットも使えるように残す */}
+        </div>
+      </div>
+    </div>
+  </dialog>
+</modal-link>
+
+<!-- 以下の <script> と <style> は前回のままでOKです -->
+<script>
+  class ModalLink extends HTMLElement {
+    connectedCallback() {
+      const trigger = this.querySelector('.modal-trigger')
+      const dialog = this.querySelector('.info-modal') as HTMLDialogElement
+      const closeBtn = this.querySelector('.modal-close')
+
+      if (!trigger || !dialog || !closeBtn) return
+
+      // モーダルを開く
+      trigger.addEventListener('click', (e) => {
+        e.preventDefault()
+        dialog.showModal()
+      })
+
+      // 閉じるボタンで閉じる
+      closeBtn.addEventListener('click', () => {
+        dialog.close()
+      })
+
+      // 背景（黒い透過部分）をクリックしたときも閉じる
+      dialog.addEventListener('click', (e) => {
+        if (e.target === dialog) {
+          dialog.close()
+        }
+      })
+    }
+  }
+
+  // 二重登録を防止してCustom Elementを定義
+  if (!customElements.get('modal-link')) {
+    customElements.define('modal-link', ModalLink)
+  }
+</script>
+
+<style>
+  /* リンク風スタイル */
+  .modal-trigger {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: var(--sl-color-text-accent, #3b82f6);
+    text-decoration: underline;
+    cursor: pointer;
+    display: inline;
+    transition: opacity 0.2s ease; /* なめらかに変化させる */
+  }
+
+  /* 【修正】背景と同化しないよう、シンプルに不透明度（透過）でホバーを表現 */
+  .modal-trigger:hover {
+    opacity: 0.7;
+    text-decoration: underline;
+  }
+
+  /* モーダル本体 */
+  .info-modal {
+    border: none;
+    border-radius: 8px;
+    padding: 0;
+    max-width: 500px;
+    width: 90%;
+    background: var(--sl-color-bg, #ffffff);
+    color: var(--sl-color-text, #1c1e21);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+
+    /* 【修正】画面の上下左右中央（センタリング）に強制固定 */
+    position: fixed;
+    inset: 0;
+    margin: auto;
+  }
+
+  /* 背景のオーバーレイ（ぼかし効果付き） */
+  .info-modal::backdrop {
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(2px);
+  }
+
+  .modal-content {
+    position: relative;
+    padding: 24px;
+  }
+
+  /* × ボタン */
+  .modal-close {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: var(--sl-color-gray-3, #868e96);
+  }
+
+  .modal-close:hover {
+    color: var(--sl-color-text, #000);
+  }
+
+  .modal-body {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 8px;
+  }
+
+  .modal-image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    border: 1px solid var(--sl-color-gray-5, #e2e8f0);
+  }
+
+  .modal-description {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  modal-link {
+    display: inline;
+  }
+
+  /* リンク風スタイル */
+  .modal-trigger {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: var(--sl-color-text-accent, #3b82f6);
+    text-decoration: underline;
+    cursor: pointer;
+    display: inline; /* ここもinlineを明示 */
+    transition: opacity 0.2s ease;
+  }
+
+  /* --- 以下、前回のスタイル（省略） --- */
+  .modal-trigger:hover {
+    opacity: 0.7;
+    text-decoration: underline;
+  }
+  .info-modal {
+    border: none;
+    border-radius: 8px;
+    padding: 0;
+    max-width: 500px;
+    width: 90%;
+    background: var(--sl-color-bg, #ffffff);
+    color: var(--sl-color-text, #1c1e21);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    inset: 0;
+    margin: auto;
+  }
+  .info-modal::backdrop {
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(2px);
+  }
+  .modal-content {
+    position: relative;
+    padding: 24px;
+  }
+  .modal-close {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: var(--sl-color-gray-3, #868e96);
+  }
+  .modal-close:hover {
+    color: var(--sl-color-text, #000);
+  }
+  .modal-body {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 8px;
+  }
+  .modal-image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    border: 1px solid var(--sl-color-gray-5, #e2e8f0);
+  }
+  .modal-description {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+</style>
