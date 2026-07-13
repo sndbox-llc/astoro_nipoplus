@@ -176,7 +176,7 @@ export default defineConfig({
                 ],
               },
               {
-                label: '日報以外のデータ管理',
+                label: '日報以外の機能',
                 collapsed: true,
 
                 items: [
